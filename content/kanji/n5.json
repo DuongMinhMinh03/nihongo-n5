@@ -1,0 +1,3150 @@
+[
+  {
+    "id": "n5-k001",
+    "kanji": "日",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "か"
+    ],
+    "strokes": 4,
+    "meaning_vi": "ngày, mặt trời, Nhật Bản",
+    "radical": "日",
+    "example_words": [
+      {
+        "word": "日本",
+        "vi": "Nhật Bản",
+        "reading": "にほん",
+        "romaji": "nihongo"
+      },
+      {
+        "word": "毎日",
+        "vi": "mỗi ngày",
+        "reading": "まいにち",
+        "romaji": "mainichi"
+      },
+      {
+        "word": "日曜日",
+        "vi": "chủ nhật",
+        "reading": "にちようび",
+        "romaji": "nichiyoubi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k002",
+    "kanji": "本",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "strokes": 5,
+    "meaning_vi": "sách, gốc, Nhật Bản",
+    "radical": "木",
+    "example_words": [
+      {
+        "word": "本",
+        "vi": "sách",
+        "reading": "ほん",
+        "romaji": "hon"
+      },
+      {
+        "word": "日本",
+        "vi": "Nhật Bản",
+        "reading": "にほん",
+        "romaji": "nihongo"
+      },
+      {
+        "word": "本屋",
+        "vi": "tiệm sách",
+        "reading": "ほんや",
+        "romaji": "honya"
+      }
+    ]
+  },
+  {
+    "id": "n5-k003",
+    "kanji": "人",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "strokes": 2,
+    "meaning_vi": "người",
+    "radical": "人",
+    "example_words": [
+      {
+        "word": "人",
+        "vi": "người",
+        "reading": "ひと",
+        "romaji": "hito"
+      },
+      {
+        "word": "外国人",
+        "vi": "người nước ngoài",
+        "reading": "がいこくじん",
+        "romaji": "gaikokujin"
+      },
+      {
+        "word": "三人",
+        "vi": "ba người",
+        "reading": "さんにん",
+        "romaji": "sannin"
+      }
+    ]
+  },
+  {
+    "id": "n5-k004",
+    "kanji": "月",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "strokes": 4,
+    "meaning_vi": "tháng, mặt trăng",
+    "radical": "月",
+    "example_words": [
+      {
+        "word": "月曜日",
+        "vi": "thứ Hai",
+        "reading": "げつようび",
+        "romaji": "getsuyoubi"
+      },
+      {
+        "word": "今月",
+        "vi": "tháng này",
+        "reading": "こんげつ",
+        "romaji": "kongetsu"
+      },
+      {
+        "word": "月曜日",
+        "vi": "thứ hai",
+        "reading": "げつようび",
+        "romaji": "getsuyoubi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k005",
+    "kanji": "火",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "strokes": 4,
+    "meaning_vi": "lửa, máy",
+    "radical": "火",
+    "example_words": [
+      {
+        "word": "火曜日",
+        "vi": "thứ Ba",
+        "reading": "かようび",
+        "romaji": "kayoubi"
+      },
+      {
+        "word": "火",
+        "vi": "lửa",
+        "reading": "ひ",
+        "romaji": "hi"
+      },
+      {
+        "word": "火事",
+        "vi": "hỏa hoạn",
+        "reading": "かじ",
+        "romaji": "kaji"
+      }
+    ]
+  },
+  {
+    "id": "n5-k006",
+    "kanji": "水",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "strokes": 4,
+    "meaning_vi": "nước",
+    "radical": "水",
+    "example_words": [
+      {
+        "word": "水",
+        "vi": "nước",
+        "reading": "みず",
+        "romaji": "mizu"
+      },
+      {
+        "word": "水曜日",
+        "vi": "thứ Tư",
+        "reading": "すいようび",
+        "romaji": "suiyoubi"
+      },
+      {
+        "word": "山水",
+        "vi": "sơn thủy",
+        "reading": "さんがい",
+        "romaji": "sangei"
+      }
+    ]
+  },
+  {
+    "id": "n5-k007",
+    "kanji": "木",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ"
+    ],
+    "strokes": 4,
+    "meaning_vi": "cây, gỗ",
+    "radical": "木",
+    "example_words": [
+      {
+        "word": "木",
+        "vi": "cây",
+        "reading": "き",
+        "romaji": "ki"
+      },
+      {
+        "word": "休木",
+        "vi": "cây nghỉ",
+        "reading": "きゅうぼく",
+        "romaji": "kyuboku"
+      },
+      {
+        "word": "日本",
+        "vi": "Nhật Bản",
+        "reading": "にほん",
+        "romaji": "nihongo"
+      }
+    ]
+  },
+  {
+    "id": "n5-k008",
+    "kanji": "金",
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "kunyomi": [
+      "かね"
+    ],
+    "strokes": 8,
+    "meaning_vi": "tiền, kim loại",
+    "radical": "金",
+    "example_words": [
+      {
+        "word": "お金",
+        "vi": "tiền",
+        "reading": "おかね",
+        "romaji": "okane"
+      },
+      {
+        "word": "金曜日",
+        "vi": "thứ Sáu",
+        "reading": "きんようび",
+        "romaji": "kinyoubi"
+      },
+      {
+        "word": "銀行",
+        "vi": "ngân hàng",
+        "reading": "ぎんこう",
+        "romaji": "ginkou"
+      }
+    ]
+  },
+  {
+    "id": "n5-k009",
+    "kanji": "土",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "strokes": 3,
+    "meaning_vi": "đất, thổ",
+    "radical": "土",
+    "example_words": [
+      {
+        "word": "土",
+        "vi": "đất",
+        "reading": "つち",
+        "romaji": "tsuchi"
+      },
+      {
+        "word": "土曜日",
+        "vi": "thứ Bảy",
+        "reading": "どようび",
+        "romaji": "doyoubi"
+      },
+      {
+        "word": "土地",
+        "vi": "đất đai",
+        "reading": "とち",
+        "romaji": "tochi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k010",
+    "kanji": "曜",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [],
+    "strokes": 18,
+    "meaning_vi": "ngày trong tuần",
+    "radical": "日",
+    "example_words": [
+      {
+        "word": "曜日",
+        "vi": "ngày trong tuần",
+        "reading": "ようび",
+        "romaji": "youbi"
+      },
+      {
+        "word": "月曜日",
+        "vi": "thứ Hai",
+        "reading": "げつようび",
+        "romaji": "getsuyoubi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k011",
+    "kanji": "大",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお",
+      "おおきい"
+    ],
+    "strokes": 3,
+    "meaning_vi": "lớn, lớn",
+    "radical": "大",
+    "example_words": [
+      {
+        "word": "大きい",
+        "vi": "lớn",
+        "reading": "おおきい",
+        "romaji": "ookii"
+      },
+      {
+        "word": "大学",
+        "vi": "đại học",
+        "reading": "だいがく",
+        "romaji": "daigaku"
+      },
+      {
+        "word": "大人",
+        "vi": "người lớn",
+        "reading": "おとな",
+        "romaji": "otona"
+      }
+    ]
+  },
+  {
+    "id": "n5-k012",
+    "kanji": "小",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい",
+      "こ",
+      "お"
+    ],
+    "strokes": 3,
+    "meaning_vi": "nhỏ",
+    "radical": "小",
+    "example_words": [
+      {
+        "word": "小さい",
+        "vi": "nhỏ",
+        "reading": "ちいさい",
+        "romaji": "chiisai"
+      },
+      {
+        "word": "小学校",
+        "vi": "tiểu học",
+        "reading": "しょうがっこう",
+        "romaji": "shougakkou"
+      }
+    ]
+  },
+  {
+    "id": "n5-k013",
+    "kanji": "中",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "strokes": 4,
+    "meaning_vi": "giữa, trong, Trung Quốc",
+    "radical": "丨",
+    "example_words": [
+      {
+        "word": "中国",
+        "vi": "Trung Quốc",
+        "reading": "ちゅうごく",
+        "romaji": "chuugoku"
+      },
+      {
+        "word": "中学",
+        "vi": "trung học",
+        "reading": "ちゅうがく",
+        "romaji": "chuugaku"
+      },
+      {
+        "word": "中",
+        "vi": "giữa",
+        "reading": "なか",
+        "romaji": "naka"
+      }
+    ]
+  },
+  {
+    "id": "n5-k014",
+    "kanji": "上",
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "あ",
+      "のぼる"
+    ],
+    "strokes": 3,
+    "meaning_vi": "trên, lên",
+    "radical": "一",
+    "example_words": [
+      {
+        "word": "上手",
+        "vi": "giỏi",
+        "reading": "じょうず",
+        "romaji": "jouzu"
+      },
+      {
+        "word": "上",
+        "vi": "trên",
+        "reading": "うえ",
+        "romaji": "ue"
+      },
+      {
+        "word": "エレベーター",
+        "vi": "thang máy",
+        "reading": "エレベーター",
+        "romaji": "erebetaa"
+      }
+    ]
+  },
+  {
+    "id": "n5-k015",
+    "kanji": "下",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "さ",
+      "くだる"
+    ],
+    "strokes": 3,
+    "meaning_vi": "dưới, xuống",
+    "radical": "一",
+    "example_words": [
+      {
+        "word": "下手",
+        "vi": "vụng về",
+        "reading": "へた",
+        "romaji": "heta"
+      },
+      {
+        "word": "下",
+        "vi": "dưới",
+        "reading": "した",
+        "romaji": "shita"
+      }
+    ]
+  },
+  {
+    "id": "n5-k016",
+    "kanji": "山",
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "strokes": 3,
+    "meaning_vi": "núi",
+    "radical": "山",
+    "example_words": [
+      {
+        "word": "山",
+        "vi": "núi",
+        "reading": "やま",
+        "romaji": "yama"
+      },
+      {
+        "word": "富士山",
+        "vi": "núi Phú Sơn",
+        "reading": "ふじさん",
+        "romaji": "fujisan"
+      }
+    ]
+  },
+  {
+    "id": "n5-k017",
+    "kanji": "川",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "strokes": 3,
+    "meaning_vi": "sông",
+    "radical": "川",
+    "example_words": [
+      {
+        "word": "川",
+        "vi": "sông",
+        "reading": "かわ",
+        "romaji": "kawa"
+      }
+    ]
+  },
+  {
+    "id": "n5-k018",
+    "kanji": "田",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "strokes": 5,
+    "meaning_vi": "ruộng lúa",
+    "radical": "田",
+    "example_words": [
+      {
+        "word": "田",
+        "vi": "ruộng",
+        "reading": "た",
+        "romaji": "ta"
+      },
+      {
+        "word": "山田",
+        "vi": "họ Yamada",
+        "reading": "やまだ",
+        "romaji": "yamada"
+      }
+    ]
+  },
+  {
+    "id": "n5-k019",
+    "kanji": "口",
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "strokes": 3,
+    "meaning_vi": "miệng, lối vào",
+    "radical": "口",
+    "example_words": [
+      {
+        "word": "口",
+        "vi": "miệng",
+        "reading": "くち",
+        "romaji": "kuchi"
+      },
+      {
+        "word": "入口",
+        "vi": "lối vào",
+        "reading": "いりぐち",
+        "romaji": "iriguchi"
+      },
+      {
+        "word": "出口",
+        "vi": "lối ra",
+        "reading": "でぐち",
+        "romaji": "deguchi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k020",
+    "kanji": "目",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "strokes": 5,
+    "meaning_vi": "mắt",
+    "radical": "目",
+    "example_words": [
+      {
+        "word": "目",
+        "vi": "mắt",
+        "reading": "め",
+        "romaji": "me"
+      },
+      {
+        "word": "名前",
+        "vi": "tên",
+        "reading": "なまえ",
+        "romaji": "namae"
+      }
+    ]
+  },
+  {
+    "id": "n5-k021",
+    "kanji": "耳",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "strokes": 6,
+    "meaning_vi": "tai",
+    "radical": "耳",
+    "example_words": [
+      {
+        "word": "耳",
+        "vi": "tai",
+        "reading": "みみ",
+        "romaji": "mimi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k022",
+    "kanji": "手",
+    "onyomi": [
+      "シュ",
+      "ズ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "strokes": 4,
+    "meaning_vi": "tay",
+    "radical": "手",
+    "example_words": [
+      {
+        "word": "手",
+        "vi": "tay",
+        "reading": "て",
+        "romaji": "te"
+      },
+      {
+        "word": "お手洗い",
+        "vi": "nhà vệ sinh",
+        "reading": "おてあらい",
+        "romaji": "otearai"
+      }
+    ]
+  },
+  {
+    "id": "n5-k023",
+    "kanji": "足",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "たりる"
+    ],
+    "strokes": 7,
+    "meaning_vi": "chân, bước chân, đủ",
+    "radical": "足",
+    "example_words": [
+      {
+        "word": "足",
+        "vi": "chân",
+        "reading": "あし",
+        "romaji": "ashi"
+      },
+      {
+        "word": "手足",
+        "vi": "tay chân",
+        "reading": "てあし",
+        "romaji": "teashi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k024",
+    "kanji": "女",
+    "onyomi": [
+      "ジョ",
+      "ニョ"
+    ],
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "strokes": 3,
+    "meaning_vi": "phụ nữ, con gái",
+    "radical": "女",
+    "example_words": [
+      {
+        "word": "女",
+        "vi": "phụ nữ",
+        "reading": "おんな",
+        "romaji": "onna"
+      },
+      {
+        "word": "女の子",
+        "vi": "con gái",
+        "reading": "おんなのこ",
+        "romaji": "onnanoko"
+      }
+    ]
+  },
+  {
+    "id": "n5-k025",
+    "kanji": "男",
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ",
+      "お"
+    ],
+    "strokes": 7,
+    "meaning_vi": "đàn ông, con trai",
+    "radical": "田",
+    "example_words": [
+      {
+        "word": "男",
+        "vi": "đàn ông",
+        "reading": "おとこ",
+        "romaji": "otoko"
+      },
+      {
+        "word": "男の子",
+        "vi": "con trai",
+        "reading": "おとこのこ",
+        "romaji": "otokonoko"
+      }
+    ]
+  },
+  {
+    "id": "n5-k026",
+    "kanji": "子",
+    "onyomi": [
+      "シ",
+      "ス"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "strokes": 3,
+    "meaning_vi": "con, trẻ con",
+    "radical": "子",
+    "example_words": [
+      {
+        "word": "子供",
+        "vi": "trẻ con",
+        "reading": "こども",
+        "romaji": "kodomo"
+      },
+      {
+        "word": "子ども",
+        "vi": "trẻ em",
+        "reading": "こども",
+        "romaji": "kodomo"
+      }
+    ]
+  },
+  {
+    "id": "n5-k027",
+    "kanji": "学",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まなぶ"
+    ],
+    "strokes": 8,
+    "meaning_vi": "học, học tập",
+    "radical": "子",
+    "example_words": [
+      {
+        "word": "学生",
+        "vi": "học sinh",
+        "reading": "がくせい",
+        "romaji": "gakusei"
+      },
+      {
+        "word": "学校",
+        "vi": "trường học",
+        "reading": "がっこう",
+        "romaji": "gakkou"
+      },
+      {
+        "word": "大学",
+        "vi": "đại học",
+        "reading": "だいがく",
+        "romaji": "daigaku"
+      }
+    ]
+  },
+  {
+    "id": "n5-k028",
+    "kanji": "生",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "いきる",
+      "うまれる",
+      "なま"
+    ],
+    "strokes": 5,
+    "meaning_vi": "sinh, sống, học sinh",
+    "radical": "生",
+    "example_words": [
+      {
+        "word": "学生",
+        "vi": "học sinh",
+        "reading": "がくせい",
+        "romaji": "gakusei"
+      },
+      {
+        "word": "先生",
+        "vi": "giáo viên",
+        "reading": "せんせい",
+        "romaji": "sensei"
+      },
+      {
+        "word": "生ビール",
+        "vi": "bia tươi",
+        "reading": "なまビール",
+        "romaji": "namabiru"
+      }
+    ]
+  },
+  {
+    "id": "n5-k029",
+    "kanji": "先",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "strokes": 6,
+    "meaning_vi": "trước, đi trước",
+    "radical": "儿",
+    "example_words": [
+      {
+        "word": "先生",
+        "vi": "giáo viên",
+        "reading": "せんせい",
+        "romaji": "sensei"
+      },
+      {
+        "word": "先",
+        "vi": "trước",
+        "reading": "さき",
+        "romaji": "saki"
+      }
+    ]
+  },
+  {
+    "id": "n5-k030",
+    "kanji": "私",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "わたし",
+      "わたくし"
+    ],
+    "strokes": 7,
+    "meaning_vi": "tôi (khiêm tốn)",
+    "radical": "禾",
+    "example_words": [
+      {
+        "word": "私",
+        "vi": "tôi",
+        "reading": "わたくし",
+        "romaji": "watashi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k031",
+    "kanji": "語",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた"
+    ],
+    "strokes": 14,
+    "meaning_vi": "ngôn ngữ, lời nói",
+    "radical": "言",
+    "example_words": [
+      {
+        "word": "日本語",
+        "vi": "tiếng Nhật",
+        "reading": "にほんご",
+        "romaji": "nihongo"
+      },
+      {
+        "word": "英語",
+        "vi": "tiếng Anh",
+        "reading": "えいご",
+        "romaji": "eigo"
+      }
+    ]
+  },
+  {
+    "id": "n5-k032",
+    "kanji": "国",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "strokes": 8,
+    "meaning_vi": "đất nước",
+    "radical": "囗",
+    "example_words": [
+      {
+        "word": "日本",
+        "vi": "Nhật Bản",
+        "reading": "にほん",
+        "romaji": "nihongo"
+      },
+      {
+        "word": "外国",
+        "vi": "nước ngoài",
+        "reading": "がいこく",
+        "romaji": "gaikoku"
+      }
+    ]
+  },
+  {
+    "id": "n5-k033",
+    "kanji": "会",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "あう",
+      "まう"
+    ],
+    "strokes": 6,
+    "meaning_vi": "gặp, hội, họp",
+    "radical": "人",
+    "example_words": [
+      {
+        "word": "会社",
+        "vi": "công ty",
+        "reading": "かいしゃ",
+        "romaji": "kaisha"
+      },
+      {
+        "word": "会議",
+        "vi": "cuộc họp",
+        "reading": "かいぎ",
+        "romaji": "kaigi"
+      },
+      {
+        "word": "先生",
+        "vi": "giáo viên",
+        "reading": "せんせい",
+        "romaji": "sensei"
+      }
+    ]
+  },
+  {
+    "id": "n5-k034",
+    "kanji": "社",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "やしろ"
+    ],
+    "strokes": 7,
+    "meaning_vi": "công ty, xã hội",
+    "radical": "示",
+    "example_words": [
+      {
+        "word": "会社",
+        "vi": "công ty",
+        "reading": "かいしゃ",
+        "romaji": "kaisha"
+      }
+    ]
+  },
+  {
+    "id": "n5-k035",
+    "kanji": "車",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "strokes": 7,
+    "meaning_vi": "xe, bánh xe",
+    "radical": "車",
+    "example_words": [
+      {
+        "word": "車",
+        "vi": "xe",
+        "reading": "くるま",
+        "romaji": "kuruma"
+      },
+      {
+        "word": "電車",
+        "vi": "tàu điện",
+        "reading": "でんしゃ",
+        "romaji": "densha"
+      },
+      {
+        "word": "自転車",
+        "vi": "xe đạp",
+        "reading": "じてんしゃ",
+        "romaji": "jitensha"
+      }
+    ]
+  },
+  {
+    "id": "n5-k036",
+    "kanji": "電",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "strokes": 13,
+    "meaning_vi": "điện",
+    "radical": "雨",
+    "example_words": [
+      {
+        "word": "電車",
+        "vi": "tàu điện",
+        "reading": "でんしゃ",
+        "romaji": "densha"
+      },
+      {
+        "word": "電話",
+        "vi": "điện thoại",
+        "reading": "でんわ",
+        "romaji": "denwa"
+      }
+    ]
+  },
+  {
+    "id": "n5-k037",
+    "kanji": "駅",
+    "onyomi": [
+      "エキ"
+    ],
+    "kunyomi": [],
+    "strokes": 10,
+    "meaning_vi": "nhà ga",
+    "radical": "馬",
+    "example_words": [
+      {
+        "word": "駅",
+        "vi": "nhà ga",
+        "reading": "えき",
+        "romaji": "eki"
+      },
+      {
+        "word": "東京駅",
+        "vi": "ga Tokyo",
+        "reading": "とうきょうえき",
+        "romaji": "toukyoueki"
+      }
+    ]
+  },
+  {
+    "id": "n5-k038",
+    "kanji": "何",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "strokes": 7,
+    "meaning_vi": "gì, bao nhiêu",
+    "radical": "口",
+    "example_words": [
+      {
+        "word": "何",
+        "vi": "gì",
+        "reading": "なん/なに",
+        "romaji": "nan"
+      },
+      {
+        "word": "何時",
+        "vi": "mấy giờ",
+        "reading": "なんじ",
+        "romaji": "nanji"
+      }
+    ]
+  },
+  {
+    "id": "n5-k039",
+    "kanji": "年",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "strokes": 6,
+    "meaning_vi": "năm",
+    "radical": "干",
+    "example_words": [
+      {
+        "word": "今年",
+        "vi": "năm nay",
+        "reading": "ことし",
+        "romaji": "kotoshi"
+      },
+      {
+        "word": "去年",
+        "vi": "năm ngoái",
+        "reading": "きょねん",
+        "romaji": "kyonen"
+      }
+    ]
+  },
+  {
+    "id": "n5-k040",
+    "kanji": "今",
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "strokes": 4,
+    "meaning_vi": "bây giờ, hiện tại",
+    "radical": "人",
+    "example_words": [
+      {
+        "word": "今",
+        "vi": "bây giờ",
+        "reading": "いま",
+        "romaji": "ima"
+      },
+      {
+        "word": "今週",
+        "vi": "tuần này",
+        "reading": "こんしゅう",
+        "romaji": "konshuu"
+      }
+    ]
+  },
+  {
+    "id": "n5-k041",
+    "kanji": "時",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "strokes": 10,
+    "meaning_vi": "giờ, thời gian, khi",
+    "radical": "日",
+    "example_words": [
+      {
+        "word": "時間",
+        "vi": "thời gian",
+        "reading": "じかん",
+        "romaji": "jikan"
+      },
+      {
+        "word": "何時",
+        "vi": "mấy giờ",
+        "reading": "なんじ",
+        "romaji": "nanji"
+      },
+      {
+        "word": "時",
+        "vi": "khi",
+        "reading": "とき",
+        "romaji": "toki"
+      }
+    ]
+  },
+  {
+    "id": "n5-k042",
+    "kanji": "間",
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま"
+    ],
+    "strokes": 12,
+    "meaning_vi": "khoảng thời gian, giữa",
+    "radical": "門",
+    "example_words": [
+      {
+        "word": "時間",
+        "vi": "thời gian",
+        "reading": "じかん",
+        "romaji": "jikan"
+      },
+      {
+        "word": "間",
+        "vi": "khoảng",
+        "reading": "あいだ",
+        "romaji": "aida"
+      }
+    ]
+  },
+  {
+    "id": "n5-k043",
+    "kanji": "家",
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "いえ",
+      "や"
+    ],
+    "strokes": 10,
+    "meaning_vi": "nhà, gia đình, chuyên gia",
+    "radical": "宀",
+    "example_words": [
+      {
+        "word": "家",
+        "vi": "nhà",
+        "reading": "いえ",
+        "romaji": "ie"
+      },
+      {
+        "word": "家族",
+        "vi": "gia đình",
+        "reading": "かぞく",
+        "romaji": "kazoku"
+      }
+    ]
+  },
+  {
+    "id": "n5-k044",
+    "kanji": "友",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "strokes": 4,
+    "meaning_vi": "bạn",
+    "radical": "又",
+    "example_words": [
+      {
+        "word": "友達",
+        "vi": "bạn bè",
+        "reading": "ともだち",
+        "romaji": "tomodachi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k045",
+    "kanji": "父",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "strokes": 4,
+    "meaning_vi": "bố",
+    "radical": "父",
+    "example_words": [
+      {
+        "word": "父",
+        "vi": "bố",
+        "reading": "ちち",
+        "romaji": "chichi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k046",
+    "kanji": "母",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "strokes": 5,
+    "meaning_vi": "mẹ",
+    "radical": "毋",
+    "example_words": [
+      {
+        "word": "母",
+        "vi": "mẹ",
+        "reading": "はは",
+        "romaji": "haha"
+      }
+    ]
+  },
+  {
+    "id": "n5-k047",
+    "kanji": "食",
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "くう",
+      "たべる"
+    ],
+    "strokes": 9,
+    "meaning_vi": "ăn, thức ăn",
+    "radical": "食",
+    "example_words": [
+      {
+        "word": "食べる",
+        "vi": "ăn",
+        "reading": "たべる",
+        "romaji": "taberu"
+      },
+      {
+        "word": "食べ物",
+        "vi": "đồ ăn",
+        "reading": "たべもの",
+        "romaji": "tabemono"
+      },
+      {
+        "word": "朝ごはん",
+        "vi": "bữa sáng",
+        "reading": "あさごはん",
+        "romaji": "asagohan"
+      }
+    ]
+  },
+  {
+    "id": "n5-k048",
+    "kanji": "飲",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "のむ"
+    ],
+    "strokes": 12,
+    "meaning_vi": "uống",
+    "radical": "食",
+    "example_words": [
+      {
+        "word": "飲む",
+        "vi": "uống",
+        "reading": "のむ",
+        "romaji": "nomu"
+      },
+      {
+        "word": "飲み物",
+        "vi": "đồ uống",
+        "reading": "のみもの",
+        "romaji": "nomimono"
+      }
+    ]
+  },
+  {
+    "id": "n5-k049",
+    "kanji": "見",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "strokes": 7,
+    "meaning_vi": "xem, nhìn",
+    "radical": "目",
+    "example_words": [
+      {
+        "word": "見る",
+        "vi": "xem",
+        "reading": "みる",
+        "romaji": "miru"
+      },
+      {
+        "word": "見せる",
+        "vi": "cho xem",
+        "reading": "みせる",
+        "romaji": "miseru"
+      }
+    ]
+  },
+  {
+    "id": "n5-k050",
+    "kanji": "行",
+    "onyomi": [
+      "コウ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "いく",
+      "ゆく",
+      "おこなう"
+    ],
+    "strokes": 6,
+    "meaning_vi": "đi, tiến hành",
+    "radical": "彳",
+    "example_words": [
+      {
+        "word": "行く",
+        "vi": "đi",
+        "reading": "いく",
+        "romaji": "iku"
+      },
+      {
+        "word": "銀行",
+        "vi": "ngân hàng",
+        "reading": "ぎんこう",
+        "romaji": "ginkou"
+      },
+      {
+        "word": "旅行",
+        "vi": "du lịch",
+        "reading": "りょこう",
+        "romaji": "ryokou"
+      }
+    ]
+  },
+  {
+    "id": "n5-k051",
+    "kanji": "来",
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "く",
+      "くる"
+    ],
+    "strokes": 7,
+    "meaning_vi": "đến, tới",
+    "radical": "木",
+    "example_words": [
+      {
+        "word": "来る",
+        "vi": "đến",
+        "reading": "くる",
+        "romaji": "kuru"
+      },
+      {
+        "word": "来週",
+        "vi": "tuần sau",
+        "reading": "らいしゅう",
+        "romaji": "raishuu"
+      }
+    ]
+  },
+  {
+    "id": "n5-k052",
+    "kanji": "買",
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "か"
+    ],
+    "strokes": 12,
+    "meaning_vi": "mua",
+    "radical": "貝",
+    "example_words": [
+      {
+        "word": "買う",
+        "vi": "mua",
+        "reading": "かう",
+        "romaji": "kau"
+      },
+      {
+        "word": "買い物",
+        "vi": "mua sắm",
+        "reading": "かいもの",
+        "romaji": "kaimono"
+      }
+    ]
+  },
+  {
+    "id": "n5-k053",
+    "kanji": "高",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たかい"
+    ],
+    "strokes": 10,
+    "meaning_vi": "cao, đắt",
+    "radical": "高",
+    "example_words": [
+      {
+        "word": "高い",
+        "vi": "cao, đắt",
+        "reading": "たかい",
+        "romaji": "takai"
+      },
+      {
+        "word": "高校",
+        "vi": "trường cấp ba",
+        "reading": "こうこう",
+        "romaji": "koukou"
+      }
+    ]
+  },
+  {
+    "id": "n5-k054",
+    "kanji": "安",
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "やすい"
+    ],
+    "strokes": 6,
+    "meaning_vi": "rẻ, an toàn",
+    "radical": "宀",
+    "example_words": [
+      {
+        "word": "安い",
+        "vi": "rẻ",
+        "reading": "やすい",
+        "romaji": "yasui"
+      }
+    ]
+  },
+  {
+    "id": "n5-k055",
+    "kanji": "新",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたらしい",
+      "あら"
+    ],
+    "strokes": 13,
+    "meaning_vi": "mới, tân",
+    "radical": "斤",
+    "example_words": [
+      {
+        "word": "新しい",
+        "vi": "mới",
+        "reading": "あたらしい",
+        "romaji": "atarashii"
+      },
+      {
+        "word": "新聞",
+        "vi": "báo",
+        "reading": "しんぶん",
+        "romaji": "shinbun"
+      }
+    ]
+  },
+  {
+    "id": "n5-k056",
+    "kanji": "古",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふるい",
+      "ふる"
+    ],
+    "strokes": 5,
+    "meaning_vi": "cũ",
+    "radical": "口",
+    "example_words": [
+      {
+        "word": "古い",
+        "vi": "cũ",
+        "reading": "ふるい",
+        "romaji": "furui"
+      }
+    ]
+  },
+  {
+    "id": "n5-k057",
+    "kanji": "多",
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [
+      "おお"
+    ],
+    "strokes": 6,
+    "meaning_vi": "nhiều",
+    "radical": "夕",
+    "example_words": [
+      {
+        "word": "多い",
+        "vi": "nhiều",
+        "reading": "おおい",
+        "romaji": "ooi"
+      },
+      {
+        "word": "大多数",
+        "vi": "đa số",
+        "reading": "たいたすう",
+        "romaji": "taitasuu"
+      }
+    ]
+  },
+  {
+    "id": "n5-k058",
+    "kanji": "少",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "すく"
+    ],
+    "strokes": 4,
+    "meaning_vi": "ít, thiếu",
+    "radical": "小",
+    "example_words": [
+      {
+        "word": "少ない",
+        "vi": "ít",
+        "reading": "すくない",
+        "romaji": "sukunai"
+      },
+      {
+        "word": "少し",
+        "vi": "một chút",
+        "reading": "すこし",
+        "romaji": "sukoshi"
+      }
+    ]
+  },
+  {
+    "id": "n5-k059",
+    "kanji": "早",
+    "onyomi": [
+      "ソウ",
+      "サッ"
+    ],
+    "kunyomi": [
+      "はやい",
+      "はや"
+    ],
+    "strokes": 6,
+    "meaning_vi": "sớm, nhanh",
+    "radical": "日",
+    "example_words": [
+      {
+        "word": "はやい",
+        "vi": "sớm, nhanh",
+        "reading": "はやい",
+        "romaji": "hayai"
+      }
+    ]
+  },
+  {
+    "id": "n5-k060",
+    "kanji": "白",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しろい"
+    ],
+    "strokes": 5,
+    "meaning_vi": "trắng",
+    "radical": "白",
+    "example_words": [
+      {
+        "word": "白い",
+        "vi": "trắng",
+        "reading": "しろい",
+        "romaji": "shiroi"
+      },
+      {
+        "word": "白色",
+        "vi": "màu trắng",
+        "reading": "しろいろ",
+        "romaji": "shiroiro"
+      }
+    ]
+  },
+  {
+    "id": "n5-k061",
+    "kanji": "天",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま"
+    ],
+    "strokes": 4,
+    "meaning_vi": "trời, thiên",
+    "radical": "大",
+    "example_words": [
+      {
+        "word": "天気",
+        "vi": "thời tiết",
+        "reading": "てんき",
+        "romaji": "tenki"
+      },
+      {
+        "word": "今日",
+        "vi": "hôm nay",
+        "reading": "きょう",
+        "romaji": "kyou"
+      }
+    ]
+  },
+  {
+    "id": "n5-k062",
+    "kanji": "気",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "strokes": 6,
+    "meaning_vi": "khí, tinh thần, khí chất",
+    "radical": "气",
+    "example_words": [
+      {
+        "word": "天気",
+        "vi": "thời tiết",
+        "reading": "てんき",
+        "romaji": "tenki"
+      },
+      {
+        "word": "元気",
+        "vi": "khỏe, vui vẻ",
+        "reading": "げんき",
+        "romaji": "genki"
+      }
+    ]
+  },
+  {
+    "id": "n5-k063",
+    "kanji": "一",
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと-",
+      "ひと.つ"
+    ],
+    "strokes": 1,
+    "meaning_vi": "một",
+    "example_words": [
+      {
+        "word": "一人",
+        "vi": "một người",
+        "reading": "ひとり",
+        "romaji": "hitori"
+      },
+      {
+        "word": "一日",
+        "vi": "một ngày",
+        "reading": "いちにち,ついたち",
+        "romaji": "ichinichi"
+      },
+      {
+        "word": "一緒",
+        "vi": "cùng nhau",
+        "reading": "いっしょ",
+        "romaji": "issho"
+      }
+    ],
+    "radical": "一"
+  },
+  {
+    "id": "n5-k064",
+    "kanji": "二",
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふた.つ",
+      "ふたたび"
+    ],
+    "strokes": 2,
+    "meaning_vi": "hai",
+    "example_words": [
+      {
+        "word": "二つ",
+        "vi": "hai cái",
+        "reading": "ふたつ",
+        "romaji": "futatsu"
+      },
+      {
+        "word": "二人",
+        "vi": "hai người",
+        "reading": "ふたり",
+        "romaji": "futari"
+      },
+      {
+        "word": "二月",
+        "vi": "tháng hai",
+        "reading": "にがつ",
+        "romaji": "nigatsu"
+      }
+    ],
+    "radical": "二"
+  },
+  {
+    "id": "n5-k065",
+    "kanji": "三",
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "み",
+      "み.つ",
+      "みっ.つ"
+    ],
+    "strokes": 3,
+    "meaning_vi": "ba",
+    "example_words": [
+      {
+        "word": "三つ",
+        "vi": "ba cái",
+        "reading": "みっつ",
+        "romaji": "mittsu"
+      },
+      {
+        "word": "三日",
+        "vi": "ba ngày",
+        "reading": "みっか",
+        "romaji": "mikka"
+      },
+      {
+        "word": "三角形",
+        "vi": "hình tam giác",
+        "reading": "さんかくけい",
+        "romaji": "sankakukei"
+      }
+    ],
+    "radical": "一"
+  },
+  {
+    "id": "n5-k066",
+    "kanji": "四",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よ.つ",
+      "よっ.つ",
+      "よん"
+    ],
+    "strokes": 5,
+    "meaning_vi": "bốn",
+    "example_words": [
+      {
+        "word": "四つ",
+        "vi": "bốn cái",
+        "reading": "よっつ",
+        "romaji": "yottsu"
+      },
+      {
+        "word": "四人",
+        "vi": "bốn người",
+        "reading": "よにん",
+        "romaji": "yonin"
+      },
+      {
+        "word": "四角",
+        "vi": "góc vuông",
+        "reading": "しかく",
+        "romaji": "shikaku"
+      }
+    ],
+    "radical": "囗"
+  },
+  {
+    "id": "n5-k067",
+    "kanji": "五",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつ.つ"
+    ],
+    "strokes": 4,
+    "meaning_vi": "năm",
+    "example_words": [
+      {
+        "word": "五つ",
+        "vi": "năm cái",
+        "reading": "いつつ",
+        "romaji": "itsutsu"
+      },
+      {
+        "word": "五人",
+        "vi": "năm người",
+        "reading": "ごにん",
+        "romaji": "gonin"
+      },
+      {
+        "word": "五十音",
+        "vi": "bảng kana (50 âm)",
+        "reading": "ごじゅうおん",
+        "romaji": "gojuuon"
+      }
+    ],
+    "radical": "二"
+  },
+  {
+    "id": "n5-k068",
+    "kanji": "六",
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "kunyomi": [
+      "む",
+      "む.つ",
+      "むっ.つ",
+      "むい"
+    ],
+    "strokes": 4,
+    "meaning_vi": "sáu",
+    "example_words": [
+      {
+        "word": "六つ",
+        "vi": "sáu cái",
+        "reading": "むっつ",
+        "romaji": "muttsu"
+      },
+      {
+        "word": "六日",
+        "vi": "sáu ngày",
+        "reading": "むいか",
+        "romaji": "muika"
+      },
+      {
+        "word": "六月",
+        "vi": "tháng sáu",
+        "reading": "ろくがつ",
+        "romaji": "rokugatsu"
+      }
+    ],
+    "radical": "八"
+  },
+  {
+    "id": "n5-k069",
+    "kanji": "七",
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ],
+    "strokes": 2,
+    "meaning_vi": "bảy",
+    "example_words": [
+      {
+        "word": "七つ",
+        "vi": "bảy cái",
+        "reading": "ななつ",
+        "romaji": "nanatsu"
+      },
+      {
+        "word": "七日",
+        "vi": "bảy ngày",
+        "reading": "なのか",
+        "romaji": "nanoka"
+      },
+      {
+        "word": "七月",
+        "vi": "tháng bảy",
+        "reading": "しちがつ",
+        "romaji": "shichigatsu"
+      }
+    ],
+    "radical": "一"
+  },
+  {
+    "id": "n5-k070",
+    "kanji": "八",
+    "onyomi": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunyomi": [
+      "や",
+      "や.つ",
+      "やっ.つ",
+      "よう"
+    ],
+    "strokes": 2,
+    "meaning_vi": "tám",
+    "example_words": [
+      {
+        "word": "八つ",
+        "vi": "tám cái",
+        "reading": "やっつ",
+        "romaji": "yattsu"
+      },
+      {
+        "word": "八日",
+        "vi": "tám ngày",
+        "reading": "ようか",
+        "romaji": "youka"
+      },
+      {
+        "word": "八月",
+        "vi": "tháng tám",
+        "reading": "はちがつ",
+        "romaji": "hachigatsu"
+      }
+    ],
+    "radical": "八"
+  },
+  {
+    "id": "n5-k071",
+    "kanji": "九",
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここの.つ"
+    ],
+    "strokes": 2,
+    "meaning_vi": "chín",
+    "example_words": [
+      {
+        "word": "九つ",
+        "vi": "chín cái",
+        "reading": "ここのつ",
+        "romaji": "kokonotsu"
+      },
+      {
+        "word": "九日",
+        "vi": "chín ngày",
+        "reading": "ここのか",
+        "romaji": "kokonoka"
+      },
+      {
+        "word": "九月",
+        "vi": "tháng chín",
+        "reading": "くがつ",
+        "romaji": "kugatsu"
+      }
+    ],
+    "radical": "乙"
+  },
+  {
+    "id": "n5-k072",
+    "kanji": "十",
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "strokes": 2,
+    "meaning_vi": "mười",
+    "example_words": [
+      {
+        "word": "十分",
+        "vi": "mười phút / đủ",
+        "reading": "じゅっぷん",
+        "romaji": "juppun"
+      },
+      {
+        "word": "十日",
+        "vi": "mười ngày",
+        "reading": "とおか",
+        "romaji": "tooka"
+      },
+      {
+        "word": "十人",
+        "vi": "mười người",
+        "reading": "じゅくにん",
+        "romaji": "juunin"
+      }
+    ],
+    "radical": "十"
+  },
+  {
+    "id": "n5-k073",
+    "kanji": "百",
+    "onyomi": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "strokes": 6,
+    "meaning_vi": "trăm",
+    "example_words": [
+      {
+        "word": "百円",
+        "vi": "một trăm yên",
+        "reading": "ひゃくえん",
+        "romaji": "hyakuen"
+      },
+      {
+        "word": "百人",
+        "vi": "một trăm người",
+        "reading": "ひゃくにん",
+        "romaji": "hyakunin"
+      },
+      {
+        "word": "百分率",
+        "vi": "tỉ lệ phần trăm",
+        "reading": "ひゃくぶんりつ",
+        "romaji": "hyakubunritsu"
+      }
+    ],
+    "radical": "白"
+  },
+  {
+    "id": "n5-k074",
+    "kanji": "千",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "strokes": 3,
+    "meaning_vi": "nghìn",
+    "example_words": [
+      {
+        "word": "千円",
+        "vi": "một nghìn yên",
+        "reading": "せんえん",
+        "romaji": "senen"
+      },
+      {
+        "word": "千人",
+        "vi": "một nghìn người",
+        "reading": "せんにん",
+        "romaji": "sennin"
+      }
+    ],
+    "radical": "十"
+  },
+  {
+    "id": "n5-k075",
+    "kanji": "万",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "strokes": 3,
+    "meaning_vi": "vạn, mười nghìn",
+    "example_words": [
+      {
+        "word": "一万円",
+        "vi": "mười nghìn yên",
+        "reading": "いちまんえん",
+        "romaji": "ichimanen"
+      },
+      {
+        "word": "万年筆",
+        "vi": "bút máy",
+        "reading": "まんねんひつ",
+        "romaji": "mannenhitsu"
+      }
+    ],
+    "radical": "一"
+  },
+  {
+    "id": "n5-k076",
+    "kanji": "円",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ],
+    "strokes": 4,
+    "meaning_vi": "yên (tiền Nhật), tròn",
+    "example_words": [
+      {
+        "word": "百円",
+        "vi": "một trăm yên",
+        "reading": "ひゃくえん",
+        "romaji": "hyakuen"
+      },
+      {
+        "word": "円い",
+        "vi": "tròn",
+        "reading": "まるい",
+        "romaji": "marui"
+      }
+    ],
+    "radical": "冂"
+  },
+  {
+    "id": "n5-k077",
+    "kanji": "半",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか.ば"
+    ],
+    "strokes": 5,
+    "meaning_vi": "một nửa",
+    "example_words": [
+      {
+        "word": "半分",
+        "vi": "một nửa",
+        "reading": "はんぶん",
+        "romaji": "hanbun"
+      },
+      {
+        "word": "時半",
+        "vi": "nửa giờ",
+        "reading": "じはん",
+        "romaji": "jihan"
+      }
+    ],
+    "radical": "十"
+  },
+  {
+    "id": "n5-k078",
+    "kanji": "分",
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わ.ける",
+      "わ.け",
+      "わ.かれる",
+      "わ.かる",
+      "わ.かつ"
+    ],
+    "strokes": 4,
+    "meaning_vi": "phút, phần, chia",
+    "example_words": [
+      {
+        "word": "十分",
+        "vi": "mười phút",
+        "reading": "じゅっぷん",
+        "romaji": "juppun"
+      },
+      {
+        "word": "自分",
+        "vi": "bản thân",
+        "reading": "じぶん",
+        "romaji": "jibun"
+      },
+      {
+        "word": "分かる",
+        "vi": "hiểu",
+        "reading": "わかる",
+        "romaji": "wakaru"
+      }
+    ],
+    "radical": "刀"
+  },
+  {
+    "id": "n5-k079",
+    "kanji": "入",
+    "onyomi": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "kunyomi": [
+      "い.る",
+      "-い.る",
+      "-い.り",
+      "い.れる",
+      "-い.れ",
+      "はい.る"
+    ],
+    "strokes": 2,
+    "meaning_vi": "vào, nhập",
+    "example_words": [
+      {
+        "word": "入口",
+        "vi": "lối vào",
+        "reading": "いりぐち",
+        "romaji": "iriguchi"
+      },
+      {
+        "word": "入学",
+        "vi": "nhập học",
+        "reading": "にゅうがく",
+        "romaji": "nyuugaku"
+      },
+      {
+        "word": "入院",
+        "vi": "nhập viện",
+        "reading": "にゅういん",
+        "romaji": "nyuuin"
+      }
+    ],
+    "radical": "入"
+  },
+  {
+    "id": "n5-k080",
+    "kanji": "出",
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "で.る",
+      "-で",
+      "だ.す",
+      "-だ.す",
+      "い.でる",
+      "い.だす"
+    ],
+    "strokes": 5,
+    "meaning_vi": "ra, xuất, xuất hiện",
+    "example_words": [
+      {
+        "word": "出口",
+        "vi": "lối ra",
+        "reading": "でぐち",
+        "romaji": "deguchi"
+      },
+      {
+        "word": "出席",
+        "vi": "tham dự / có mặt",
+        "reading": "しゅっせき",
+        "romaji": "shusseki"
+      },
+      {
+        "word": "出かける",
+        "vi": "ra ngoài",
+        "reading": "でかける",
+        "romaji": "dekakeru"
+      }
+    ],
+    "radical": "凵"
+  },
+  {
+    "id": "n5-k081",
+    "kanji": "名",
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な",
+      "-な"
+    ],
+    "strokes": 6,
+    "meaning_vi": "tên, danh",
+    "example_words": [
+      {
+        "word": "名前",
+        "vi": "tên",
+        "reading": "なまえ",
+        "romaji": "namae"
+      },
+      {
+        "word": "有名",
+        "vi": "nổi tiếng",
+        "reading": "ゆうめい",
+        "romaji": "yuumei"
+      },
+      {
+        "word": "名物",
+        "vi": "đặc sản",
+        "reading": "めいぶつ",
+        "romaji": "meibutsu"
+      }
+    ],
+    "radical": "口"
+  },
+  {
+    "id": "n5-k082",
+    "kanji": "長",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが.い",
+      "おさ"
+    ],
+    "strokes": 8,
+    "meaning_vi": "dài, trưởng",
+    "example_words": [
+      {
+        "word": "長い",
+        "vi": "dài",
+        "reading": "ながい",
+        "romaji": "nagai"
+      },
+      {
+        "word": "社長",
+        "vi": "giám đốc",
+        "reading": "しゃちょう",
+        "romaji": "shachou"
+      },
+      {
+        "word": "課長",
+        "vi": "trưởng phòng",
+        "reading": "かちょう",
+        "romaji": "kachou"
+      }
+    ],
+    "radical": "長"
+  },
+  {
+    "id": "n5-k083",
+    "kanji": "前",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ",
+      "-まえ"
+    ],
+    "strokes": 9,
+    "meaning_vi": "trước, phía trước",
+    "example_words": [
+      {
+        "word": "名前",
+        "vi": "tên",
+        "reading": "なまえ",
+        "romaji": "namae"
+      },
+      {
+        "word": "午前",
+        "vi": "buổi sáng",
+        "reading": "ごぜん",
+        "romaji": "gozen"
+      },
+      {
+        "word": "駅前",
+        "vi": "trước ga",
+        "reading": "えきまえ",
+        "romaji": "ekimae"
+      }
+    ],
+    "radical": "刀"
+  },
+  {
+    "id": "n5-k084",
+    "kanji": "後",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "のち",
+      "うし.ろ",
+      "うしろ",
+      "あと",
+      "おく.れる"
+    ],
+    "strokes": 9,
+    "meaning_vi": "sau, phía sau",
+    "example_words": [
+      {
+        "word": "後ろ",
+        "vi": "phía sau",
+        "reading": "うしろ",
+        "romaji": "ushiro"
+      },
+      {
+        "word": "午後",
+        "vi": "buổi chiều",
+        "reading": "ごご",
+        "romaji": "gogo"
+      },
+      {
+        "word": "最後",
+        "vi": "cuối cùng",
+        "reading": "さいご",
+        "romaji": "saigo"
+      }
+    ],
+    "radical": "彳"
+  },
+  {
+    "id": "n5-k085",
+    "kanji": "午",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "うま"
+    ],
+    "strokes": 4,
+    "meaning_vi": "trưa, giữa ngày",
+    "example_words": [
+      {
+        "word": "午前",
+        "vi": "buổi sáng",
+        "reading": "ごぜん",
+        "romaji": "gozen"
+      },
+      {
+        "word": "午後",
+        "vi": "buổi chiều",
+        "reading": "ごご",
+        "romaji": "gogo"
+      },
+      {
+        "word": "正午",
+        "vi": "chính ngô trưa",
+        "reading": "しょうご",
+        "romaji": "shougo"
+      }
+    ],
+    "radical": "十"
+  },
+  {
+    "id": "n5-k086",
+    "kanji": "毎",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [
+      "ごと",
+      "-ごと.に"
+    ],
+    "strokes": 6,
+    "meaning_vi": "mỗi",
+    "example_words": [
+      {
+        "word": "毎日",
+        "vi": "mỗi ngày",
+        "reading": "まいにち",
+        "romaji": "mainichi"
+      },
+      {
+        "word": "毎朝",
+        "vi": "mỗi sáng",
+        "reading": "まいあさ",
+        "romaji": "maiasa"
+      },
+      {
+        "word": "毎週",
+        "vi": "mỗi tuần",
+        "reading": "まいしゅう",
+        "romaji": "maishuu"
+      }
+    ],
+    "radical": "毋"
+  },
+  {
+    "id": "n5-k087",
+    "kanji": "東",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "strokes": 8,
+    "meaning_vi": "phía đông",
+    "example_words": [
+      {
+        "word": "東方",
+        "vi": "phương đông",
+        "reading": "とうほう",
+        "romaji": "touhou"
+      },
+      {
+        "word": "東京",
+        "vi": "Tokyo",
+        "reading": "とうきょう",
+        "romaji": "toukyou"
+      },
+      {
+        "word": "東西",
+        "vi": "đông tây",
+        "reading": "とうざい",
+        "romaji": "touzai"
+      }
+    ],
+    "radical": "木"
+  },
+  {
+    "id": "n5-k088",
+    "kanji": "西",
+    "onyomi": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "strokes": 6,
+    "meaning_vi": "phía tây",
+    "example_words": [
+      {
+        "word": "西方",
+        "vi": "phương tây",
+        "reading": "せいほう",
+        "romaji": "seihou"
+      },
+      {
+        "word": "西洋",
+        "vi": "phương Tây",
+        "reading": "せいよう",
+        "romaji": "seiyou"
+      },
+      {
+        "word": "東西",
+        "vi": "đông tây",
+        "reading": "とうざい",
+        "romaji": "touzai"
+      }
+    ],
+    "radical": "襾"
+  },
+  {
+    "id": "n5-k089",
+    "kanji": "南",
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "strokes": 9,
+    "meaning_vi": "phía nam",
+    "example_words": [
+      {
+        "word": "南方",
+        "vi": "phương nam",
+        "reading": "なんぽう",
+        "romaji": "nanpou"
+      },
+      {
+        "word": "南口",
+        "vi": "cửa nam",
+        "reading": "みなみぐち",
+        "romaji": "minamiguchi"
+      }
+    ],
+    "radical": "十"
+  },
+  {
+    "id": "n5-k090",
+    "kanji": "北",
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "strokes": 5,
+    "meaning_vi": "phía bắc",
+    "example_words": [
+      {
+        "word": "北方",
+        "vi": "phương bắc",
+        "reading": "ほっぽう",
+        "romaji": "hoppou"
+      },
+      {
+        "word": "北海道",
+        "vi": "Hokkaido",
+        "reading": "ほっかいどう",
+        "romaji": "hokkaidou"
+      }
+    ],
+    "radical": "匕"
+  },
+  {
+    "id": "n5-k091",
+    "kanji": "右",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "strokes": 5,
+    "meaning_vi": "bên phải",
+    "example_words": [
+      {
+        "word": "右手",
+        "vi": "bàn tay phải",
+        "reading": "みぎて",
+        "romaji": "migite"
+      },
+      {
+        "word": "左右",
+        "vi": "trái phải",
+        "reading": "さゆう",
+        "romaji": "sayuu"
+      }
+    ],
+    "radical": "口"
+  },
+  {
+    "id": "n5-k092",
+    "kanji": "左",
+    "onyomi": [
+      "サ",
+      "シャ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "strokes": 5,
+    "meaning_vi": "bên trái",
+    "example_words": [
+      {
+        "word": "左手",
+        "vi": "bàn tay trái",
+        "reading": "ひだて",
+        "romaji": "hidate"
+      },
+      {
+        "word": "左右",
+        "vi": "trái phải",
+        "reading": "さゆう",
+        "romaji": "sayuu"
+      }
+    ],
+    "radical": "工"
+  },
+  {
+    "id": "n5-k093",
+    "kanji": "外",
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はず.す",
+      "はず.れる",
+      "と-"
+    ],
+    "strokes": 5,
+    "meaning_vi": "bên ngoài",
+    "example_words": [
+      {
+        "word": "外国",
+        "vi": "nước ngoài",
+        "reading": "がいこく",
+        "romaji": "gaikoku"
+      },
+      {
+        "word": "外国人",
+        "vi": "người nước ngoài",
+        "reading": "がいこくじん",
+        "romaji": "gaikokujin"
+      },
+      {
+        "word": "海外",
+        "vi": "nước ngoài, hải ngoại",
+        "reading": "かいがい",
+        "romaji": "kaigai"
+      }
+    ],
+    "radical": "夕"
+  },
+  {
+    "id": "n5-k094",
+    "kanji": "話",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はな.す",
+      "はなし"
+    ],
+    "strokes": 13,
+    "meaning_vi": "nói chuyện, câu chuyện",
+    "example_words": [
+      {
+        "word": "電話",
+        "vi": "điện thoại",
+        "reading": "でんわ",
+        "romaji": "denwa"
+      },
+      {
+        "word": "話す",
+        "vi": "nói chuyện",
+        "reading": "はなす",
+        "romaji": "hanasu"
+      },
+      {
+        "word": "会話",
+        "vi": "hội thoại",
+        "reading": "かいわ",
+        "romaji": "kaiwa"
+      }
+    ],
+    "radical": "言"
+  },
+  {
+    "id": "n5-k095",
+    "kanji": "書",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か.く",
+      "-が.き",
+      "-がき"
+    ],
+    "strokes": 10,
+    "meaning_vi": "viết, sách",
+    "example_words": [
+      {
+        "word": "書く",
+        "vi": "viết",
+        "reading": "かく",
+        "romaji": "kaku"
+      },
+      {
+        "word": "辞書",
+        "vi": "từ điển",
+        "reading": "じしょ",
+        "romaji": "jisho"
+      },
+      {
+        "word": "図書館",
+        "vi": "thư viện",
+        "reading": "としょかん",
+        "romaji": "toshokan"
+      }
+    ],
+    "radical": "曰"
+  },
+  {
+    "id": "n5-k096",
+    "kanji": "読",
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "kunyomi": [
+      "よ.む",
+      "-よ.み"
+    ],
+    "strokes": 14,
+    "meaning_vi": "đọc",
+    "example_words": [
+      {
+        "word": "読む",
+        "vi": "đọc",
+        "reading": "よむ",
+        "romaji": "yomu"
+      },
+      {
+        "word": "読書",
+        "vi": "việc đọc sách",
+        "reading": "どくしょ",
+        "romaji": "dokusho"
+      }
+    ],
+    "radical": "言"
+  },
+  {
+    "id": "n5-k097",
+    "kanji": "聞",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き.く",
+      "き.こえる"
+    ],
+    "strokes": 14,
+    "meaning_vi": "nghe, hỏi",
+    "example_words": [
+      {
+        "word": "聞く",
+        "vi": "nghe / hỏi",
+        "reading": "きく",
+        "romaji": "kiku"
+      },
+      {
+        "word": "聞こえる",
+        "vi": "nghe thấy",
+        "reading": "きこえる",
+        "romaji": "kikoeru"
+      },
+      {
+        "word": "新聞",
+        "vi": "báo",
+        "reading": "しんぶん",
+        "romaji": "shinbun"
+      }
+    ],
+    "radical": "耳"
+  },
+  {
+    "id": "n5-k098",
+    "kanji": "休",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす.む",
+      "やす.まる",
+      "やす.める"
+    ],
+    "strokes": 6,
+    "meaning_vi": "nghỉ",
+    "example_words": [
+      {
+        "word": "休み",
+        "vi": "ngày nghỉ",
+        "reading": "やすみ",
+        "romaji": "yasumi"
+      },
+      {
+        "word": "休む",
+        "vi": "nghỉ ngơi",
+        "reading": "やすむ",
+        "romaji": "yasumu"
+      },
+      {
+        "word": "夏休み",
+        "vi": "kỳ nghỉ hè",
+        "reading": "なつやすみ",
+        "romaji": "natsuyasumi"
+      }
+    ],
+    "radical": "人"
+  },
+  {
+    "id": "n5-k099",
+    "kanji": "校",
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunyomi": [],
+    "strokes": 10,
+    "meaning_vi": "trường học, trường",
+    "example_words": [
+      {
+        "word": "学校",
+        "vi": "trường học",
+        "reading": "がっこう",
+        "romaji": "gakkou"
+      },
+      {
+        "word": "高校",
+        "vi": "trường cấp ba",
+        "reading": "こうこう",
+        "romaji": "koukou"
+      },
+      {
+        "word": "校長",
+        "vi": "hiệu trưởng",
+        "reading": "こうちょう",
+        "romaji": "kouchou"
+      }
+    ],
+    "radical": "木"
+  },
+  {
+    "id": "n5-k100",
+    "kanji": "無",
+    "onyomi": [
+      "ム",
+      "ブ"
+    ],
+    "kunyomi": [
+      "な.い"
+    ],
+    "strokes": 12,
+    "meaning_vi": "không có, vô",
+    "example_words": [
+      {
+        "word": "無い",
+        "vi": "không có",
+        "reading": "ない",
+        "romaji": "nai"
+      },
+      {
+        "word": "無理",
+        "vi": "quá sức, không được",
+        "reading": "むり",
+        "romaji": "muri"
+      }
+    ],
+    "radical": "火"
+  },
+  {
+    "id": "n5-k101",
+    "kanji": "雨",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま-",
+      "-さめ"
+    ],
+    "strokes": 8,
+    "meaning_vi": "mưa",
+    "example_words": [
+      {
+        "word": "雨",
+        "vi": "mưa",
+        "reading": "あめ",
+        "romaji": "ame"
+      },
+      {
+        "word": "雨天",
+        "vi": "ngày mưa",
+        "reading": "うてん",
+        "romaji": "uten"
+      },
+      {
+        "word": "雨具",
+        "vi": "đồ dùng che mưa",
+        "reading": "あまぐ",
+        "romaji": "amagu"
+      }
+    ],
+    "radical": "雨"
+  },
+  {
+    "id": "n5-k102",
+    "kanji": "誰",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "だれ",
+      "たれ",
+      "た"
+    ],
+    "strokes": 15,
+    "meaning_vi": "ai",
+    "example_words": [
+      {
+        "word": "誰",
+        "vi": "ai",
+        "reading": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "word": "誰か",
+        "vi": "ai đó",
+        "reading": "だれか",
+        "romaji": "dareka"
+      }
+    ],
+    "radical": "言"
+  },
+  {
+    "id": "n5-k103",
+    "kanji": "丈",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "たけ",
+      "だけ"
+    ],
+    "strokes": 3,
+    "meaning_vi": "đơn vị đo (shaku), dài",
+    "example_words": [
+      {
+        "word": "大丈夫",
+        "vi": "không sao",
+        "reading": "だいじょうぶ",
+        "romaji": "daijoubu"
+      },
+      {
+        "word": "丈夫",
+        "vi": "bền, khỏe",
+        "reading": "じょうぶ",
+        "romaji": "joubu"
+      }
+    ],
+    "radical": "一"
+  }
+]

@@ -1,0 +1,728 @@
+{
+  "n5-g065": {
+    "lesson": 13,
+    "lesson_title": "NGỮ PHÁP BÀI 13",
+    "point": "N が ほしいです",
+    "title_vi": "Muốn / không muốn cái gì đó",
+    "pattern": "(わたし は) N が ほしいです。/ ほしくないです。",
+    "explanation_vi": "Dùng để nói ước muốn, ham thích của bản thân. KHÔNG DÙNG khi nói đến ước muốn của người khác. 「ほしい」là tính từ đuôi「い」nên phủ định là「ほしくない」. N là đồ vật, người, động vật.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để nói ước muốn, ham thích của bản thân.\nKHÔNG DÙNG khi nói đến ước muốn, ham thích của NGƯỜI KHÁC." },
+      { "title": "Chú ý", "body": "N: Đồ vật, người, động vật.\nほしい là tính từ đuôi い nên phủ định là ほしくない." },
+      { "title": "Hỏi", "body": "Q: なにが ほしいですか。\nA: N が ほしいです。\nQ: いま なにが いちばんほしいですか。\nA: N が いちばんほしいです。\nQ: どんな N が ほしいですか。\nA: A い／な N が ほしいです。" }
+    ],
+    "examples": [
+      { "jp": "うちが ほしいです。", "vi": "Tôi muốn có nhà." },
+      { "jp": "かばんが ほしいです。", "vi": "Tôi muốn 1 cái túi xách." },
+      { "jp": "きいろい かばんが ほしいです。", "vi": "Tôi muốn 1 chiếc túi màu vàng." }
+    ],
+    "dialog": [
+      { "q": "いま なにが いちばんほしいですか。", "a": "いぬが いちばんほしいです。", "q_vi": "Bây giờ bạn muốn cái gì nhất?", "a_vi": "Tôi muốn một chú chó." }
+    ],
+    "quiz": [
+      { "question": "「ほしい」dùng cho ước muốn của ai?", "options": ["Chỉ của bản thân", "Của bản thân và người khác", "Chỉ của người khác", "Không quan trọng"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "うちが ほしい___.", "answer": "です" }
+    ]
+  },
+  "n5-g066": {
+    "lesson": 13,
+    "lesson_title": "NGỮ PHÁP BÀI 13",
+    "point": "V たいです",
+    "title_vi": "Muốn / không muốn làm hành động gì đó",
+    "pattern": "(わたし は) N を V たいです。/ V たくないです。",
+    "explanation_vi": "Thể「たい」của động từ: bỏ đuôi「ます」rồi thêm「たい」. Dùng để nói mong muốn làm việc gì đó của người nói. KHÔNG DÙNG cho ước muốn của người khác. Có thể dùng「が」thay cho「を」. Vì「V たい」là tính từ đuôi「い」nên phủ định là「V たくない」.",
+    "notes": [
+      { "title": "Cách chia", "body": "Bỏ đuôi ます rồi thêm たい.\nあそびます (chơi) → あそびたい\nむかえます (đón) → むかえたい" },
+      { "title": "Cách dùng", "body": "Dùng để nói mong muốn làm việc gì đó của người nói.\nKHÔNG DÙNG khi nói đến mong muốn làm hành động của NGƯỜI KHÁC." },
+      { "title": "Chú ý", "body": "Có thể sử dụng trợ từ が thay cho trợ từ を.\nV たい được coi là tính từ đuôi い nên phủ định là V たくない." },
+      { "title": "Ước muốn của người khác", "body": "A さんは ～V たい がる。\nA さんは ～V たい がっています。" }
+    ],
+    "examples": [
+      { "jp": "こいびと と さんぽしたいです。", "vi": "Muốn đi dạo cùng người yêu." },
+      { "jp": "たなかさんは やきゅうを したがっています。", "vi": "Anh Tanaka muốn chơi bóng chày." }
+    ],
+    "dialog": [
+      { "q": "しゃしんを とりたいですか。", "a": "はい、とりたいです。", "q_vi": "Bạn có muốn chụp ảnh không?", "a_vi": "Có, tôi muốn chụp ảnh." }
+    ],
+    "quiz": [
+      { "question": "「あそびます」chuyển sang thể「たい」là gì?", "options": ["あそびたい", "あそんでたい", "あそべたい", "あそびますたい"], "answer_index": 0 },
+      { "question": "Nói ước muốn của người khác dùng mẫu nào?", "options": ["～V たい がる", "～V たいです", "～が ほしいです", "～たい ほしいです"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "こいびと と さんぽし___.", "answer": "たいです" }
+    ]
+  },
+  "n5-g067": {
+    "lesson": 13,
+    "lesson_title": "NGỮ PHÁP BÀI 13",
+    "point": "V ます／きます／かえります + N へ + V ます",
+    "title_vi": "Đi / đến / trở về địa điểm để làm V",
+    "pattern": "V ます／きます／かえります + 目的語 に + V ます",
+    "explanation_vi": "Mẫu câu dùng để nói mục đích đi/đến/về đâu đó để thực hiện hành động. Câu hỏi「どこへ なにを しに V ますか」. Có thể dùng「なんの べんきょうに いきますか」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Mẫu câu dùng để nói mục đích đi/đến/về đâu đó để thực hiện hành động." },
+      { "title": "Hỏi", "body": "Q: どこへ なにを しに V ますか。\nA: Địa điểm へ Mục đích に V ます。\nQ: Địa điểm へ なんの べんきょうに いきますか。\nA: ～の べんきょうに いきます。" }
+    ],
+    "examples": [
+      { "jp": "スーパーへ やさいを かいに いきます。", "vi": "Tôi đi siêu thị để mua rau." },
+      { "jp": "きっさてんへ コーヒーを のみに いきました。", "vi": "Tôi đi quán cà phê để uống cà phê." },
+      { "jp": "アメリカへ えいごの べんきょうに いきました。", "vi": "Tôi học tiếng Anh." }
+    ],
+    "dialog": [
+      { "q": "きのう、どこへ なにを しに いきましたか。", "a": "きっさてんへ コーヒーを のみに いきました。", "q_vi": "Hôm qua bạn đi đâu để làm gì?", "a_vi": "Tôi đi quán cà phê để uống cà phê." }
+    ],
+    "quiz": [
+      { "question": "「スーパーへ N を かいに いきます」nghĩa là gì?", "options": ["Đi đó để mua N", "Mua N ở đây", "Đến từ đó", "Về từ đó"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "スーパーへ やさいを かいに ___.", "answer": "いきます" }
+    ]
+  },
+  "n5-g068": {
+    "lesson": 14,
+    "lesson_title": "NGỮ PHÁP BÀI 14",
+    "point": "Phân nhóm động từ",
+    "title_vi": "Ba nhóm động từ",
+    "pattern": "グループ I / II / III",
+    "explanation_vi": "Động từ chia làm 3 nhóm. Nhóm I: phần lớn động từ đứng trước「ます」thuộc cột i (のみます, いそぎます, はたらきます, あそびます, やすみます, はなします). Nhóm II: đứng trước「ます」thuộc cột e (たべます, とめます, あげます, むかえます). Nhóm III: します, danh từ + します, きます.",
+    "notes": [
+      { "title": "Nhóm I", "body": "のみます(uống), いそぎます(nhanh), はたらきます(làm việc), あそびます(chơi), やすみます(nghỉ), はなします(nói)" },
+      { "title": "Nhóm II", "body": "たべます(ăn), とめます(dừng), あげます(cho), むかえます(đón)" },
+      { "title": "Ngoại lệ nhóm I", "body": "います(có), できます(có thể), おきます(thức dậy), おります(xuống), たります(đủ), みます(nhìn)" },
+      { "title": "Nhóm III", "body": "します, danh từ mang tính hành động + します, きます.\nべんきょうします(học), しょくじします(ăn), けっこんします(kết hôn), かいものします(mua đồ)" },
+      { "title": "Chú ý", "body": "Một số động từ cũng kết thúc bằng します như はなします, けします, おします vẫn thuộc nhóm I vì bỏ します đi thì N không còn nghĩa tương đương.\nCó thể nhận biết nhóm I hay III qua số lượng chữ Hán: 結婚します (2 chữ Hán) → nhóm III; 押します (1 chữ Hán) → nhóm I." }
+    ],
+    "examples": [
+      { "jp": "べんきょうします。", "vi": "Học." },
+      { "jp": "はなします。", "vi": "Nói." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「けっこんします」thuộc nhóm nào?", "options": ["Nhóm III", "Nhóm I", "Nhóm II", "Không thuộc nhóm nào"], "answer_index": 0 },
+      { "question": "「おします」thuộc nhóm nào?", "options": ["Nhóm I", "Nhóm II", "Nhóm III", "Không thuộc nhóm nào"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "べんきょうし___。", "answer": "ます" }
+    ]
+  },
+  "n5-g069": {
+    "lesson": 14,
+    "lesson_title": "NGỮ PHÁP BÀI 14",
+    "point": "Cách chia thể て",
+    "title_vi": "5 quy tắc chia thể て",
+    "pattern": "～って / ～んで / ～いて / ～いで / ～して",
+    "explanation_vi": "Nhóm I chia theo 5 quy tắc. Nhóm II: bỏ「ます」thêm「て」. Nhóm III: きます→きて, します→して.",
+    "notes": [
+      { "title": "Quy tắc 1", "body": "～います, ～ちます, ～ります → ～って\nかいます → かって\nまちます → まって" },
+      { "title": "Quy tắc 2", "body": "～みます, ～びます, ～にます → ～んで\nのみます → のんで\nやすみます → やすんで" },
+      { "title": "Quy tắc 3", "body": "～きます → ～いて\nかきます → かいて\nあるきます → あるいて" },
+      { "title": "Quy tắc 4", "body": "～ぎます → ～いで\nおよぎます → およいで\nぬぎます → ぬいで" },
+      { "title": "Quy tắc 5", "body": "～します → ～して\nはなします → はなして\nかします → かして" },
+      { "title": "Nhóm II và III", "body": "Nhóm II: ～e ます → ～e て\nあけます → あけて\nみせます → みせて\nNhóm III: ～きます → ～きて, ～します → ～して" }
+    ],
+    "examples": [
+      { "jp": "かいます → かって", "vi": "Mua → mua (thể て)" },
+      { "jp": "のみます → のんで", "vi": "Uống → uống (thể て)" },
+      { "jp": "あけます → あけて", "vi": "Mở → mở (thể て)" },
+      { "jp": "べんきょうします → べんきょうして", "vi": "Học → học (thể て)" }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「やすみます」chia thể て thành gì?", "options": ["やすんで", "やすって", "やせて", "やすいて"], "answer_index": 0 },
+      { "question": "「およぎます」chia thể て thành gì?", "options": ["およいで", "およんで", "およって", "およいて"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "のみます → のん___", "answer": "で" }
+    ]
+  },
+  "n5-g070": {
+    "lesson": 14,
+    "lesson_title": "NGỮ PHÁP BÀI 14",
+    "point": "V て ください",
+    "title_vi": "Hãy ～ (yêu cầu)",
+    "pattern": "V て ＋ ください",
+    "explanation_vi": "Dùng để sai khiến, yêu cầu, khuyên nhủ, nhờ vả ai đó. Khi nhờ vả thì thường thêm「すみませんが」đầu câu. KHÔNG dùng mẫu này với ý nghĩa sai khiến với người trên.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để sai khiến, yêu cầu, khuyên nhủ, nhờ vả ai đó.\nKhi nhờ vả thì thường thêm すみませんが đầu câu." },
+      { "title": "Chú ý", "body": "Không dùng mẫu này với ý nghĩa sai khiến với người trên." }
+    ],
+    "examples": [
+      { "jp": "すみませんが、タクシーを よんで ください。", "vi": "Xin lỗi, hãy gọi taxi giúp tôi." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「V て ください」dùng với ai?", "options": ["Người ngang hàng hoặc kém hơn", "Người trên", "Ai cũng được", "Không ai"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "タクシーを よんで ___.", "answer": "ください" }
+    ]
+  },
+  "n5-g071": {
+    "lesson": 14,
+    "lesson_title": "NGỮ PHÁP BÀI 14",
+    "point": "V て います",
+    "title_vi": "Đang làm V ～",
+    "pattern": "V て ＋ います。/ Q: V て いますか。",
+    "explanation_vi": "Dùng để nói hành động đang diễn ra tại thời điểm nói. Câu hỏi「いま S は なにを していますか」trả lời bằng「V て います」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Đang làm V ~" },
+      { "title": "Hỏi", "body": "Q: いま ～さんは N を V て いますか。\nA: はい、V て います。\nいいえ、V て いません。\nQ: いま ～さんは なにを していますか。\nA: V て います。" }
+    ],
+    "examples": [
+      { "jp": "いま、ナムさんは プールで およいで います。", "vi": "Bây giờ anh Nam đang bơi ở trong bể bơi." },
+      { "jp": "いま、ミンせんせいは にほんごを おしえて います。", "vi": "Thầy Minh đang dạy tiếng Nhật." }
+    ],
+    "dialog": [
+      { "q": "ナーちゃんは ほんを よんで いますか。", "a": "はい、ほんを よんで います。", "q_vi": "Bé Na đang đọc sách phải không?", "a_vi": "Ừ, bé Na đang đọc sách." }
+    ],
+    "quiz": [
+      { "question": "「V て います」mô tả thời nào?", "options": ["Đang xảy ra", "Đã xảy ra", "Sẽ xảy ra", "Thói quen"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ナムさんは プールで およいで ___.", "answer": "います" }
+    ]
+  },
+  "n5-g072": {
+    "lesson": 14,
+    "lesson_title": "NGỮ PHÁP BÀI 14",
+    "point": "V ましょうか",
+    "title_vi": "Để tôi làm ～ giúp bạn nhé",
+    "pattern": "Q: V ましょうか。 A: すみません、おねがいします。/ いい、けっこうです。",
+    "explanation_vi": "Dùng khi muốn đề nghị làm một việc gì đó cho người nghe. Cách kết hợp: V bỏ「ます」thêm「ましょうか」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng khi muốn đề nghị làm 1 việc gì đó cho người nghe.\nCách kết hợp: V bỏ ます thêm ましょうか." }
+    ],
+    "examples": [
+      { "jp": "あつい ですね。エアコンを つけましょうか。", "vi": "Nóng nhỉ, tôi bật điều hòa lên nhé?" },
+      { "jp": "すみません。おねがいします。", "vi": "Cảm ơn anh. Làm phiền anh nhé." }
+    ],
+    "dialog": [
+      { "q": "あつい ですね。エアコンを つけましょうか。", "a": "すみません。おねがいします。", "q_vi": "Nóng nhỉ, bật điều hòa nhé?", "a_vi": "Làm phiền bạn nhé." }
+    ],
+    "quiz": [
+      { "question": "Trả lời「V ましょうか」bằng cách nào?", "options": ["すみません、おねがいします。", "はい。", "いいえ。", "そうじゃありません。"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "エアコンを つけ___", "answer": "ましょうか" }
+    ]
+  },
+  "n5-g073": {
+    "lesson": 15,
+    "lesson_title": "NGỮ PHÁP BÀI 15",
+    "point": "V てもいいです",
+    "title_vi": "Làm V cũng được",
+    "pattern": "(S は) N を V てもいいです。/ V てもいいですか。",
+    "explanation_vi": "Dùng để biểu thị sự được phép làm V. Trả lời「ええ、いいですよ」hoặc「すみません、ちょっと…(きんえんですから)」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để biểu thị sự được phép làm V." },
+      { "title": "Hỏi", "body": "Q: V てもいいですか。\nA: ええ、いいですよ。\nすみません、ちょっと…（きんえんですから）" }
+    ],
+    "examples": [
+      { "jp": "ここで たばこを すってもいいです。", "vi": "Ở đây hút thuốc cũng được." }
+    ],
+    "dialog": [
+      { "q": "たばこを すってもいいですか。", "a": "ええ、いいですよ。", "q_vi": "Hút thuốc có được không?", "a_vi": "Ừ, được mà." }
+    ],
+    "quiz": [
+      { "question": "「V てもいいです」nghĩa là gì?", "options": ["Được phép làm V", "Không được phép làm V", "Đã làm V rồi", "Đang làm V"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ここで たばこを すっても___.", "answer": "いいです" }
+    ]
+  },
+  "n5-g074": {
+    "lesson": 15,
+    "lesson_title": "NGỮ PHÁP BÀI 15",
+    "point": "V ては いけません",
+    "title_vi": "Không được làm V",
+    "pattern": "(S は) N を V ては いけません。/ V ては いけない。/ V て だめです。",
+    "explanation_vi": "Dùng để biểu thị sự cấm đoán, không được phép làm V. Các cấu trúc tương đương:「V ては いけない」「V て だめです」「V て ちゃ だめです」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để biểu thị sự cấm đoán, không được phép làm V." },
+      { "title": "Cấu trúc tương đương", "body": "V ては いけない。\nV て だめです。\nV て ＋ ちゃ だめです。" },
+      { "title": "Hỏi", "body": "Q: V てもいいですか。\nA: はい、V てもいいです。\nいいえ、（V ては）いけません。" }
+    ],
+    "examples": [
+      { "jp": "たべてはいけません。", "vi": "Không được ăn." },
+      { "jp": "すわってはいけない。", "vi": "Không được ngồi." },
+      { "jp": "すわっちゃだめです。", "vi": "Không được ngồi." }
+    ],
+    "dialog": [
+      { "q": "おいてもいいですか。", "a": "いいえ、おいてはいけません。", "q_vi": "Tôi đặt ở đây được không?", "a_vi": "Không, không được đặt." }
+    ],
+    "quiz": [
+      { "question": "「V ては いけません」nghĩa là gì?", "options": ["Không được phép làm V", "Được phép làm V", "Đã làm V", "Sẽ làm V"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "たべては ___.", "answer": "いけません" }
+    ]
+  },
+  "n5-g075": {
+    "lesson": 15,
+    "lesson_title": "NGỮ PHÁP BÀI 15",
+    "point": "V ています (tình trạng / thói quen)",
+    "title_vi": "Đang trong tình trạng làm V",
+    "pattern": "(S は) N を V ています。",
+    "explanation_vi": "Trạng thái của hành động diễn ra từ quá khứ - hiện tại - tương lai. Hoặc thói quen, tập quán được lặp đi lặp lại trong một thời gian. Nếu là thói quen trong quá khứ thì chia thành「V て いました」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Trạng thái của hành động diễn ra từ QK-HT-TL.\nThói quen, tập quán được lặp đi lặp lại trong 1 thời gian.\nNếu là thói quen trong quá khứ thì sẽ chia thành V て いました." },
+      { "title": "Phân biệt", "body": "結婚しています: đã kết hôn và đang sống cùng\n結婚していません: chưa kết hôn\n結婚しました: đã kết hôn và đã li dị\n結婚しますか ≠ 結婚していますか" },
+      { "title": "Có / ở", "body": "家を もっています: sở hữu nhà (là chủ nhà)\n家が あります: có nơi để ở (không là chủ nhà)\n planners を もっています: đang cầm (cầm nắm được)\n planners が あります: có (không cầm nắm được)" }
+    ],
+    "examples": [
+      { "jp": "わたしは 日本に すんでいます。", "vi": "Tôi đang sống ở Nhật." },
+      { "jp": "せんせいの たんじょうびを しっていますか。", "vi": "Có biết sinh nhật của thầy giáo không?" }
+    ],
+    "dialog": [
+      { "q": "せんせいの たんじょうびを しっていますか。", "a": "はい、しっています。", "q_vi": "Bạn biết sinh nhật thầy không?", "a_vi": "Vâng, tôi biết." }
+    ],
+    "quiz": [
+      { "question": "「結婚しています」nghĩa là gì?", "options": ["Đã kết hôn và đang sống cùng", "Chưa kết hôn", "Đã kết hôn và đã li dị", "Sắp kết hôn"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは 日本に すん___.", "answer": "でいます" }
+    ]
+  },
+  "n5-g076": {
+    "lesson": 16,
+    "lesson_title": "NGỮ PHÁP BÀI 16",
+    "point": "V1 て、V2 て、V ます",
+    "title_vi": "Làm V1, làm V2, rồi làm …",
+    "pattern": "V1 て、V2 て、… V ます",
+    "explanation_vi": "Liệt kê hai hay nhiều hành động theo trật tự thời gian. Thì của câu được biểu thị ở động từ cuối cùng. Thường hay thêm「それから」trước hành động cuối cùng.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Liệt kê hai hay nhiều hành động theo trật tự thời gian.\nThì của câu được biểu thị ở động từ cuối cùng.\nThường hay thêm それから trước hành động cuối cùng." }
+    ],
+    "examples": [
+      { "jp": "きのう しごとが おわって、おかねを だして、ともだちと ビールを のみに いきました。", "vi": "Hôm qua tôi làm xong việc, đi rút tiền, rồi đi uống bia với bạn." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Trong chuỗi「V て、V て、V ます」, thì của câu nằm ở đâu?", "options": ["Động từ cuối cùng", "Động từ đầu tiên", "Mọi động từ", "Không có thì"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "しごとが おわって、おかねを だして、ともだちと ビールを のみに ___.", "answer": "いきました" }
+    ]
+  },
+  "n5-g077": {
+    "lesson": 16,
+    "lesson_title": "NGỮ PHÁP BÀI 16",
+    "point": "V1 てから、V2 ます",
+    "title_vi": "Làm V1 rồi làm V2",
+    "pattern": "V1 てから、V2 ます",
+    "explanation_vi": "Nhấn mạnh sau khi hành động V1 kết thúc thì liền sau đó là hành động V2 xảy ra. Thì của câu được biểu thị ở động từ cuối cùng.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Nhấn mạnh sau khi hành động V1 kết thúc thì liền sau đó là hành động V2 xảy ra.\nThì của câu được biểu thị ở động từ cuối cùng." }
+    ],
+    "examples": [
+      { "jp": "でんわを かけてから、ともだちの うちに いきます。", "vi": "Sau khi gọi điện thoại xong thì tôi đi đến nhà bạn." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「V1 てから、V2」khác「V1 て、V2 て」thế nào?", "options": ["Nhấn mạnh V1 phải kết thúc trước khi V2 bắt đầu", "Không khác", "V1 và V2 ngược thứ tự", "Chỉ dùng cho quá khứ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "でんわを かけて___、ともだちの うちに いきます。", "answer": "から" }
+    ]
+  },
+  "n5-g078": {
+    "lesson": 16,
+    "lesson_title": "NGỮ PHÁP BÀI 16",
+    "point": "A い くて / A な・N で",
+    "title_vi": "Cách nối tính từ và danh từ",
+    "pattern": "A い → くて ＋ A い／A な／N / A な・N → で ＋ A い／A な／N",
+    "explanation_vi": "Dùng để nối 2 hay nhiều tính từ, danh từ với nhau. Vì mang ý nghĩa「và」nên KHÔNG dùng để nối 2 câu có ý nghĩa trái ngược nhau.",
+    "notes": [
+      { "title": "Quy tắc", "body": "A い → くて ＋ A い／A な／N\nA な／N → で ＋ A い／A な／N" },
+      { "title": "Cách dùng", "body": "Dùng để nối 2 hay nhiều tính từ, danh từ với nhau.\nVì mang ý nghĩa \"và\" nên KHÔNG dùng để nối 2 câu có ý nghĩa trái ngược nhau." }
+    ],
+    "examples": [
+      { "jp": "ナムさんは ハンサムで あたまがいいです。", "vi": "Nam thì đẹp trai và thông minh." },
+      { "jp": "きょうは あつくて さむいですね。", "vi": "Hôm nay nóng mà lạnh nhỉ." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「たかい」đi với「ちいさい」thì nối bằng gì?", "options": ["くて", "で", "が", "そして"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ナムさんは ハンサム___ あたまがいいです。", "answer": "で" }
+    ]
+  },
+  "n5-g079": {
+    "lesson": 16,
+    "lesson_title": "NGỮ PHÁP BÀI 16",
+    "point": "N1 は N2 が A です",
+    "title_vi": "N2 (của) N1 thì ～",
+    "pattern": "N1 は N2 が A です。/ N1 の N2 は A です。",
+    "explanation_vi": "Dùng để miêu tả đặc điểm, tính chất của N1. N2 là thuộc tính, thành phần của N1. Có thể thay trợ từ「は」bằng「の」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để miêu tả đặc điểm, tính chất của N1.\nN2 là thuộc tính, thành phần của N1.\nCó thể thay trợ từ は bằng の." }
+    ],
+    "examples": [
+      { "jp": "にほんは すしが おいしいです。", "vi": "Sushi của Nhật Bản ngon." },
+      { "jp": "にほんの すしは おいしいです。", "vi": "Sushi của Nhật Bản ngon." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「にほんは すしが おいしいです」nghĩa là gì?", "options": ["Sushi của Nhật Bản ngon.", "Nhật Bản ăn sushi.", "Sushi ở Nhật ngon.", "Nhật Bản rất ngon."], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "にほんは すしが おい___", "answer": "しいです" }
+    ]
+  },
+  "n5-g080": {
+    "lesson": 16,
+    "lesson_title": "NGỮ PHÁP BÀI 16",
+    "point": "どうやって V ますか",
+    "title_vi": "Làm ～ như thế nào?",
+    "pattern": "Q: どうやって ～ V ますか。",
+    "explanation_vi": "Dùng để hỏi về trình tự hoặc cách làm một việc gì đó. Có thể dùng「どうやって」thay cho câu hỏi phương tiện ở bài 5.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để hỏi về trình tự hoặc cách làm 1 việc gì đó.\nCó thể dùng どうやって thay cho câu hỏi phương tiện ở bài 5." }
+    ],
+    "examples": [
+      { "jp": "どうやって としょかん へいきますか。", "vi": "Làm thế nào để đi thư viện?" }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「どうやって」dùng để hỏi gì?", "options": ["Cách / trình tự làm", "Địa điểm", "Số lượng", "Mục đích"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "___ としょかん へいきますか。", "answer": "どうやって" }
+    ]
+  },
+  "n5-g081": {
+    "lesson": 17,
+    "lesson_title": "NGỮ PHÁP BÀI 17",
+    "point": "V ないでください",
+    "title_vi": "Xin đừng làm V",
+    "pattern": "V ないでください",
+    "explanation_vi": "Thể「ない」tương đương「V ません」. Nhóm I: 「～i ます」→「～a ない」và「い」→「わ」. Nhóm II:「～e ます」→「～e ない」. Nhóm III: きます→こない, します→しない, Nします→Nしない. Dùng để yêu cầu người khác đừng làm gì một cách lịch sự.",
+    "notes": [
+      { "title": "Nhóm I", "body": "～i ます → ～a ない (い → わ)\nあいます → あわない\nかいます → かわない" },
+      { "title": "Nhóm II", "body": "～e ます → ～e ない\nたべます → たべない\nねます → ねない" },
+      { "title": "Nhóm III", "body": "きます → こない\nします → しない\nN します → N しない\nべんきょうします → べんきょうしない\nかいものします → かいものしない" },
+      { "title": "Cách dùng", "body": "Yêu cầu người khác đừng làm gì 1 cách lịch sự." }
+    ],
+    "examples": [
+      { "jp": "しゃしんを とらないでください。", "vi": "Xin đừng chụp ảnh." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「かいます」chia thể「ない」thành gì?", "options": ["かわない", "かいない", "かんない", "かわないで"], "answer_index": 0 },
+      { "question": "「たべます」chia thể「ない」thành gì?", "options": ["たべない", "たばない", "たべない ない", "たべんでない"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "しゃしんを とら___でください。", "answer": "ない" }
+    ]
+  },
+  "n5-g082": {
+    "lesson": 17,
+    "lesson_title": "NGỮ PHÁP BÀI 17",
+    "point": "V なければ なりません",
+    "title_vi": "Phải làm V, bắt buộc phải làm V",
+    "pattern": "V なければ なりません。/ V ないと いけない。/ V ないと だめです。",
+    "explanation_vi": "Dùng khi một việc coi như nghĩa vụ phải làm, bất chấp ý hướng của người làm. Mặc dù động từ chia ở dạng phủ định nhưng cả câu không mang nghĩa phủ định.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Khi một việc coi như nghĩa vụ phải làm, bất chấp ý hướng của người làm." },
+      { "title": "Chú ý", "body": "Mặc dù động từ chia ở dạng phủ định nhưng cả câu không mang nghĩa phủ định." },
+      { "title": "Cấu trúc tương đương", "body": "V ないと いけない。\nV ないと だめです。" }
+    ],
+    "examples": [
+      { "jp": "げんかんで、くつを ぬなければ なりません。", "vi": "Phải cởi giầy ở lối vào." },
+      { "jp": "べんきょうしないといけない。", "vi": "Phải học." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「V なければ なりません」nghĩa là gì?", "options": ["Bắt buộc phải làm V", "Không cần làm V", "Được phép làm V", "Đã làm V"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "くつを ぬけ___ なりません。", "answer": "なければ" }
+    ]
+  },
+  "n5-g083": {
+    "lesson": 17,
+    "lesson_title": "NGỮ PHÁP BÀI 17",
+    "point": "V なくてもいいです",
+    "title_vi": "Không làm V cũng được",
+    "pattern": "V なくてもいいです。/ V ない ＋ くて ＋ もいいです。",
+    "explanation_vi": "Dùng để nói không cần làm V cũng được.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Không cần làm V cũng được." },
+      { "title": "Quy tắc", "body": "V なくてもいいです。\nV ない ＋ くて ＋ もいいです。" }
+    ],
+    "examples": [
+      { "jp": "おかねを はらわなくてもいいです。", "vi": "Không cần trả tiền cũng được." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「V なくてもいいです」nghĩa là gì?", "options": ["Không làm cũng được", "Bắt buộc phải làm", "Không được phép làm", "Đã làm rồi"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "おかねを はらわなくても___.", "answer": "いいです" }
+    ]
+  },
+  "n5-g084": {
+    "lesson": 17,
+    "lesson_title": "NGỮ PHÁP BÀI 17",
+    "point": "N までに",
+    "title_vi": "Chậm nhất, cho đến trước khi",
+    "pattern": "N までに V なければなりません",
+    "explanation_vi": "Chỉ rõ thời gian cuối mà một hành động hay một công việc phải được tiến hành trước thời hạn được chỉ định. Phân biệt:「まで」chỉ thời điểm chấm dứt một hành động;「に」chỉ thời điểm mà một hành động diễn ra.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Chỉ rõ thời gian cuối mà một hành động hay một công việc phải được tiến hành trước thời hạn được chỉ định." },
+      { "title": "Phân biệt", "body": "まで: chỉ thời điểm chấm dứt một hành động.\nに: chỉ thời điểm mà một hành động diễn ra." }
+    ],
+    "examples": [
+      { "jp": "きんようびまでに、レポートを ださなければなりません。", "vi": "Cho đến thứ 6 phải nộp báo cáo." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「までに」khác「まで」thế nào?", "options": ["「までに」là hạn chót (phải xong trước)", "Không khác", "「までに」là thời điểm xảy ra", "Không dùng thay nhau"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "きんようび___、レポートを ださなければなりません。", "answer": "までに" }
+    ]
+  },
+  "n5-g085": {
+    "lesson": 17,
+    "lesson_title": "NGỮ PHÁP BÀI 17",
+    "point": "N は V ます (nhấn mạnh tân ngữ)",
+    "title_vi": "Nhấn mạnh N",
+    "pattern": "～N を V ます → N は ～ V ます",
+    "explanation_vi": "Đưa tân ngữ lên làm chủ ngữ để nhằm nhấn mạnh ý muốn diễn tả. Vì được đưa lên làm chủ ngữ nên trợ từ「を」của tân ngữ được thay bằng「は」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Đưa tân ngữ lên làm chủ ngữ để nhằm nhấn mạnh ý muốn diễn tả.\nVì được đưa lên làm chủ ngữ nên trợ từ を của tân ngữ được thay bằng は." }
+    ],
+    "examples": [
+      { "jp": "ここに くるまを とめないでください。", "vi": "Xin đừng đỗ xe ở đây." },
+      { "jp": "くるまは ここに とめないでください。", "vi": "Xe ô tô thì xin đừng đỗ ở đây." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Khi nhấn mạnh tân ngữ, trợ từ「を」được thay bằng gì?", "options": ["は", "が", "に", "と"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "くるま___ ここに とめないでください。", "answer": "は" }
+    ]
+  },
+  "n5-g086": {
+    "lesson": 18,
+    "lesson_title": "NGỮ PHÁP BÀI 18",
+    "point": "Thể từ điển (potential)",
+    "title_vi": "Có thể / có khả năng",
+    "pattern": "V(辞書形) = V ます",
+    "explanation_vi": "Nhóm I:「～i ます」→「～u」. Nhóm II:「～e ます」→「～e る」. Nhóm III: きます→くる, します→する, Nします→Nする.",
+    "notes": [
+      { "title": "Nhóm I", "body": "～i ます → ～u\nあいます → あう\nかいます → かう" },
+      { "title": "Nhóm II", "body": "～e ます → ～e る\nたべます → たべる\nねます → ねる" },
+      { "title": "Nhóm III", "body": "きます → くる\nします → する\nN します → N する\nべんきょうします → べんきょうする\nかいものします → かいものする" }
+    ],
+    "examples": [
+      { "jp": "あう", "vi": "Gặp (thể từ điển)" },
+      { "jp": "たべる", "vi": "Ăn (thể từ điển)" },
+      { "jp": "べんきょうする", "vi": "Học (thể từ điển)" }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「ねます」chuyển sang thể từ điển là gì?", "options": ["ねる", "ねう", "ねい", "ねんで"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "たべます → たべ___", "answer": "る" }
+    ]
+  },
+  "n5-g087": {
+    "lesson": 18,
+    "lesson_title": "NGỮ PHÁP BÀI 18",
+    "point": "N が できます／できません",
+    "title_vi": "Có thể ～ / Không thể ～",
+    "pattern": "N が できます。/ N が できません。",
+    "explanation_vi": "N là danh từ chỉ hành động, hành vi (うんてん lái xe, ダンス nhảy, うた hát, スキー trượt tuyết) hoặc biểu thị kỹ năng (にほんご tiếng Nhật, えいご tiếng Anh, ピアノ piano, ギター guitar).",
+    "notes": [
+      { "title": "Cách dùng", "body": "N là danh từ chỉ:\nü Động tác hành vi: うんてん(lái xe), ダンス(nhảy), うた(hát), スキー(trượt tuyết)\nü Biểu thị kỹ năng: にほんgo(tiếng Nhật), えいご(tiếng Anh), ピアノ(piano), ギター(guitar)" },
+      { "title": "Hỏi", "body": "Q: N が できますか。\nA: はい、できます。\nいいえ、できません。" }
+    ],
+    "examples": [
+      { "jp": "ナムさんは ピアノが できます。", "vi": "Nam có thể chơi piano." },
+      { "jp": "わたしは うたが ぜんぜんできません。", "vi": "Tôi hoàn toàn không thể hát." }
+    ],
+    "dialog": [
+      { "q": "サッカー が できますか。", "a": "はい、できます。", "q_vi": "Bạn có biết chơi bóng đá không?", "a_vi": "Có, tôi biết." }
+    ],
+    "quiz": [
+      { "question": "「ピアノが できます」nghĩa là gì?", "options": ["Có thể chơi piano", "Có cây đàn piano", "Mua đàn piano", "Dạy đàn piano"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ナムさんは ピアノが ___.", "answer": "できます" }
+    ]
+  },
+  "n5-g088": {
+    "lesson": 18,
+    "lesson_title": "NGỮ PHÁP BÀI 18",
+    "point": "しゅみは N です",
+    "title_vi": "Sở thích",
+    "pattern": "（わたしの）しゅみは N です。/ Q: しゅみは なんですか。",
+    "explanation_vi": "Dùng để nói sở thích của bản thân. Câu hỏi「しゅみは なんですか」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "しゅみは N です。\nQ: しゅみは なんですか。" }
+    ],
+    "examples": [
+      { "jp": "わたしの しゅみは りょこうです。", "vi": "Sở thích của tôi là du lịch." },
+      { "jp": "わたしの しゅみは スポーツです。", "vi": "Sở thích của tôi là thể thao." }
+    ],
+    "dialog": [
+      { "q": "しゅみは なんですか。", "a": "わたしの しゅみは スポーツです。", "q_vi": "Sở thích của bạn là gì?", "a_vi": "Sở thích của tôi là thể thao." }
+    ],
+    "quiz": [
+      { "question": "「しゅみ」nghĩa là gì?", "options": ["Sở thích", "Nghề nghiệp", "Tuổi", "Quốc tịch"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしの しゅみは りょこう___.", "answer": "です" }
+    ]
+  },
+  "n5-g089": {
+    "lesson": 18,
+    "lesson_title": "NGỮ PHÁP BÀI 18",
+    "point": "V1 る まえに、V2 / N の まえに、V2",
+    "title_vi": "Trước (khi)",
+    "pattern": "V1 る まえに、V2 / N の まえに、V2 / じかん まえに、V",
+    "explanation_vi": "Dùng để nói trước khi làm V1 thì làm V2. Thì của câu được biểu thị ở V2. N là danh từ chỉ hành động, hành vi: りょこう (du lịch), かいもの (mua sắm), しょくじ (ăn), かいぎ (cuộc họp). Ngoài ra「じかん まえに」dùng cho lượng từ thời gian.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Trước khi làm ~ thì làm V2." },
+      { "title": "Chú ý", "body": "N là danh từ chỉ hành động, hành vi: りょこう(du lịch), かいもの(mua sắm), しょくじ(ăn), かいぎ(cuộc họp)…\nThì của câu được biểu thị ở V2." },
+      { "title": "Lượng từ thời gian", "body": "じかん まえに、V\n３ねんまえに、日本に 来きました。" }
+    ],
+    "examples": [
+      { "jp": "ねる まえに、けいたいでんわを みます。", "vi": "Trước khi ngủ tôi xem điện thoại." },
+      { "jp": "かいぎの まえに、しりょうを コピーします。", "vi": "Trước khi diễn ra cuộc họp tôi copy tài liệu." },
+      { "jp": "３ねんまえに、日本に 来きました。", "vi": "Tôi đã đến Nhật 3 năm trước đây rồi." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「V1 る まえに」nghĩa là gì?", "options": ["Trước khi V1 thì V2", "Sau khi V1 thì V2", "Trong khi V1", "Và V2"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ねる ___ まえに、けいたいでんわを みます。", "answer": "ます" }
+    ]
+  },
+  "n5-g090": {
+    "lesson": 18,
+    "lesson_title": "NGỮ PHÁP BÀI 18",
+    "point": "なかなか V ません",
+    "title_vi": "Mãi mà không",
+    "pattern": "なかなか V ません。",
+    "explanation_vi": "Luôn đi kèm với động từ phủ định, dùng để nói việc gì đó khó xảy ra dù đã cố gắng.",
+    "notes": [
+      { "title": "Chú ý", "body": "Luôn đi kèm với động từ phủ định." }
+    ],
+    "examples": [
+      { "jp": "わたしは 日本語が なかなかじょうずになりません。", "vi": "Tôi mãi mà không trở nên giỏi tiếng Nhật được." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「なかなか」đi với thể nào?", "options": ["Thể phủ định", "Thể khẳng định", "Thể quá khứ", "Thể từ điển"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは 日本語が なかなかじょうずになり___.", "answer": "ません" }
+    ]
+  },
+  "n5-g091": {
+    "lesson": 18,
+    "lesson_title": "NGỮ PHÁP BÀI 18",
+    "point": "ぜひ V たいです / ぜひ V てください",
+    "title_vi": "Rất muốn ～ / nhất định hãy ～",
+    "pattern": "ぜひ、V たいです。/ ぜひ、V てください。",
+    "explanation_vi": "Dùng「ぜひ」để thể hiện mong muốn mạnh mẽ của người nói.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Rất muốn ~ nhất định hãy ~" }
+    ],
+    "examples": [
+      { "jp": "ぜひ、ふじさんに のぼりたいです。", "vi": "Tôi rất muốn leo núi Phú Sĩ." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「ぜひ」nghĩa là gì?", "options": ["Nhất định / rất muốn", "Có thể", "Có lẽ", "Chỉ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ぜひ、ふじさんに のぼり___.", "answer": "たいです" }
+    ]
+  },
+  "n5-g092": {
+    "lesson": 19,
+    "lesson_title": "NGỮ PHÁP BÀI 19",
+    "point": "V た ことがあります",
+    "title_vi": "Đã từng làm V",
+    "pattern": "V た ことがあります。/ Q: V たことが ありますか。",
+    "explanation_vi": "Nói về một kinh nghiệm đã gặp, đã từng trải qua trong quá khứ. Mẫu câu này KHÔNG có「ありました」. Có thể kết hợp với các phó từ chỉ tần suất: ～回 (かい), 何回 (なんかい), 何度 (なんど), 一度 (いちど), 一回 (いっかい).",
+    "notes": [
+      { "title": "Cách dùng", "body": "Nói về một kinh nghiệm đã gặp, đã từng trải qua trong quá khứ." },
+      { "title": "Chú ý", "body": "Mẫu câu này KHÔNG có ありました." },
+      { "title": "Phó từ chỉ tần suất", "body": "～回（かい）, 何回（なんかい）, 何度（なんど）も, 一度（いちど）も, 一回（いっかい）も, ……" },
+      { "title": "Phân biệt với V た", "body": "V たことがある: thể hiện kinh nghiệm trong quá khứ.\nV た: diễn tả một hành động chỉ đơn thuần xảy ra ở quá khứ." }
+    ],
+    "examples": [
+      { "jp": "うまに のったことが あります。", "vi": "Tôi đã từng cưỡi ngựa." },
+      { "jp": "きょねん ほっかいどうで うまに のりました。", "vi": "Năm ngoái, tôi đã cưỡi ngựa ở Hokkaidou." }
+    ],
+    "dialog": [
+      { "q": "ふじさんに のぼったことが ありますか。", "a": "いいえ、いちども ありません。", "q_vi": "Bạn đã từng leo núi Phú Sĩ chưa?", "a_vi": "Chưa, chưa bao giờ." }
+    ],
+    "quiz": [
+      { "question": "Mẫu câu này có dạng「ありました」không?", "options": ["Không", "Có", "Tùy", "Chỉ với いちど"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "うまに のったことが ___.", "answer": "あります" }
+    ]
+  },
+  "n5-g093": {
+    "lesson": 19,
+    "lesson_title": "NGỮ PHÁP BÀI 19",
+    "point": "V1 たり、V2 たり します",
+    "title_vi": "Liệt kê hành động",
+    "pattern": "V1 たり、V2 たり します。/ V1 たり、V2 たり しました。",
+    "explanation_vi": "Dùng khi muốn biểu hiện một vài hành động đại diện trong số nhiều hành động mà chủ thể thực hiện, không cần quan tâm cái nào xảy ra trước cái nào xảy ra sau. Thì của mẫu câu được thể hiện ở cuối câu.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng khi muốn biểu hiện một vài hành động đại diện trong số nhiều hành động mà chủ thể thực hiện, không cần quan tâm cái nào xảy ra trước cái nào xảy ra sau." },
+      { "title": "Phân biệt", "body": "V て V て V ます: theo tuần tự.\nV たり V たり します: không theo tuần tự." }
+    ],
+    "examples": [
+      { "jp": "にちようびは テニスをしたり、えいがをみたりします。", "vi": "Chủ nhật, lúc thì tôi chơi tenis, lúc thì xem phim." },
+      { "jp": "にちようびは テニスをして、えいがを みます。", "vi": "Chủ nhật, tôi chơi tenis, xong rồi xem phim." }
+    ],
+    "dialog": [
+      { "q": "やすみのひは なにをしますか。", "a": "スキーしたり、ともだちと パーティーをしたりします。", "q_vi": "Kì nghỉ bạn làm gì?", "a_vi": "Tôi trượt tuyết, đi tiệc với bạn." }
+    ],
+    "quiz": [
+      { "question": "「V たり V たり」khác「V て V て」thế nào?", "options": ["Không theo tuần tự", "Theo tuần tự", "Giống nhau", "Chỉ quá khứ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "にちようびは テニスをし___、えいがをみたりします。", "answer": "たり" }
+    ]
+  },
+  "n5-g094": {
+    "lesson": 19,
+    "lesson_title": "NGỮ PHÁP BÀI 19",
+    "point": "A く なります / A な・N に なります",
+    "title_vi": "Trở nên, trở thành",
+    "pattern": "A い → く / A な → に なります・なりました。/ N に なります",
+    "explanation_vi": "Chỉ sự thay đổi một tình trạng hay một điều kiện: sáng → tối, gầy → béo, to → nhỏ. Câu hỏi「なにに なりたいですか」về ước muốn làm nghề.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Chỉ sự thay đổi một tình trạng hay một điều kiện: sáng → tối, gầy → béo, to → nhỏ." },
+      { "title": "Ước mơ làm nghề", "body": "Q: なにに なりたいですか。\nA: ～に なりたいです。\nQ: しょうらい なにに なりたいですか。" }
+    ],
+    "examples": [
+      { "jp": "くらく なります。", "vi": "Trời trở nên tối." },
+      { "jp": "しょうらい なにに なりたいですか。", "vi": "Tương lai bạn muốn làm gì?" },
+      { "jp": "エンジニアに なりたいです。", "vi": "Tôi muốn trở thành kỹ sư." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「A い」chuyển sang「trở nên」bằng cách nào?", "options": ["A く なります", "A に なります", "A で なります", "A な になります"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "くらく ___.", "answer": "なります" }
+    ]
+  }
+}

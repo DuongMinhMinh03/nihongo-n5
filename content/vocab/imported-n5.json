@@ -1,0 +1,8734 @@
+[
+  {
+    "kanji": "会う",
+    "hiragana": "あう",
+    "romaji": "au",
+    "meaning_en": "to meet",
+    "pos": "v5u, vi",
+    "level": "N5",
+    "example": {
+      "jp": "もうスミスさんに会われましたね。",
+      "en": "You've met Mr. Smith already, haven't you?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "青",
+    "hiragana": "あお",
+    "romaji": "ao",
+    "meaning_en": "blue",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "信号が青に変わったわよ。",
+      "en": "The traffic light turned green."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "青い",
+    "hiragana": "あおい",
+    "romaji": "aoi",
+    "meaning_en": "blue",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "お前はまだ「青い」な。",
+      "en": "You're still green."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "赤",
+    "hiragana": "あか",
+    "romaji": "aka",
+    "meaning_en": "red",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "赤インクで書いてはいけない。",
+      "en": "Don't write in red ink."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "赤い",
+    "hiragana": "あかい",
+    "romaji": "akai",
+    "meaning_en": "red",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "彼女は赤いスカートをはいていた。",
+      "en": "She was wearing a red skirt."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "明るい",
+    "hiragana": "あかるい",
+    "romaji": "akarui",
+    "meaning_en": "bright",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "外はだんだん明るくなっていく。",
+      "en": "It is getting lighter outside."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "秋",
+    "hiragana": "あき",
+    "romaji": "aki",
+    "meaning_en": "autumn",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "秋はもうすぐそこまで来ている。",
+      "en": "Autumn is just around the corner."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "開く",
+    "hiragana": "あく",
+    "romaji": "aku",
+    "meaning_en": "to open; to become open",
+    "pos": "v5k, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ぐいと押すとドアは開いた。",
+      "en": "The door yielded to a strong push."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "開ける",
+    "hiragana": "あける",
+    "romaji": "akeru",
+    "meaning_en": "to open",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ドアはジムによって開けられます。",
+      "en": "The door is opened by Jim."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "上げる",
+    "hiragana": "あげる",
+    "romaji": "ageru",
+    "meaning_en": "to give",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "左手を上げなさい。",
+      "en": "Raise your left hand."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "朝",
+    "hiragana": "あさ",
+    "romaji": "asa",
+    "meaning_en": "morning",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "朝のラッシュは今がピークだ。",
+      "en": "The morning rush is at its peak now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "朝ごはん",
+    "hiragana": "あさごはん",
+    "romaji": "asagohan",
+    "meaning_en": "breakfast",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "朝ごはんにはなにがよろしいですか。",
+      "en": "What would you like for breakfast?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あさって",
+    "hiragana": "あさって",
+    "romaji": "asatte",
+    "meaning_en": "day after tomorrow",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "あさって彼にここへ来てもらうつもりです。",
+      "en": "I will have him come here the day after tomorrow."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "足",
+    "hiragana": "あし",
+    "romaji": "ashi",
+    "meaning_en": "foot; leg",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "また足がしびれた。",
+      "en": "My foot's asleep again!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "明日",
+    "hiragana": "あした",
+    "romaji": "ashita",
+    "meaning_en": "tomorrow",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "あしたは一日中ひまです。",
+      "en": "I'll be free all day tomorrow."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あそこ",
+    "hiragana": "あそこ",
+    "romaji": "asoko",
+    "meaning_en": "over there",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "先生、アソコがかゆいんです。",
+      "en": "Doctor, I've got an itch in my crotch."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "遊ぶ",
+    "hiragana": "あそぶ",
+    "romaji": "asobu",
+    "meaning_en": "to play; to make a visit",
+    "pos": "v5b, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ビルはよく一人でおもちゃで遊ぶ。",
+      "en": "Bill often plays with toys by himself."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "暖かい",
+    "hiragana": "あたたかい",
+    "romaji": "atatakai",
+    "meaning_en": "warm",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "だんだん暖かくなります。",
+      "en": "It will get warmer and warmer."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "頭",
+    "hiragana": "あたま",
+    "romaji": "atama",
+    "meaning_en": "head",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "アリスは頭に花をさしています。",
+      "en": "Alice has a flower in her hair."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "新しい",
+    "hiragana": "あたらしい",
+    "romaji": "atarashii",
+    "meaning_en": "new",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "先生は新しい車が気に入っている。",
+      "en": "Our teacher likes his new car."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あちら",
+    "hiragana": "あちら",
+    "romaji": "achira",
+    "meaning_en": "there",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "こっちの本はあっちの本よりやさしい。",
+      "en": "These books are easier than those books."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "厚い",
+    "hiragana": "あつい",
+    "romaji": "atsui",
+    "meaning_en": "kind; deep; thick",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "それは４ｃｍの厚さです。",
+      "en": "It is four centimeters thick."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "暑い",
+    "hiragana": "あつい",
+    "romaji": "atsui",
+    "meaning_en": "hot",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "どうして、こんなに暑いのですか。",
+      "en": "Why is it so hot?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "熱い",
+    "hiragana": "あつい",
+    "romaji": "atsui",
+    "meaning_en": "hot to the touch",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "熱いコーヒーを入れてあげましょう。",
+      "en": "Let me make you a cup of hot coffee."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あっち",
+    "hiragana": "あっち",
+    "romaji": "atchi",
+    "meaning_en": "over there",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "こっちの本はあっちの本よりやさしい。",
+      "en": "These books are easier than those books."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "後",
+    "hiragana": "あと",
+    "romaji": "ato",
+    "meaning_en": "afterwards",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "雨天の後には晴天が来る。",
+      "en": "After rain comes fair weather."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あなた",
+    "hiragana": "あなた",
+    "romaji": "anata",
+    "meaning_en": "you",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "ねえあなたたち行かないで。",
+      "en": "Don't go, dears."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "兄",
+    "hiragana": "あに",
+    "romaji": "ani",
+    "meaning_en": "(humble) older brother",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "これは兄です。かっこいいですね。",
+      "en": "This is my brother. Handsome, isn't he?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "姉",
+    "hiragana": "あね",
+    "romaji": "ane",
+    "meaning_en": "(humble) older sister",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "先月、姉は６ポンドの男の子を生んだ。",
+      "en": "Last month my sister gave birth to a six-pound baby."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あの",
+    "hiragana": "あの",
+    "romaji": "ano",
+    "meaning_en": "that over there",
+    "pos": "adj-pn",
+    "level": "N5",
+    "example": {
+      "jp": "あのおいしいワインをなぜ飲まないんだい。",
+      "en": "Why not try that delicious wine?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "アパート",
+    "hiragana": "あぱーと",
+    "romaji": "apaato",
+    "meaning_en": "apartment",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "兄はアパートをさがしています。",
+      "en": "My brother is looking for an apartment."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あびる",
+    "hiragana": "あびる",
+    "romaji": "abiru",
+    "meaning_en": "to bathe; to shower",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "その時はシャワーを浴びていた。",
+      "en": "I was taking a shower then."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "危ない",
+    "hiragana": "あぶない",
+    "romaji": "abunai",
+    "meaning_en": "dangerous",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "間一髪！危ないところでした。",
+      "en": "That was a close call."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "甘い",
+    "hiragana": "あまい",
+    "romaji": "amai",
+    "meaning_en": "sweet",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "メアリーにはつい甘くなってしまう。",
+      "en": "I have always had a soft spot in my heart for Mary."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あまり",
+    "hiragana": "あまり",
+    "romaji": "amari",
+    "meaning_en": "not very",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "この手の本はあまり読まない。",
+      "en": "I don't read this kind of book much."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "飴",
+    "hiragana": "あめ",
+    "romaji": "ame",
+    "meaning_en": "candy",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "いい子にしていたら、あめをあげよう。",
+      "en": "If you are a good girl, you shall have candy."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "雨",
+    "hiragana": "あめ",
+    "romaji": "ame",
+    "meaning_en": "rain",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "木のおかげで雨にぬれずにすんだ。",
+      "en": "The trees kept me out of the rain."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "洗う",
+    "hiragana": "あらう",
+    "romaji": "arau",
+    "meaning_en": "to wash",
+    "pos": "v5u, vt",
+    "level": "N5",
+    "example": {
+      "jp": "いつこの車は洗われましたか。",
+      "en": "When was this car washed?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ありがとう",
+    "hiragana": "ありがとう",
+    "romaji": "arigatou",
+    "meaning_en": "Thank you",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "はるばる来てくれてありがとう。",
+      "en": "It was nice of you to come all the way."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ある",
+    "hiragana": "ある",
+    "romaji": "aru",
+    "meaning_en": "to be; to have (used for inanimate objects)",
+    "pos": "v5r-i, vi",
+    "level": "N5",
+    "example": {
+      "jp": "話があったら電話をかけて下さい。",
+      "en": "If you want to speak to me, please call me up."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "歩く",
+    "hiragana": "あるく",
+    "romaji": "aruku",
+    "meaning_en": "to walk",
+    "pos": "v5k, vi",
+    "level": "N5",
+    "example": {
+      "jp": "歩いて行きますか？それともバスで行きますか？",
+      "en": "Will you go on foot or by bus?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "あれ",
+    "hiragana": "あれ",
+    "romaji": "are",
+    "meaning_en": "that",
+    "pos": "pn",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いい",
+    "hiragana": "いい",
+    "romaji": "ii",
+    "meaning_en": "good",
+    "pos": "adj-ix",
+    "level": "N5",
+    "example": {
+      "jp": "もう２、３ページ読みさえすればいい。",
+      "en": "You have only to read a few more pages."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いいえ",
+    "hiragana": "いいえ",
+    "romaji": "iie",
+    "meaning_en": "no",
+    "pos": "int",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "言う",
+    "hiragana": "いう",
+    "romaji": "iu",
+    "meaning_en": "to say",
+    "pos": "v5u, vt",
+    "level": "N5",
+    "example": {
+      "jp": "「みんなひと休みしようぜ」とジョンは言った。",
+      "en": "John said, \"Hey guys, let's take a break.\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "家",
+    "hiragana": "いえ",
+    "romaji": "ie",
+    "meaning_en": "house",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "木立の間に家が見える。",
+      "en": "I see a house among the trees."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いかが",
+    "hiragana": "いかが",
+    "romaji": "ikaga",
+    "meaning_en": "how",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "コンタクトを入れるというのはいかがでしょう？",
+      "en": "How about wearing contact lenses?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "行く",
+    "hiragana": "いく",
+    "romaji": "iku",
+    "meaning_en": "to go",
+    "pos": "v5k-s, vi",
+    "level": "N5",
+    "example": {
+      "jp": "お母さん、泳ぎに行ってもいい？",
+      "en": "Can I go swimming, Mother?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いくつ",
+    "hiragana": "いくつ",
+    "romaji": "ikutsu",
+    "meaning_en": "how many?; how old?",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "あなたのお父さんはおいくつですか。",
+      "en": "How old is your father?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いくら",
+    "hiragana": "いくら",
+    "romaji": "ikura",
+    "meaning_en": "how much?",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "このハンカチはいくらですか。",
+      "en": "How much is this handkerchief?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "池",
+    "hiragana": "いけ",
+    "romaji": "ike",
+    "meaning_en": "pond",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その池にはほとんど水がない。",
+      "en": "There is little water in the pond."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "医者",
+    "hiragana": "いしゃ",
+    "romaji": "isha",
+    "meaning_en": "medical doctor",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "医者になるつもりだったのですが。",
+      "en": "I intended to become a doctor."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いす",
+    "hiragana": "いす",
+    "romaji": "isu",
+    "meaning_en": "chair",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ちょっと椅子をずらしてくれない？",
+      "en": "Could you move the chair a bit?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "忙しい",
+    "hiragana": "いそがしい",
+    "romaji": "isogashii",
+    "meaning_en": "busy; irritated",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "忙しくてそれどころじゃないよ。",
+      "en": "I've got no time for that now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "痛い",
+    "hiragana": "いたい",
+    "romaji": "itai",
+    "meaning_en": "painful",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "ほかに痛いところはありますか。",
+      "en": "Do you feel pain in any other part of your body?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いただきます",
+    "hiragana": "いただきます",
+    "romaji": "itadakimasu",
+    "meaning_en": "expression of gratitude before meals",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "８ドル５０セントいただきます。",
+      "en": "$8.50, please."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一",
+    "hiragana": "いち",
+    "romaji": "ichi",
+    "meaning_en": "one",
+    "pos": "num, pref",
+    "level": "N5",
+    "example": {
+      "jp": "これは東京一のインドレストランです。",
+      "en": "This is the best Indian restaurant anywhere in Tokyo."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一日",
+    "hiragana": "いちにち",
+    "romaji": "ichinichi",
+    "meaning_en": "one day; first of month",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "一日で５００ドルつかってしまった。",
+      "en": "I've spent $500 a day."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いちばん",
+    "hiragana": "いちばん",
+    "romaji": "ichiban",
+    "meaning_en": "best; first",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "このリンゴがいちばんおいしい。",
+      "en": "This is the most delicious apple."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いつ",
+    "hiragana": "いつ",
+    "romaji": "itsu",
+    "meaning_en": "when",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "いつ旅行においでになりますか。",
+      "en": "When will you go on a journey?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "五日",
+    "hiragana": "いつか",
+    "romaji": "itsuka",
+    "meaning_en": "five days; fifth day",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "１月５日から１月１５日までおねがいします。",
+      "en": "From the 5th to the 15th of January, please."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一緒",
+    "hiragana": "いっしょ",
+    "romaji": "issho",
+    "meaning_en": "together",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "「ご一緒してもいいですか」「もちろんです」",
+      "en": "\"May I go with you?\" \"Of course.\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "五つ",
+    "hiragana": "いつつ",
+    "romaji": "itsutsu",
+    "meaning_en": "five",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "この箱にはリンゴが五つ入っている。",
+      "en": "This box contains five apples."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いつも",
+    "hiragana": "いつも",
+    "romaji": "itsumo",
+    "meaning_en": "always",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "あの子はいつもニコニコしている。",
+      "en": "She is always smiling."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "犬",
+    "hiragana": "いぬ",
+    "romaji": "inu",
+    "meaning_en": "dog",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その犬はかみついたりしませんよ。",
+      "en": "The dog will not harm you."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今",
+    "hiragana": "いま",
+    "romaji": "ima",
+    "meaning_en": "now",
+    "pos": "n, adj-no, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今のアナウンスは何だったのですか。",
+      "en": "What did the announcement just say?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "意味",
+    "hiragana": "いみ",
+    "romaji": "imi",
+    "meaning_en": "meaning",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "その語にはいくつかの意味がある。",
+      "en": "The word has several meanings."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "妹",
+    "hiragana": "いもうと",
+    "romaji": "imouto",
+    "meaning_en": "(humble) younger sister",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "男の子は妹を見下ろしがちである。",
+      "en": "Boys tend to look down on their younger sisters."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "嫌",
+    "hiragana": "いや",
+    "romaji": "iya",
+    "meaning_en": "unpleasant",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "毎日うっとうしくていやですね。",
+      "en": "Don't you just hate this weather?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "入口",
+    "hiragana": "いりぐち",
+    "romaji": "iriguchi",
+    "meaning_en": "entrance",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "１台の車が入り口に止まった。",
+      "en": "A car stopped at the entrance."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いる",
+    "hiragana": "いる",
+    "romaji": "iru",
+    "meaning_en": "to be; to have (used for people and animals)",
+    "pos": "aux-v, v1",
+    "level": "N5",
+    "example": {
+      "jp": "すっかり食べ終わってはいない。",
+      "en": "I haven't quite finished eating."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "要る",
+    "hiragana": "いる",
+    "romaji": "iru",
+    "meaning_en": "to need",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "今のところお金はいらない。",
+      "en": "I don't need money at present."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "入れる",
+    "hiragana": "いれる",
+    "romaji": "ireru",
+    "meaning_en": "to put in",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "それは引き出しに入れておきました。",
+      "en": "I put it in the drawer."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "色",
+    "hiragana": "いろ",
+    "romaji": "iro",
+    "meaning_en": "colour",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "カメレオンはどんな色にでもなれる。",
+      "en": "The chameleon can take on any color."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "いろいろ",
+    "hiragana": "いろいろ",
+    "romaji": "iroiro",
+    "meaning_en": "various",
+    "pos": "adj-na, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "先生といってもいろいろある。",
+      "en": "There are teachers and then there are teachers."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "上",
+    "hiragana": "うえ",
+    "romaji": "ue",
+    "meaning_en": "on top of",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "テーブルの上にリンゴがあります。",
+      "en": "There is an apple on the table."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "後ろ",
+    "hiragana": "うしろ",
+    "romaji": "ushiro",
+    "meaning_en": "behind",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "校長が先生の後ろから入ってきた。",
+      "en": "The principal came in after the teacher."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "薄い",
+    "hiragana": "うすい",
+    "romaji": "usui",
+    "meaning_en": "thin; weak",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "コーヒーは薄いのが好きです。",
+      "en": "I'd like my coffee weak."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "歌",
+    "hiragana": "うた",
+    "romaji": "uta",
+    "meaning_en": "song",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "歌がうまければいいのになあ。",
+      "en": "I wish I were a good singer."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "歌う",
+    "hiragana": "うたう",
+    "romaji": "utau",
+    "meaning_en": "to sing",
+    "pos": "v5u, vt, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ジョンはステージで何を歌いましたか。",
+      "en": "What did John sing on the stage?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "生まれる",
+    "hiragana": "うまれる",
+    "romaji": "umareru",
+    "meaning_en": "to be born",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "どんぐりからオークが生まれる。",
+      "en": "From acorns come oaks."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "海",
+    "hiragana": "うみ",
+    "romaji": "umi",
+    "meaning_en": "sea",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "何としても海をひと目みたいものだ。",
+      "en": "I ache for a sight of the sea."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "売る",
+    "hiragana": "うる",
+    "romaji": "uru",
+    "meaning_en": "to sell",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "トムはメアリーにバイクを売った。",
+      "en": "Tom sold his motorcycle to Mary."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "煩い",
+    "hiragana": "うるさい",
+    "romaji": "urusai",
+    "meaning_en": "noisy; annoying",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "あの子はなんてうるさい子だろう。",
+      "en": "What a nuisance that child is!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "上着",
+    "hiragana": "うわぎ",
+    "romaji": "uwagi",
+    "meaning_en": "jacket",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ドアのそばのかぎに上着をかけなさい。",
+      "en": "Hang your jacket on the hook by the door."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "絵",
+    "hiragana": "え",
+    "romaji": "e",
+    "meaning_en": "picture",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "絵がテーブルの上にかかっている。",
+      "en": "The picture hangs over the table."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "映画",
+    "hiragana": "えいが",
+    "romaji": "eiga",
+    "meaning_en": "movie",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その映画をもう一度見たいな。",
+      "en": "I want to see the movie again."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "映画館",
+    "hiragana": "えいがかん",
+    "romaji": "eigakan",
+    "meaning_en": "cinema",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その映画館は人々でいっぱいだった。",
+      "en": "The cinema was filled with people."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "英語",
+    "hiragana": "えいご",
+    "romaji": "eigo",
+    "meaning_en": "English language",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "アメリカでは英語を話します。",
+      "en": "They speak English in America."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ええ",
+    "hiragana": "ええ",
+    "romaji": "ee",
+    "meaning_en": "yes",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "「テニスをしましょうか」「ええ」",
+      "en": "\"Let's play tennis.\" \"Yes let's.\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "駅",
+    "hiragana": "えき",
+    "romaji": "eki",
+    "meaning_en": "station",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "グランド・セントラル駅までやってください。",
+      "en": "Grand Central Station, please."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "エレベーター",
+    "hiragana": "えれべーたー",
+    "romaji": "erebeetaa",
+    "meaning_en": "elevator",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "エレベーターはどこですか。",
+      "en": "Where is the elevator?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "鉛筆",
+    "hiragana": "えんぴつ",
+    "romaji": "enpitsu",
+    "meaning_en": "pencil",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "えんぴつであなたの名前を書きなさい。",
+      "en": "Write your name with the pencil."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "おいしい",
+    "hiragana": "おいしい",
+    "romaji": "oishii",
+    "meaning_en": "delicious",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "おいしい食事をありがとう。",
+      "en": "Thanks for the delicious meal."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "多い",
+    "hiragana": "おおい",
+    "romaji": "ooi",
+    "meaning_en": "many",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "この学校は男子よりも女子が多い。",
+      "en": "There are more girls than boys in this school."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大きい",
+    "hiragana": "おおきい",
+    "romaji": "ookii",
+    "meaning_en": "big",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "もっと大きいサイズはありますか。",
+      "en": "Do you have a larger size?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大きな",
+    "hiragana": "おおきな",
+    "romaji": "ookina",
+    "meaning_en": "big",
+    "pos": "adj-pn",
+    "level": "N5",
+    "example": {
+      "jp": "それらはとても大きなりんごです。",
+      "en": "They are very big apples."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大勢",
+    "hiragana": "おおぜい",
+    "romaji": "oozei",
+    "meaning_en": "great number of people",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "大ぜいの人たちがいた。",
+      "en": "There were lots of people."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お母さん",
+    "hiragana": "おかあさん",
+    "romaji": "okaasan",
+    "meaning_en": "(honorable) mother",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "お母さんに口答えしてはいけませんよ。",
+      "en": "Don't answer your mother back."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お菓子",
+    "hiragana": "おかし",
+    "romaji": "okashi",
+    "meaning_en": "sweets; candy",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "もうすこしお菓子を食べませんか。",
+      "en": "Will you have some more cake?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お金",
+    "hiragana": "おかね",
+    "romaji": "okane",
+    "meaning_en": "money",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "どうやってそのお金を手に入れたんですか。",
+      "en": "How did you come by the money?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "起きる",
+    "hiragana": "おきる",
+    "romaji": "okiru",
+    "meaning_en": "to get up",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "お子さんはまだ起きているのですか。",
+      "en": "Is the kid still up?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "置く",
+    "hiragana": "おく",
+    "romaji": "oku",
+    "meaning_en": "to put",
+    "pos": "v5k, vt",
+    "level": "N5",
+    "example": {
+      "jp": "それをテーブルの上に置きなさい。",
+      "en": "Lay it on the table."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "奥さん",
+    "hiragana": "おくさん",
+    "romaji": "okusan",
+    "meaning_en": "(honorable) wife",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "奥さんがどこかに出かけているらしいから。",
+      "en": "I think his wife is going out of town."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お酒",
+    "hiragana": "おさけ",
+    "romaji": "osake",
+    "meaning_en": "alcohol; rice wine",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "マイクはお酒をやめたの？",
+      "en": "Is Mike off the bottle?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お皿",
+    "hiragana": "おさら",
+    "romaji": "osara",
+    "meaning_en": "plate; dish",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "スープを入れるくぼんだお皿がありますか。",
+      "en": "Do you have a bowl for soup?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お祖父さん",
+    "hiragana": "おじいさん",
+    "romaji": "ojiisan",
+    "meaning_en": "grandfather; male senior citizen",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "おじいさんはとてもゆっくりと話す。",
+      "en": "Grandfather speaks very slowly."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "教える",
+    "hiragana": "おしえる",
+    "romaji": "oshieru",
+    "meaning_en": "to teach; to tell",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "生年月日を教えてくださいますか？",
+      "en": "May I have your birth date?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "押す",
+    "hiragana": "おす",
+    "romaji": "osu",
+    "meaning_en": "to push; to stamp something",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "シャッターを押してくれますか。",
+      "en": "Could you press this button?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "遅い",
+    "hiragana": "おそい",
+    "romaji": "osoi",
+    "meaning_en": "late; slow",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "遅くなっても何もないよりはまし。",
+      "en": "Better late than never."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お茶",
+    "hiragana": "おちゃ",
+    "romaji": "ocha",
+    "meaning_en": "green tea",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "３時はお茶にしよう。",
+      "en": "Let's have tea at 3:00."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お手洗い",
+    "hiragana": "おてあらい",
+    "romaji": "otearai",
+    "meaning_en": "bathroom",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "お手洗いはどこですか。",
+      "en": "Where's the restroom?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お父さん",
+    "hiragana": "おとうさん",
+    "romaji": "otousan",
+    "meaning_en": "(honorable) father",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "お父さんからことづけがあります。",
+      "en": "I have a message for you from your father."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "弟",
+    "hiragana": "おとうと",
+    "romaji": "otouto",
+    "meaning_en": "younger brother",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "弟のことなんかほっときなさい。",
+      "en": "Leave him alone."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "男",
+    "hiragana": "おとこ",
+    "romaji": "otoko",
+    "meaning_en": "man",
+    "pos": "n, n-pref",
+    "level": "N5",
+    "example": {
+      "jp": "その男とつきあってはいけないよ。",
+      "en": "You must have nothing to do with the man."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "男の子",
+    "hiragana": "おとこのこ",
+    "romaji": "otokonoko",
+    "meaning_en": "boy",
+    "pos": "exp, n",
+    "level": "N5",
+    "example": {
+      "jp": "あのハンサムな男の子を見て。",
+      "en": "Look at that good-looking boy."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一昨日",
+    "hiragana": "おととい",
+    "romaji": "ototoi",
+    "meaning_en": "day before yesterday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "一昨日、彼は学校を休んだかもしれない。",
+      "en": "He may have absented himself from school the day before yesterday."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一昨年",
+    "hiragana": "おととし",
+    "romaji": "ototoshi",
+    "meaning_en": "year before last",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "彼女は、一昨年よりもはるかに暮らし向きがよい。",
+      "en": "She's far better off than she was the year before last."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大人",
+    "hiragana": "おとな",
+    "romaji": "otona",
+    "meaning_en": "adult",
+    "pos": "n, adj-no, adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "大人だけこの映画が見える。",
+      "en": "Only adults can see this film."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "おなか",
+    "hiragana": "おなか",
+    "romaji": "onaka",
+    "meaning_en": "stomach",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "何かおなかに入れてから出かけなさい。",
+      "en": "You should put something in your stomach before you go."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "同じ",
+    "hiragana": "おなじ",
+    "romaji": "onaji",
+    "meaning_en": "same",
+    "pos": "adj-f, adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "この木はあの木とほぼ同じ高さだ。",
+      "en": "This tree is about as high as that one."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お兄さん",
+    "hiragana": "おにいさん",
+    "romaji": "oniisan",
+    "meaning_en": "(honorable) older brother",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私はあなたのお兄さんより年上です。",
+      "en": "I'm older than your brother."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お姉さん",
+    "hiragana": "おねえさん",
+    "romaji": "oneesan",
+    "meaning_en": "(honorable) older sister",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたのお姉さんは今何をしているの？",
+      "en": "What's your older sister doing now?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お願いします",
+    "hiragana": "おねがいします",
+    "romaji": "onegaishimasu",
+    "meaning_en": "please",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "ファーストクラスでお願いします。",
+      "en": "I'd like to travel first-class."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "おばあさん",
+    "hiragana": "おばあさん",
+    "romaji": "obaasan",
+    "meaning_en": "grandmother; female senior-citizen",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "トムのおばあさんは元気そうですよ。",
+      "en": "Tom's grandmother looks healthy."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "伯母さん",
+    "hiragana": "おばさん",
+    "romaji": "obasan",
+    "meaning_en": "aunt",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "叔母さんを訪ねた時はすごいごちそうだったね。",
+      "en": "What a feast we had when we visited my aunt!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "おはよう",
+    "hiragana": "おはよう",
+    "romaji": "ohayou",
+    "meaning_en": "(abbreviation) Good morning",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "おはよう。ご飯をよそっても良いかしら？",
+      "en": "Morning. Shall I dish up?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お風呂",
+    "hiragana": "おふろ",
+    "romaji": "ofuro",
+    "meaning_en": "bath",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私はほとんど毎日お風呂に入ります。",
+      "en": "I take a bath almost every day."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "お弁当",
+    "hiragana": "おべんとう",
+    "romaji": "obentou",
+    "meaning_en": "boxed lunch",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "彼は今日、お弁当を持って来た。",
+      "en": "He brought his lunch today."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "覚える",
+    "hiragana": "おぼえる",
+    "romaji": "oboeru",
+    "meaning_en": "to remember",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "日本語は外人にとって覚えにくい。",
+      "en": "It is hard for foreigners to learn Japanese."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "おまわりさん",
+    "hiragana": "おまわりさん",
+    "romaji": "omawarisan",
+    "meaning_en": "friendly term for policeman",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "すみません、おまわりさん。ここはどこですか。",
+      "en": "Excuse me, officer, where are we now?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "重い",
+    "hiragana": "おもい",
+    "romaji": "omoi",
+    "meaning_en": "heavy",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "トムはジャックよりも１０ポンド重い。",
+      "en": "Tom is heavier than Jack by ten pounds."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "おもしろい",
+    "hiragana": "おもしろい",
+    "romaji": "omoshiroi",
+    "meaning_en": "interesting",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "スケートはとてもおもしろかった。",
+      "en": "We had a lot of fun skating."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "泳ぐ",
+    "hiragana": "およぐ",
+    "romaji": "oyogu",
+    "meaning_en": "to swim",
+    "pos": "v5g, vi",
+    "level": "N5",
+    "example": {
+      "jp": "トムはすぐに泳げるようになるよ。",
+      "en": "Tom will be able to swim soon."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "降りる",
+    "hiragana": "おりる",
+    "romaji": "oriru",
+    "meaning_en": "to get off; to descend",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ここで降りましょう。",
+      "en": "Let's get off here."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "終る",
+    "hiragana": "おわる",
+    "romaji": "owaru",
+    "meaning_en": "to finish",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "そのコンサートは十時に終わった。",
+      "en": "The concert came to an end at ten o'clock."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "音楽",
+    "hiragana": "おんがく",
+    "romaji": "ongaku",
+    "meaning_en": "music",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この音楽を聞いてくつろぎなさい。",
+      "en": "Listen to this music and relax."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "女",
+    "hiragana": "おんな",
+    "romaji": "onna",
+    "meaning_en": "woman",
+    "pos": "n, n-pref",
+    "level": "N5",
+    "example": {
+      "jp": "人は男か女のどちらかである。",
+      "en": "A person is either male or female."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "女の子",
+    "hiragana": "おんなのこ",
+    "romaji": "onnanoko",
+    "meaning_en": "girl",
+    "pos": "exp, n",
+    "level": "N5",
+    "example": {
+      "jp": "女の子はほとんどみんなやさしい。",
+      "en": "Almost all girls are kind."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "外国",
+    "hiragana": "がいこく",
+    "romaji": "gaikoku",
+    "meaning_en": "foreign country",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは外国の本を持っていますか。",
+      "en": "Do you have any foreign books?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "外国人",
+    "hiragana": "がいこくじん",
+    "romaji": "gaikokujin",
+    "meaning_en": "foreigner",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その外国人はかなりうまく日本語を話す。",
+      "en": "The foreigner speaks Japanese fairly well."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "会社",
+    "hiragana": "かいしゃ",
+    "romaji": "kaisha",
+    "meaning_en": "company",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ビルは三年前にこの会社に入った。",
+      "en": "Bill joined our company three years ago."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "階段",
+    "hiragana": "かいだん",
+    "romaji": "kaidan",
+    "meaning_en": "stairs",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その階段を上ってはいけません。",
+      "en": "You must not go up the stairs."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "買い物",
+    "hiragana": "かいもの",
+    "romaji": "kaimono",
+    "meaning_en": "shopping",
+    "pos": "n, vs, vi",
+    "level": "N5",
+    "example": {
+      "jp": "１日おきに買い物に行く。",
+      "en": "I go shopping every other day."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "買う",
+    "hiragana": "かう",
+    "romaji": "kau",
+    "meaning_en": "to buy",
+    "pos": "v5u, vt",
+    "level": "N5",
+    "example": {
+      "jp": "買うかどうかはあなたしだいです。",
+      "en": "It is up to you whether to buy it or not."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "返す",
+    "hiragana": "かえす",
+    "romaji": "kaesu",
+    "meaning_en": "to return something",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "車はいつ返したらいいでしょうか。",
+      "en": "When should I return the car?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "帰る",
+    "hiragana": "かえる",
+    "romaji": "kaeru",
+    "meaning_en": "to go back",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "「帰ろ」「マックよってかない？」",
+      "en": "\"Let's head back.\" \"Shall we drop by McDonald's?\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "かかる",
+    "hiragana": "かかる",
+    "romaji": "kakaru",
+    "meaning_en": "to take time or money",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "どうしたらエンジンがかかりますか。",
+      "en": "How can I start the engine?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "かぎ",
+    "hiragana": "かぎ",
+    "romaji": "kagi",
+    "meaning_en": "key",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "車のカギをなくしちゃった。",
+      "en": "I've lost my car key."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "書く",
+    "hiragana": "かく",
+    "romaji": "kaku",
+    "meaning_en": "to write",
+    "pos": "v5k, vt",
+    "level": "N5",
+    "example": {
+      "jp": "すぐに書かなければなりませんか。",
+      "en": "Should I fill it in now?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "学生",
+    "hiragana": "がくせい",
+    "romaji": "gakusei",
+    "meaning_en": "student",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "学生の半数が休んでいた。",
+      "en": "Half the students were absent."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "かける",
+    "hiragana": "かける",
+    "romaji": "kakeru",
+    "meaning_en": "to call by phone",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "１０円で電話がかけられますか。",
+      "en": "Can I make a phone call for ten yen?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "傘",
+    "hiragana": "かさ",
+    "romaji": "kasa",
+    "meaning_en": "umbrella",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "タクシーに傘を忘れてしまった。",
+      "en": "I left my umbrella in the cab."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "貸す",
+    "hiragana": "かす",
+    "romaji": "kasu",
+    "meaning_en": "to lend",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ホッチキスを貸してくれませんか。",
+      "en": "Will you please lend me a stapler?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "風",
+    "hiragana": "かぜ",
+    "romaji": "kaze",
+    "meaning_en": "wind",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "カーテンが風になびいた。",
+      "en": "The curtains blew in the wind."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "風邪",
+    "hiragana": "かぜ",
+    "romaji": "kaze",
+    "meaning_en": "a cold",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ただの風邪でしょう。",
+      "en": "You probably just have a cold."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "家族",
+    "hiragana": "かぞく",
+    "romaji": "kazoku",
+    "meaning_en": "family",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたの家族はきっと親切でしょう。",
+      "en": "Your family must be very nice."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "方",
+    "hiragana": "かた",
+    "romaji": "kata",
+    "meaning_en": "person; way of doing",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "こちらはあなたがお話しになるお方です。",
+      "en": "This is the man for you to speak to."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "学校",
+    "hiragana": "がっこう",
+    "romaji": "gakkou",
+    "meaning_en": "school",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この学校はたくさんの生徒がいます。",
+      "en": "This school has many students."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "カップ",
+    "hiragana": "かっぷ",
+    "romaji": "kappu",
+    "meaning_en": "cup",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "テーブルの上にカップがある。",
+      "en": "There is a cup on the table."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "家庭",
+    "hiragana": "かてい",
+    "romaji": "katei",
+    "meaning_en": "household",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "食事は家庭で食べますか、外食ですか。",
+      "en": "Do you eat at home or eat out?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "角",
+    "hiragana": "かど",
+    "romaji": "kado",
+    "meaning_en": "a corner",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "角のテーブルがいいのですが。",
+      "en": "Could we have a table in the corner?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "かばん",
+    "hiragana": "かばん",
+    "romaji": "kaban",
+    "meaning_en": "bag; basket",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "これはジェーンさんのかばんです。",
+      "en": "This is Jane's bag."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "花瓶",
+    "hiragana": "かびん",
+    "romaji": "kabin",
+    "meaning_en": "a vase",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "花びんに水を入れなさい。",
+      "en": "Put some water into the vase."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "紙",
+    "hiragana": "かみ",
+    "romaji": "kami",
+    "meaning_en": "paper",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "紙は木から作られる。",
+      "en": "Paper is made from wood."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "カメラ",
+    "hiragana": "かめら",
+    "romaji": "kamera",
+    "meaning_en": "camera",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "おじさんがぼくにカメラをくれました。",
+      "en": "My uncle gave me a camera."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "火曜日",
+    "hiragana": "かようび",
+    "romaji": "kayoubi",
+    "meaning_en": "Tuesday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "火曜日に国会が開かれる。",
+      "en": "The Diet will meet on Tuesday."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "辛い",
+    "hiragana": "からい",
+    "romaji": "karai",
+    "meaning_en": "spicy",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "このカレーは辛すぎて食べられない。",
+      "en": "This curry is too hot to eat."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "体",
+    "hiragana": "からだ",
+    "romaji": "karada",
+    "meaning_en": "body",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "とりわけ体に気をつけなさい。",
+      "en": "Above all, take care of yourself."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "借りる",
+    "hiragana": "かりる",
+    "romaji": "kariru",
+    "meaning_en": "to borrow",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "この本をお借りしてもよろしいですか。",
+      "en": "May I borrow this book?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "軽い",
+    "hiragana": "かるい",
+    "romaji": "karui",
+    "meaning_en": "light",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "軽く食べましょう。",
+      "en": "Let's catch a bite."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "カレー",
+    "hiragana": "かれー",
+    "romaji": "karee",
+    "meaning_en": "curry",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このレストランのカレーはうまいよ。",
+      "en": "The curry at this restaurant is good."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "カレンダー",
+    "hiragana": "かれんだー",
+    "romaji": "karendaa",
+    "meaning_en": "calendar",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このカレンダーはどこにかけましょうか。",
+      "en": "Where shall I hang this calendar?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "川",
+    "hiragana": "かわ",
+    "romaji": "kawa",
+    "meaning_en": "river",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その川はあまりきれいではなかった。",
+      "en": "The river was not so clean."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "かわいい",
+    "hiragana": "かわいい",
+    "romaji": "kawaii",
+    "meaning_en": "cute",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "ルーシーはかわいい女の子だ。",
+      "en": "Lucy is a pretty little girl."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "漢字",
+    "hiragana": "かんじ",
+    "romaji": "kanji",
+    "meaning_en": "Chinese character",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この漢字はどういう意味ですか。",
+      "en": "What does this kanji mean?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "木",
+    "hiragana": "き",
+    "romaji": "ki",
+    "meaning_en": "tree; wood",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その木には実がたわわになっていた。",
+      "en": "The tree was heavy with fruit."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "黄色",
+    "hiragana": "きいろ",
+    "romaji": "kiiro",
+    "meaning_en": "yellow",
+    "pos": "n, adj-no, adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "木の葉は秋には黄色になる。",
+      "en": "The leaves of the trees turn yellow in fall."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "黄色い",
+    "hiragana": "きいろい",
+    "romaji": "kiiroi",
+    "meaning_en": "yellow",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "その黄色いのをいただきましょう。",
+      "en": "I'll take the yellow one."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "消える",
+    "hiragana": "きえる",
+    "romaji": "kieru",
+    "meaning_en": "to disappear",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "火が消えないようにしてください。",
+      "en": "Please keep the fire from going out."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "聞く",
+    "hiragana": "きく",
+    "romaji": "kiku",
+    "meaning_en": "to hear; to listen to; to ask",
+    "pos": "v5k, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ニューススタンドで聞いて下さい。",
+      "en": "You'll have to ask at the newsstand."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "北",
+    "hiragana": "きた",
+    "romaji": "kita",
+    "meaning_en": "north",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その町はロンドンのすぐ北にある。",
+      "en": "The town lies just above London."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ギター",
+    "hiragana": "ぎたー",
+    "romaji": "gitaa",
+    "meaning_en": "guitar",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "どちらがあなたのギターですか。",
+      "en": "Which is your guitar?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "汚い",
+    "hiragana": "きたない",
+    "romaji": "kitanai",
+    "meaning_en": "dirty",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "ジャックは私に汚いいたずらをした。",
+      "en": "Jack played a dirty trick on me."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "喫茶店",
+    "hiragana": "きっさてん",
+    "romaji": "kissaten",
+    "meaning_en": "coffee lounge",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私たちは喫茶店で昼食をとった。",
+      "en": "We ate lunch in a coffee lounge."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "切手",
+    "hiragana": "きって",
+    "romaji": "kitte",
+    "meaning_en": "postage stamp",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "切手の上からサインをしてください。",
+      "en": "Sign across the stamp."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "切符",
+    "hiragana": "きっぷ",
+    "romaji": "kippu",
+    "meaning_en": "ticket",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この切符で二人入れるよ。",
+      "en": "The ticket admits two persons."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "昨日",
+    "hiragana": "きのう",
+    "romaji": "kinou",
+    "meaning_en": "yesterday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "きのう先生は今日テストをすると言った。",
+      "en": "Yesterday the teacher told us that he would give us a test today."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "九",
+    "hiragana": "きゅう",
+    "romaji": "kyuu",
+    "meaning_en": "nine",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "彼は「九時だ」と言った。",
+      "en": "He said, \"It's nine o'clock.\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "牛肉",
+    "hiragana": "ぎゅうにく",
+    "romaji": "gyuuniku",
+    "meaning_en": "beef",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "日本人はイギリス人より牛肉を食べる。",
+      "en": "The Japanese eat more beef than the British do."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "牛乳",
+    "hiragana": "ぎゅうにゅう",
+    "romaji": "gyuunyuu",
+    "meaning_en": "milk",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "牛乳はバターやチーズになります。",
+      "en": "Milk is made into butter and cheese."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今日",
+    "hiragana": "きょう",
+    "romaji": "kyou",
+    "meaning_en": "today",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今日は何をしたいですか。",
+      "en": "What would you like to do today?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "教室",
+    "hiragana": "きょうしつ",
+    "romaji": "kyoushitsu",
+    "meaning_en": "classroom",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ＬＬ教室を使ってもよいですか。",
+      "en": "May we use the language lab?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "兄弟",
+    "hiragana": "きょうだい",
+    "romaji": "kyoudai",
+    "meaning_en": "(humble) siblings",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは何人兄弟がいますか。",
+      "en": "How many siblings do you have?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "去年",
+    "hiragana": "きょねん",
+    "romaji": "kyonen",
+    "meaning_en": "last year",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "ビルは去年の秋に私に会いに来た。",
+      "en": "Bill came to see me last autumn."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "嫌い",
+    "hiragana": "きらい",
+    "romaji": "kirai",
+    "meaning_en": "hate",
+    "pos": "adj-na, n",
+    "level": "N5",
+    "example": {
+      "jp": "ジムくんは行き過ぎの嫌いがある。",
+      "en": "Jim tends to go too far."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "切る",
+    "hiragana": "きる",
+    "romaji": "kiru",
+    "meaning_en": "to cut",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "トランプをよく切ってください。",
+      "en": "Please shuffle the cards carefully."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "着る",
+    "hiragana": "きる",
+    "romaji": "kiru",
+    "meaning_en": "to put on from the shoulders down",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "このセーターを着てごらんなさい。",
+      "en": "Try on this sweater."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "きれい",
+    "hiragana": "きれい",
+    "romaji": "kirei",
+    "meaning_en": "pretty; clean",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "それからすっきりきれいにしてくれ。",
+      "en": "Then clean it really well."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "キロ",
+    "hiragana": "きろ",
+    "romaji": "kiro",
+    "meaning_en": "kilometre; kilogram",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ヘレンはせいぜい４０キロだ。",
+      "en": "Helen weighs not more than 40 kilograms."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "銀行",
+    "hiragana": "ぎんこう",
+    "romaji": "ginkou",
+    "meaning_en": "bank",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "銀行にどれだけお金がありますか。",
+      "en": "How much money do you have in the bank?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "金曜日",
+    "hiragana": "きんようび",
+    "romaji": "kin'youbi",
+    "meaning_en": "Friday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは金曜日に何をするつもりですか。",
+      "en": "What will you do on Friday?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "薬",
+    "hiragana": "くすり",
+    "romaji": "kusuri",
+    "meaning_en": "medicine",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "４時間おきにこの薬をのみなさい。",
+      "en": "Take this medicine every four hours."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ください",
+    "hiragana": "ください",
+    "romaji": "kudasai",
+    "meaning_en": "please",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "ニューススタンドで聞いて下さい。",
+      "en": "You'll have to ask at the newsstand."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "果物",
+    "hiragana": "くだもの",
+    "romaji": "kudamono",
+    "meaning_en": "fruit",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "父はそんなに果物を食べないんです。",
+      "en": "My father doesn't eat all that much fruit."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "口",
+    "hiragana": "くち",
+    "romaji": "kuchi",
+    "meaning_en": "mouth; opening",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "口にものをほおばってしゃべるな。",
+      "en": "Don't speak with your mouth full."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "靴",
+    "hiragana": "くつ",
+    "romaji": "kutsu",
+    "meaning_en": "shoes",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "靴のほこりをはけではらいなさい。",
+      "en": "Brush off the dust from your shoes."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "靴下",
+    "hiragana": "くつした",
+    "romaji": "kutsushita",
+    "meaning_en": "socks",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この靴下はちぐはぐだ。",
+      "en": "These socks do not match."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "国",
+    "hiragana": "くに",
+    "romaji": "kuni",
+    "meaning_en": "country",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたの国では何語を話しますか。",
+      "en": "What language do you speak in your country?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "曇り",
+    "hiragana": "くもり",
+    "romaji": "kumori",
+    "meaning_en": "cloudy weather",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "曇りの日です。",
+      "en": "It's a cloudy day."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "曇る",
+    "hiragana": "くもる",
+    "romaji": "kumoru",
+    "meaning_en": "to become cloudy; to become dim",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "今日は曇っている。",
+      "en": "It is cloudy today."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "暗い",
+    "hiragana": "くらい",
+    "romaji": "kurai",
+    "meaning_en": "gloomy",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "あたりがもう暗くなっていることに気がついた。",
+      "en": "I observed that it had already got dark."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "クラス",
+    "hiragana": "くらす",
+    "romaji": "kurasu",
+    "meaning_en": "class",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あいつはクラスでいちばんのまぬけだ。",
+      "en": "He is the dumbest kid in the class."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "グラム",
+    "hiragana": "ぐらむ",
+    "romaji": "guramu",
+    "meaning_en": "gram",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "プログラムをいただけますか。",
+      "en": "May I have a program?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "来る",
+    "hiragana": "くる",
+    "romaji": "kuru",
+    "meaning_en": "to come",
+    "pos": "vk, vi",
+    "level": "N5",
+    "example": {
+      "jp": "１０時までに来ます。",
+      "en": "I'll come by 10."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "車",
+    "hiragana": "くるま",
+    "romaji": "kuruma",
+    "meaning_en": "car; vehicle",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "車のわきの男の子をごらんなさい。",
+      "en": "Look at the boy beside the car."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "黒",
+    "hiragana": "くろ",
+    "romaji": "kuro",
+    "meaning_en": "black",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "黒に黒をたしても白にはならぬ。",
+      "en": "Two blacks do not make a white."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "黒い",
+    "hiragana": "くろい",
+    "romaji": "kuroi",
+    "meaning_en": "black",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "ナンシーはヘレンよりもほんのすこし色が黒い。",
+      "en": "Nancy is a shade darker than Helen."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "警官",
+    "hiragana": "けいかん",
+    "romaji": "keikan",
+    "meaning_en": "policeman",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "二人の警官もへとへとになった。",
+      "en": "The two policemen were exhausted, too."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今朝",
+    "hiragana": "けさ",
+    "romaji": "kesa",
+    "meaning_en": "this morning",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今朝はとても寒かった。",
+      "en": "It was very cold this morning."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "消す",
+    "hiragana": "けす",
+    "romaji": "kesu",
+    "meaning_en": "to erase; to turn off power",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "寝る前に電気を消してください。",
+      "en": "Turn off the light before you go to bed."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "結構",
+    "hiragana": "けっこう",
+    "romaji": "kekkou",
+    "meaning_en": "splendid; enough",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "いや結構です。たくさんいただきました。",
+      "en": "No more, thank you. I'm full."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "結婚",
+    "hiragana": "けっこん",
+    "romaji": "kekkon",
+    "meaning_en": "marriage",
+    "pos": "n, vs, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ジョンはジェーンと結婚していた。",
+      "en": "John was married to Jane."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "月曜日",
+    "hiragana": "げつようび",
+    "romaji": "getsuyoubi",
+    "meaning_en": "Monday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "月曜日までにここに来ています。",
+      "en": "I'll be here by Monday."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "玄関",
+    "hiragana": "げんかん",
+    "romaji": "genkan",
+    "meaning_en": "entry hall",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "玄関のカギはどうなっていますか。",
+      "en": "How does the front-door lock work?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "元気",
+    "hiragana": "げんき",
+    "romaji": "genki",
+    "meaning_en": "health; vitality",
+    "pos": "adj-na, n",
+    "level": "N5",
+    "example": {
+      "jp": "こんにちは、ロジャー。とっても元気よ。",
+      "en": "Hi, Roger. I'm pretty good!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "五",
+    "hiragana": "ご",
+    "romaji": "go",
+    "meaning_en": "five",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "どこかは今五時だろう。",
+      "en": "It's five o'clock somewhere now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "公園",
+    "hiragana": "こうえん",
+    "romaji": "kouen",
+    "meaning_en": "park",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この公園はすべての人に公開されている。",
+      "en": "The park is open to everybody."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "交差点",
+    "hiragana": "こうさてん",
+    "romaji": "kousaten",
+    "meaning_en": "intersection",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あの交差点で何が起こったのか。",
+      "en": "What happened at that crossing?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "紅茶",
+    "hiragana": "こうちゃ",
+    "romaji": "koucha",
+    "meaning_en": "black tea",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "紅茶かコーヒーはいかがですか。",
+      "en": "Care for tea or coffee?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "交番",
+    "hiragana": "こうばん",
+    "romaji": "kouban",
+    "meaning_en": "police box",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "向こうの交番で聞いてください。",
+      "en": "Ask at the police station over there."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "声",
+    "hiragana": "こえ",
+    "romaji": "koe",
+    "meaning_en": "voice",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたの声が聞けてうれしいわ。",
+      "en": "I am happy to hear your voice."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "コート",
+    "hiragana": "こーと",
+    "romaji": "kooto",
+    "meaning_en": "coat; tennis court",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このコートいいですね。試着してもいいですか。",
+      "en": "I like this coat. May I try it on?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "コーヒー",
+    "hiragana": "こーひー",
+    "romaji": "koohii",
+    "meaning_en": "coffee",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "そのコーヒーはいいにおいがする。",
+      "en": "That coffee smells good."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ここ",
+    "hiragana": "ここ",
+    "romaji": "koko",
+    "meaning_en": "here",
+    "pos": "pn",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "午後",
+    "hiragana": "ごご",
+    "romaji": "gogo",
+    "meaning_en": "afternoon",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "午後何時ごろうかがいましょうか。",
+      "en": "When shall I call on you this afternoon?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "九日",
+    "hiragana": "ここのか",
+    "romaji": "kokonoka",
+    "meaning_en": "nine days; ninth day",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "スピーチコンテストは１１月９日に行われた。",
+      "en": "The speech contest took place on the ninth of November."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "九つ",
+    "hiragana": "ここのつ",
+    "romaji": "kokonotsu",
+    "meaning_en": "nine",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "私たちの学校にはクラスが９つある。",
+      "en": "Our school has nine classes."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "午前",
+    "hiragana": "ごぜん",
+    "romaji": "gozen",
+    "meaning_en": "morning",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "その電車は午前９時にここを出発します。",
+      "en": "The train departs here at 9:00 a.m."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "答える",
+    "hiragana": "こたえる",
+    "romaji": "kotaeru",
+    "meaning_en": "to answer",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "「はい、ありません」とジョーダンさんは答えた。",
+      "en": "\"No, I don't,\" said Mr Jordan."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ごちそうさま",
+    "hiragana": "ごちそうさま",
+    "romaji": "gochisousama",
+    "meaning_en": "feast",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "コーヒー、ごちそうさまでした。",
+      "en": "Thank you for the coffee."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "こちら",
+    "hiragana": "こちら",
+    "romaji": "kochira",
+    "meaning_en": "this person or way",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "今のところこちらだけになります。",
+      "en": "The only one we have is this one here."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "こっち",
+    "hiragana": "こっち",
+    "romaji": "kotchi",
+    "meaning_en": "this person or way",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "こっちへ来い、ぐずぐずしないで。",
+      "en": "Get over here and be quick about it!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "コップ",
+    "hiragana": "こっぷ",
+    "romaji": "koppu",
+    "meaning_en": "a glass",
+    "pos": "n",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今年",
+    "hiragana": "ことし",
+    "romaji": "kotoshi",
+    "meaning_en": "this year",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今年もよい年でありますように。",
+      "en": "May the new year bring you happiness!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "言葉",
+    "hiragana": "ことば",
+    "romaji": "kotoba",
+    "meaning_en": "word; language",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "言葉が出てこなかった。",
+      "en": "Words failed me."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "子供",
+    "hiragana": "こども",
+    "romaji": "kodomo",
+    "meaning_en": "child",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたには何人子供がいますか。",
+      "en": "How many children do you have?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "この",
+    "hiragana": "この",
+    "romaji": "kono",
+    "meaning_en": "this",
+    "pos": "adj-pn",
+    "level": "N5",
+    "example": {
+      "jp": "このコップをミルクで満たした。",
+      "en": "I filled this glass with milk."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "御飯",
+    "hiragana": "ごはん",
+    "romaji": "gohan",
+    "meaning_en": "cooked rice; meal",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ご飯とパンどちらがいいですか。",
+      "en": "Which do you prefer, rice or bread?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "コピーする",
+    "hiragana": "こぴーする",
+    "romaji": "kopiisuru",
+    "meaning_en": "to copy",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "コピーするページに付箋をつけておいてください。",
+      "en": "Put a tag on the pages you want copied."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "困る",
+    "hiragana": "こまる",
+    "romaji": "komaru",
+    "meaning_en": "to be worried",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "時間がなくてたいへん困っている。",
+      "en": "I am pressed for time."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ごめんなさい",
+    "hiragana": "ごめんなさい",
+    "romaji": "gomennasai",
+    "meaning_en": "I beg your pardon; excuse me",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "お話し中、ごめんなさい。",
+      "en": "Excuse me for interrupting you."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "これ",
+    "hiragana": "これ",
+    "romaji": "kore",
+    "meaning_en": "this",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "これは兄です。かっこいいですね。",
+      "en": "This is my brother. Handsome, isn't he?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今月",
+    "hiragana": "こんげつ",
+    "romaji": "kongetsu",
+    "meaning_en": "this month",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今月の売り上げはよくない。",
+      "en": "Sales have been off this month."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今週",
+    "hiragana": "こんしゅう",
+    "romaji": "konshuu",
+    "meaning_en": "this week",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今週はどちらにいらしゃいましたか。",
+      "en": "Where have you been this week?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "こんな",
+    "hiragana": "こんな",
+    "romaji": "konna",
+    "meaning_en": "such",
+    "pos": "adj-pn",
+    "level": "N5",
+    "example": {
+      "jp": "こんな本を読んで何になるのか。",
+      "en": "What is the good of reading such books?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "こんにちは",
+    "hiragana": "こんにちは",
+    "romaji": "konnichiwa",
+    "meaning_en": "hello; good day (daytime greeting, id)",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "こんにちはジョージ、どう？",
+      "en": "Hi, George! How's it going?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今晩",
+    "hiragana": "こんばん",
+    "romaji": "konban",
+    "meaning_en": "this evening",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今晩はパーティーがあるのかなあ。",
+      "en": "Is there going to be a party tonight?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "こんばんは",
+    "hiragana": "こんばんは",
+    "romaji": "konbanwa",
+    "meaning_en": "good evening",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "シカゴのみなさん、こんばんは。",
+      "en": "Hello, Chicago!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "さあ",
+    "hiragana": "さあ",
+    "romaji": "saa",
+    "meaning_en": "well…",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "さあ、パーティーをおしまいにしよう。",
+      "en": "Let's break up the party."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "財布",
+    "hiragana": "さいふ",
+    "romaji": "saifu",
+    "meaning_en": "wallet",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "サイフがないのにふと気がついた。",
+      "en": "He suddenly noticed his wallet was missing."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "魚",
+    "hiragana": "さかな",
+    "romaji": "sakana",
+    "meaning_en": "fish",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "日本人は魚をたくさん食べますか。",
+      "en": "Do Japanese eat a lot of fish?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "先",
+    "hiragana": "さき",
+    "romaji": "saki",
+    "meaning_en": "the future; previous",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "それから先の話を聞きたい。",
+      "en": "I'd like to know the rest of the story."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "咲く",
+    "hiragana": "さく",
+    "romaji": "saku",
+    "meaning_en": "to bloom",
+    "pos": "v5k, vi",
+    "level": "N5",
+    "example": {
+      "jp": "チューリップがみごとに咲いた。",
+      "en": "The tulips have come out beautifully."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "作文",
+    "hiragana": "さくぶん",
+    "romaji": "sakubun",
+    "meaning_en": "composition; writing",
+    "pos": "n, vs, vi",
+    "level": "N5",
+    "example": {
+      "jp": "作文は書いてしまいましたか。",
+      "en": "Have you finished writing your composition?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "差す",
+    "hiragana": "さす",
+    "romaji": "sasu",
+    "meaning_en": "to stretch out hands; to raise an umbrella",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "彼は雨の中を傘もささずに歩きつづけた。",
+      "en": "He went on walking in the rain without an umbrella."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "雑誌",
+    "hiragana": "ざっし",
+    "romaji": "zasshi",
+    "meaning_en": "magazine",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その雑誌はどこで買えますか。",
+      "en": "Where can I buy that magazine?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "砂糖",
+    "hiragana": "さとう",
+    "romaji": "satou",
+    "meaning_en": "sugar",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ポットにはあまり砂糖がなかった。",
+      "en": "There wasn't much sugar in the pot."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "寒い",
+    "hiragana": "さむい",
+    "romaji": "samui",
+    "meaning_en": "cold",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "寒いからコートを着るべきだ。",
+      "en": "It's cold so you should wear a coat."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "さようなら",
+    "hiragana": "さようなら",
+    "romaji": "sayounara",
+    "meaning_en": "good-bye",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "では今晩またね、さようなら。",
+      "en": "See you tonight, then. Cheers!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "再来年",
+    "hiragana": "さらいねん",
+    "romaji": "sarainen",
+    "meaning_en": "year after next",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "祖父は、再来年引退する予定です。",
+      "en": "My grandfather is planning to retire the year after next."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "三",
+    "hiragana": "さん",
+    "romaji": "san",
+    "meaning_en": "three",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "二、三デメリットがありますね。",
+      "en": "There are a few disadvantages to it."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "散歩",
+    "hiragana": "さんぽ",
+    "romaji": "sanpo",
+    "meaning_en": "to stroll",
+    "pos": "n, vs, vi",
+    "level": "N5",
+    "example": {
+      "jp": "散歩に出かけてもよろしいですか。",
+      "en": "May I go out for a walk?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "四",
+    "hiragana": "し",
+    "romaji": "shi",
+    "meaning_en": "four",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "列車でならここからたった四分だ。",
+      "en": "It's only four minutes from here by train."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "塩",
+    "hiragana": "しお",
+    "romaji": "shio",
+    "meaning_en": "salt",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このスープは塩が少し足りない。",
+      "en": "This soup wants a bit of salt."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "しかし",
+    "hiragana": "しかし",
+    "romaji": "shikashi",
+    "meaning_en": "however",
+    "pos": "conj",
+    "level": "N5",
+    "example": {
+      "jp": "しかしこの本をしまっておきなさい。",
+      "en": "However, please put this book away first."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "時間",
+    "hiragana": "じかん",
+    "romaji": "jikan",
+    "meaning_en": "time",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "いつだって読書の時間は見つけられる。",
+      "en": "We can always find time for reading."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "仕事",
+    "hiragana": "しごと",
+    "romaji": "shigoto",
+    "meaning_en": "job",
+    "pos": "n, vs, vi",
+    "level": "N5",
+    "example": {
+      "jp": "仕事をサボったからクビになった。",
+      "en": "He got the sack for slacking off at work."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "辞書",
+    "hiragana": "じしょ",
+    "romaji": "jisho",
+    "meaning_en": "dictionary",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "それはどの辞書にもでています。",
+      "en": "You find it in any dictionary."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "静か",
+    "hiragana": "しずか",
+    "romaji": "shizuka",
+    "meaning_en": "quiet",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "キャプテンは静かにするように命じた。",
+      "en": "The captain commanded silence."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "下",
+    "hiragana": "した",
+    "romaji": "shita",
+    "meaning_en": "below",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "クッキーはテーブルの下にいる。",
+      "en": "Cookie is under the table."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "七",
+    "hiragana": "しち",
+    "romaji": "shichi",
+    "meaning_en": "seven",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "どういっても七時までにいかないと。",
+      "en": "However we go, we must get there by seven."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "質問",
+    "hiragana": "しつもん",
+    "romaji": "shitsumon",
+    "meaning_en": "question",
+    "pos": "n, vs, vt, vi, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "あの先生に質問してもいいですよ。",
+      "en": "You may ask a question of that teacher."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "自転車",
+    "hiragana": "じてんしゃ",
+    "romaji": "jitensha",
+    "meaning_en": "bicycle",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ぼくの自転車はパンクしている。",
+      "en": "My bicycle has a flat tire."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "自動車",
+    "hiragana": "じどうしゃ",
+    "romaji": "jidousha",
+    "meaning_en": "automobile",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "自動車にひかれたのではないですか。",
+      "en": "Wasn't he killed by a car?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "死ぬ",
+    "hiragana": "しぬ",
+    "romaji": "shinu",
+    "meaning_en": "to die",
+    "pos": "v5n, vi",
+    "level": "N5",
+    "example": {
+      "jp": "その少年は死んだものとしてあきらめられた。",
+      "en": "The boy was given up for dead."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "字引",
+    "hiragana": "じびき",
+    "romaji": "jibiki",
+    "meaning_en": "dictionary",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ジョンソンさんはまるで生き字引です。",
+      "en": "Mr Johnson is, as it were, a walking dictionary."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "自分",
+    "hiragana": "じぶん",
+    "romaji": "jibun",
+    "meaning_en": "oneself",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "自分でそれをしなければならない。",
+      "en": "You must do it for yourself."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "閉まる",
+    "hiragana": "しまる",
+    "romaji": "shimaru",
+    "meaning_en": "to close; to be closed",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "あいにく店は閉まっていた。",
+      "en": "Unfortunately, the store was closed."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "締める",
+    "hiragana": "しめる",
+    "romaji": "shimeru",
+    "meaning_en": "to tie",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "いつもシートベルトを締めなさい。",
+      "en": "Always fasten your seatbelt."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "閉める",
+    "hiragana": "しめる",
+    "romaji": "shimeru",
+    "meaning_en": "to close something",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "どうかドアを閉めてくれませんか。",
+      "en": "Will you please shut the door?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "じゃ",
+    "hiragana": "じゃ",
+    "romaji": "ja",
+    "meaning_en": "well then…",
+    "pos": "conj",
+    "level": "N5",
+    "example": {
+      "jp": "じゃあ、キーをもらえますか。",
+      "en": "Can I have the key now, please?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "写真",
+    "hiragana": "しゃしん",
+    "romaji": "shashin",
+    "meaning_en": "photograph",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "なんてキレイな写真なんでしょう。",
+      "en": "What a beautiful picture!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "シャツ",
+    "hiragana": "しゃつ",
+    "romaji": "shatsu",
+    "meaning_en": "shirt",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "シャツにアイロンをかけてください。",
+      "en": "Please iron the shirt."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "シャワー",
+    "hiragana": "しゃわー",
+    "romaji": "shawaa",
+    "meaning_en": "shower",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "シャワーの水が出ません。",
+      "en": "There's no water coming out of the shower."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "十",
+    "hiragana": "じゅう",
+    "romaji": "juu",
+    "meaning_en": "ten",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "その会は十時に終わった。",
+      "en": "The party ended at ten o'clock."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "授業",
+    "hiragana": "じゅぎょう",
+    "romaji": "jugyou",
+    "meaning_en": "lesson; class work",
+    "pos": "n, vs, vi",
+    "level": "N5",
+    "example": {
+      "jp": "それは授業の終わりだった。",
+      "en": "That was the end of the class."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "宿題",
+    "hiragana": "しゅくだい",
+    "romaji": "shukudai",
+    "meaning_en": "homework",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "宿題はもうやってしまいましたか。",
+      "en": "Have you done your assignment yet?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "上手",
+    "hiragana": "じょうず",
+    "romaji": "jouzu",
+    "meaning_en": "skillful",
+    "pos": "adj-na, n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは上手にバスケットボールができますか。",
+      "en": "Do you play basketball well?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "丈夫",
+    "hiragana": "じょうぶ",
+    "romaji": "joubu",
+    "meaning_en": "strong; durable",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "このロープはとてもじょうぶだ。",
+      "en": "This rope is very tough."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "しょうゆ",
+    "hiragana": "しょうゆ",
+    "romaji": "shouyu",
+    "meaning_en": "soy sauce",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "同社は醤油その他の食品を生産する。",
+      "en": "The company produces soy sauce and other food products."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "食堂",
+    "hiragana": "しょくどう",
+    "romaji": "shokudou",
+    "meaning_en": "dining hall",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "食堂はセルフサービスでした。",
+      "en": "The cafeteria was self-service."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "知る",
+    "hiragana": "しる",
+    "romaji": "shiru",
+    "meaning_en": "to know",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ぼくは知らないし、気にもしない。",
+      "en": "I don't know, nor do I care."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "白",
+    "hiragana": "しろ",
+    "romaji": "shiro",
+    "meaning_en": "white",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "黒に黒をたしても白にはならぬ。",
+      "en": "Two blacks do not make a white."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "白い",
+    "hiragana": "しろい",
+    "romaji": "shiroi",
+    "meaning_en": "white",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "白いベルトがついてるのがいいな。",
+      "en": "I like the one with a white belt."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "新聞",
+    "hiragana": "しんぶん",
+    "romaji": "shinbun",
+    "meaning_en": "newspaper",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ジョンのことが新聞に出ていた。",
+      "en": "John was mentioned in the paper."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "水曜日",
+    "hiragana": "すいようび",
+    "romaji": "suiyoubi",
+    "meaning_en": "Wednesday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "今度の水曜日ならいいですよ。",
+      "en": "Next Wednesday will be fine."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "吸う",
+    "hiragana": "すう",
+    "romaji": "suu",
+    "meaning_en": "to smoke; to suck",
+    "pos": "v5u, vt",
+    "level": "N5",
+    "example": {
+      "jp": "この紙はインクを吸わない。",
+      "en": "This paper does not absorb ink."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "スカート",
+    "hiragana": "すかーと",
+    "romaji": "sukaato",
+    "meaning_en": "skirt",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "スカートを見せていただけませんか。",
+      "en": "Would you please show me that skirt?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "好き",
+    "hiragana": "すき",
+    "romaji": "suki",
+    "meaning_en": "likeable",
+    "pos": "adj-na, n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたのそんなところが好きです。",
+      "en": "I like that about you."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "すぐ",
+    "hiragana": "すぐ",
+    "romaji": "sugu",
+    "meaning_en": "immediately; soon; easily; right (near); honest; upright",
+    "pos": "adv, n",
+    "level": "N5",
+    "example": {
+      "jp": "すぐわかるところにあるよ。",
+      "en": "It's in plain sight."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "少ない",
+    "hiragana": "すくない",
+    "romaji": "sukunai",
+    "meaning_en": "a few",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "読書の時間がますます少なくなっている。",
+      "en": "I have less and less time for reading."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "すぐに",
+    "hiragana": "すぐに",
+    "romaji": "suguni",
+    "meaning_en": "instantly",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "すぐに書かなければなりませんか。",
+      "en": "Should I fill it in now?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "少し",
+    "hiragana": "すこし",
+    "romaji": "sukoshi",
+    "meaning_en": "few",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "少しテレビを見てもいいですか。",
+      "en": "Do you mind if I watch TV for a while?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "涼しい",
+    "hiragana": "すずしい",
+    "romaji": "suzushii",
+    "meaning_en": "refreshing",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "日増しに涼しくなっていく。",
+      "en": "It's getting cooler day by day."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ストーブ",
+    "hiragana": "すとーぶ",
+    "romaji": "sutoobu",
+    "meaning_en": "heater",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私は古いストーブに１０ドルの値をつけた。",
+      "en": "I bid ten dollars for the old stove."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "スプーン",
+    "hiragana": "すぷーん",
+    "romaji": "supuun",
+    "meaning_en": "spoon",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "スプーンをいただけますか。",
+      "en": "Could we have a spoon?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "スポーツ",
+    "hiragana": "すぽーつ",
+    "romaji": "supootsu",
+    "meaning_en": "sport",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ビリーはスポーツがうまいです。",
+      "en": "Billy is good at sports."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ズボン",
+    "hiragana": "ずぼん",
+    "romaji": "zubon",
+    "meaning_en": "trousers",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ちょっとこのズボンにつめて。",
+      "en": "Please take the pants in a bit."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "すみません",
+    "hiragana": "すみません",
+    "romaji": "sumimasen",
+    "meaning_en": "sorry; excuse me",
+    "pos": "exp, int",
+    "level": "N5",
+    "example": {
+      "jp": "すみません、この席あいていますか。",
+      "en": "Excuse me, is this seat taken?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "住む",
+    "hiragana": "すむ",
+    "romaji": "sumu",
+    "meaning_en": "to live in",
+    "pos": "v5m, vi",
+    "level": "N5",
+    "example": {
+      "jp": "どうしてアメリカに住んでいたの？",
+      "en": "Why did he live in the United States?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "スリッパ",
+    "hiragana": "すりっぱ",
+    "romaji": "surippa",
+    "meaning_en": "slippers",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "スリッパをはいてください。",
+      "en": "Please put on your slippers."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "する",
+    "hiragana": "する",
+    "romaji": "suru",
+    "meaning_en": "to do",
+    "pos": "vs-i",
+    "level": "N5",
+    "example": {
+      "jp": "ログアウトするんじゃなかったよ。",
+      "en": "I shouldn't have logged off."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "座る",
+    "hiragana": "すわる",
+    "romaji": "suwaru",
+    "meaning_en": "to sit",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "父と母は木の下に座っていました。",
+      "en": "My father and mother were sitting under a tree."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "背",
+    "hiragana": "せ",
+    "romaji": "se",
+    "meaning_en": "height; stature",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "トムはジャックと背が同じくらいだ。",
+      "en": "Tom is as tall as Jack."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "生徒",
+    "hiragana": "せいと",
+    "romaji": "seito",
+    "meaning_en": "pupil",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この学校はたくさんの生徒がいます。",
+      "en": "This school has many students."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "セーター",
+    "hiragana": "せーたー",
+    "romaji": "seetaa",
+    "meaning_en": "sweater; jumper",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このセーターは気に入らない。",
+      "en": "I don't like this sweater."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "せっけん",
+    "hiragana": "せっけん",
+    "romaji": "sekken",
+    "meaning_en": "economy",
+    "pos": "n, vs, vt, vi",
+    "level": "N5",
+    "example": {
+      "jp": "せっけんだらけの手で私にさわらないで。",
+      "en": "Don't touch me with your soapy hands."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "背広",
+    "hiragana": "せびろ",
+    "romaji": "sebiro",
+    "meaning_en": "business suit",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私は新しい背広を買った。",
+      "en": "I bought a new suit of clothes."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "狭い",
+    "hiragana": "せまい",
+    "romaji": "semai",
+    "meaning_en": "narrow",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "オランダは狭い国です。",
+      "en": "The Netherlands is a small country."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ゼロ",
+    "hiragana": "ぜろ",
+    "romaji": "zero",
+    "meaning_en": "zero",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私たちは商売をゼロから始めなければならなかった。",
+      "en": "We had to start our business from zero."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "千",
+    "hiragana": "せん",
+    "romaji": "sen",
+    "meaning_en": "thousand",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "このホールには人が二千人入れる。",
+      "en": "Two thousand people fit into this hall."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "先月",
+    "hiragana": "せんげつ",
+    "romaji": "sengetsu",
+    "meaning_en": "last month",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "先月は、ほとんど雨が降らなかった。",
+      "en": "We had little rain last month."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "先週",
+    "hiragana": "せんしゅう",
+    "romaji": "senshuu",
+    "meaning_en": "last week",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "あの人は先週ここにいた人です。",
+      "en": "He's the man that was here last week."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "先生",
+    "hiragana": "せんせい",
+    "romaji": "sensei",
+    "meaning_en": "teacher; doctor",
+    "pos": "n, n-suf",
+    "level": "N5",
+    "example": {
+      "jp": "校長が先生の後ろから入ってきた。",
+      "en": "The principal came in after the teacher."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "洗濯",
+    "hiragana": "せんたく",
+    "romaji": "sentaku",
+    "meaning_en": "washing",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "洗濯はいつやってもいいですか。",
+      "en": "Can I use the laundry any time?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "全部",
+    "hiragana": "ぜんぶ",
+    "romaji": "zenbu",
+    "meaning_en": "all",
+    "pos": "n, adj-no, adv",
+    "level": "N5",
+    "example": {
+      "jp": "トッピングは全部のせて下さい。",
+      "en": "I want everything on it."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "掃除",
+    "hiragana": "そうじ",
+    "romaji": "souji",
+    "meaning_en": "to clean; to sweep",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "父はガレージを掃除している。",
+      "en": "My father is sweeping the garage."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "そうして",
+    "hiragana": "そうして",
+    "romaji": "soushite",
+    "meaning_en": "and",
+    "pos": "conj",
+    "level": "N5",
+    "example": {
+      "jp": "そうしてくださればとてもうれしい。",
+      "en": "I can't be sorry."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "そこ",
+    "hiragana": "そこ",
+    "romaji": "soko",
+    "meaning_en": "that place",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "バスでそこまで２時間かかります。",
+      "en": "It takes two hours to go there by bus."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "そちら",
+    "hiragana": "そちら",
+    "romaji": "sochira",
+    "meaning_en": "over there",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "これとそちらとの違いは何だい。",
+      "en": "What is the difference between this and that?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "そっち",
+    "hiragana": "そっち",
+    "romaji": "sotchi",
+    "meaning_en": "over there",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "そっちの天気は？",
+      "en": "How's the weather there?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "外",
+    "hiragana": "そと",
+    "romaji": "soto",
+    "meaning_en": "outside",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "外に出してやってくれませんか。",
+      "en": "Could you let him out?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "その",
+    "hiragana": "その",
+    "romaji": "sono",
+    "meaning_en": "that",
+    "pos": "adj-pn",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "そば",
+    "hiragana": "そば",
+    "romaji": "soba",
+    "meaning_en": "near; beside",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ガレージは家のそばにあります。",
+      "en": "The garage is at the side of the house."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "空",
+    "hiragana": "そら",
+    "romaji": "sora",
+    "meaning_en": "sky",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "空はすっかりもやがかかっていた。",
+      "en": "The sky misted over."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "それ",
+    "hiragana": "それ",
+    "romaji": "sore",
+    "meaning_en": "that",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "わたしはそれを見てぎょっとした。",
+      "en": "I was appalled at the sight."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "それから",
+    "hiragana": "それから",
+    "romaji": "sorekara",
+    "meaning_en": "after that",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "それからすっきりきれいにしてくれ。",
+      "en": "Then clean it really well."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "それでは",
+    "hiragana": "それでは",
+    "romaji": "soredewa",
+    "meaning_en": "in that situation",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "それでは、あなたは来ないということですか。",
+      "en": "Does that mean you won't come?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大学",
+    "hiragana": "だいがく",
+    "romaji": "daigaku",
+    "meaning_en": "university",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "大学で何をするつもりですか。",
+      "en": "What are you going to do in college?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大使館",
+    "hiragana": "たいしかん",
+    "romaji": "taishikan",
+    "meaning_en": "embassy",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "日本大使館はどこにありますか。",
+      "en": "Where is the Japanese Embassy?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大丈夫",
+    "hiragana": "だいじょうぶ",
+    "romaji": "daijoubu",
+    "meaning_en": "all right",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "いや、大丈夫だ。",
+      "en": "No, no, that's okay."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大好き",
+    "hiragana": "だいすき",
+    "romaji": "daisuki",
+    "meaning_en": "to be very likeable",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "ロジャーはパーティーが大好きだ。",
+      "en": "Roger is a party animal."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大切",
+    "hiragana": "たいせつ",
+    "romaji": "taisetsu",
+    "meaning_en": "important",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "本を読むことは大切です。",
+      "en": "To read books is important."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "台所",
+    "hiragana": "だいどころ",
+    "romaji": "daidokoro",
+    "meaning_en": "kitchen",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ルーシーは今台所にいるでしょう。",
+      "en": "Lucy should be in the kitchen now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "たいへん",
+    "hiragana": "たいへん",
+    "romaji": "taihen",
+    "meaning_en": "very",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "それはたいへんなショックでした。",
+      "en": "It was such a shock."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "高い",
+    "hiragana": "たかい",
+    "romaji": "takai",
+    "meaning_en": "tall; expensive",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "二つのうちでどちらが高いですか。",
+      "en": "Which is the more expensive of the two?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "たくさん",
+    "hiragana": "たくさん",
+    "romaji": "takusan",
+    "meaning_en": "many",
+    "pos": "adj-no, adj-na, n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "なすべきことがまだたくさんある。",
+      "en": "There still remains much to be done."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "タクシー",
+    "hiragana": "たくしー",
+    "romaji": "takushii",
+    "meaning_en": "taxi",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "そのタクシーはいきなり左に曲がった。",
+      "en": "The taxi abruptly turned left."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "出す",
+    "hiragana": "だす",
+    "romaji": "dasu",
+    "meaning_en": "to put out",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ここではおいしい食べ物が出されます。",
+      "en": "They serve excellent food here."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "立つ",
+    "hiragana": "たつ",
+    "romaji": "tatsu",
+    "meaning_en": "to stand",
+    "pos": "v5t, vi",
+    "level": "N5",
+    "example": {
+      "jp": "立っているのは、みんな男だった。",
+      "en": "Those standing were all men."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "たて",
+    "hiragana": "たて",
+    "romaji": "tate",
+    "meaning_en": "length; height",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "テーブルを縦一列に並べなさい。",
+      "en": "Put the tables end to end."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "建物",
+    "hiragana": "たてもの",
+    "romaji": "tatemono",
+    "meaning_en": "building",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "建物がとっても小さく見えるよ。",
+      "en": "The buildings look so tiny."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "楽しい",
+    "hiragana": "たのしい",
+    "romaji": "tanoshii",
+    "meaning_en": "enjoyable",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "あなたと一緒にいて楽しかった。",
+      "en": "I really enjoyed your company."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "頼む",
+    "hiragana": "たのむ",
+    "romaji": "tanomu",
+    "meaning_en": "to ask",
+    "pos": "v5m, vt",
+    "level": "N5",
+    "example": {
+      "jp": "あなたに頼んでもよろしいですか。",
+      "en": "May I request a favour of you?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "たばこ",
+    "hiragana": "たばこ",
+    "romaji": "tabako",
+    "meaning_en": "tobacco; cigarettes",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "男はライターでたばこに火をつけた。",
+      "en": "The man lit a cigarette with a lighter."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "たぶん",
+    "hiragana": "たぶん",
+    "romaji": "tabun",
+    "meaning_en": "probably",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "君にはたぶんみんなわかっていることでしょう。",
+      "en": "I expect you know all about it."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "食べ物",
+    "hiragana": "たべもの",
+    "romaji": "tabemono",
+    "meaning_en": "food",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "食べ物はすべてなくなってしまった。",
+      "en": "All the food was gone."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "食べる",
+    "hiragana": "たべる",
+    "romaji": "taberu",
+    "meaning_en": "to eat",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ちょうど食べたかったものでした。",
+      "en": "That hit the spot."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "卵",
+    "hiragana": "たまご",
+    "romaji": "tamago",
+    "meaning_en": "egg",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "卵を一ダースづつつめなさい。",
+      "en": "Pack eggs in dozens."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "誰",
+    "hiragana": "だれ",
+    "romaji": "dare",
+    "meaning_en": "who",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "誰がこれをしたのかはわからない。",
+      "en": "There is no telling who did this."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "誕生日",
+    "hiragana": "たんじょうび",
+    "romaji": "tanjoubi",
+    "meaning_en": "birthday",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "誕生日とは人が生まれた日のことだ。",
+      "en": "The birthday is the day on which a person was born."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "だんだん",
+    "hiragana": "だんだん",
+    "romaji": "dandan",
+    "meaning_en": "gradually",
+    "pos": "adv, adv-to",
+    "level": "N5",
+    "example": {
+      "jp": "日がだんだん長くなってきています。",
+      "en": "The days are getting longer and longer."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "小さい",
+    "hiragana": "ちいさい",
+    "romaji": "chiisai",
+    "meaning_en": "little",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "もっと小さいサイズがありますか。",
+      "en": "Do you have a smaller size?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "小さな",
+    "hiragana": "ちいさな",
+    "romaji": "chiisana",
+    "meaning_en": "little",
+    "pos": "adj-pn",
+    "level": "N5",
+    "example": {
+      "jp": "小さなことでくよくよするな。",
+      "en": "Don't trouble about small things."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "近い",
+    "hiragana": "ちかい",
+    "romaji": "chikai",
+    "meaning_en": "near",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "クリスマスが近くなってきた。",
+      "en": "Christmas is fast approaching."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "違う",
+    "hiragana": "ちがう",
+    "romaji": "chigau",
+    "meaning_en": "to differ",
+    "pos": "v5u, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ライオンとヒョウの違いは何ですか。",
+      "en": "What's the difference between lions and leopards?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "近く",
+    "hiragana": "ちかく",
+    "romaji": "chikaku",
+    "meaning_en": "near",
+    "pos": "n, adj-no, adv",
+    "level": "N5",
+    "example": {
+      "jp": "７時近くだ。学校へ行かなくては。",
+      "en": "It is close to seven o'clock. We have to go to school."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "地下鉄",
+    "hiragana": "ちかてつ",
+    "romaji": "chikatetsu",
+    "meaning_en": "underground train",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "地下鉄で行きたいのです。",
+      "en": "I want to get there by subway."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "地図",
+    "hiragana": "ちず",
+    "romaji": "chizu",
+    "meaning_en": "map",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この大きなアメリカの地図を見て。",
+      "en": "Look at this large map of America."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "茶色",
+    "hiragana": "ちゃいろ",
+    "romaji": "chairo",
+    "meaning_en": "brown",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "その犬は茶色で小さくて、やせています。",
+      "en": "The dog is brown, small and thin."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ちゃわん",
+    "hiragana": "ちゃわん",
+    "romaji": "chawan",
+    "meaning_en": "rice bowl",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この茶わんはなんとすばらしいのでしょう。",
+      "en": "How nice this cup is!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ちょうど",
+    "hiragana": "ちょうど",
+    "romaji": "choudo",
+    "meaning_en": "exactly",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "ちょうど食べたかったものでした。",
+      "en": "That hit the spot."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ちょっと",
+    "hiragana": "ちょっと",
+    "romaji": "chotto",
+    "meaning_en": "somewhat",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "ちょっと、そこのきみ！",
+      "en": "Hey, you there!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "使う",
+    "hiragana": "つかう",
+    "romaji": "tsukau",
+    "meaning_en": "to use",
+    "pos": "v5u, vt",
+    "level": "N5",
+    "example": {
+      "jp": "フラッシュを使ってもいいですか。",
+      "en": "Is it all right to use a flash here?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "疲れる",
+    "hiragana": "つかれる",
+    "romaji": "tsukareru",
+    "meaning_en": "to get tired",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "とても疲れているように見えます。",
+      "en": "You look very tired."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "次",
+    "hiragana": "つぎ",
+    "romaji": "tsugi",
+    "meaning_en": "next",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "次はいつ来ればいいのでしょうか。",
+      "en": "When should I come again?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "着く",
+    "hiragana": "つく",
+    "romaji": "tsuku",
+    "meaning_en": "to arrive at",
+    "pos": "v5k, vi",
+    "level": "N5",
+    "example": {
+      "jp": "シカゴに着いたらすぐ電話します。",
+      "en": "I'll call you as soon as I get to Chicago."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "机",
+    "hiragana": "つくえ",
+    "romaji": "tsukue",
+    "meaning_en": "desk",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "机の上にペンが一本もありません。",
+      "en": "There are no pens on the desk."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "作る",
+    "hiragana": "つくる",
+    "romaji": "tsukuru",
+    "meaning_en": "to make",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "たまごを割らずにオムレツは作れない。",
+      "en": "You can't make an omelet without breaking eggs."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "つける",
+    "hiragana": "つける",
+    "romaji": "tsukeru",
+    "meaning_en": "to turn on",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "テレビをつけて。",
+      "en": "Please turn on the television."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "勤める",
+    "hiragana": "つとめる",
+    "romaji": "tsutomeru",
+    "meaning_en": "to work for someone",
+    "pos": "v1, vt, vi",
+    "level": "N5",
+    "example": {
+      "jp": "父は銀行に勤めています。",
+      "en": "My father works for a bank."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "つまらない",
+    "hiragana": "つまらない",
+    "romaji": "tsumaranai",
+    "meaning_en": "boring",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "このビデオはつまらないよ。",
+      "en": "This video is boring."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "冷たい",
+    "hiragana": "つめたい",
+    "romaji": "tsumetai",
+    "meaning_en": "cold to the touch",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "もう手が冷たくって。",
+      "en": "My hand's getting too cold."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "強い",
+    "hiragana": "つよい",
+    "romaji": "tsuyoi",
+    "meaning_en": "powerful",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "トラとライオンとどちらが強いか。",
+      "en": "Which is stronger, a tiger or a lion?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "手",
+    "hiragana": "て",
+    "romaji": "te",
+    "meaning_en": "hand",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ここに手のないナベがある。",
+      "en": "Here is a pan without handles."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "テープ",
+    "hiragana": "てーぷ",
+    "romaji": "teepu",
+    "meaning_en": "tape",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "君はそのコンサートをテープにとったか。",
+      "en": "Did you tape that concert?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "テーブル",
+    "hiragana": "てーぶる",
+    "romaji": "teeburu",
+    "meaning_en": "table",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このテーブルを頼んだのではない。",
+      "en": "I didn't ask for a table here."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "テープレコーダー",
+    "hiragana": "てーぷれこーだー",
+    "romaji": "teepurekoodaa",
+    "meaning_en": "tape recorder",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このテープレコーダーは新しくない。",
+      "en": "This tape recorder is not new."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "出かける",
+    "hiragana": "でかける",
+    "romaji": "dekakeru",
+    "meaning_en": "to go out",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "出かけるよりもじっとしていたい。",
+      "en": "I would sooner stay than go."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "手紙",
+    "hiragana": "てがみ",
+    "romaji": "tegami",
+    "meaning_en": "letter",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "書かねばならない手紙があります。",
+      "en": "I have to write a letter."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "できる",
+    "hiragana": "できる",
+    "romaji": "dekiru",
+    "meaning_en": "to be able to",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "あの二人はどうもできているらしい。",
+      "en": "They seem to be in love with each other."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "出口",
+    "hiragana": "でぐち",
+    "romaji": "deguchi",
+    "meaning_en": "exit",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "B2出口から地上に出てください。",
+      "en": "Go up to ground level at exit B2."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "テスト",
+    "hiragana": "てすと",
+    "romaji": "tesuto",
+    "meaning_en": "test",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "そのテストはむずかしかった。",
+      "en": "I found the test difficult."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "では",
+    "hiragana": "では",
+    "romaji": "dewa",
+    "meaning_en": "with that...",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "では今晩またね、さようなら。",
+      "en": "See you tonight, then. Cheers!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "デパート",
+    "hiragana": "でぱーと",
+    "romaji": "depaato",
+    "meaning_en": "department store",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あのデパートで新しいコートを買いたい。",
+      "en": "I would like to buy a new coat at that department store."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "でも",
+    "hiragana": "でも",
+    "romaji": "demo",
+    "meaning_en": "but",
+    "pos": "conj",
+    "level": "N5",
+    "example": {
+      "jp": "どんな人でもいないよりはましだ。",
+      "en": "Anybody would be better than nobody."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "出る",
+    "hiragana": "でる",
+    "romaji": "deru",
+    "meaning_en": "to appear; to leave",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "電話には出なかったからメールしておきました。",
+      "en": "He didn't answer the phone, so I left him an email."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "テレビ",
+    "hiragana": "てれび",
+    "romaji": "terebi",
+    "meaning_en": "television",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたはどこでテレビを見ますか。",
+      "en": "Where do you watch television?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "天気",
+    "hiragana": "てんき",
+    "romaji": "tenki",
+    "meaning_en": "weather",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "今日が天気ならいいのに。",
+      "en": "I wish it were fine today."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "電気",
+    "hiragana": "でんき",
+    "romaji": "denki",
+    "meaning_en": "electricity; electric light",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "電気シェーバーから火が出ました。",
+      "en": "My electric razor is on fire."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "電車",
+    "hiragana": "でんしゃ",
+    "romaji": "densha",
+    "meaning_en": "electric train",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "電車の中ですりにやられちゃったんだ。",
+      "en": "I had my pocket picked on the train."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "電話",
+    "hiragana": "でんわ",
+    "romaji": "denwa",
+    "meaning_en": "telephone",
+    "pos": "n, vs, vt, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ブラウンさんから電話のようです。",
+      "en": "It's a phone call from a Mr Brown."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "戸",
+    "hiragana": "と",
+    "romaji": "to",
+    "meaning_en": "Japanese style door",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "誰かが戸をやかましくノックしている。",
+      "en": "Someone is knocking loudly at the door."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ドア",
+    "hiragana": "どあ",
+    "romaji": "doa",
+    "meaning_en": "Western style door",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "入る前にドアをノックして下さい。",
+      "en": "Please knock on the door before you enter."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "トイレ",
+    "hiragana": "といれ",
+    "romaji": "toire",
+    "meaning_en": "toilet",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "トイレの水が止まりません。",
+      "en": "The toilet won't stop running."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どう",
+    "hiragana": "どう",
+    "romaji": "dou",
+    "meaning_en": "how; in what way",
+    "pos": "adv",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どうして",
+    "hiragana": "どうして",
+    "romaji": "doushite",
+    "meaning_en": "for what reason",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "どうしてあなたは一人になったの？",
+      "en": "How did you end up on your own?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どうぞ",
+    "hiragana": "どうぞ",
+    "romaji": "douzo",
+    "meaning_en": "please",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "写真をどうぞ見せて下さい。",
+      "en": "Please show me your picture."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どうぞよろしく",
+    "hiragana": "どうぞよろしく",
+    "romaji": "douzoyoroshiku",
+    "meaning_en": "pleased to meet you",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "どうぞよろしく。",
+      "en": "Nice to meet you."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "動物",
+    "hiragana": "どうぶつ",
+    "romaji": "doubutsu",
+    "meaning_en": "animal",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私はその動物の名前を知っている。",
+      "en": "I know the name of this animal."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どうも",
+    "hiragana": "どうも",
+    "romaji": "doumo",
+    "meaning_en": "thanks",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "あの二人はどうもできているらしい。",
+      "en": "They seem to be in love with each other."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "遠い",
+    "hiragana": "とおい",
+    "romaji": "tooi",
+    "meaning_en": "far",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "それはホテルから遠くありません。",
+      "en": "It is not far away from the hotel."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "十日",
+    "hiragana": "とおか",
+    "romaji": "tooka",
+    "meaning_en": "ten days; the tenth day",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ジャックは８月１０日に生まれた。",
+      "en": "Jack was born on August the tenth."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "時々",
+    "hiragana": "ときどき",
+    "romaji": "tokidoki",
+    "meaning_en": "sometimes",
+    "pos": "adv, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "ジェーンはときどき学校まで走っていく。",
+      "en": "Jane sometimes runs to school."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "時計",
+    "hiragana": "とけい",
+    "romaji": "tokei",
+    "meaning_en": "watch; clock",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたの時計では何時ですか。",
+      "en": "What time is it by your watch?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どこ",
+    "hiragana": "どこ",
+    "romaji": "doko",
+    "meaning_en": "where",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "あなたはどこでテレビを見ますか。",
+      "en": "Where do you watch television?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "所",
+    "hiragana": "ところ",
+    "romaji": "tokoro",
+    "meaning_en": "place",
+    "pos": "n, adv, suf",
+    "level": "N5",
+    "example": {
+      "jp": "どんな所でアルバイトできるの。",
+      "en": "Where can you get a part-time job?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "年",
+    "hiragana": "とし",
+    "romaji": "toshi",
+    "meaning_en": "year",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "お年をお聞きしてよろしいでしょうか。",
+      "en": "Might I ask your age?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "図書館",
+    "hiragana": "としょかん",
+    "romaji": "toshokan",
+    "meaning_en": "library",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "図書館の中で話をしてはいけない。",
+      "en": "We must not speak in the library."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どちら",
+    "hiragana": "どちら",
+    "romaji": "dochira",
+    "meaning_en": "which of two",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "二つのうちでどちらが高いですか。",
+      "en": "Which is the more expensive of the two?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どっち",
+    "hiragana": "どっち",
+    "romaji": "dotchi",
+    "meaning_en": "which",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "この本とあの本とどっちがやさしい？",
+      "en": "Which is easier to read, this book or that one?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "とても",
+    "hiragana": "とても",
+    "romaji": "totemo",
+    "meaning_en": "very",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "この雨の中を外出することはとてもできないことです。",
+      "en": "Going out in this rain is out of the question."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どなた",
+    "hiragana": "どなた",
+    "romaji": "donata",
+    "meaning_en": "who",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "「どなたですか」「お母さんよ」",
+      "en": "\"Who is it?\" \"It's your mother.\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "隣",
+    "hiragana": "となり",
+    "romaji": "tonari",
+    "meaning_en": "next door to",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "あのビルのとなりです。",
+      "en": "It's next to that building."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どの",
+    "hiragana": "どの",
+    "romaji": "dono",
+    "meaning_en": "which",
+    "pos": "adj-pn",
+    "level": "N5",
+    "example": {
+      "jp": "これはほかのどの木よりも高い。",
+      "en": "This is taller than any other tree."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "飛ぶ",
+    "hiragana": "とぶ",
+    "romaji": "tobu",
+    "meaning_en": "to fly; to hop",
+    "pos": "v5b, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ヒューズが飛んだ。",
+      "en": "A fuse has blown."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "止まる",
+    "hiragana": "とまる",
+    "romaji": "tomaru",
+    "meaning_en": "to come to a halt",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ちょうどその時バスが止まった。",
+      "en": "Just then, the bus stopped."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "友達",
+    "hiragana": "ともだち",
+    "romaji": "tomodachi",
+    "meaning_en": "friend",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "よい友達がたくさんいてうれしい。",
+      "en": "I am happy to have so many good friends."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "土曜日",
+    "hiragana": "どようび",
+    "romaji": "doyoubi",
+    "meaning_en": "Saturday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "私は土曜日からここにいます。",
+      "en": "I've been here since Saturday."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "鳥",
+    "hiragana": "とり",
+    "romaji": "tori",
+    "meaning_en": "bird",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "なんてきれいな鳥なんだろう。",
+      "en": "What a beautiful bird it is!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "鶏肉",
+    "hiragana": "とりにく",
+    "romaji": "toriniku",
+    "meaning_en": "chicken meat",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "鶏肉を３ポンド分ください。",
+      "en": "I'd like three pounds of chicken."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "撮る",
+    "hiragana": "とる",
+    "romaji": "toru",
+    "meaning_en": "to take a photo or record a film",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "外からなら撮ってもかまいません。",
+      "en": "It doesn't matter to us if you take a photo from the outside."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "取る",
+    "hiragana": "とる",
+    "romaji": "toru",
+    "meaning_en": "to take something",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "そのお金はいざというときのために取っておくよ。",
+      "en": "I'm going to lay aside that money for emergencies."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "どれ",
+    "hiragana": "どれ",
+    "romaji": "dore",
+    "meaning_en": "which (of three or more)",
+    "pos": "pn",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ナイフ",
+    "hiragana": "ないふ",
+    "romaji": "naifu",
+    "meaning_en": "knife",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "それはあなたのナイフではない。",
+      "en": "That is not your knife."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "中",
+    "hiragana": "なか",
+    "romaji": "naka",
+    "meaning_en": "middle",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "テントの中ではなくて外で食べよう。",
+      "en": "Let's eat outside instead of in our tents."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "長い",
+    "hiragana": "ながい",
+    "romaji": "nagai",
+    "meaning_en": "long",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "だんだん日が長くなっています。",
+      "en": "The days are getting longer and longer."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "鳴く",
+    "hiragana": "なく",
+    "romaji": "naku",
+    "meaning_en": "to make a sound (of an animal); to cry; to chirp; to sing (of birds)",
+    "pos": "v5k, vi",
+    "level": "N5",
+    "example": {
+      "jp": "カエルが鳴いたら帰ろう。",
+      "en": "Let's return when the frog croaks."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "無くす",
+    "hiragana": "なくす",
+    "romaji": "nakusu",
+    "meaning_en": "to lose something",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "私は前日無くした本を見つけた。",
+      "en": "I found the book which I had lost the day before."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "なぜ",
+    "hiragana": "なぜ",
+    "romaji": "naze",
+    "meaning_en": "why",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "あなたはなぜ働いているの。",
+      "en": "How come you're still working?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "夏",
+    "hiragana": "なつ",
+    "romaji": "natsu",
+    "meaning_en": "summer",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "アリは夏じゅうせっせとはたらく。",
+      "en": "Ants work away during summer."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "夏休み",
+    "hiragana": "なつやすみ",
+    "romaji": "natsuyasumi",
+    "meaning_en": "summer holiday",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この夏休みはどこかへ行くのですか。",
+      "en": "Are you going away this summer?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "など",
+    "hiragana": "など",
+    "romaji": "nado",
+    "meaning_en": "et cetera",
+    "pos": "prt",
+    "level": "N5",
+    "example": {
+      "jp": "ぬくもりなどどこにも見つからない。",
+      "en": "I can't find anything like warmth anywhere."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "七つ",
+    "hiragana": "ななつ",
+    "romaji": "nanatsu",
+    "meaning_en": "seven",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "７つの海って何ですか。",
+      "en": "What are the seven seas?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "七日",
+    "hiragana": "なのか",
+    "romaji": "nanoka",
+    "meaning_en": "seven days; the seventh day",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "一週間は七日です。",
+      "en": "There are seven days in a week."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "名前",
+    "hiragana": "なまえ",
+    "romaji": "namae",
+    "meaning_en": "name",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたの名前はリストからはずされた。",
+      "en": "Your name was dropped from the list."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "習う",
+    "hiragana": "ならう",
+    "romaji": "narau",
+    "meaning_en": "to learn",
+    "pos": "v5u, vt",
+    "level": "N5",
+    "example": {
+      "jp": "車の運転を習っています。",
+      "en": "I've been learning to drive."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "並ぶ",
+    "hiragana": "ならぶ",
+    "romaji": "narabu",
+    "meaning_en": "to line up; to stand in a line",
+    "pos": "v5b, vi",
+    "level": "N5",
+    "example": {
+      "jp": "あんた、なぜに並んでいるのだい。",
+      "en": "What are you lining up for?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "並べる",
+    "hiragana": "ならべる",
+    "romaji": "naraberu",
+    "meaning_en": "to line up; to set up",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "メイドはテーブルにナイフとフォークを並べた。",
+      "en": "The maid arranged the knives and forks on the table."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "なる",
+    "hiragana": "なる",
+    "romaji": "naru",
+    "meaning_en": "to become",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ちまたではインターネットなるものがはやっています。",
+      "en": "People are talking about this Internet phenomenon."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "何",
+    "hiragana": "なん",
+    "romaji": "nan",
+    "meaning_en": "what",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "学校の前に何本か木が見えます。",
+      "en": "You see some trees in front of the school."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "二",
+    "hiragana": "に",
+    "romaji": "ni",
+    "meaning_en": "two",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "このホールには人が二千人入れる。",
+      "en": "Two thousand people fit into this hall."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "賑やか",
+    "hiragana": "にぎやか",
+    "romaji": "nigiyaka",
+    "meaning_en": "bustling; busy",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "この通りは賑やかだ。",
+      "en": "This street is lively."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "肉",
+    "hiragana": "にく",
+    "romaji": "niku",
+    "meaning_en": "meat",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "肉にはウジがわいていた。",
+      "en": "The meat was crawling with maggots."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "西",
+    "hiragana": "にし",
+    "romaji": "nishi",
+    "meaning_en": "west",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "列車は西へ走っていた。",
+      "en": "The train was hurrying west."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "日曜日",
+    "hiragana": "にちようび",
+    "romaji": "nichiyoubi",
+    "meaning_en": "Sunday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "ちょうど日曜日にぶつかりますね。",
+      "en": "It falls on Sunday."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "荷物",
+    "hiragana": "にもつ",
+    "romaji": "nimotsu",
+    "meaning_en": "luggage",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "これ荷物を上にあげてもよろしい。",
+      "en": "Can I put this up for you?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ニュース",
+    "hiragana": "にゅーす",
+    "romaji": "nyuusu",
+    "meaning_en": "news",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "そのニュースはラジオで聞いたよ。",
+      "en": "I heard the news on the radio."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "庭",
+    "hiragana": "にわ",
+    "romaji": "niwa",
+    "meaning_en": "garden",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その庭にはバラがまったくなかった。",
+      "en": "There weren't any roses in the garden."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "脱ぐ",
+    "hiragana": "ぬぐ",
+    "romaji": "nugu",
+    "meaning_en": "to take off clothes",
+    "pos": "v5g, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ここで靴を脱がなければなりませんか。",
+      "en": "Do I have to take off my shoes here?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "温い",
+    "hiragana": "ぬるい",
+    "romaji": "nurui",
+    "meaning_en": "luke warm",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "このコーヒーはぬるいです。",
+      "en": "This coffee is not hot enough."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ネクタイ",
+    "hiragana": "ねくたい",
+    "romaji": "nekutai",
+    "meaning_en": "tie; necktie",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このネクタイはいくらですか。",
+      "en": "How much is this tie?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "猫",
+    "hiragana": "ねこ",
+    "romaji": "neko",
+    "meaning_en": "cat",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "猫はにゃーにゃーいいつづけた。",
+      "en": "The cat continued to mew."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "寝る",
+    "hiragana": "ねる",
+    "romaji": "neru",
+    "meaning_en": "to go to bed; to sleep",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "本を読んでるうちに寝てしまった。",
+      "en": "While I was reading, I fell asleep."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ノート",
+    "hiragana": "のーと",
+    "romaji": "nooto",
+    "meaning_en": "notebook; exercise book",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "これらの語をノートに書きなさい。",
+      "en": "Write these words in your notebook."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "登る",
+    "hiragana": "のぼる",
+    "romaji": "noboru",
+    "meaning_en": "to climb",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "木は高ければ高いほど登りにくい。",
+      "en": "The taller a tree is, the harder it is to climb."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "飲み物",
+    "hiragana": "のみもの",
+    "romaji": "nomimono",
+    "meaning_en": "a drink",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "何か飲み物をいただけますか。",
+      "en": "May I have something to drink?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "飲む",
+    "hiragana": "のむ",
+    "romaji": "nomu",
+    "meaning_en": "to drink",
+    "pos": "v5m, vt",
+    "level": "N5",
+    "example": {
+      "jp": "コーラはみんな飲んでしまったの。",
+      "en": "Has all the coke been drunk?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "乗る",
+    "hiragana": "のる",
+    "romaji": "noru",
+    "meaning_en": "to get on; to ride",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ほら、あなたの乗る電車が来たわ。",
+      "en": "Look, here comes your train."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "歯",
+    "hiragana": "は",
+    "romaji": "ha",
+    "meaning_en": "tooth",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その赤ちゃんは歯が生えはじめている。",
+      "en": "The baby is cutting his teeth."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "パーティー",
+    "hiragana": "ぱーてぃー",
+    "romaji": "paatii",
+    "meaning_en": "party",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "パーティーはたのしかったですか。",
+      "en": "Did you enjoy yourself at the party?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "はい",
+    "hiragana": "はい",
+    "romaji": "hai",
+    "meaning_en": "yes",
+    "pos": "int",
+    "level": "N5",
+    "example": {
+      "jp": "「もしもし、ブラウンさんですか」「はい、そうです」",
+      "en": "\"Hello, is this Mrs. Brown?\" \"Yes, this is Mrs. Brown.\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "灰皿",
+    "hiragana": "はいざら",
+    "romaji": "haizara",
+    "meaning_en": "ashtray",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "灰皿を下さい。",
+      "en": "I need an ashtray."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "入る",
+    "hiragana": "はいる",
+    "romaji": "hairu",
+    "meaning_en": "to enter; to contain",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "入る前にドアをノックして下さい。",
+      "en": "Please knock on the door before you enter."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "葉書",
+    "hiragana": "はがき",
+    "romaji": "hagaki",
+    "meaning_en": "postcard",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この店に葉書がたくさんある。",
+      "en": "There are many postcards in this store."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "はく",
+    "hiragana": "はく",
+    "romaji": "haku",
+    "meaning_en": "to wear; to put on trousers",
+    "pos": "v5k, vt",
+    "level": "N5",
+    "example": {
+      "jp": "この靴はきつすぎてはけない。",
+      "en": "These shoes are too tight to get into."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "箱",
+    "hiragana": "はこ",
+    "romaji": "hako",
+    "meaning_en": "box",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その箱はほとんどいっぱいでした。",
+      "en": "The box was almost full."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "はし",
+    "hiragana": "はし",
+    "romaji": "hashi",
+    "meaning_en": "chopsticks",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "パーカーさんは箸で食べてみました。",
+      "en": "Mr Parker tried eating with chopsticks."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "橋",
+    "hiragana": "はし",
+    "romaji": "hashi",
+    "meaning_en": "bridge",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その橋はどれくらいの長さですか。",
+      "en": "How long is the bridge?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "始まる",
+    "hiragana": "はじまる",
+    "romaji": "hajimaru",
+    "meaning_en": "to begin",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "今コンサートが始まろうとしている。",
+      "en": "The concert is beginning now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "初め",
+    "hiragana": "はじめ",
+    "romaji": "hajime",
+    "meaning_en": "beginning",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "旅行の初めの二日間は雨降りだった。",
+      "en": "The first two days of my trip were rainy."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "初めて",
+    "hiragana": "はじめて",
+    "romaji": "hajimete",
+    "meaning_en": "for the first time",
+    "pos": "adv, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "初めてドリアンを食べました。",
+      "en": "I ate durian for the first time."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "はじめまして",
+    "hiragana": "はじめまして",
+    "romaji": "hajimemashite",
+    "meaning_en": "How do you do?; I am glad to meet you",
+    "pos": "exp",
+    "level": "N5",
+    "example": {
+      "jp": "初めましてケン。",
+      "en": "Nice to meet you, Ken."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "走る",
+    "hiragana": "はしる",
+    "romaji": "hashiru",
+    "meaning_en": "to run",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "あの走ってる少年をごらんなさい。",
+      "en": "Look at that boy running."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "バス",
+    "hiragana": "ばす",
+    "romaji": "basu",
+    "meaning_en": "bus",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "バス通学と積極的差別是正措置などが論争の多い話題だった。",
+      "en": "School busing and taking a proactive stance against discrimination were hotly debated topics."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "バター",
+    "hiragana": "ばたー",
+    "romaji": "bataa",
+    "meaning_en": "butter",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "バターはミルクから出来る。",
+      "en": "Butter is made from milk."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "二十歳",
+    "hiragana": "はたち",
+    "romaji": "hatachi",
+    "meaning_en": "20 years old; 20th year",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ムーリエルは２０歳になりました。",
+      "en": "Muiriel is 20 now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "働く",
+    "hiragana": "はたらく",
+    "romaji": "hataraku",
+    "meaning_en": "to work",
+    "pos": "v5k, vi",
+    "level": "N5",
+    "example": {
+      "jp": "スイッチは時間通りに働かなかった。",
+      "en": "The switch didn't work on time."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "八",
+    "hiragana": "はち",
+    "romaji": "hachi",
+    "meaning_en": "eight",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "そのハイキングは八時間もかかるでしょう。",
+      "en": "The hike will take no less than eight hours."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "二十日",
+    "hiragana": "はつか",
+    "romaji": "hatsuka",
+    "meaning_en": "twenty days; twentieth",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私は二十日までに帰るつもりです。",
+      "en": "I expect to be back by the 20th."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "花",
+    "hiragana": "はな",
+    "romaji": "hana",
+    "meaning_en": "flower",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "テーブルの上に花が一本あります。",
+      "en": "There is a flower on the table."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "鼻",
+    "hiragana": "はな",
+    "romaji": "hana",
+    "meaning_en": "nose",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "鼻が出ているよ。かみなさい。",
+      "en": "Your nose is running. Blow it."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "話",
+    "hiragana": "はなし",
+    "romaji": "hanashi",
+    "meaning_en": "talk; story",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "話を聞かせてくれ。",
+      "en": "I want a full report though."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "話す",
+    "hiragana": "はなす",
+    "romaji": "hanasu",
+    "meaning_en": "to speak",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "英語はカナダで話されている。",
+      "en": "English is spoken in Canada."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "早い",
+    "hiragana": "はやい",
+    "romaji": "hayai",
+    "meaning_en": "early",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "時のたつのは早いものだ。",
+      "en": "Time flies."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "速い",
+    "hiragana": "はやい",
+    "romaji": "hayai",
+    "meaning_en": "quick",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "ショットはとても速いものもある。",
+      "en": "Some people have very fast serves."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "春",
+    "hiragana": "はる",
+    "romaji": "haru",
+    "meaning_en": "spring",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "カッコウは春にここにやってくる。",
+      "en": "Cuckoos visit here in spring."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "貼る",
+    "hiragana": "はる",
+    "romaji": "haru",
+    "meaning_en": "to stick",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "その写真はアルバムに貼ったほうがよい。",
+      "en": "You should stick those pictures in your album."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "晴れ",
+    "hiragana": "はれ",
+    "romaji": "hare",
+    "meaning_en": "clear weather",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "ロンドンの天気は晴れです。",
+      "en": "The weather is fine in London."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "晴れる",
+    "hiragana": "はれる",
+    "romaji": "hareru",
+    "meaning_en": "to be sunny",
+    "pos": "v1, vi",
+    "level": "N5",
+    "example": {
+      "jp": "あした晴れてくれるといいなあ。",
+      "en": "I hope the weather will clear up tomorrow."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "半",
+    "hiragana": "はん",
+    "romaji": "han",
+    "meaning_en": "half",
+    "pos": "n-pref, n",
+    "level": "N5",
+    "example": {
+      "jp": "半時間したら彼はここに来るでしょう。",
+      "en": "He will be here in half an hour."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "晩",
+    "hiragana": "ばん",
+    "romaji": "ban",
+    "meaning_en": "evening",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "晩までにはおそらく雨になるだろう。",
+      "en": "It may well rain before tonight."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "パン",
+    "hiragana": "ぱん",
+    "romaji": "pan",
+    "meaning_en": "bread",
+    "pos": "n",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ハンカチ",
+    "hiragana": "はんかち",
+    "romaji": "hankachi",
+    "meaning_en": "handkerchief",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "このハンカチはいくらですか。",
+      "en": "How much is this handkerchief?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "番号",
+    "hiragana": "ばんごう",
+    "romaji": "bangou",
+    "meaning_en": "number",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "番号をまちがえじゃありませんか。",
+      "en": "I'm afraid you have got the wrong number."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "晩御飯",
+    "hiragana": "ばんごはん",
+    "romaji": "bangohan",
+    "meaning_en": "evening meal",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "晩ご飯ですよ、お父さん。",
+      "en": "Dinner is ready, Father."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "半分",
+    "hiragana": "はんぶん",
+    "romaji": "hanbun",
+    "meaning_en": "half minute",
+    "pos": "adv, n",
+    "level": "N5",
+    "example": {
+      "jp": "ケーキのどちらの半分でもとりなさい。",
+      "en": "You may take either half of the cake."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "東",
+    "hiragana": "ひがし",
+    "romaji": "higashi",
+    "meaning_en": "east",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その市はロンドンの東にある。",
+      "en": "The city lies east of London."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "引く",
+    "hiragana": "ひく",
+    "romaji": "hiku",
+    "meaning_en": "to pull",
+    "pos": "v5k, vt",
+    "level": "N5",
+    "example": {
+      "jp": "カーテンがゆっくり引かれた。",
+      "en": "The curtains were drawn slowly."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "弾く",
+    "hiragana": "ひく",
+    "romaji": "hiku",
+    "meaning_en": "to play an instrument with strings; including piano",
+    "pos": "v5k, vt",
+    "level": "N5",
+    "example": {
+      "jp": "ギターをひくのはおもしろい。",
+      "en": "Playing the guitar is fun."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "低い",
+    "hiragana": "ひくい",
+    "romaji": "hikui",
+    "meaning_en": "short; low",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "ラジオの音を低くして下さい。",
+      "en": "Please turn down the radio."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "飛行機",
+    "hiragana": "ひこうき",
+    "romaji": "hikouki",
+    "meaning_en": "aeroplane",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは飛行機で旅行したことがありますか。",
+      "en": "Have you ever traveled by air?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "左",
+    "hiragana": "ひだり",
+    "romaji": "hidari",
+    "meaning_en": "left hand side",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "アラビア語は右から左へ書きます。",
+      "en": "Arabic is written from right to left."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "人",
+    "hiragana": "ひと",
+    "romaji": "hito",
+    "meaning_en": "person",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "どんな人でもいないよりはましだ。",
+      "en": "Anybody would be better than nobody."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一つ",
+    "hiragana": "ひとつ",
+    "romaji": "hitotsu",
+    "meaning_en": "one",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "車にはハンドルが一つある。",
+      "en": "A car has one steering wheel."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一月",
+    "hiragana": "ひとつき",
+    "romaji": "hitotsuki",
+    "meaning_en": "one month",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "金がなくなる頃にはもうひと月ある。",
+      "en": "When the money runs out, there'll still be one month left."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一人",
+    "hiragana": "ひとり",
+    "romaji": "hitori",
+    "meaning_en": "one person",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "どうしてあなたは一人になったの？",
+      "en": "How did you end up on your own?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "暇",
+    "hiragana": "ひま",
+    "romaji": "hima",
+    "meaning_en": "free time",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ジョンはひどく急いでいたので話をする暇もなかった。",
+      "en": "John was in such a hurry that he had no time for talking."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "百",
+    "hiragana": "ひゃく",
+    "romaji": "hyaku",
+    "meaning_en": "hundred",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "百年後にはみな同じになる。",
+      "en": "It will be all the same a hundred years hence."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "病院",
+    "hiragana": "びょういん",
+    "romaji": "byouin",
+    "meaning_en": "hospital",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この近くに病院はありますか。",
+      "en": "Is there a hospital near here?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "病気",
+    "hiragana": "びょうき",
+    "romaji": "byouki",
+    "meaning_en": "illness",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ボブはいったい病気なのだろうか。",
+      "en": "Can Bob be sick?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "昼",
+    "hiragana": "ひる",
+    "romaji": "hiru",
+    "meaning_en": "noon; daytime",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "昼はホットドッグを食べたんだ。",
+      "en": "I ate a hot dog for lunch."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "昼御飯",
+    "hiragana": "ひるごはん",
+    "romaji": "hirugohan",
+    "meaning_en": "midday meal",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "昼ご飯を食べに外に出ませんか。",
+      "en": "How about going out for lunch?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "広い",
+    "hiragana": "ひろい",
+    "romaji": "hiroi",
+    "meaning_en": "spacious; wide",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "この通りは広いが、あまり長くない。",
+      "en": "This avenue is wide but not very long."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "フィルム",
+    "hiragana": "ふぃるむ",
+    "romaji": "firumu",
+    "meaning_en": "roll of film",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "カラーフィルムを一本ください。",
+      "en": "I want a roll of color film for prints."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "封筒",
+    "hiragana": "ふうとう",
+    "romaji": "fuutou",
+    "meaning_en": "envelope",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "だれがこの封筒を破って開けたのか。",
+      "en": "Who has torn the envelope open?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "プール",
+    "hiragana": "ぷーる",
+    "romaji": "puuru",
+    "meaning_en": "swimming pool",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "サウナとプールがあります。",
+      "en": "There's a sauna and a pool."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "フォーク",
+    "hiragana": "ふぉーく",
+    "romaji": "fooku",
+    "meaning_en": "fork",
+    "pos": "n",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "吹く",
+    "hiragana": "ふく",
+    "romaji": "fuku",
+    "meaning_en": "to blow",
+    "pos": "v5k, vi",
+    "level": "N5",
+    "example": {
+      "jp": "あの日は強い風が吹いていました。",
+      "en": "There was a strong wind that day."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "服",
+    "hiragana": "ふく",
+    "romaji": "fuku",
+    "meaning_en": "clothes",
+    "pos": "n, n-suf",
+    "level": "N5",
+    "example": {
+      "jp": "この服はわたしにはもったいない。",
+      "en": "This suit is too good for me."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "二つ",
+    "hiragana": "ふたつ",
+    "romaji": "futatsu",
+    "meaning_en": "two",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "二つのうちでどちらが高いですか。",
+      "en": "Which is the more expensive of the two?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "豚肉",
+    "hiragana": "ぶたにく",
+    "romaji": "butaniku",
+    "meaning_en": "pork",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この豚肉は１キロいくらですか。",
+      "en": "How much is this pork a kilo?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "二人",
+    "hiragana": "ふたり",
+    "romaji": "futari",
+    "meaning_en": "two people",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "二人は何をしているところですか。",
+      "en": "What are you two doing?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "二日",
+    "hiragana": "ふつか",
+    "romaji": "futsuka",
+    "meaning_en": "two days; second day of the month",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "それは１週間前、すなわち４月２日に行われた。",
+      "en": "It was due a week ago, namely on April second."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "太い",
+    "hiragana": "ふとい",
+    "romaji": "futoi",
+    "meaning_en": "fat",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "彼は太い首をしている。",
+      "en": "He has a thick neck."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "冬",
+    "hiragana": "ふゆ",
+    "romaji": "fuyu",
+    "meaning_en": "winter",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "まもなく冬だ。",
+      "en": "It will be winter before long."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "降る",
+    "hiragana": "ふる",
+    "romaji": "furu",
+    "meaning_en": "to fall (e.g. rain or snow)",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "シカゴのあたりでは雨が降っていました。",
+      "en": "It was raining around Chicago."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "古い",
+    "hiragana": "ふるい",
+    "romaji": "furui",
+    "meaning_en": "old (not used for people)",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "時は金なりと古いことわざにもある。",
+      "en": "An old proverb says that time is money."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ふろ",
+    "hiragana": "ふろ",
+    "romaji": "furo",
+    "meaning_en": "bath",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私は一日おきにふろに入ります。",
+      "en": "I have a bath every other day."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "文章",
+    "hiragana": "ぶんしょう",
+    "romaji": "bunshou",
+    "meaning_en": "sentence; text",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ヘミングウェイの文章は悪文だった。",
+      "en": "Hemingway had a poor writing style."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ページ",
+    "hiragana": "ぺーじ",
+    "romaji": "peeji",
+    "meaning_en": "page",
+    "pos": "n, ctr",
+    "level": "N5",
+    "example": {
+      "jp": "もう３ページ残っている。",
+      "en": "I have three more pages to go."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "下手",
+    "hiragana": "へた",
+    "romaji": "heta",
+    "meaning_en": "unskillful",
+    "pos": "adj-na, n",
+    "level": "N5",
+    "example": {
+      "jp": "いいわけをするのがとても下手。",
+      "en": "He is very bad at inventing excuses."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ベッド",
+    "hiragana": "べっど",
+    "romaji": "beddo",
+    "meaning_en": "bed",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "どんなベッドでもないよりはよい。",
+      "en": "Any bed is better than no bed."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ペット",
+    "hiragana": "ぺっと",
+    "romaji": "petto",
+    "meaning_en": "pet",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたはペットの世話ができない。",
+      "en": "You can't care for pets."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "部屋",
+    "hiragana": "へや",
+    "romaji": "heya",
+    "meaning_en": "room",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "マユコは部屋に入った。",
+      "en": "Mayuko entered the room."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "辺",
+    "hiragana": "へん",
+    "romaji": "hen",
+    "meaning_en": "area",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この辺にホテルはありますか。",
+      "en": "Is there a hotel around here?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ペン",
+    "hiragana": "ぺん",
+    "romaji": "pen",
+    "meaning_en": "pen",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "リンゴと本の間にペンがあります。",
+      "en": "There is a pen between the apple and the book."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "勉強",
+    "hiragana": "べんきょう",
+    "romaji": "benkyou",
+    "meaning_en": "to study",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは何時間勉強していますか。",
+      "en": "How many hours have you been studying?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "便利",
+    "hiragana": "べんり",
+    "romaji": "benri",
+    "meaning_en": "useful; convenient",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "電話は便利なものである。",
+      "en": "The telephone is a convenience."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "帽子",
+    "hiragana": "ぼうし",
+    "romaji": "boushi",
+    "meaning_en": "hat",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "この帽子は１０００円なら安い。",
+      "en": "This hat is cheap at 1000 yen."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ボールペン",
+    "hiragana": "ぼーるぺん",
+    "romaji": "boorupen",
+    "meaning_en": "ball-point pen",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ボールペンのインクがなくなった。",
+      "en": "My ballpoint pen just ran out of ink."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ほか",
+    "hiragana": "ほか",
+    "romaji": "hoka",
+    "meaning_en": "other; the rest",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "ほかの女の子たちはどこにいるの。",
+      "en": "Where are the other girls?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ポケット",
+    "hiragana": "ぽけっと",
+    "romaji": "poketto",
+    "meaning_en": "pocket",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ポケットに何を持っていますか。",
+      "en": "What do you have in your pocket?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "欲しい",
+    "hiragana": "ほしい",
+    "romaji": "hoshii",
+    "meaning_en": "want",
+    "pos": "adj-i, aux-adj",
+    "level": "N5",
+    "example": {
+      "jp": "友人はマイカーを欲しがっている。",
+      "en": "My friend wants a car of his own."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ポスト",
+    "hiragana": "ぽすと",
+    "romaji": "posuto",
+    "meaning_en": "post",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ポストはどこにありますか。",
+      "en": "Where is the mailbox?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "細い",
+    "hiragana": "ほそい",
+    "romaji": "hosoi",
+    "meaning_en": "thin",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "彼は太っているくせに声は細い。",
+      "en": "His voice is thin even though he is fat."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ボタン",
+    "hiragana": "ぼたん",
+    "romaji": "botan",
+    "meaning_en": "button",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "レーンコートのボタンがとれた。",
+      "en": "A button has come off my raincoat."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ホテル",
+    "hiragana": "ほてる",
+    "romaji": "hoteru",
+    "meaning_en": "hotel",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あなたはこのホテルのお客ですか。",
+      "en": "Are you staying at this hotel?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "本",
+    "hiragana": "ほん",
+    "romaji": "hon",
+    "meaning_en": "book",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ウイスキーを１本持っています。",
+      "en": "I have a bottle of whiskey."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "本棚",
+    "hiragana": "ほんだな",
+    "romaji": "hondana",
+    "meaning_en": "bookshelves",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私は本棚の本をすべて読んだわけではない。",
+      "en": "I haven't read all the books on the shelves."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ほんとう",
+    "hiragana": "ほんとう",
+    "romaji": "hontou",
+    "meaning_en": "truth",
+    "pos": "n, adj-no, adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "本当のマンションではありません。",
+      "en": "It isn't a real apartment."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "毎朝",
+    "hiragana": "まいあさ",
+    "romaji": "maiasa",
+    "meaning_en": "every morning",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "毎朝ジョギングすることにした。",
+      "en": "I've decided to jog every morning."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "毎月",
+    "hiragana": "まいげつ",
+    "romaji": "maigetsu",
+    "meaning_en": "every month",
+    "pos": "adv, n",
+    "level": "N5",
+    "example": {
+      "jp": "毎月のガス代はいくらですか。",
+      "en": "How much is your monthly gas bill?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "毎週",
+    "hiragana": "まいしゅう",
+    "romaji": "maishuu",
+    "meaning_en": "every week",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "父は毎週日曜日にゴルフをします。",
+      "en": "My father plays golf every Sunday."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "毎日",
+    "hiragana": "まいにち",
+    "romaji": "mainichi",
+    "meaning_en": "every day",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "毎日うっとうしくていやですね。",
+      "en": "Don't you just hate this weather?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "毎年",
+    "hiragana": "まいねん",
+    "romaji": "mainen",
+    "meaning_en": "every year",
+    "pos": "adv, n",
+    "level": "N5",
+    "example": {
+      "jp": "毎年ここに来なきゃ。",
+      "en": "I'll have to come here every year."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "毎晩",
+    "hiragana": "まいばん",
+    "romaji": "maiban",
+    "meaning_en": "every night",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "私は毎晩家にいます。",
+      "en": "I am at home every evening."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "前",
+    "hiragana": "まえ",
+    "romaji": "mae",
+    "meaning_en": "before",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "外へ出る前に靴を磨きなさい。",
+      "en": "Shine your shoes before going out."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "曲る",
+    "hiragana": "まがる",
+    "romaji": "magaru",
+    "meaning_en": "to turn; to bend",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "２ブロック先まで歩き、左へ曲がりなさい。",
+      "en": "Walk two blocks, and turn left."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "まずい",
+    "hiragana": "まずい",
+    "romaji": "mazui",
+    "meaning_en": "unpleasant",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "あ！まずい！ガソリンが切れてきた。",
+      "en": "Oh, no! We're running out of gas."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "また",
+    "hiragana": "また",
+    "romaji": "mata",
+    "meaning_en": "again; and",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "ジムもまたパーティーに来ます。",
+      "en": "Jim is coming to the party, too."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "まだ",
+    "hiragana": "まだ",
+    "romaji": "mada",
+    "meaning_en": "yet; still",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "なすべきことがまだたくさんある。",
+      "en": "There still remains much to be done."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "町",
+    "hiragana": "まち",
+    "romaji": "machi",
+    "meaning_en": "town; city",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その町はロンドンのすぐ北にある。",
+      "en": "The town lies just above London."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "待つ",
+    "hiragana": "まつ",
+    "romaji": "matsu",
+    "meaning_en": "to wait",
+    "pos": "v5t, vt, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ちょっと待っていてもらえますか。",
+      "en": "Would you mind waiting a few minutes?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "まっすぐ",
+    "hiragana": "まっすぐ",
+    "romaji": "massugu",
+    "meaning_en": "straight ahead; direct",
+    "pos": "adj-na, adv, n",
+    "level": "N5",
+    "example": {
+      "jp": "まっすぐ前を見てください。",
+      "en": "Look forward, please."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "マッチ",
+    "hiragana": "まっち",
+    "romaji": "matchi",
+    "meaning_en": "match",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "マッチありますか。",
+      "en": "Do you have a match?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "窓",
+    "hiragana": "まど",
+    "romaji": "mado",
+    "meaning_en": "window",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "窓を開けっぱなしにしておいたの？",
+      "en": "Did you leave the window open?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "丸い",
+    "hiragana": "まるい",
+    "romaji": "marui",
+    "meaning_en": "round; circular",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "ボールは丸い。",
+      "en": "Balls are round."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "万",
+    "hiragana": "まん",
+    "romaji": "man",
+    "meaning_en": "ten thousand",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "このテープレコーダーは４万円しました。",
+      "en": "I paid 40,000 yen for this tape recorder."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "万年筆",
+    "hiragana": "まんねんひつ",
+    "romaji": "mannenhitsu",
+    "meaning_en": "fountain pen",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "新しい万年筆をなくしてしまった。",
+      "en": "I have lost my new fountain pen."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "磨く",
+    "hiragana": "みがく",
+    "romaji": "migaku",
+    "meaning_en": "to brush teeth; to polish",
+    "pos": "v5k, vt",
+    "level": "N5",
+    "example": {
+      "jp": "そのなべを磨いていただけませんか。",
+      "en": "Would you scrape that rusty pan?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "右",
+    "hiragana": "みぎ",
+    "romaji": "migi",
+    "meaning_en": "right side",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "アラビア語は右から左へ書きます。",
+      "en": "Arabic is written from right to left."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "短い",
+    "hiragana": "みじかい",
+    "romaji": "mijikai",
+    "meaning_en": "short",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "日がだんだん短くなっている。",
+      "en": "The days are becoming shorter."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "水",
+    "hiragana": "みず",
+    "romaji": "mizu",
+    "meaning_en": "water",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ひざに水がたまっているようです。",
+      "en": "I'm afraid I have water in my knee joint."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "店",
+    "hiragana": "みせ",
+    "romaji": "mise",
+    "meaning_en": "shop",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "店はたたまれ、それっきりだった。",
+      "en": "The store closed down for good."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "見せる",
+    "hiragana": "みせる",
+    "romaji": "miseru",
+    "meaning_en": "to show",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "パスポートを見せてくれませんか。",
+      "en": "Will you show me your passport, please?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "道",
+    "hiragana": "みち",
+    "romaji": "michi",
+    "meaning_en": "street",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "二本の道はそこでクロスしている。",
+      "en": "The two roads cross there."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "三日",
+    "hiragana": "みっか",
+    "romaji": "mikka",
+    "meaning_en": "three days; third day of the month",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "１０月３日です。",
+      "en": "It's the third of October."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "三つ",
+    "hiragana": "みっつ",
+    "romaji": "mittsu",
+    "meaning_en": "three",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "コーヒー三つおねがいします。",
+      "en": "Three coffees, please."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "緑",
+    "hiragana": "みどり",
+    "romaji": "midori",
+    "meaning_en": "green",
+    "pos": "n, adj-no",
+    "level": "N5",
+    "example": {
+      "jp": "東京ミッドタウンは緑がいっぱい！",
+      "en": "There's a lot of greenery in Tokyo Midtown!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "皆さん",
+    "hiragana": "みなさん",
+    "romaji": "minasan",
+    "meaning_en": "everyone",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "皆さんじっとしていてください。",
+      "en": "Could you keep still, everyone?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "南",
+    "hiragana": "みなみ",
+    "romaji": "minami",
+    "meaning_en": "south",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "フランスは英国の南にある。",
+      "en": "France is to the south of England."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "耳",
+    "hiragana": "みみ",
+    "romaji": "mimi",
+    "meaning_en": "ear",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "なぜ、あなたの耳はそんなに大きいの？",
+      "en": "Why are your ears so big?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "見る",
+    "hiragana": "みる",
+    "romaji": "miru",
+    "meaning_en": "to see; to watch",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "わたしはそれを見てぎょっとした。",
+      "en": "I was appalled at the sight."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "みんな",
+    "hiragana": "みんな",
+    "romaji": "minna",
+    "meaning_en": "everyone",
+    "pos": "n, pn, adv",
+    "level": "N5",
+    "example": {
+      "jp": "女の子はほとんどみんなやさしい。",
+      "en": "Almost all girls are kind."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "六日",
+    "hiragana": "むいか",
+    "romaji": "muika",
+    "meaning_en": "six days; sixth day of the month",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "４月５日か６日に会っていただけませんか。",
+      "en": "Would it be possible to set up a meeting with us on April 5 or 6?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "向こう",
+    "hiragana": "むこう",
+    "romaji": "mukou",
+    "meaning_en": "over there",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その男の子は向こうにいます。",
+      "en": "The boy is over there."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "難しい",
+    "hiragana": "むずかしい",
+    "romaji": "muzukashii",
+    "meaning_en": "difficult",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "外国人が日本語を学ぶのは難しい。",
+      "en": "It is difficult for a foreigner to study Japanese."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "六つ",
+    "hiragana": "むっつ",
+    "romaji": "muttsu",
+    "meaning_en": "six",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "彼は６行のうちに６つまちがいをした。",
+      "en": "He made six mistakes in as many lines."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "村",
+    "hiragana": "むら",
+    "romaji": "mura",
+    "meaning_en": "village",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "町は村よりも大きい。",
+      "en": "Towns are larger than villages."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "目",
+    "hiragana": "め",
+    "romaji": "me",
+    "meaning_en": "eye",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "彼女はきれいな目をしている。",
+      "en": "She has beautiful eyes."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "メートル",
+    "hiragana": "めーとる",
+    "romaji": "meetoru",
+    "meaning_en": "metre",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "前の人から1メートル離れて並んでください。",
+      "en": "Form a line, keeping one meter away from the person in front of you."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "眼鏡",
+    "hiragana": "めがね",
+    "romaji": "megane",
+    "meaning_en": "glasses",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "私はメガネがなくては読めない。",
+      "en": "I cannot read without glasses."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "もう",
+    "hiragana": "もう",
+    "romaji": "mou",
+    "meaning_en": "already",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "もう～、なにやってんだよ。",
+      "en": "Jeez, what're you up to?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "もう一度",
+    "hiragana": "もういちど",
+    "romaji": "mouichido",
+    "meaning_en": "again",
+    "pos": "exp, adv",
+    "level": "N5",
+    "example": {
+      "jp": "もう一度ゆっくりお話しください。",
+      "en": "Could you please repeat it slowly?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "木曜日",
+    "hiragana": "もくようび",
+    "romaji": "mokuyoubi",
+    "meaning_en": "Thursday",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "やあ、フレッド。木曜日にバドミントンはどう。",
+      "en": "Hi, Fred, how about badminton on Thursday?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "持つ",
+    "hiragana": "もつ",
+    "romaji": "motsu",
+    "meaning_en": "to hold",
+    "pos": "v5t, vt",
+    "level": "N5",
+    "example": {
+      "jp": "コートを持ちましょうか。",
+      "en": "Shall I carry your coat?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "もっと",
+    "hiragana": "もっと",
+    "romaji": "motto",
+    "meaning_en": "more",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "父がもっと長生きしていたらなあ。",
+      "en": "I wish my father had lived longer."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "物",
+    "hiragana": "もの",
+    "romaji": "mono",
+    "meaning_en": "thing",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "どちらのかばんがあなたの物ですか。",
+      "en": "Which bag is yours?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "門",
+    "hiragana": "もん",
+    "romaji": "mon",
+    "meaning_en": "gate",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ジョンは門のところまで出てきた。",
+      "en": "John moved forward to the gate."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "問題",
+    "hiragana": "もんだい",
+    "romaji": "mondai",
+    "meaning_en": "problem",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "問題はお金がないということです。",
+      "en": "The trouble is that we have no money."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "八百屋",
+    "hiragana": "やおや",
+    "romaji": "yaoya",
+    "meaning_en": "greengrocer",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その八百屋は客にとても親切だ。",
+      "en": "The greengrocer is very kind to his customers."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "野菜",
+    "hiragana": "やさい",
+    "romaji": "yasai",
+    "meaning_en": "vegetable",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "その店は野菜を売っている。",
+      "en": "The store deals in vegetables."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "易しい",
+    "hiragana": "やさしい",
+    "romaji": "yasashii",
+    "meaning_en": "easy; simple",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "もっと易しい事を聞いて下さい。",
+      "en": "Ask me something easier."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "安い",
+    "hiragana": "やすい",
+    "romaji": "yasui",
+    "meaning_en": "cheap",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "もっと安いものを見せてください。",
+      "en": "Show me a cheaper one, please."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "休み",
+    "hiragana": "やすみ",
+    "romaji": "yasumi",
+    "meaning_en": "rest; holiday",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "学校はクリスマスで休みになった。",
+      "en": "School has closed for the Christmas holidays."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "休む",
+    "hiragana": "やすむ",
+    "romaji": "yasumu",
+    "meaning_en": "to rest",
+    "pos": "v5m, vi",
+    "level": "N5",
+    "example": {
+      "jp": "父はまだ休んでいる。",
+      "en": "Father is still in bed."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "八つ",
+    "hiragana": "やっつ",
+    "romaji": "yattsu",
+    "meaning_en": "eight",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "そこに八つの小石があった。",
+      "en": "There were eight pebbles there."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "山",
+    "hiragana": "やま",
+    "romaji": "yama",
+    "meaning_en": "mountain",
+    "pos": "n, ctr",
+    "level": "N5",
+    "example": {
+      "jp": "その山はどれくらいの高さですか。",
+      "en": "How high is the mountain?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "やる",
+    "hiragana": "やる",
+    "romaji": "yaru",
+    "meaning_en": "to do",
+    "pos": "v5r, vt",
+    "level": "N5",
+    "example": {
+      "jp": "５ドルをやる。",
+      "en": "Here's $5."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "夕方",
+    "hiragana": "ゆうがた",
+    "romaji": "yuugata",
+    "meaning_en": "evening",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "ひょっとすると夕方前に雨になるかもしれない。",
+      "en": "It might rain before evening."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "夕飯",
+    "hiragana": "ゆうはん",
+    "romaji": "yuuhan",
+    "meaning_en": "dinner",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "夕飯はもう食べましたか。",
+      "en": "Have you had dinner?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "郵便局",
+    "hiragana": "ゆうびんきょく",
+    "romaji": "yuubinkyoku",
+    "meaning_en": "post office",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あの～郵便局はどちらでしょうか。",
+      "en": "Uh..., where's the post office?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "昨夜",
+    "hiragana": "ゆうべ",
+    "romaji": "yuube",
+    "meaning_en": "last night",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "昨夜はよく眠れましたか。",
+      "en": "Did you have a good sleep last night?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "有名",
+    "hiragana": "ゆうめい",
+    "romaji": "yuumei",
+    "meaning_en": "famous",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "そのホテルは食事で有名である。",
+      "en": "The hotel is noted for its food."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "雪",
+    "hiragana": "ゆき",
+    "romaji": "yuki",
+    "meaning_en": "snow",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ひどい雪のため外出できなかった。",
+      "en": "The heavy snow kept us from going out."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ゆっくりと",
+    "hiragana": "ゆっくりと",
+    "romaji": "yukkurito",
+    "meaning_en": "slowly",
+    "pos": "adv, adv-to, vs",
+    "level": "N5",
+    "example": {
+      "jp": "おじいさんはとてもゆっくりと話す。",
+      "en": "Grandfather speaks very slowly."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "八日",
+    "hiragana": "ようか",
+    "romaji": "youka",
+    "meaning_en": "eight days; eighth day of the month",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "学校は４月８日から始まります。",
+      "en": "School begins on April 8."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "洋服",
+    "hiragana": "ようふく",
+    "romaji": "youfuku",
+    "meaning_en": "western-style clothes",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "お前に新しい洋服を作ってあげよう。",
+      "en": "I will make a new suit for you."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "よく",
+    "hiragana": "よく",
+    "romaji": "yoku",
+    "meaning_en": "often; well",
+    "pos": "adv",
+    "level": "N5",
+    "example": {
+      "jp": "ジャック、よく来てくれたね。",
+      "en": "You are welcome, Jack!"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "横",
+    "hiragana": "よこ",
+    "romaji": "yoko",
+    "meaning_en": "beside; side; width",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "母親は赤ん坊をベッドに横にした。",
+      "en": "The mother laid her baby on the bed."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "四日",
+    "hiragana": "よっか",
+    "romaji": "yokka",
+    "meaning_en": "four days; fouth day of the month",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "長くても４日しか待てませんよ。",
+      "en": "I can wait four days at the longest."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "四つ",
+    "hiragana": "よっつ",
+    "romaji": "yottsu",
+    "meaning_en": "four",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "その紙を四つ折りにしなさい。",
+      "en": "Fold the paper in four."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "呼ぶ",
+    "hiragana": "よぶ",
+    "romaji": "yobu",
+    "meaning_en": "to call out; to invite",
+    "pos": "v5b, vt",
+    "level": "N5",
+    "example": {
+      "jp": "あなたをケパと呼ぶことにします。",
+      "en": "You will be called Cephas."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "読む",
+    "hiragana": "よむ",
+    "romaji": "yomu",
+    "meaning_en": "to read",
+    "pos": "v5m, vt",
+    "level": "N5",
+    "example": {
+      "jp": "本を読む時間がほとんどないんだ。",
+      "en": "I have little time to read."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "より",
+    "hiragana": "より",
+    "romaji": "yori",
+    "meaning_en": "than; (used for comparison)",
+    "pos": "prt",
+    "level": "N5",
+    "example": {
+      "jp": "もうこれよりほかに手はない。",
+      "en": "There's no other way than this now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "夜",
+    "hiragana": "よる",
+    "romaji": "yoru",
+    "meaning_en": "evening; night",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは夜よく寝れませんか。",
+      "en": "Don't you sleep well at night?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "弱い",
+    "hiragana": "よわい",
+    "romaji": "yowai",
+    "meaning_en": "weak",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "それを言われると弱いなあ。",
+      "en": "That sure puts me on the spot."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "来月",
+    "hiragana": "らいげつ",
+    "romaji": "raigetsu",
+    "meaning_en": "next month",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "来月タクシー料金があがります。",
+      "en": "Taxi fares will go up next month."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "来週",
+    "hiragana": "らいしゅう",
+    "romaji": "raishuu",
+    "meaning_en": "next week",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "来週ヨーロッパへ行くつもりなんです。",
+      "en": "I'm going to Europe next week."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "来年",
+    "hiragana": "らいねん",
+    "romaji": "rainen",
+    "meaning_en": "next year",
+    "pos": "n, adv",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは来年この本を読むことが出来るでしょう。",
+      "en": "You will be able to read this book next year."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ラジオ",
+    "hiragana": "らじお",
+    "romaji": "rajio",
+    "meaning_en": "radio",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "そのニュースはラジオで聞いたよ。",
+      "en": "I heard the news on the radio."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ラジカセ",
+    "hiragana": "らじかせ",
+    "romaji": "rajikase",
+    "meaning_en": "radio cassette player",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "確かに今の日本では、「ラジカセ」はもう古い言葉なのかもしれない。",
+      "en": "The word \"raji-kase\", meaning radio cassette in Japan, is probably more of an antiquated term by now."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "りっぱ",
+    "hiragana": "りっぱ",
+    "romaji": "rippa",
+    "meaning_en": "splendid",
+    "pos": "adj-na",
+    "level": "N5",
+    "example": {
+      "jp": "どうもごりっぱな言いわけだよ。",
+      "en": "That is a fine excuse."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "留学生",
+    "hiragana": "りゅうがくせい",
+    "romaji": "ryuugakusei",
+    "meaning_en": "overseas student",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "留学生も入れるのかしら。",
+      "en": "Can foreign students be in the club?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "両親",
+    "hiragana": "りょうしん",
+    "romaji": "ryoushin",
+    "meaning_en": "both parents",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "両親は二人ともまだ生きています。",
+      "en": "Both the parents are still living."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "料理",
+    "hiragana": "りょうり",
+    "romaji": "ryouri",
+    "meaning_en": "cuisine",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "これらのりんごは料理用にもってこいだ。",
+      "en": "These apples are good cookers."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "旅行",
+    "hiragana": "りょこう",
+    "romaji": "ryokou",
+    "meaning_en": "travel",
+    "pos": "n, vs, vi",
+    "level": "N5",
+    "example": {
+      "jp": "いつ旅行においでになりますか。",
+      "en": "When will you go on a journey?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "零",
+    "hiragana": "れい",
+    "romaji": "rei",
+    "meaning_en": "zero",
+    "pos": "n",
+    "level": "N5",
+    "example": null,
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "冷蔵庫",
+    "hiragana": "れいぞうこ",
+    "romaji": "reizouko",
+    "meaning_en": "refrigerator",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "冷蔵庫の中にバターが２ポンドある。",
+      "en": "There are two pounds of butter in the icebox."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "レコード",
+    "hiragana": "れこーど",
+    "romaji": "rekoodo",
+    "meaning_en": "record",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ステレオにレコードをかけてください。",
+      "en": "Put a record on the stereo."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "レストラン",
+    "hiragana": "れすとらん",
+    "romaji": "resutoran",
+    "meaning_en": "restaurant",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "あのレストランはサービスがよい。",
+      "en": "They give good service at that restaurant."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "練習",
+    "hiragana": "れんしゅう",
+    "romaji": "renshuu",
+    "meaning_en": "to practice",
+    "pos": "n, vs, vt",
+    "level": "N5",
+    "example": {
+      "jp": "あなたはいつピアノの練習をしますか。",
+      "en": "When do you practice the piano?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "廊下",
+    "hiragana": "ろうか",
+    "romaji": "rouka",
+    "meaning_en": "corridor",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "廊下の突き当たりで火事が起きました。",
+      "en": "There's a fire down the hall."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "六",
+    "hiragana": "ろく",
+    "romaji": "roku",
+    "meaning_en": "six",
+    "pos": "num",
+    "level": "N5",
+    "example": {
+      "jp": "私は毎朝六時に起きます。",
+      "en": "I get up at six every morning."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "ワイシャツ",
+    "hiragana": "わいしゃつ",
+    "romaji": "waishatsu",
+    "meaning_en": "business shirt",
+    "pos": "n",
+    "level": "N5",
+    "example": {
+      "jp": "ワイシャツにボタンをつけて。",
+      "en": "Would you sew a button on my shirt?"
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "若い",
+    "hiragana": "わかい",
+    "romaji": "wakai",
+    "meaning_en": "young",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "「彼女は若いですか」「はい」",
+      "en": "\"Is she young?\" \"Yes, she is.\""
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "分かる",
+    "hiragana": "わかる",
+    "romaji": "wakaru",
+    "meaning_en": "to be understood",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "ボブがいつ来日したか分からない。",
+      "en": "I don't know when Bob came to Japan."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "忘れる",
+    "hiragana": "わすれる",
+    "romaji": "wasureru",
+    "meaning_en": "to forget",
+    "pos": "v1, vt",
+    "level": "N5",
+    "example": {
+      "jp": "電話するのを忘れてごめんなさい。",
+      "en": "Please forgive me for forgetting to call you."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "私",
+    "hiragana": "わたくし",
+    "romaji": "watakushi",
+    "meaning_en": "(humble) I; myself",
+    "pos": "pn",
+    "level": "N5",
+    "example": {
+      "jp": "私は泳げません。",
+      "en": "I don't know how to swim."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "渡す",
+    "hiragana": "わたす",
+    "romaji": "watasu",
+    "meaning_en": "to hand over",
+    "pos": "v5s, vt",
+    "level": "N5",
+    "example": {
+      "jp": "わたしを川のむこうに渡してください。",
+      "en": "Please take me across the river."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "渡る",
+    "hiragana": "わたる",
+    "romaji": "wataru",
+    "meaning_en": "to go across",
+    "pos": "v5r, vi",
+    "level": "N5",
+    "example": {
+      "jp": "一行はアメリカへ渡った。",
+      "en": "The party crossed over to America."
+    },
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "悪い",
+    "hiragana": "わるい",
+    "romaji": "warui",
+    "meaning_en": "bad",
+    "pos": "adj-i",
+    "level": "N5",
+    "example": {
+      "jp": "これは悪い話ではないでしょう？",
+      "en": "This isn't an unappealing proposition, is it?"
+    },
+    "source": "OpenJLPT"
+  }
+]

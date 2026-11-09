@@ -1,0 +1,437 @@
+# Nihongo N5 — Ứng dụng học Tiếng Nhật JLPT N5 (PWA offline)
+
+Ứng dụng web học **từ vựng, ngữ pháp và kanji** cho kỳ thi JLPT N5.
+Chạy **hoàn toàn offline** trên Chrome/Edge của Windows — không cần backend, không cần API key, **0 đồng**.
+
+![Tech stack](https://img.shields.io/badge/React_18-TypeScript-Vite-blue) ![Offline](https://img.shields.io/badge/PWA-offline-green)
+
+---
+
+## 📑 Mục lục
+
+- [Tính năng](#-tính-năng)
+- [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
+- [Cài đặt & chạy](#-cài-đặt--chạy)
+- [Cấu trúc dự án](#-cấu-trúc-dự-án)
+- [Cách bật giọng tiếng Nhật trên Windows](#-cách-bật-giọng-tiếng-nhật-trên-windows)
+- [Cài ứng dụng PWA](#-cài-ứng-dụng-pwa)
+- [Thêm nội dung mới](#-thêm-nội-dung-mới)
+- [Công cụ hỗ trợ](#-công-cụ-hỗ-trợ)
+- [Kiểm thử & build](#-kiểm-thử--build)
+- [Câu hỏi thường gặp](#-câu-hỏi-thường-gặp)
+
+---
+
+## ✨ Tính năng
+
+| Khu vực | Mô tả |
+| --- | --- |
+| **Thẻ ghi nhớ (SRS)** | Thuật toán **SM-2** với 4 nút *Quên rồi / Khó / Được / Dễ*. Mỗi thẻ có `easeFactor`, `interval`, `repetitions`, `nextReview`. Thẻ quên sẽ quay lại sau 10 phút. |
+| **Từ vựng** | 4 dạng bài: **Đoán nghĩa** (kanji → nghĩa), **Trắc nghiệm** (chọn từ theo ngữ cảnh câu), **Điền từ** (cloze trong câu ví dụ), **Nghe chọn từ** (TTS → chọn đáp án). |
+| **Ngữ pháp** | Bài lý thuyết tiếng Việt + công thức + ví dụ có bản dịch & phát âm, kèm bài trắc nghiệm, bài điền từ và bài tập viết câu (so khớp token). |
+| **Kanji** | Bài **Đọc** (chọn Hiragana/Onyomi), **Nghĩa**, và **luyện viết tay** trên `<canvas>` (chuột + cảm ứng, có ô vuông nét dấu, ẩn/hiện mẫu). Bảng tra nhanh có search + filter. |
+| **Luyện nghe** | Nghe TTS tiếng Nhật rồi chọn từ hoặc nghĩa đúng. Không dùng SpeechRecognition (Chrome Windows không hỗ trợ ja). |
+| **Thống kê** | Chuỗi học (streak), biểu đồ 14 ngày, trạng thái thẻ (mới / đang học / đang ôn / đã thuộc), tỉ lệ đúng theo từng chủ đề. |
+| **Tra cứu nhanh** | Bảng tra từ vựng với search theo kanji / hiragana / romaji / nghĩa và filter theo chủ đề. |
+| **Mục tiêu & dữ liệu** | Đặt mục tiêu thẻ/ngày, **export / import** tiến độ ra file JSON. |
+| **Giao diện** | Tiếng Việt, dark mode (Sáng/Tối/Theo hệ thống), responsive (sidebar desktop + bottom nav mobile), font hệ thống cho kanji. |
+
+### Nội dung seed có sẵn
+
+- **345 từ vựng** N5 thật (kanji, hiragana, romaji, nghĩa tiếng Việt, từ loại, chủ đề, câu ví dụ JP/VI)
+- **15 điểm ngữ pháp** N5 (lý thuyết, công thức, ví dụ, trắc nghiệm, bài điền từ)
+- **103 kanji** cơ bản (onyomi, kunyomi, số nét, bộ phận, từ vựng liên quan)
+
+Ngoài 345 từ trong `content/vocab/n5.json`, bạn có thể nạp thêm **674 từ + 84 kanji** gốc
+từ nguồn OpenJLPT bằng `npm run import:jlpt` (xem [Công cụ hỗ trợ](#-công-cụ-hỗ-trợ)).
+
+---
+
+## 🛠 Công nghệ sử dụng
+
+| Công nghệ | Vai trò |
+| --- | --- |
+| **Vite 5** | Dev server & build |
+| **React 18** | UI |
+| **TypeScript** | Kiểu dữ liệu chặt chẽ |
+| **TailwindCSS** | Utility-first CSS, dark mode qua class |
+| **Zustand** | State + `persist` middleware → `localStorage` |
+| **React Router 6** | Điều hướng |
+| **Zod** | Validate schema cho dữ liệu JSON |
+| **vite-plugin-pwa** | Manifest + Service Worker (Workbox) |
+| **Web Speech API** | TTS tiếng Nhật (`speechSynthesis`) |
+
+> Không có dependency runtime nào nặng: bundle chính ~187 kB (61 kB gzip).
+
+---
+
+## 🚀 Cài đặt & chạy
+
+### Yêu cầu
+
+- **Node.js 18+** (khuyến nghị 20 LTS) — kiểm tra bằng `node -v`
+- Trình duyệt **Chrome** hoặc **Edge** trên Windows
+
+### Các lệnh
+
+```bash
+# 1. Cài dependencies
+npm install
+
+# 2. Chạy ở chế độ phát triển (http://localhost:5173)
+npm run dev
+
+# 3. Build bản production (ra thư mục dist/)
+npm run build
+
+# 4. Xem bản build (kiểm tra offline + service worker)
+npm run preview
+
+# 5. Kiểm tra lỗi TypeScript
+npm run typecheck
+
+# 6. Kiểm tra dữ liệu JSON có hợp lệ theo schema không
+npm run validate
+```
+
+### Chạy hoàn toàn offline
+
+`npm run build` sinh ra thư mục `dist/` chứa:
+
+```
+dist/
+├── index.html
+├── manifest.webmanifest
+├── sw.js                    ← Service Worker (precache toàn bộ app shell)
+├── icon-192.png / icon-512.png
+├── assets/…                 ← JS/CSS
+└── content/
+    ├── vocab/n5.json        ← được precache
+    ├── grammar/n5.json
+    └── kanji/n5.json
+```
+
+Để dùng offline lâu dài, hãy **cài app lên desktop** (xem [Cài ứng dụng PWA](#-cài-ứng-dụng-pwa)).
+Service worker sẽ cache toàn bộ app shell + dữ liệu JSON ngay lần truy cập đầu tiên.
+
+---
+
+## 📁 Cấu trúc dự án
+
+```
+d:\2HOCPHAN\Nihongo\
+├── content/                    # Dữ liệu tĩnh (được service worker cache)
+│   ├── vocab/n5.json           # 345 từ vựng
+│   ├── vocab/imported-n5.json  # 674 từ gốc từ OpenJLPT (chưa có nghĩa tiếng Việt)
+│   ├── grammar/n5.json         # 15 điểm ngữ pháp
+│   ├── kanji/n5.json           # 103 kanji
+│   ├── kanji/imported-n5.json  # 84 kanji gốc từ OpenJLPT
+│   └── export/                 # Output của script export Anki
+├── public/                     # Icon, favicon
+├── src/
+│   ├── data/
+│   │   ├── schemas.ts          # Zod schema: Vocab, Grammar, Kanji, CardProgress
+│   │   └── loader.ts           # Fetch + parse dữ liệu
+│   ├── store/
+│   │   ├── progress.ts         # Zustand persist: SRS cards, log, streak, settings
+│   │   ├── content.tsx         # Zustand: nội dung đã tải + theme
+│   │   └── srs.ts              # Thuật toán SM-2
+│   ├── features/
+│   │   ├── flashcard/          # Học theo thẻ ghi nhớ
+│   │   ├── quiz/               # 4 dạng bài từ vựng
+│   │   ├── kanji/              # Canvas luyện viết
+│   │   ├── listen/             # Bài nghe TTS
+│   │   └── stats/              # Biểu đồ & thống kê
+│   ├── pages/                  # Home, Vocab, Grammar, Kanji, Listen, Stats, Settings, Guide
+│   ├── components/
+│   │   ├── ui/                 # UI kit (Button, Card, Badge, ProgressBar…)
+│   │   ├── Layout.tsx          # Sidebar + bottom nav
+│   │   └── SpeakButton.tsx     # Nút phát âm
+│   ├── hooks/useTTS.ts         # Chọn voice ja-JP ưu tiên localService
+│   └── lib/cn.ts               # Tiện ích: shuffle, normalizeJP, compareSentence
+├── tools/
+│   ├── importFromJLPT.ts       # Tải dataset JLPT N5 (OpenJLPT + JLPT Sensei)
+│   ├── extraVocab.ts           # Nghĩa tiếng Việt + ví dụ cho từ vựng bổ sung
+│   ├── extraKanji.ts           # Nghĩa tiếng Việt + từ ví dụ cho kanji bổ sung
+│   ├── seedExtraVocab.ts       # Gộp từ vựng bổ sung vào content/vocab/n5.json
+│   ├── seedExtraKanji.ts       # Gộp kanji bổ sung vào content/kanji/n5.json
+│   ├── exportAnki.ts           # Xuất TSV cho Anki
+│   ├── validateContent.ts      # Kiểm tra JSON theo Zod schema
+│   ├── checkContent.ts         # Phát hiện ký tự lẫn trong dữ liệu
+│   ├── makeIcons.ts            # Sinh icon PNG cho PWA
+│   └── contentPlugin.ts        # Vite plugin: serve & emit content/*.json
+└── vite.config.ts              # Cấu hình Vite + PWA
+```
+
+---
+
+## 🔊 Cách bật giọng tiếng Nhật trên Windows
+
+Windows **không cài sẵn** giọng đọc tiếng Nhật. Cần làm theo một trong hai cách:
+
+### Cách A — Dùng Microsoft Edge (nhanh nhất)
+
+Edge có sẵn giọng tiếng Nhật chất lượng cao qua mạng.
+Chỉ cần mở app bằng **Edge** — không cần cài gì thêm.
+*(Lưu ý: giọng online cần Internet. Để offline hoàn toàn, hãy dùng Cách B.)*
+
+### Cách B — Cài gói ngôn tiếng Nhật (offline, khuyến nghị)
+
+1. Mở **Cài đặt** → **Thời gian & Ngôn ngữ** → **Ngôn ngữ & khu vực**
+2. Nhấn **"Thêm ngôn ngữ"** → tìm **"日本語 (Japanese)"** → **Tiếp**
+3. Chọn **"Basic typing"** (chỉ cần gõ, không cần nhận dạng giọng nói)
+4. Sau khi cài xong, nhấp vào **"Ngôn ngữ Japanese"** → **Tùy chọn ngôn ngữ** → **Giọng nói**
+   → chọn giọng (ví dụ *Microsoft Haruka Desktop*, *Microsoft Nanami*, *Microsoft Yu*) → **Tải xuống**
+5. **Khởi động lại trình duyệt** (đóng mở Chrome/Edge)
+
+### Kiểm tra đã bật chưa
+
+Vào **Cài đặt → Âm thanh** trong app:
+
+- Danh sách **"Giọng đọc tiếng Nhật"** hiện các voice → đã thành công
+- Danh sách trống → chưa cài giọng, làm lại từ bước 2
+- Ghi "(offline)" = giọng local, dùng được khi **mất mạng**
+- Ghi "(online)" = giọng của Edge, cần Internet
+
+### Cách ứng dụng chọn voice
+
+`src/hooks/useTTS.ts` chọn theo thứ tự ưu tiên:
+
+1. Voice bạn chọn thủ công trong **Cài đặt**
+2. Voice `localService: true` (giọng Windows cài sẵn → **offline**)
+3. Voice có tên chứa `Microsoft` / `Natural` / `Google`
+4. Voice ja-JP bất kỳ
+
+---
+
+## 📲 Cài ứng dụng PWA
+
+### Chrome / Edge trên Windows
+
+1. Mở trang web ứng dụng
+2. Nhấp biểu tượng **⋮** (góc trên phải) hoặc **biểu tượng cài đặt** trên thanh địa chỉ
+3. Chọn **"Cài ứng dụng"** / **"Install Nihongo N5"**
+4. Mở app từ biểu tượng trên desktop → chạy như app thật, không còn thanh địa chỉ
+
+### iPhone / iPad (Safari)
+
+1. Mở bằng **Safari** (không dùng Chrome trên iOS)
+2. Nhấn **Chia sẻ** (⬆️) → **"Thêm vào Màn hình Chính"**
+
+### Sau khi cài
+
+- Mở app **một lần khi đang online** để tải & cache toàn bộ dữ liệu
+- Từ đó app chạy 100% offline
+- Khi có bản cập nhật mới, service worker tự cập nhật (`registerType: 'autoUpdate'`)
+
+---
+
+## ➕ Thêm nội dung mới
+
+### 1. Thêm từ vựng
+
+Mở `content/vocab/n5.json`, thêm phần tử theo schema:
+
+```jsonc
+{
+  "id": "n5-v346",              // duy nhất
+  "level": "N5",
+  "kanji": "桜",                // kanji hiển thị chính
+  "hiragana": "さくら",
+  "romaji": "sakura",
+  "meaning_vi": "hoa anh đào",
+  "pos": "noun",                // noun / verb-u / adj-i / adj-na / pronoun
+  "tags": ["thời gian", "mùa"], // dùng để filter, nhóm chủ đề
+  "example": {
+    "jp": "春に桜が咲きます。",
+    "vi": "Mùa xuân hoa anh đào nở."
+  },
+  "related": ["春", "花"]
+}
+```
+
+> **Mẹo:** Thay vì sửa JSON thủ công, hãy thêm vào `tools/extraVocab.ts` rồi chạy `npm run seed:extra` —
+> script sẽ tự tra hiragana/romaji từ nguồn import, tự sinh `id` và không ghi đè dữ liệu cũ.
+
+### 2. Thêm ngữ pháp
+
+Mở `content/grammar/n5.json`:
+
+```jsonc
+{
+  "id": "n5-g016",
+  "level": "N5",
+  "point": "〜ませんか",
+  "title_vi": "Câu hỏi lịch sự — ませんか",
+  "explanation_vi": "Cấu trúc: verb-ます形 bỏ ます + ませんか…",
+  "pattern": "Verb-ます形 (bỏ ます) + ませんか",
+  "examples": [
+    { "jp": "一緒に行きませんか。", "vi": "Đi cùng nhé?" }
+  ],
+  "quiz": [
+    {
+      "question": "「行ませんか。」 nghĩa là gì?",
+      "options": ["Đi nhé?", "Tôi sẽ đi.", "Đừng đi.", "Tôi đã đi."],
+      "answer_index": 0
+    }
+  ],
+  "cloze": [
+    { "sentence": "一緒に行き___か。", "answer": "ません" }
+  ]
+}
+```
+
+### 3. Thêm kanji
+
+Mở `content/kanji/n5.json`:
+
+```jsonc
+{
+  "id": "n5-k104",
+  "kanji": "桜",
+  "onyomi": ["オウ"],
+  "kunyomi": ["さくら"],
+  "strokes": 9,
+  "meaning_vi": "hoa anh đào",
+  "radical": "木",
+  "example_words": [
+    { "word": "桜", "vi": "hoa anh đào" },
+    { "word": "桜の木", "vi": "cây anh đào" }
+  ]
+}
+```
+
+### 4. Kiểm tra & build lại
+
+```bash
+npm run validate     # kiểm tra JSON theo Zod schema
+npm run build        # build lại, service worker cache lại nội dung mới
+```
+
+> **Lưu ý:** Sau khi build lại, hãy đóng và mở lại app (hoặc vào DevTools → Application → Service Workers → "Update on reload") để nhận nội dung mới.
+
+### Schema đầy đủ
+
+Xem `src/data/schemas.ts` — đây là nguồn sự thật (source of truth) cho validation.
+
+---
+
+## 🔧 Công cụ hỗ trợ
+
+### `npm run validate` — kiểm tra dữ liệu
+
+Dùng Zod schema để kiểm tra toàn bộ `content/*.json`, phát hiện ID trùng, thiếu trường, sai kiểu.
+
+### `npm run check:content` — phát hiện ký tự lẫn
+
+Rà soát nội dung tiếng Nhật xem có ký tự Latin/Hangul bị lẫn vào không (lỗi hay gặp khi sao chép từ nguồn khác).
+
+### `npm run import:jlpt` — nhập dataset JLPT
+
+```bash
+npm run import:jlpt          # cả từ vựng + kanji
+npm run import:jlpt -- vocab # chỉ từ vựng
+npm run import:jlpt -- kanji # chỉ kanji
+```
+
+Tải từ nguồn **[OpenJLPT](https://github.com/evanclan/OpenJLPT)** (JSON, giấy phép rõ ràng, 674 từ + 84 kanji N5),
+dự phòng là [jlptsensei.com](https://jlptsensei.com/jlpt/vocabulary/n5/) (HTML — có thể bị captcha chặn).
+
+Kết quả lưu ra:
+- `content/vocab/imported-n5.json` — kanji, hiragana, romaji, nghĩa **tiếng Anh**, ví dụ JA/EN
+- `content/kanji/imported-n5.json` — onyomi, kunyomi, số nét, bộ sưu tập, nghĩa **tiếng Anh**
+
+### `npm run seed:extra` — gộp nội dung bổ sung
+
+```bash
+npm run import:jlpt    # 1. tải nguồn gốc trước
+npm run seed:extra     # 2. gộp nghĩa tiếng Việt + ví dụ đã biên soạn
+npm run validate       # 3. kiểm tra
+```
+
+- `tools/extraVocab.ts` — nghĩa tiếng Việt + câu ví dụ cho ~110 từ N5 thông dụng
+  (chào hỏi, thời gian, màu sắc, số đếm, địa điểm, hành động thường ngày…)
+- `tools/extraKanji.ts` — nghĩa tiếng Việt + từ ví dụ cho 41 kanji (số 1–10, phương hướng…)
+
+Script tự tra `hiragana` / `romaji` / `onyomi` / `kunyomi` từ file `imported-n5.json`,
+nên bạn chỉ cần viết **nghĩa tiếng Việt + ví dụ**.
+Nếu một từ không có trong nguồn import, thêm vào bảng `KANA_OVERRIDES` trong `tools/seedExtraVocab.ts`.
+
+> Chạy lại `npm run seed:extra` nhiều lần là an toàn — script **không ghi đè** các mục đã có
+> và tự đánh số lại `id` cho duy nhất.
+
+### `npm run export:anki` — xuất sang Anki
+
+```bash
+npm run export:anki
+```
+
+Sinh ra:
+- `content/export/anki-vocab.tsv` — kanji, hiragana, romaji, nghĩa, ví dụ JP, ví dụ VI, tags
+- `content/export/anki-kanji.tsv` — kanji, onyomi, kunyomi, số nét, nghĩa, bộ phận
+
+**Cách import vào Anki:** `File → Import` → chọn file `.tsv` → phân tách bằng **Tab** → gán thẻ "Japanese N5".
+
+### `npx tsx tools/makeIcons.ts` — sinh lại icon PWA
+
+Sinh `public/icon-192.png` và `public/icon-512.png` từ code (không cần thư viện ngoài).
+
+---
+
+## ✅ Kiểm thử & build
+
+```bash
+npm run typecheck   # TypeScript strict, không lỗi
+npm run validate    # dữ liệu hợp lệ
+npm run build       # build production + generate service worker
+```
+
+Sau khi `npm run build`, kiểm tra service worker đã cache đủ:
+
+```bash
+npm run preview
+# mở http://localhost:4173
+# DevTools → Application → Service Workers → xem danh sách precache
+# DevTools → Application → Cache Storage → xem content/vocab/n5.json…
+```
+
+Tắt mạng rồi tải lại trang → app vẫn hoạt động đầy đủ.
+
+---
+
+## ❓ Câu hỏi thường gặp
+
+**Q: Có tốn phí gì không?**
+> Không. Toàn bộ app là file tĩnh chạy trên máy bạn. Không có server, không có API key, không có tài khoản. 0 đồng.
+
+**Q: Có cần Internet không?**
+> Chỉ cần Internet **lần đầu** để tải app + cache dữ liệu. Sau đó dùng offline hoàn toàn. Riêng giọng Edge (online) cần mạng — nếu muốn offline thì cài giọng local theo hướng dẫn ở trên.
+
+**Q: Tiến độ lưu ở đâu?**
+> Trong `localStorage` của trình duyệt (key `nihongo-n5-progress`). Xóa dữ liệu trình duyệt là mất tiến độ — nên **export ra file JSON** thỉnh thoảng (Cài đặt → Xuất tiến độ).
+
+**Q: Có nhận dạng giọng nói (speech recognition) không?**
+> Không. Chrome trên Windows không hỗ trợ nhận dạng giọng nói tiếng Nhật. Thay vào đó app dùng bài **"nghe TTS → chọn đáp án"**, vẫn luyện được kỹ năng nghe.
+
+**Q: Thứ tự nét kanji có đúng không?**
+> Bản mẫu hiện tại là chữ mờ + lưới nét dấu để bạn tự luyện. Nếu muốn thứ tự nét chính xác, hãy thêm SVG từ
+> [kanjivg-data](https://github.com/KanjiVG/kanjivg) vào `content/kanji/strokes/<kanji>.svg` rồi nối vào component `KanjiCanvas`.
+
+**Q: Làm sao thêm nhiều từ hơn?**
+> Xem [Thêm nội dung mới](#-thêm-nội-dung-mới). Nhanh nhất: `npm run import:jlpt` để lấy 674 từ gốc,
+> rồi viết nghĩa tiếng Việt trong `tools/extraVocab.ts` và chạy `npm run seed:extra`.
+
+**Q: Lỗi "Không tải được dữ liệu" khi mở app?**
+> Chạy `npm run dev` tại thư mục gốc (dev server có middleware phục vụ `content/`), hoặc `npm run build` rồi `npm run preview`. Nếu build từ nhầm thư mục, `content/*.json` sẽ không được copy vào `dist/`.
+
+---
+
+## 📄 Giấy phép & nguồn dữ liệu
+
+- Dữ liệu từ vựng & kanji N5 do người dùng biên soạn (nghĩa tiếng Việt, ví dụ), dựa trên bộ dữ liệu **OpenJLPT** ([evanclan/OpenJLPT](https://github.com/evanclan/OpenJLPT)) — giấy phép rõ ràng, cho phép sử dụng lại.
+- Script `importFromJLPT.ts` lấy dữ liệu từ OpenJLPT, dự phòng từ [jlptsensei.com](https://jlptsensei.com/jlpt/vocabulary/n5/) — vui lòng tuân thủ điều khoản sử dụng của nguồn.
+- Font kanji dùng font hệ thống Windows: **Yu Gothic**, **Meiryo**, **MS Gothic**.
+
+---
+
+Chúc bạn học N5 hiệu quả! 🎌

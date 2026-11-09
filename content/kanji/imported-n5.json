@@ -1,0 +1,2042 @@
+[
+  {
+    "kanji": "日",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
+    "strokes": 4,
+    "meaning_en": "day; sun; Japan; counter for days",
+    "radical": "日",
+    "example_words": [
+      "明日",
+      "一日",
+      "五日",
+      "昨日",
+      "今日",
+      "九日",
+      "十日",
+      "七日"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "一",
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと-",
+      "ひと.つ"
+    ],
+    "strokes": 1,
+    "meaning_en": "one; one radical (no.1)",
+    "radical": "一",
+    "example_words": [
+      "一",
+      "一日",
+      "一緒",
+      "一つ",
+      "一月",
+      "一人",
+      "一昨日",
+      "一昨年"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "国",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "strokes": 8,
+    "meaning_en": "country",
+    "radical": "囗",
+    "example_words": [
+      "国",
+      "外国",
+      "外国人",
+      "国際",
+      "国語",
+      "国民",
+      "国家",
+      "国会"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "人",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "strokes": 2,
+    "meaning_en": "person",
+    "radical": "人",
+    "example_words": [
+      "人",
+      "大人",
+      "一人",
+      "二人",
+      "外国人",
+      "人口",
+      "人形",
+      "御主人"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "年",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "strokes": 6,
+    "meaning_en": "year; counter for years",
+    "radical": "干",
+    "example_words": [
+      "年",
+      "去年",
+      "今年",
+      "毎年",
+      "来年",
+      "一昨年",
+      "再来年",
+      "万年筆"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "大",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお-",
+      "おお.きい",
+      "-おお.いに"
+    ],
+    "strokes": 3,
+    "meaning_en": "large; big",
+    "radical": "大",
+    "example_words": [
+      "大勢",
+      "大人",
+      "大学",
+      "大切",
+      "大きい",
+      "大きな",
+      "大使館",
+      "大丈夫"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "十",
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "strokes": 2,
+    "meaning_en": "ten",
+    "radical": "十",
+    "example_words": [
+      "十",
+      "十日",
+      "二十歳",
+      "二十日",
+      "十分",
+      "五十音",
+      "十字路"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "二",
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふた.つ",
+      "ふたたび"
+    ],
+    "strokes": 2,
+    "meaning_en": "two; two radical (no. 7)",
+    "radical": "二",
+    "example_words": [
+      "二",
+      "二つ",
+      "二人",
+      "二日",
+      "二十歳",
+      "二十日",
+      "二階建て",
+      "真っ二つ"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "本",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "strokes": 5,
+    "meaning_en": "book; present; main; origin; true; real; counter for long cylindrical things",
+    "radical": "木",
+    "example_words": [
+      "本",
+      "本棚",
+      "基本",
+      "資本",
+      "日本",
+      "本人",
+      "本物",
+      "標本"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "中",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか",
+      "うち",
+      "あた.る"
+    ],
+    "strokes": 4,
+    "meaning_en": "in; inside; middle; mean; center",
+    "radical": "丨",
+    "example_words": [
+      "中",
+      "背中",
+      "途中",
+      "中々",
+      "中学校",
+      "真ん中",
+      "最中",
+      "集中"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "長",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが.い",
+      "おさ"
+    ],
+    "strokes": 8,
+    "meaning_en": "long; leader; superior; senior",
+    "radical": "長",
+    "example_words": [
+      "長い",
+      "課長",
+      "校長",
+      "社長",
+      "部長",
+      "議長",
+      "身長",
+      "成長"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "出",
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "で.る",
+      "-で",
+      "だ.す",
+      "-だ.す",
+      "い.でる",
+      "い.だす"
+    ],
+    "strokes": 5,
+    "meaning_en": "exit; leave; go out; come out; put out; protrude",
+    "radical": "凵",
+    "example_words": [
+      "出す",
+      "出口",
+      "出る",
+      "出かける",
+      "出席",
+      "出発",
+      "輸出",
+      "思い出す"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "三",
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "み",
+      "み.つ",
+      "みっ.つ"
+    ],
+    "strokes": 3,
+    "meaning_en": "three",
+    "radical": "一",
+    "example_words": [
+      "三",
+      "三日",
+      "三つ",
+      "再三",
+      "三角",
+      "三日月",
+      "三味線"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "時",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき",
+      "-どき"
+    ],
+    "strokes": 10,
+    "meaning_en": "time; hour",
+    "radical": "日",
+    "example_words": [
+      "時間",
+      "時々",
+      "時計",
+      "時代",
+      "時",
+      "一時",
+      "時期",
+      "時刻"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "行",
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunyomi": [
+      "い.く",
+      "ゆ.く",
+      "-ゆ.き",
+      "-ゆき",
+      "-い.き",
+      "-いき",
+      "おこな.う",
+      "おこ.なう"
+    ],
+    "strokes": 6,
+    "meaning_en": "going; journey; carry out; conduct; act; line; row; bank",
+    "radical": "行",
+    "example_words": [
+      "行く",
+      "銀行",
+      "旅行",
+      "飛行機",
+      "行う",
+      "急行",
+      "飛行場",
+      "行き"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "見",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ],
+    "strokes": 7,
+    "meaning_en": "see; hopes; chances; idea; opinion; look at; visible",
+    "radical": "見",
+    "example_words": [
+      "見る",
+      "見せる",
+      "意見",
+      "見物",
+      "拝見",
+      "花見",
+      "見える",
+      "お見舞い"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "月",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "strokes": 4,
+    "meaning_en": "month; moon",
+    "radical": "月",
+    "example_words": [
+      "今月",
+      "先月",
+      "一月",
+      "毎月",
+      "来月",
+      "月曜日",
+      "再来月",
+      "月曜"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "分",
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わ.ける",
+      "わ.け",
+      "わ.かれる",
+      "わ.かる",
+      "わ.かつ"
+    ],
+    "strokes": 4,
+    "meaning_en": "part; minute of time; segment; share; degree; one's lot; duty; understand; know; rate; 1%; chances; shaku/100",
+    "radical": "刀",
+    "example_words": [
+      "自分",
+      "半分",
+      "分かる",
+      "気分",
+      "十分",
+      "大分",
+      "分",
+      "部分"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "後",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "のち",
+      "うし.ろ",
+      "うしろ",
+      "あと",
+      "おく.れる"
+    ],
+    "strokes": 9,
+    "meaning_en": "behind; back; later",
+    "radical": "彳",
+    "example_words": [
+      "後",
+      "後ろ",
+      "午後",
+      "最後",
+      "後者",
+      "今後",
+      "明後日",
+      "以後"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "前",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ",
+      "-まえ"
+    ],
+    "strokes": 9,
+    "meaning_en": "in front; before",
+    "radical": "刀",
+    "example_words": [
+      "前",
+      "午前",
+      "名前",
+      "以前",
+      "前者",
+      "前進",
+      "前後",
+      "直前"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "生",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い.きる",
+      "い.かす",
+      "い.ける",
+      "う.まれる",
+      "うま.れる",
+      "う.まれ",
+      "うまれ",
+      "う.む",
+      "お.う",
+      "は.える",
+      "は.やす",
+      "き",
+      "なま",
+      "なま-",
+      "な.る",
+      "な.す",
+      "む.す",
+      "-う"
+    ],
+    "strokes": 5,
+    "meaning_en": "life; genuine; birth",
+    "radical": "生",
+    "example_words": [
+      "学生",
+      "生徒",
+      "先生",
+      "誕生日",
+      "留学生",
+      "生まれる",
+      "生活",
+      "生産"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "五",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつ.つ"
+    ],
+    "strokes": 4,
+    "meaning_en": "five",
+    "radical": "二",
+    "example_words": [
+      "五",
+      "五日",
+      "五つ",
+      "五十音",
+      "四捨五入",
+      "五月蝿い"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "間",
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "strokes": 12,
+    "meaning_en": "interval; space",
+    "radical": "門",
+    "example_words": [
+      "時間",
+      "間",
+      "昼間",
+      "間違える",
+      "間に合う",
+      "居間",
+      "期間",
+      "週間"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "上",
+    "onyomi": [
+      "ジョウ",
+      "ショウ",
+      "シャン"
+    ],
+    "kunyomi": [
+      "うえ",
+      "-うえ",
+      "うわ-",
+      "かみ",
+      "あ.げる",
+      "-あ.げる",
+      "あ.がる",
+      "-あ.がる",
+      "あ.がり",
+      "-あ.がり",
+      "のぼ.る",
+      "のぼ.り",
+      "のぼ.せる",
+      "のぼ.す",
+      "たてまつ.る"
+    ],
+    "strokes": 3,
+    "meaning_en": "above; up",
+    "radical": "一",
+    "example_words": [
+      "上",
+      "上着",
+      "上手",
+      "上げる",
+      "以上",
+      "屋上",
+      "上がる",
+      "差し上げる"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "東",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "strokes": 8,
+    "meaning_en": "east",
+    "radical": "木",
+    "example_words": [
+      "東",
+      "関東",
+      "東西",
+      "東洋"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "四",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よ.つ",
+      "よっ.つ",
+      "よん"
+    ],
+    "strokes": 5,
+    "meaning_en": "four",
+    "radical": "囗",
+    "example_words": [
+      "四",
+      "四日",
+      "四つ",
+      "四角",
+      "四季",
+      "四角い",
+      "四つ角",
+      "四捨五入"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "今",
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "strokes": 4,
+    "meaning_en": "now",
+    "radical": "人",
+    "example_words": [
+      "今",
+      "今日",
+      "今朝",
+      "今年",
+      "今月",
+      "今週",
+      "今晩",
+      "今度"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "金",
+    "onyomi": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "かね",
+      "かな-",
+      "-がね"
+    ],
+    "strokes": 8,
+    "meaning_en": "gold",
+    "radical": "金",
+    "example_words": [
+      "お金",
+      "金曜日",
+      "お金持ち",
+      "金",
+      "金額",
+      "金庫",
+      "金銭",
+      "金属"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "九",
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここの.つ"
+    ],
+    "strokes": 2,
+    "meaning_en": "nine",
+    "radical": "乙",
+    "example_words": [
+      "九",
+      "九日",
+      "九つ"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "入",
+    "onyomi": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "kunyomi": [
+      "い.る",
+      "-い.る",
+      "-い.り",
+      "い.れる",
+      "-い.れ",
+      "はい.る"
+    ],
+    "strokes": 2,
+    "meaning_en": "enter; insert",
+    "radical": "入",
+    "example_words": [
+      "入口",
+      "入る",
+      "入れる",
+      "入院",
+      "入学",
+      "輸入",
+      "押し入れ",
+      "記入"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "学",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな.ぶ"
+    ],
+    "strokes": 8,
+    "meaning_en": "study; learning; science",
+    "radical": "子",
+    "example_words": [
+      "学生",
+      "学校",
+      "大学",
+      "留学生",
+      "医学",
+      "科学",
+      "数学",
+      "入学"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "高",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たか.い",
+      "たか",
+      "-だか",
+      "たか.まる",
+      "たか.める"
+    ],
+    "strokes": 10,
+    "meaning_en": "tall; high; expensive",
+    "radical": "高",
+    "example_words": [
+      "高い",
+      "高校",
+      "高校生",
+      "高等学校",
+      "高価",
+      "高速",
+      "最高",
+      "高級"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "円",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ],
+    "strokes": 4,
+    "meaning_en": "circle; yen; round",
+    "radical": "冂",
+    "example_words": [
+      "円",
+      "円周",
+      "楕円",
+      "円い",
+      "円滑",
+      "円満"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "子",
+    "onyomi": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "kunyomi": [
+      "こ",
+      "-こ",
+      "ね"
+    ],
+    "strokes": 3,
+    "meaning_en": "child; sign of the rat; 11PM-1AM; first sign of Chinese zodiac",
+    "radical": "子",
+    "example_words": [
+      "子供",
+      "帽子",
+      "お菓子",
+      "男の子",
+      "女の子",
+      "子",
+      "息子",
+      "王子"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "外",
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はず.す",
+      "はず.れる",
+      "と-"
+    ],
+    "strokes": 5,
+    "meaning_en": "outside",
+    "radical": "夕",
+    "example_words": [
+      "外",
+      "外国",
+      "外国人",
+      "以外",
+      "郊外",
+      "意外",
+      "海外",
+      "外交"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "八",
+    "onyomi": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunyomi": [
+      "や",
+      "や.つ",
+      "やっ.つ",
+      "よう"
+    ],
+    "strokes": 2,
+    "meaning_en": "eight; eight radical (no. 12)",
+    "radical": "八",
+    "example_words": [
+      "八",
+      "八つ",
+      "八日",
+      "八百屋"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "六",
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "kunyomi": [
+      "む",
+      "む.つ",
+      "むっ.つ",
+      "むい"
+    ],
+    "strokes": 4,
+    "meaning_en": "six",
+    "radical": "八",
+    "example_words": [
+      "六",
+      "六日",
+      "六つ"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "下",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "しも",
+      "もと",
+      "さ.げる",
+      "さ.がる",
+      "くだ.る",
+      "くだ.り",
+      "くだ.す",
+      "-くだ.す",
+      "くだ.さる",
+      "お.ろす",
+      "お.りる"
+    ],
+    "strokes": 3,
+    "meaning_en": "below; down; descend; give; low; inferior",
+    "radical": "一",
+    "example_words": [
+      "下",
+      "靴下",
+      "下手",
+      "廊下",
+      "地下鉄",
+      "以下",
+      "下宿",
+      "下着"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "来",
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "く.る",
+      "きた.る",
+      "きた.す",
+      "き.たす",
+      "き.たる",
+      "き",
+      "こ"
+    ],
+    "strokes": 7,
+    "meaning_en": "come; due; next; cause; become",
+    "radical": "木",
+    "example_words": [
+      "来る",
+      "来月",
+      "来週",
+      "来年",
+      "再来年",
+      "将来",
+      "再来月",
+      "再来週"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "気",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "いき",
+      "き"
+    ],
+    "strokes": 6,
+    "meaning_en": "spirit; mind; air; atmosphere; mood",
+    "radical": "气",
+    "example_words": [
+      "元気",
+      "天気",
+      "電気",
+      "病気",
+      "気",
+      "気分",
+      "空気",
+      "気持ち"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "小",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい.さい",
+      "こ-",
+      "お-",
+      "さ-"
+    ],
+    "strokes": 3,
+    "meaning_en": "little; small",
+    "radical": "小",
+    "example_words": [
+      "小さい",
+      "小さな",
+      "小鳥",
+      "小説",
+      "小学校",
+      "小",
+      "小包",
+      "小麦"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "七",
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ],
+    "strokes": 2,
+    "meaning_en": "seven",
+    "radical": "一",
+    "example_words": [
+      "七",
+      "七つ",
+      "七日"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "山",
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "strokes": 3,
+    "meaning_en": "mountain",
+    "radical": "山",
+    "example_words": [
+      "山",
+      "登山",
+      "火山",
+      "山林",
+      "鉱山",
+      "山岳",
+      "山腹",
+      "山脈"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "話",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はな.す",
+      "はなし"
+    ],
+    "strokes": 13,
+    "meaning_en": "tale; talk",
+    "radical": "言",
+    "example_words": [
+      "話",
+      "電話",
+      "話す",
+      "会話",
+      "世話",
+      "話題",
+      "話し合う",
+      "神話"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "女",
+    "onyomi": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "strokes": 3,
+    "meaning_en": "woman; female",
+    "radical": "女",
+    "example_words": [
+      "女",
+      "女の子",
+      "彼女",
+      "女性",
+      "少女",
+      "女王",
+      "女子",
+      "女優"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "北",
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "strokes": 5,
+    "meaning_en": "north",
+    "radical": "匕",
+    "example_words": [
+      "北",
+      "南北",
+      "北極"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "午",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "うま"
+    ],
+    "strokes": 4,
+    "meaning_en": "noon; sign of the horse; 11AM-1PM; seventh sign of Chinese zodiac",
+    "radical": "十",
+    "example_words": [
+      "午後",
+      "午前",
+      "正午"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "百",
+    "onyomi": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "strokes": 6,
+    "meaning_en": "hundred",
+    "radical": "白",
+    "example_words": [
+      "百",
+      "八百屋"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "書",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か.く",
+      "-が.き",
+      "-がき"
+    ],
+    "strokes": 10,
+    "meaning_en": "write",
+    "radical": "曰",
+    "example_words": [
+      "書く",
+      "辞書",
+      "葉書",
+      "図書館",
+      "書斎",
+      "書物",
+      "書類",
+      "読書"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "先",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき",
+      "ま.ず"
+    ],
+    "strokes": 6,
+    "meaning_en": "before; ahead; previous; future; precedence",
+    "radical": "儿",
+    "example_words": [
+      "先",
+      "先月",
+      "先週",
+      "先生",
+      "先輩",
+      "先日",
+      "先程",
+      "先祖"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "名",
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な",
+      "-な"
+    ],
+    "strokes": 6,
+    "meaning_en": "name; noted; distinguished; reputation",
+    "radical": "口",
+    "example_words": [
+      "名前",
+      "有名",
+      "名",
+      "署名",
+      "名人",
+      "宛名",
+      "仮名",
+      "氏名"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "川",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "strokes": 3,
+    "meaning_en": "stream; river; river or three-stroke river radical (no. 47)",
+    "radical": "巛",
+    "example_words": [
+      "川",
+      "河川"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "千",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "strokes": 3,
+    "meaning_en": "thousand",
+    "radical": "十",
+    "example_words": [
+      "千"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "水",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず",
+      "みず-"
+    ],
+    "strokes": 4,
+    "meaning_en": "water",
+    "radical": "水",
+    "example_words": [
+      "水",
+      "水曜日",
+      "水泳",
+      "水道",
+      "水準",
+      "下水",
+      "香水",
+      "水産"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "半",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか.ば"
+    ],
+    "strokes": 5,
+    "meaning_en": "half; middle; odd number; semi-; part-",
+    "radical": "十",
+    "example_words": [
+      "半",
+      "半分",
+      "大半",
+      "半ば",
+      "半径",
+      "半島",
+      "過半数",
+      "半端"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "男",
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ",
+      "お"
+    ],
+    "strokes": 7,
+    "meaning_en": "male",
+    "radical": "田",
+    "example_words": [
+      "男",
+      "男の子",
+      "男性",
+      "男子",
+      "男の人",
+      "長男"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "西",
+    "onyomi": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "strokes": 6,
+    "meaning_en": "west; Spain",
+    "radical": "襾",
+    "example_words": [
+      "西",
+      "西洋",
+      "関西",
+      "西暦",
+      "東西",
+      "西日"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "電",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "strokes": 13,
+    "meaning_en": "electricity",
+    "radical": "雨",
+    "example_words": [
+      "電気",
+      "電車",
+      "電話",
+      "電灯",
+      "電報",
+      "電子",
+      "停電",
+      "電球"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "無",
+    "onyomi": [
+      "ム",
+      "ブ"
+    ],
+    "kunyomi": [
+      "な.い"
+    ],
+    "strokes": 12,
+    "meaning_en": "nothingness; none; ain't; nothing; nil; not",
+    "radical": "火",
+    "example_words": [
+      "無くす",
+      "無理",
+      "無くなる",
+      "無",
+      "無し",
+      "無事",
+      "無視",
+      "無駄"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "校",
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunyomi": [],
+    "strokes": 10,
+    "meaning_en": "exam; school; printing; proof; correction",
+    "radical": "木",
+    "example_words": [
+      "学校",
+      "高校",
+      "校長",
+      "高校生",
+      "小学校",
+      "中学校",
+      "高等学校",
+      "校舎"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "語",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた.る",
+      "かた.らう"
+    ],
+    "strokes": 14,
+    "meaning_en": "word; speech; language",
+    "radical": "言",
+    "example_words": [
+      "英語",
+      "語",
+      "語る",
+      "言語",
+      "語学",
+      "国語",
+      "単語",
+      "物語"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "土",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "strokes": 3,
+    "meaning_en": "soil; earth; ground; Turkey",
+    "radical": "土",
+    "example_words": [
+      "土曜日",
+      "お土産",
+      "土",
+      "土地",
+      "土曜",
+      "土産",
+      "国土",
+      "土台"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "木",
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ-"
+    ],
+    "strokes": 4,
+    "meaning_en": "tree; wood",
+    "radical": "木",
+    "example_words": [
+      "木",
+      "木曜日",
+      "木綿",
+      "木曜",
+      "植木",
+      "材木",
+      "大木",
+      "並木"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "聞",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き.く",
+      "き.こえる"
+    ],
+    "strokes": 14,
+    "meaning_en": "hear; ask; listen",
+    "radical": "耳",
+    "example_words": [
+      "聞く",
+      "新聞",
+      "新聞社",
+      "聞こえる",
+      "聞き取り"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "食",
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "く.う",
+      "く.らう",
+      "た.べる",
+      "は.む"
+    ],
+    "strokes": 9,
+    "meaning_en": "eat; food",
+    "radical": "食",
+    "example_words": [
+      "食堂",
+      "食べ物",
+      "食べる",
+      "食事",
+      "食料品",
+      "食う",
+      "食卓",
+      "食品"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "車",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "strokes": 7,
+    "meaning_en": "car",
+    "radical": "車",
+    "example_words": [
+      "車",
+      "電車",
+      "自転車",
+      "自動車",
+      "汽車",
+      "駐車場",
+      "駐車",
+      "発車"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "何",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん",
+      "なに-",
+      "なん-"
+    ],
+    "strokes": 7,
+    "meaning_en": "what",
+    "radical": "人",
+    "example_words": [
+      "何",
+      "何か",
+      "何で",
+      "何でも",
+      "何とか",
+      "何々",
+      "何分",
+      "何卒"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "南",
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "strokes": 9,
+    "meaning_en": "south",
+    "radical": "十",
+    "example_words": [
+      "南",
+      "南極",
+      "南米",
+      "南北"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "万",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "strokes": 3,
+    "meaning_en": "ten thousand; 10,000",
+    "radical": "一",
+    "example_words": [
+      "万",
+      "万年筆",
+      "万一",
+      "万歳",
+      "万人",
+      "万能"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "毎",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [
+      "ごと",
+      "-ごと.に"
+    ],
+    "strokes": 6,
+    "meaning_en": "every",
+    "radical": "毋",
+    "example_words": [
+      "毎朝",
+      "毎月",
+      "毎週",
+      "毎日",
+      "毎年",
+      "毎晩",
+      "毎度",
+      "毎"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "白",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しら-",
+      "しろ.い"
+    ],
+    "strokes": 5,
+    "meaning_en": "white",
+    "radical": "白",
+    "example_words": [
+      "白",
+      "白い",
+      "白髪",
+      "青白い",
+      "真っ白",
+      "告白",
+      "白状",
+      "明白"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "天",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あまつ",
+      "あめ",
+      "あま-"
+    ],
+    "strokes": 4,
+    "meaning_en": "heavens; sky; imperial",
+    "radical": "大",
+    "example_words": [
+      "天気",
+      "天気予報",
+      "天候",
+      "天然",
+      "天皇",
+      "天津",
+      "雨天",
+      "晴天"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "母",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは",
+      "も"
+    ],
+    "strokes": 5,
+    "meaning_en": "mother",
+    "radical": "毋",
+    "example_words": [
+      "お母さん",
+      "伯母さん",
+      "祖母",
+      "母親",
+      "父母",
+      "叔母さん",
+      "分母",
+      "母校"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "火",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "ほ-"
+    ],
+    "strokes": 4,
+    "meaning_en": "fire",
+    "radical": "火",
+    "example_words": [
+      "火曜日",
+      "火",
+      "火事",
+      "火災",
+      "火曜",
+      "火口",
+      "火山",
+      "花火"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "右",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "strokes": 5,
+    "meaning_en": "right",
+    "radical": "口",
+    "example_words": [
+      "右",
+      "左右"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "読",
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "kunyomi": [
+      "よ.む",
+      "-よ.み"
+    ],
+    "strokes": 14,
+    "meaning_en": "read",
+    "radical": "言",
+    "example_words": [
+      "読む",
+      "読書",
+      "読み",
+      "句読点",
+      "講読",
+      "購読",
+      "読者",
+      "朗読"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "友",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "strokes": 4,
+    "meaning_en": "friend",
+    "radical": "又",
+    "example_words": [
+      "友達",
+      "友",
+      "親友",
+      "友情",
+      "友人",
+      "友好"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "左",
+    "onyomi": [
+      "サ",
+      "シャ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "strokes": 5,
+    "meaning_en": "left",
+    "radical": "工",
+    "example_words": [
+      "左",
+      "左右",
+      "左利き"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "休",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす.む",
+      "やす.まる",
+      "やす.める"
+    ],
+    "strokes": 6,
+    "meaning_en": "rest; day off; retire; sleep",
+    "radical": "人",
+    "example_words": [
+      "休み",
+      "休む",
+      "夏休み",
+      "昼休み",
+      "休暇",
+      "休憩",
+      "休業",
+      "休講"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "父",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "strokes": 4,
+    "meaning_en": "father",
+    "radical": "父",
+    "example_words": [
+      "お父さん",
+      "お祖父さん",
+      "祖父",
+      "父親",
+      "父母",
+      "叔父さん",
+      "小父さん",
+      "伯父さん"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "雨",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま-",
+      "-さめ"
+    ],
+    "strokes": 8,
+    "meaning_en": "rain",
+    "radical": "雨",
+    "example_words": [
+      "雨",
+      "梅雨",
+      "雨戸",
+      "雨具",
+      "雨天"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "丈",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "たけ",
+      "だけ"
+    ],
+    "strokes": 3,
+    "meaning_en": "length; ten shaku; measure; Mr.; Ms.; height; stature; all (one has); only; that's all; merely",
+    "radical": "一",
+    "example_words": [
+      "丈夫",
+      "大丈夫",
+      "丈",
+      "頑丈"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "誰",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "だれ",
+      "たれ",
+      "た"
+    ],
+    "strokes": 15,
+    "meaning_en": "who; someone; somebody",
+    "radical": "言",
+    "example_words": [
+      "誰",
+      "誰か"
+    ],
+    "source": "OpenJLPT"
+  },
+  {
+    "kanji": "貼",
+    "onyomi": [
+      "テン",
+      "チョウ"
+    ],
+    "kunyomi": [
+      "は.る",
+      "つ.く"
+    ],
+    "strokes": 12,
+    "meaning_en": "stick; paste; apply",
+    "radical": "貝",
+    "example_words": [
+      "貼る"
+    ],
+    "source": "OpenJLPT"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "name": "nihongo-n5",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ứng dụng học Tiếng Nhật JLPT N5 - từ vựng, ngữ pháp, kanji (PWA offline)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "validate": "tsx tools/validateContent.ts",
+    "check:content": "tsx tools/checkContent.ts",
+    "import:jlpt": "tsx tools/importFromJLPT.ts",
+    "seed:extra": "tsx tools/seedExtraVocab.ts && tsx tools/seedExtraKanji.ts && tsx tools/enrichKanjiWords.ts",
+    "enrich:kanji": "tsx tools/enrichKanjiWords.ts",
+    "gen:icons": "tsx tools/makeIcons.ts",
+    "export:anki": "tsx tools/exportAnki.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "zustand": "^4.5.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",
+    "vite-plugin-pwa": "^0.20.5"
+  }
+}

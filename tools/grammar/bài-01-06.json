@@ -1,0 +1,768 @@
+{
+  "n5-g001": {
+    "lesson": 1,
+    "lesson_title": "NGỮ PHÁP BÀI 1",
+    "point": "S は N です",
+    "title_vi": "Câu khẳng định — S là N",
+    "pattern": "S は N です",
+    "explanation_vi": "Cấu trúc cơ bản nhất của tiếng Nhật. S là chủ ngữ (わたし、ヤマダさん、ちち、はは、あのひと…). N là tên, nghề nghiệp, quốc tịch (～じん), tuổi (～さい). Trợ từ「は」đứng sau chủ ngữ để nhấn mạnh đối tượng nói về.",
+    "notes": [
+      { "title": "S: chủ ngữ", "body": "わたし、ヤマダさん、ちち、はは、あのひと…" },
+      { "title": "N: vị ngữ", "body": "Tên, nghề nghiệp, quốc tịch (～じん), tuổi (～さい)" },
+      { "title": "Cấu trúc", "body": "S は N です\nは: trợ từ chủ ngữ\nです: vị ngữ" }
+    ],
+    "examples": [
+      { "jp": "わたしは サムライです。", "vi": "Tôi là samurai." },
+      { "jp": "わたしは きょうしです。", "vi": "Tôi là giáo viên." },
+      { "jp": "わたしは ベトナムじんです。", "vi": "Tôi là người Việt Nam." },
+      { "jp": "わたしは 18 さいです。", "vi": "Tôi 18 tuổi." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「わたしは 18 さいです。」nghĩa là gì?", "options": ["Tôi 18 tuổi.", "Tôi 18 cân.", "Tôi có 18 tuổi.", "Tôi là 18 người."], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは サムライ___.", "answer": "です" }
+    ]
+  },
+  "n5-g002": {
+    "lesson": 1,
+    "lesson_title": "NGỮ PHÁP BÀI 1",
+    "point": "S は N じゃありません / ではありません",
+    "title_vi": "Câu phủ định — S không phải là N",
+    "pattern": "S は N じゃありません / S は N ではありません",
+    "explanation_vi": "Dùng「じゃありません」hoặc「ではありません」để phủ định câu khẳng định. Hai cách này gần như giống nhau,「ではありません」lịch sự hơn một chút.",
+    "notes": [
+      { "title": "Cách dùng", "body": "S は N じゃありません。\nS は N ではありません。" },
+      { "title": "Chú ý", "body": "「じゃありません」dùng trong văn nói thông thường.「ではありません」trang trọng hơn." }
+    ],
+    "examples": [
+      { "jp": "わたしは いしゃ じゃありません。", "vi": "Tôi không phải là bác sĩ." },
+      { "jp": "わたしは きょうし ではありません。", "vi": "Tôi không phải là giáo viên." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Cách nào lịch sự hơn?", "options": ["ではありません", "じゃありません", "同じ nhau", "không có cách nào"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは いしゃ じゃ___.", "answer": "ありません" }
+    ]
+  },
+  "n5-g003": {
+    "lesson": 1,
+    "lesson_title": "NGỮ PHÁP BÀI 1",
+    "point": "S は N ですか",
+    "title_vi": "Câu nghi vấn và cách trả lời",
+    "pattern": "Q: S は N ですか。 A: はい、N です / いいえ、N じゃありません",
+    "explanation_vi": "Câu hỏi CÓ/KHÔNG dùng「ですか」ở cuối. Trả lời bằng「はい、N です」hoặc「いいえ、N じゃありません」. Riêng câu hỏi tuổi dùng「なんさいですか」hoặc「おいくつですか」, trả lời「～さいです」.",
+    "notes": [
+      { "title": "Từ để hỏi", "body": "だれ、どなた: ai\nなんさい、おいくつ: tuổi" },
+      { "title": "Trả lời câu hỏi tuổi", "body": "Q: なんさいですか / おいくつですか。\nA: ～さいです。" },
+      { "title": "Chú ý", "body": "Trả lời câu hỏi CÓ/KHÔNG bằng「はい」và「いいえ」, không dùng「そうです」." }
+    ],
+    "examples": [
+      { "jp": "Q: ミンさんは がくせいですか。", "vi": "Minh là học sinh phải không?" },
+      { "jp": "A: はい、がくせい です。", "vi": "Vâng, là học sinh." },
+      { "jp": "A: いいえ、がくせい じゃありません。", "vi": "Không, không phải học sinh." },
+      { "jp": "A: 18 さいです。", "vi": "Tôi 18 tuổi." }
+    ],
+    "dialog": [
+      { "q": "わたしは なんさいですか。", "a": "18 さいです。", "q_vi": "Tôi bao nhiêu tuổi?", "a_vi": "18 tuổi." }
+    ],
+    "quiz": [
+      { "question": "Câu hỏi tuổi dùng mẫu nào?", "options": ["なんさいですか", "どこですか", "いくらですか", "どうですか"], "answer_index": 0 },
+      { "question": "Câu hỏi「N ですか」trả lời bằng gì?", "options": ["はい、N です / いいえ、N じゃありません", "はい、そうです", "そうじゃありません", "N です"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは 18 さい___.", "answer": "です" }
+    ]
+  },
+  "n5-g004": {
+    "lesson": 1,
+    "lesson_title": "NGỮ PHÁP BÀI 1",
+    "point": "S は N1 の N2 です",
+    "title_vi": "Trợ từ の — N2 của N1",
+    "pattern": "S は N1 の N2 です",
+    "explanation_vi": "Trợ từ「の」nối hai danh từ với nghĩa「N2 của N1」. N1 là người/vật sở hữu, N2 là thứ thuộc về N1.",
+    "notes": [
+      { "title": "Ý nghĩa", "body": "N2 của N1" },
+      { "title": "Chú ý", "body": "Trong câu「A は B の です」khi trả lời câu hỏi「だれの N ですか」, danh từ B có thể lược bỏ nếu đã rõ nghĩa." }
+    ],
+    "examples": [
+      { "jp": "わたしは ハノイだいがくの がくせいです。", "vi": "Tôi là học sinh của trường đại học Hà Nội." },
+      { "jp": "サムライにほんごの がくせい。", "vi": "Học viên của lớp Samurai tiếng Nhật." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Trong「ハノイだいがくの がくせい」, の nghĩa là gì?", "options": ["của", "và", "ở", "từ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは ハノイだいがく___ がくせいです。", "answer": "の" }
+    ]
+  },
+  "n5-g005": {
+    "lesson": 1,
+    "lesson_title": "NGỮ PHÁP BÀI 1",
+    "point": "も",
+    "title_vi": "Trợ từ も — B cũng là N",
+    "pattern": "A は N です。B も N です。",
+    "explanation_vi": "Trợ từ「も」thay cho「は」khi muốn nói「A là N. B cũng là N」.",
+    "notes": [
+      { "title": "Ý nghĩa", "body": "A là N. B cũng là N." },
+      { "title": "Chú ý", "body": "「も」thay thế hoàn toàn cho「は」trong mẫu câu này." }
+    ],
+    "examples": [
+      { "jp": "わたしは ベトナムじんです。", "vi": "Tôi là người Việt Nam." },
+      { "jp": "リンさんも ベトナムじんです。", "vi": "Bạn Linh cũng là người Việt Nam." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「リンさんも ベトナムじんです。」nghĩa là gì?", "options": ["Linh cũng là người Việt Nam.", "Chỉ Linh là người Việt Nam.", "Linh không phải người Việt Nam.", "Linh là người Việt Nam à?"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "リンさん___ ベトナムじんです。", "answer": "も" }
+    ]
+  },
+  "n5-g006": {
+    "lesson": 2,
+    "lesson_title": "NGỮ PHÁP BÀI 2",
+    "point": "これ／それ／あれ は N です",
+    "title_vi": "Cái này / đó / kia là N",
+    "pattern": "これ／それ／あれは N です",
+    "explanation_vi": "Cách chỉ vật ở gần / xa. これ dùng cho vật gần người nói và xa người nghe. それ dùng cho vật gần người nghe và xa người nói. あれ dùng cho vật xa cả hai người.",
+    "notes": [
+      { "title": "Khoảng cách", "body": "これ: gần người nói, xa người nghe\nそれ: gần người nghe, xa người nói\nあれ: xa cả hai người" },
+      { "title": "Hỏi đồ vật", "body": "Q: これ／それ／あれは なんですか。\nA: N です" }
+    ],
+    "examples": [
+      { "jp": "これは とけいです。", "vi": "Đây là đồng hồ." },
+      { "jp": "それは じしょです。", "vi": "Đó là quyển từ điển." },
+      { "jp": "あれは てちょうです。", "vi": "Kia là quyển sổ tay." }
+    ],
+    "dialog": [
+      { "q": "それは なんですか。", "a": "じしょです。", "q_vi": "Đó là cái gì?", "a_vi": "Đó là quyển từ điển." }
+    ],
+    "quiz": [
+      { "question": "「これ」chỉ vật ở đâu so với người nói?", "options": ["Gần người nói, xa người nghe", "Gần người nghe, xa người nói", "Xa cả hai người", "Ở giữa hai người"], "answer_index": 0 },
+      { "question": "「あれ」chỉ vật ở đâu?", "options": ["Xa cả hai người", "Gần người nói", "Gần người nghe", "Trong tay người nói"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "これは ___けいです。", "answer": "と" }
+    ]
+  },
+  "n5-g007": {
+    "lesson": 2,
+    "lesson_title": "NGỮ PHÁP BÀI 2",
+    "point": "この／その／あの N です",
+    "title_vi": "Cái này / đó / kia + danh từ",
+    "pattern": "この／その／あの N です",
+    "explanation_vi": "Giống これ／それ／あれ nhưng nhấn mạnh vào đối tượng trước mắt, và phải đi kèm DANH TỪ ngay sau.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Nhấn mạnh vào đối tượng trước mắt. Về tương quan khoảng cách, giống với これ／それ／あれ." },
+      { "title": "Lưu ý", "body": "Đằng sau この／その／あの phải có DANH TỪ." }
+    ],
+    "examples": [
+      { "jp": "このひとは ミンさんです。", "vi": "Người này là Minh." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Điều nào KHÔNG đúng về この／その／あの?", "options": ["Phải có danh từ đi sau", "Chỉ dùng cho vật xa", "Nhấn mạnh đối tượng trước mắt", "Có thể dùng kèm danh từ"], "answer_index": 1 }
+    ],
+    "cloze": [
+      { "sentence": "このひとは ミンさん___", "answer": "です" }
+    ]
+  },
+  "n5-g008": {
+    "lesson": 2,
+    "lesson_title": "NGỮ PHÁP BÀI 2",
+    "point": "そうです / ちがいます",
+    "title_vi": "Đúng vậy / không phải vậy",
+    "pattern": "Q: これ／それ／あれは N ですか。 A: はい、そうです / いいえ、そうじゃありません / いいえ、ちがいます",
+    "explanation_vi": "Trả lời câu hỏi CÓ/KHÔNG về vật. 「はい、そうです」= đúng vậy. 「いいえ、そうでは（じゃ）ありません」hoặc「いいえ、ちがいます」= không phải vậy.",
+    "notes": [
+      { "title": "Trả lời", "body": "Q: これ／それ／あれ／この N／その N／あの N は N ですか。\nA: はい、そうです。\nいいえ、そうでは（じゃ）ありません。\nいいえ、ちがいます。" }
+    ],
+    "examples": [
+      { "jp": "いいえ、ちがいます。じしょです。", "vi": "Không phải vậy. Đó là từ điển." }
+    ],
+    "dialog": [
+      { "q": "あれは ほんですか。", "a": "いいえ、ちがいます。じしょです。", "q_vi": "Kia là bút phải không?", "a_vi": "Không phải vậy, đó là từ điển." }
+    ],
+    "quiz": [
+      { "question": "Trả lời phủ định cho「それは ほんですか。」bằng cách nào?", "options": ["いいえ、ちがいます。", "いいえ、そうです。", "はい、ちがいます。", "いいえ、はい。"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "いいえ、___。じしょです。", "answer": "ちがいます" }
+    ]
+  },
+  "n5-g009": {
+    "lesson": 2,
+    "lesson_title": "NGỮ PHÁP BÀI 2",
+    "point": "N1 ですか、N2 ですか",
+    "title_vi": "Là N1 hay là N2?",
+    "pattern": "N1 ですか、N2 ですか",
+    "explanation_vi": "Câu hỏi lựa chọn, dùng khi phân vân không biết rõ đối tượng là ai (cái gì). Trả lời bằng「N1 です」hoặc「N2 です」, KHÔNG dùng「はい／いいえ」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Là câu hỏi lựa chọn.\nDùng khi phân vân, không biết rõ đối tượng là ai (cái gì)." },
+      { "title": "Trả lời", "body": "A: N1 です。\nA: N2 です。\n(Không dùng はい／いいえ)" }
+    ],
+    "examples": [
+      { "jp": "これは えんぴつですか、ボールペンですか。", "vi": "Đây là bút chì hay bút bi?" },
+      { "jp": "えんぴつです。", "vi": "Đây là bút chì." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Câu hỏi「N1 ですか N2 ですか」dùng khi nào?", "options": ["Khi phân vân không biết đối tượng là gì", "Khi chắc chắn về đối tượng", "Khi hỏi tuổi", "Khi hỏi giá tiền"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "これは えんぴつですか、___ですか。", "answer": "ボールペン" }
+    ]
+  },
+  "n5-g010": {
+    "lesson": 2,
+    "lesson_title": "NGỮ PHÁP BÀI 2",
+    "point": "N2 の N1",
+    "title_vi": "N2 của N1 — vật thuộc quyền sở hữu",
+    "pattern": "N1（人）の N2（物）です",
+    "explanation_vi": "Dùng để miêu tả một món đồ thuộc quyền sở hữu của ai đó. N2 đôi khi được lược bỏ khi đã được nhắc đến trước đó hay đã rõ nghĩa.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để miêu tả 1 món đồ thuộc quyền sở hữu của ai đó." },
+      { "title": "Hỏi của ai", "body": "Q: これ／それ／あれは だれの N ですか。\nA: ～さんのです。" },
+      { "title": "Chú ý", "body": "Khi trả lời câu hỏi「だれの N ですか」thì không dùng はい、いいえ." }
+    ],
+    "examples": [
+      { "jp": "これは わたしの チョコレートです。", "vi": "Đây là sô cô la của tôi." },
+      { "jp": "あのかさは ギアーさんの です。", "vi": "Cái ô kia là của anh Gia." }
+    ],
+    "dialog": [
+      { "q": "これは だれの かばんですか。", "a": "たなかさんの です。", "q_vi": "Cái túi này của ai?", "a_vi": "Của anh Tanaka." }
+    ],
+    "quiz": [
+      { "question": "Trả lời「これは だれの かばんですか。」bằng cách nào?", "options": ["たなかさんの です。", "はい、たなかさんの です。", "いいえ、たなかさん じゃありません。", "たなかさん です。"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "これは わたしの チョコレート___.", "answer": "です" }
+    ]
+  },
+  "n5-g011": {
+    "lesson": 2,
+    "lesson_title": "NGỮ PHÁP BÀI 2",
+    "point": "N の N (lĩnh vực)",
+    "title_vi": "Cái này là ～ về ～",
+    "pattern": "これは えいごの じしょです",
+    "explanation_vi": "Trợ từ「の」lúc này mang nghĩa「thuộc về」: lĩnh vực, chuyên ngành. Câu hỏi「この N は だれの N ですか」trả lời bằng「～さんのです」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Trợ từ の: thuộc về.\nDùng khi muốn nói về thuộc tính của đồ vật: lĩnh vực, chuyên ngành…" },
+      { "title": "Hỏi", "body": "Q: この N／その N／あの N は だれの ですか。\nA: ～さんのです。" }
+    ],
+    "examples": [
+      { "jp": "これは えいごの じしょです。", "vi": "Đây là quyển từ điển tiếng Anh." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「これは えいごの じしょです。」nghĩa là gì?", "options": ["Đây là quyển từ điển tiếng Anh.", "Đây là từ điển của tôi.", "Đây là quyển từ điển tiếng Nhật.", "Tôi có từ điển tiếng Anh."], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "これは えいご___ じしょです。", "answer": "の" }
+    ]
+  },
+  "n5-g012": {
+    "lesson": 3,
+    "lesson_title": "NGỮ PHÁP BÀI 3",
+    "point": "ここ／そこ／あそこ は N です",
+    "title_vi": "Chỗ này / đó / kia là N",
+    "pattern": "ここ／そこ／あそこ は N です",
+    "explanation_vi": "Chỉ địa điểm. 「こちら／そちら／あちら」mang sắc thái trang trọng hơn và có thể thay thế để chỉ địa điểm.",
+    "notes": [
+      { "title": "Chú ý", "body": "こちら／そちら／あちら trang trọng hơn ここ／そこ／あそこ và có thể thay thế để chỉ địa điểm." },
+      { "title": "Phủ định", "body": "ここ／そこ／あそこ は N じゃありません。" }
+    ],
+    "examples": [
+      { "jp": "ここは きょうしつ です。", "vi": "Đây là phòng học." },
+      { "jp": "こちら は わたしのかいしゃ です。", "vi": "Đây là công ty của tôi." },
+      { "jp": "ここは じむしょじゃありません。かいぎしつです。", "vi": "Đây không phải văn phòng mà là phòng họp." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Từ nào trang trọng hơn?", "options": ["こちら", "こっち", "こっちー", "こちろ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ここは きょうしつ ___.", "answer": "です" }
+    ]
+  },
+  "n5-g013": {
+    "lesson": 3,
+    "lesson_title": "NGỮ PHÁP BÀI 3",
+    "point": "S は N です (S ở địa điểm N)",
+    "title_vi": "S ở địa điểm N",
+    "pattern": "S は N です",
+    "explanation_vi": "Khi chủ ngữ là người, vật hoặc địa điểm, và vị ngữ là địa điểm, câu nhấn mạnh chủ ngữ đang ở địa điểm N.",
+    "notes": [
+      { "title": "Cách dùng", "body": "S: người, vật, địa điểm.\nN: địa điểm." }
+    ],
+    "examples": [
+      { "jp": "コンピューターは じむしょです。", "vi": "Máy tính ở văn phòng." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「コンピューターは じむしょです。」nghĩa là gì?", "options": ["Máy tính ở văn phòng.", "Máy tính là văn phòng.", "Văn phòng có máy tính.", "Máy tính của văn phòng."], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "コンピューターは じむしょ___.", "answer": "です" }
+    ]
+  },
+  "n5-g014": {
+    "lesson": 3,
+    "lesson_title": "NGỮ PHÁP BÀI 3",
+    "point": "どこですか / どちらですか",
+    "title_vi": "Hỏi địa điểm",
+    "pattern": "Q: N は どこですか。 A: ＿です。",
+    "explanation_vi": "Hỏi vị trí của người hoặc vật. Cách nói trang trọng hơn là「どちらですか」. Dùng「どちらですか」để hỏi tên nước, trường học, công ty.",
+    "notes": [
+      { "title": "Cách nói trang trọng hơn", "body": "Q: N は どちらですか。\nA: ＿です。" },
+      { "title": "Hỏi tên nước, công ty, trường", "body": "Q: おくに だいがく は どちらですか。\nA: ベトナムです。" }
+    ],
+    "examples": [
+      { "jp": "りんせんせいは きょうしつです。", "vi": "Cô Linh ở trong phòng học." },
+      { "jp": "おてあらいは そちらです。", "vi": "Nhà vệ sinh ở đằng đó." },
+      { "jp": "ベトナムです。", "vi": "Tôi đến từ Việt Nam." }
+    ],
+    "dialog": [
+      { "q": "りんせんせいは どこですか。", "a": "きょうしつです。", "q_vi": "Cô Linh ở đâu?", "a_vi": "Trong phòng học." }
+    ],
+    "quiz": [
+      { "question": "Cách hỏi trang trọng hơn「どこですか」là gì?", "options": ["どちらですか", "なにですか", "だれですか", "どれですか"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "りんせんせいは きょうしつ___.", "answer": "です" }
+    ]
+  },
+  "n5-g015": {
+    "lesson": 3,
+    "lesson_title": "NGỮ PHÁP BÀI 3",
+    "point": "どこの N",
+    "title_vi": "Trợ từ の — xuất xứ",
+    "pattern": "これ／それ／あれ は どこの N2 ですか",
+    "explanation_vi": "Dùng「の」để chỉ xuất xứ của một món đồ. Đáp án là「nơi sản xuất の N2 です」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Trợ từ の: thuộc về (chỉ xuất xứ)." }
+    ],
+    "examples": [
+      { "jp": "これは にほんの くつです。", "vi": "Đây là giày Nhật." },
+      { "jp": "イギリスの でんわです。", "vi": "Điện thoại này sản xuất ở Anh." }
+    ],
+    "dialog": [
+      { "q": "これは どこの でんわですか。", "a": "イギリスの でんわです。", "q_vi": "Điện thoại này sản xuất ở đâu?", "a_vi": "Sản xuất ở Anh." }
+    ],
+    "quiz": [
+      { "question": "Trong câu hỏi xuất xứ, の nghĩa là gì?", "options": ["xuất xứ", "sở hữu", "gần", "và"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "これは にほん___ くつです。", "answer": "の" }
+    ]
+  },
+  "n5-g016": {
+    "lesson": 3,
+    "lesson_title": "NGỮ PHÁP BÀI 3",
+    "point": "いくらですか",
+    "title_vi": "Hỏi giá tiền",
+    "pattern": "Q: この N は いくらですか。 A: ～えん・ドル・ドンです。",
+    "explanation_vi": "Hỏi giá của một món đồ. Đơn vị tiền tệ thường gặp: えん (yên), ドル (đô-la), ドン (đồng).",
+    "notes": [
+      { "title": "Đơn vị", "body": "えん (yên Nhật), ドル (đô-la Mỹ), ドン (đồng Việt Nam)" }
+    ],
+    "examples": [
+      { "jp": "この とけいは ろっぴゃくえんです。", "vi": "Chiếc đồng hồ này có giá 600 Yên." },
+      { "jp": "にじゅうまんドンです。", "vi": "Chiếc ô này có giá 200.000 đồng." }
+    ],
+    "dialog": [
+      { "q": "この かさは いくらですか。", "a": "にじゅうまんドンです。", "q_vi": "Chiếc ô này bao nhiêu tiền?", "a_vi": "200.000 đồng." }
+    ],
+    "quiz": [
+      { "question": "「ろっぴゃくえん」là bao nhiêu yên?", "options": ["600", "500", "60", "6000"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "この かさは いくら___", "answer": "ですか" }
+    ]
+  },
+  "n5-g017": {
+    "lesson": 4,
+    "lesson_title": "NGỮ PHÁP BÀI 4",
+    "point": "いま ～時 ～分 です",
+    "title_vi": "Bây giờ là mấy giờ mấy phút",
+    "pattern": "いま、～時 ～分 です",
+    "explanation_vi": "Cách nói giờ. Số đếm + 時 (じ) chỉ số giờ. Số đếm + 分 (ふん／ぷん) chỉ số phút. Số đếm + 時半 (じはん) chỉ giờ rưỡi. Để phân biệt buổi sáng, chiều, tối, người ta thêm ごぜん／ごご／よる vào trước số giờ.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Số đếm + 時: chỉ số giờ\nSố đếm + 分 (ふん／ぷん): chỉ số phút\nSố đếm + 時半 (じはん): giờ rưỡi" },
+      { "title": "Buổi trong ngày", "body": "ごぜん (sáng) / ごご (chiều) / よる (tối) đặt trước số giờ" },
+      { "title": "Ở địa điểm khác", "body": "Địa điểm は いま ～時 ～分 です。" }
+    ],
+    "examples": [
+      { "jp": "いま、ごぜん くじです。", "vi": "Bây giờ là 9 giờ sáng." },
+      { "jp": "ごご じゅうじ です。", "vi": "Bây giờ là 10 giờ chiều." },
+      { "jp": "ハノイは いま いちじ です。", "vi": "Ở Hà Nội bây giờ là 1 giờ." }
+    ],
+    "dialog": [
+      { "q": "いま なんじ ですか。", "a": "ごご じゅうじ です。", "q_vi": "Bây giờ là mấy giờ?", "a_vi": "Bây giờ là 10 giờ chiều." }
+    ],
+    "quiz": [
+      { "question": "「ごぜん くじです」là mấy giờ?", "options": ["9 giờ sáng", "9 giờ tối", "3 giờ chiều", "9 giờ chiều"], "answer_index": 0 },
+      { "question": "Từ nào chỉ buổi tối?", "options": ["よる", "ごぜん", "ごご", "あさ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "いま、ごぜん くじ___.", "answer": "です" },
+      { "sentence": "ごご じゅうじ ___.", "answer": "です" }
+    ]
+  },
+  "n5-g018": {
+    "lesson": 4,
+    "lesson_title": "NGỮ PHÁP BÀI 4",
+    "point": "～時 ～分 まえです",
+    "title_vi": "Nói giờ kém",
+    "pattern": "～時 ～分 まえです",
+    "explanation_vi": "Dùng trong phạm vi 10 phút trở về. Nói giờ hơn thì dùng cách bình thường「～時 ～分 です」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Nói trong phạm vi 10 phút trở về. Cách nói giờ hơn thì nói như bình thường「～時 ～分 です」." }
+    ],
+    "examples": [
+      { "jp": "じゅうにじ じゅっぷん まえです。", "vi": "Bây giờ là 12 giờ kém 10 phút." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「じゅうにじ じゅっぷん まえです」là mấy giờ?", "options": ["11 giờ 50", "12 giờ 10", "11 giờ 10", "1 giờ 50"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "じゅうにじ じゅっぷん まえ___.", "answer": "です" }
+    ]
+  },
+  "n5-g019": {
+    "lesson": 4,
+    "lesson_title": "NGỮ PHÁP BÀI 4",
+    "point": "なんようびですか",
+    "title_vi": "Hôm nay là thứ mấy?",
+    "pattern": "Q: ～は なんようびですか。 A: ～ようびです。",
+    "explanation_vi": "Hỏi thứ trong tuần. Các ngày: 月曜日 (thứ 2), 火曜日 (thứ 3), 水曜日 (thứ 4), 木曜日 (thứ 5), 金曜日 (thứ 6), 土曜日 (thứ 7), 日曜日 (chủ nhật).",
+    "notes": [
+      { "title": "Các thứ", "body": "月曜日 thứ Hai\n火曜日 thứ Ba\n水曜日 thứ Tư\n木曜日 thứ Năm\n金曜日 thứ Sáu\n土曜日 thứ Bảy\n日曜日 chủ nhật" }
+    ],
+    "examples": [
+      { "jp": "もくようびです。", "vi": "Hôm nay là thứ 5." }
+    ],
+    "dialog": [
+      { "q": "きょうは なんようびですか。", "a": "もくようびです。", "q_vi": "Hôm nay là thứ mấy?", "a_vi": "Thứ 5." }
+    ],
+    "quiz": [
+      { "question": "「もくようび」là thứ mấy?", "options": ["thứ 5", "thứ 4", "thứ 6", "thứ 3"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "もくようび___.", "answer": "です" }
+    ]
+  },
+  "n5-g020": {
+    "lesson": 4,
+    "lesson_title": "NGỮ PHÁP BÀI 4",
+    "point": "ます形",
+    "title_vi": "Động từ thể ます",
+    "pattern": "V ます / V ません / V ました / V ませんでした",
+    "explanation_vi": "Động từ là loại từ kết thúc bằng ます. Diễn tả hành động xảy ra ở hiện tại hoặc tương lai, và thể hiện thái độ lịch sự của người nói với người nghe.",
+    "notes": [
+      { "title": "4 thể", "body": "Hiện tại khẳng định: V ます (おきます)\nHiện tại phủ định: V ません (おきません)\nQuá khứ khẳng định: V ました (おきました)\nQuá khứ phủ định: V ませんでした (おきませんでした)" },
+      { "title": "Các động từ thường gặp", "body": "ねます、やすみます、おわります、たべます、のみます、ます、べんきょうします、あります…" },
+      { "title": "Chú ý", "body": "Mẫu câu hỏi S は ～ますか KHÔNG dùng「そうです。」/「そうじゃありません」để trả lời." }
+    ],
+    "examples": [
+      { "jp": "わたしは まいばん べんきょうします。", "vi": "Tôi học bài mỗi tối." },
+      { "jp": "きのう たべませんでした。", "vi": "Hôm qua tôi không ăn." }
+    ],
+    "dialog": [
+      { "q": "あした べんきょうしますか。", "a": "はい、べんきょうします。", "q_vi": "Ngày mai cậu có học không?", "a_vi": "Vâng, tôi học." },
+      { "q": "あした べんきょうしますか。", "a": "いいえ、べんきょうしません。", "q_vi": "Ngày mai cậu có học không?", "a_vi": "Không, tôi không học." }
+    ],
+    "quiz": [
+      { "question": "「べんきょうします」là thể nào?", "options": ["Hiện tại khẳng định", "Hiện tại phủ định", "Quá khứ khẳng định", "Quá khứ phủ định"], "answer_index": 0 },
+      { "question": "Trả lời câu hỏi「ますか」bằng cách nào?", "options": ["はい、～ます / いいえ、～ません", "はい、そうです / いいえ、そうじゃありません", "はい、です / いいえ、じゃありません", "～ました"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは まいばん べんきょう___.", "answer": "します" }
+    ]
+  },
+  "n5-g021": {
+    "lesson": 4,
+    "lesson_title": "NGỮ PHÁP BÀI 4",
+    "point": "～じに V ます",
+    "title_vi": "Làm V vào lúc ～ giờ",
+    "pattern": "～じに V ます／V ました",
+    "explanation_vi": "Chỉ thời điểm thực hiện hành động. Nếu thời gian không biểu hiện bằng con số thì KHÔNG thêm「に」. Đối với thứ ngày trong tuần có thể dùng「に」hoặc không.",
+    "notes": [
+      { "title": "Chú ý", "body": "Nếu thời gian không biểu hiện bằng con số thì KHÔNG thêm「に」.\nĐối với thứ ngày trong tuần có thể dùng「に」hoặc không." }
+    ],
+    "examples": [
+      { "jp": "きょう よる じゅうじに ねました。", "vi": "Tối qua tôi đã ngủ lúc 10 giờ tối." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Khi nào KHÔNG thêm「に」?", "options": ["Khi thời gian không viết bằng con số", "Khi thời gian viết bằng con số", "Khi là động từ", "Không bao giờ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "きょう よる じゅうじ___ ねました。", "answer": "に" }
+    ]
+  },
+  "n5-g022": {
+    "lesson": 4,
+    "lesson_title": "NGỮ PHÁP BÀI 4",
+    "point": "N1 から N2 まで",
+    "title_vi": "Từ ～ đến ～",
+    "pattern": "～は N1 から N2 まで V ます",
+    "explanation_vi": "Cách nói khoảng thời gian từ lúc nào đến lúc nào, từ đâu đến đâu. から biểu thị điểm bắt đầu. まで biểu thị điểm kết thúc.",
+    "notes": [
+      { "title": "Ý nghĩa", "body": "Là cách nói khoảng thời gian từ lúc nào đến lúc nào, từ đâu đến đâu." },
+      { "title": "N1, N2", "body": "Thời gian, địa điểm" },
+      { "title": "Chú ý", "body": "から: biểu thị điểm bắt đầu.\nまで: biểu thị điểm kết thúc." }
+    ],
+    "examples": [
+      { "jp": "あした いちじから ごじまで べんきょうします。", "vi": "Ngày mai tôi học từ 1 giờ đến 5 giờ." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「から」biểu thị gì?", "options": ["Điểm bắt đầu", "Điểm kết thúc", "Giữa", "Địa điểm"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "あした いちじ___ ごじまで べんきょうします。", "answer": "から" }
+    ]
+  },
+  "n5-g023": {
+    "lesson": 4,
+    "lesson_title": "NGỮ PHÁP BÀI 4",
+    "point": "N1 と N2",
+    "title_vi": "N1 và N2",
+    "pattern": "N1 と N2",
+    "explanation_vi": "Trợ từ「と」có nghĩa là「với, và, cùng」, dùng để nối danh từ với danh từ.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Ý nghĩa: với, và, cùng. Dùng để nối danh từ với danh từ." }
+    ],
+    "examples": [
+      { "jp": "このびじゅつかんは きんようびと どようび やすみます。", "vi": "Bảo tàng mĩ thuật này nghỉ vào thứ 6 và thứ 7." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「と」dùng để nối hai thứ gì?", "options": ["Danh từ với danh từ", "Động từ với động từ", "Câu với câu", "Tính từ với tính từ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "このびじゅつかんは きんようび___ どようび やすみます。", "answer": "と" }
+    ]
+  },
+  "n5-g024": {
+    "lesson": 5,
+    "lesson_title": "NGỮ PHÁP BÀI 5",
+    "point": "～ねん ～がつ ～にち です",
+    "title_vi": "Nói ngày, tháng, năm",
+    "pattern": "Thời gian は ～ねん～がつ～にちです",
+    "explanation_vi": "Cách nói ngày tháng năm. Thời gian có thể là きょう、～のたんじょうび、あした… Câu hỏi dùng「なんがつ なんにちですか」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Thời gian: きょう、～のたんじょうび、あした…" },
+      { "title": "Hỏi", "body": "Q: あしたは なんがつ なんにちですか。\nA: じゅういちがつ よっかです。" }
+    ],
+    "examples": [
+      { "jp": "きょうは しがつ ついたちです。", "vi": "Hôm nay là ngày mùng 1 tháng 4." },
+      { "jp": "じゅういちがつ よっかです。", "vi": "Ngày 4 tháng 11." }
+    ],
+    "dialog": [
+      { "q": "あしたは なんがつ なんにちですか。", "a": "じゅういちがつ よっかです。", "q_vi": "Ngày mai là ngày mấy tháng mấy?", "a_vi": "Ngày 4 tháng 11." }
+    ],
+    "quiz": [
+      { "question": "「しがつ ついたち」là ngày nào?", "options": ["1 tháng 4", "4 tháng 1", "11 tháng 4", "14 tháng 4"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "きょうは しがつ ついたち___.", "answer": "です" }
+    ]
+  },
+  "n5-g025": {
+    "lesson": 5,
+    "lesson_title": "NGỮ PHÁP BÀI 5",
+    "point": "N へ いきます／きます／かえります",
+    "title_vi": "Đi / đến / về địa điểm",
+    "pattern": "S は N へ いきます（きます・かえります）",
+    "explanation_vi": "Đi, đến, về một địa điểm nào đó. Trợ từ「へ」dùng để chỉ phương hướng di chuyển.",
+    "notes": [
+      { "title": "Chú ý", "body": "Trợ từ へ dùng để chỉ phương hướng di chuyển." },
+      { "title": "Hỏi", "body": "Q: どこへ いきますか。\nA: ＿へ いきます。\nA: どこも いきません。" }
+    ],
+    "examples": [
+      { "jp": "わたしは にほんへ きました。", "vi": "Tôi đã đến Nhật." }
+    ],
+    "dialog": [
+      { "q": "7 月に どこへ いきますか。", "a": "ダナンへ いきます。", "q_vi": "Tháng 7 này cậu đi đâu không?", "a_vi": "Tớ đi Đà Nẵng." }
+    ],
+    "quiz": [
+      { "question": "Trợ từ nào chỉ phương hướng di chuyển?", "options": ["へ", "を", "の", "も"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "わたしは にほんへ ___.", "answer": "きました" }
+    ]
+  },
+  "n5-g026": {
+    "lesson": 5,
+    "lesson_title": "NGỮ PHÁP BÀI 5",
+    "point": "N で N へ",
+    "title_vi": "Bằng phương tiện gì 「で」",
+    "pattern": "S は N で N へ いきます／きます／かえります",
+    "explanation_vi": "Trợ từ「で」chỉ phương tiện di chuyển. Câu hỏi dùng「なにで」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "N: phương tiện. N: địa điểm." },
+      { "title": "Hỏi", "body": "Q: S は なにで N へ V ますか。\nA: ～で N へ V ます。" }
+    ],
+    "examples": [
+      { "jp": "じてんしゃで スーパーへ きます。", "vi": "Tôi đến siêu thị bằng xe đạp." },
+      { "jp": "あるいて うちへ かえりました。", "vi": "Tôi đã đi bộ về nhà." }
+    ],
+    "dialog": [
+      { "q": "きのうの ばん なにで うちへ かえりましたか。", "a": "あるいて うちへ かえりました。", "q_vi": "Tối qua bạn về nhà bằng gì?", "a_vi": "Tôi đi bộ." }
+    ],
+    "quiz": [
+      { "question": "Trong câu「じてんしゃで スーパーへ きます」, 「で」chỉ cái gì?", "options": ["Phương tiện", "Địa điểm", "Chủ ngữ", "Tân ngữ"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "じてんしゃ___ スーパーへ きます。", "answer": "で" }
+    ]
+  },
+  "n5-g027": {
+    "lesson": 5,
+    "lesson_title": "NGỮ PHÁP BÀI 5",
+    "point": "N と N へ",
+    "title_vi": "Làm gì với ai đó 「と」",
+    "pattern": "S は N と N へ いきます／きます／かえります",
+    "explanation_vi": "Trợ từ「と」chỉ người đi cùng.",
+    "notes": [
+      { "title": "Cách dùng", "body": "N: người. N: địa điểm." }
+    ],
+    "examples": [
+      { "jp": "ともだちと スーパーへ いきます。", "vi": "Tôi đi siêu thị cùng bạn." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "Trong câu「ともだちと スーパーへ いきます」,「と」chỉ cái gì?", "options": ["Người đi cùng", "Phương tiện", "Địa điểm", "Thời gian"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ともだち___ スーパーへ いきます。", "answer": "と" }
+    ]
+  },
+  "n5-g028": {
+    "lesson": 6,
+    "lesson_title": "NGỮ PHÁP BÀI 6",
+    "point": "N を V ます",
+    "title_vi": "Ăn, uống, làm ～",
+    "pattern": "N を V ます／V ました",
+    "explanation_vi": "N là danh từ (đối tượng của hành động V). V là thành động từ. Trợ từ「を」chỉ đối tượng tác động của động từ. Câu hỏi dùng「なにを V ますか」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "N: Danh từ (đối tượng của hành động V).\nV: Thành động từ.\nTrợ từ「を」: chỉ đối tượng tác động của động từ." },
+      { "title": "Hỏi", "body": "Q: なにを V ますか／ましたか。\nA: ～を V ます／ました。" },
+      { "title": "Chú ý", "body": "Động từ「あいます」(gặp) dùng「に」khi gặp tình cờ, và「と」khi hẹn trước để gặp." }
+    ],
+    "examples": [
+      { "jp": "けさ パンを たべました。", "vi": "Sáng nay tôi đã ăn bánh mì." }
+    ],
+    "dialog": [
+      { "q": "おとうさん、なにを のみますか。", "a": "ビールを のみます。", "q_vi": "Bố, bố uống gì?", "a_vi": "Bố uống bia." },
+      { "q": "あさごはんを たべましたか。", "a": "いいえ、たべませんでした。", "q_vi": "Cậu đã ăn sáng chưa?", "a_vi": "Chưa, tớ chưa ăn." }
+    ],
+    "quiz": [
+      { "question": "Trợ từ「を」chỉ cái gì?", "options": ["Đối tượng tác động của động từ", "Chủ ngữ", "Nơi chốn", "Phương tiện"], "answer_index": 0 },
+      { "question": "「あいます」(gặp) dùng「と」khi nào?", "options": ["Hẹn trước để gặp", "Gặp tình cờ", "Rời đi", "Về"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "けさ パン___ たべました。", "answer": "を" }
+    ]
+  },
+  "n5-g029": {
+    "lesson": 6,
+    "lesson_title": "NGỮ PHÁP BÀI 6",
+    "point": "N を します",
+    "title_vi": "Làm, chơi, tổ chức",
+    "pattern": "N を します／しました",
+    "explanation_vi": "Dùng cho các hoạt động gồm hai thành phần: danh từ + します. Câu hỏi chung「なにを しますか／しましたか」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "N: danh từ chỉ hoạt động. V: します." },
+      { "title": "Chú ý", "body": "Nếu không làm gì thì trả lời「なにもしません」/「なにもしませんでした」." }
+    ],
+    "examples": [
+      { "jp": "しゅうまつ テニスを します。", "vi": "Cuối tuần tớ sẽ chơi tennis." }
+    ],
+    "dialog": [],
+    "quiz": [
+      { "question": "「テニスを します」nghĩa là gì?", "options": ["Chơi tennis", "Xem tennis", "Mua vợt tennis", "Dạy tennis"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "しゅうまつ テニスを ___.", "answer": "します" }
+    ]
+  },
+  "n5-g030": {
+    "lesson": 6,
+    "lesson_title": "NGỮ PHÁP BÀI 6",
+    "point": "どこで N を V ます",
+    "title_vi": "Làm (đã làm) cái gì ở đâu?",
+    "pattern": "Q: どこで N を しますか／しましたか。",
+    "explanation_vi": "Câu hỏi kết hợp nơi chốn với đối tượng. Trả lời bằng「Địa điểm で（N を）V ます／ました」.",
+    "notes": [{ "title": "Cách dùng", "body": "Địa điểm で (N を) V ます／ました." }],
+    "examples": [
+      { "jp": "しょくどうで たべます。", "vi": "Tớ ăn trưa ở nhà ăn." }
+    ],
+    "dialog": [
+      { "q": "どこで ひるごはんを たべますか。", "a": "しょくどうで たべます。", "q_vi": "Cậu ăn trưa ở đâu?", "a_vi": "Tớ ăn ở nhà ăn." }
+    ],
+    "quiz": [
+      { "question": "Câu hỏi nào hỏi cả nơi chốn lẫn đối tượng?", "options": ["どこで N を V ますか", "なにを V ますか", "どこですか", "いつ V ますか"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "しょくどう___ たべます。", "answer": "で" }
+    ]
+  },
+  "n5-g031": {
+    "lesson": 6,
+    "lesson_title": "NGỮ PHÁP BÀI 6",
+    "point": "いっしょに V ませんか",
+    "title_vi": "Cùng ～ với mình chứ?",
+    "pattern": "Q: いっしょに V ませんか。 A: ええ、いいですね。",
+    "explanation_vi": "Dùng để mời, đề nghị ai đó cùng làm việc gì đó với mình. Cách từ chối khéo lời mời:「すみません、ちょっと…」.",
+    "notes": [
+      { "title": "Cách dùng", "body": "Dùng để mời, đề nghị ai đó cùng làm việc gì đó với mình." },
+      { "title": "Cách trả lời", "body": "ええ、いいですね: Vâng, hay nhỉ\nすみません、ちょっと…: Xin lỗi, nhưng mà… (cách từ chối khéo lời mời)" }
+    ],
+    "examples": [
+      { "jp": "いっしょに サッカーを しませんか。", "vi": "Đi đá bóng với tớ không?" },
+      { "jp": "すみません、ちょっと…。", "vi": "Xin lỗi, nhưng mà…" }
+    ],
+    "dialog": [
+      { "q": "いっしょに サッカーを しませんか。", "a": "すみません、ちょっと…。", "q_vi": "Đi đá bóng với tớ không?", "a_vi": "Xin lỗi, nhưng mà…" }
+    ],
+    "quiz": [
+      { "question": "Cách từ chối khéo lời mời là gì?", "options": ["すみません、ちょっと…", "ええ、いいですね", "はい", "そうじゃありません"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "いっしょに サッカーを しません___", "answer": "か" }
+    ]
+  },
+  "n5-g032": {
+    "lesson": 6,
+    "lesson_title": "NGỮ PHÁP BÀI 6",
+    "point": "N を ましょう",
+    "title_vi": "Cùng làm ～ nhé",
+    "pattern": "N を ましょう",
+    "explanation_vi": "Mời, đề nghị ai đó làm gì cùng mình, thể hiện thái độ chủ động. Khác với「ませんか」: dùng khi đã biết người nghe đồng ý, hoặc dùng để trả lời cho mẫu「ませんか」.",
+    "notes": [
+      { "title": "Phân biệt ませんか và ましょう", "body": "「ませんか」: dùng khi chưa biết người nghe có đồng ý không, thể hiện thái độ rụt rè.\n「ましょう」: dùng khi đã biết người nghe đã đồng ý; cũng dùng để trả lời cho mẫu「ませんか」." }
+    ],
+    "examples": [
+      { "jp": "いっしょうに コーヒーを のみませんか。", "vi": "Đi uống cà phê không?" },
+      { "jp": "ええ、のみましょう。", "vi": "Ừ, đi uống cà phê đi." }
+    ],
+    "dialog": [
+      { "q": "いっしょうに コーヒーを のみませんか。", "a": "ええ、のみましょう。", "q_vi": "Đi uống cà phê không?", "a_vi": "Ừ, đi uống cà phê đi." }
+    ],
+    "quiz": [
+      { "question": "Khi nào dùng「ましょう」?", "options": ["Khi đã biết người nghe đồng ý", "Khi chưa biết người nghe đồng ý", "Khi từ chối", "Khi hỏi tuổi"], "answer_index": 0 }
+    ],
+    "cloze": [
+      { "sentence": "ええ、コーヒー___ のみましょう。", "answer": "を" }
+    ]
+  }
+}
