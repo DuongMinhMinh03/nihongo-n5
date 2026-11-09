@@ -12,6 +12,7 @@ Chạy **hoàn toàn offline** trên Chrome/Edge của Windows — không cần 
 - [Tính năng](#-tính-năng)
 - [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
 - [Cài đặt & chạy](#-cài-đặt--chạy)
+- [🌐 Đưa ứng dụng lên mạng (0 đồng)](#-đưa-ứng-dụng-lên-mạng-0-đồng)
 - [Cấu trúc dự án](#-cấu-trúc-dự-án)
 - [Cách bật giọng tiếng Nhật trên Windows](#-cách-bật-giọng-tiếng-nhật-trên-windows)
 - [Cài ứng dụng PWA](#-cài-ứng-dụng-pwa)
@@ -38,12 +39,12 @@ Chạy **hoàn toàn offline** trên Chrome/Edge của Windows — không cần 
 
 ### Nội dung seed có sẵn
 
-- **345 từ vựng** N5 thật (kanji, hiragana, romaji, nghĩa tiếng Việt, từ loại, chủ đề, câu ví dụ JP/VI)
-- **15 điểm ngữ pháp** N5 (lý thuyết, công thức, ví dụ, trắc nghiệm, bài điền từ)
+- **669 từ vựng** N5 (kanji, hiragana, romaji, nghĩa tiếng Việt, từ loại, chủ đề, câu ví dụ JP/VI)
+- **119 điểm ngữ pháp** N5 chia theo **25 bài** (Minna no Nihongo) — lý thuyết, công thức, ghi chú, hội thoại, ví dụ, trắc nghiệm, điền từ, tập viết câu
 - **103 kanji** cơ bản (onyomi, kunyomi, số nét, bộ phận, từ vựng liên quan)
 
-Ngoài 345 từ trong `content/vocab/n5.json`, bạn có thể nạp thêm **674 từ + 84 kanji** gốc
-từ nguồn OpenJLPT bằng `npm run import:jlpt` (xem [Công cụ hỗ trợ](#-công-cụ-hỗ-trợ)).
+Ngoài phần seed chính trong `content/vocab/n5.json`, bạn có thể nạp thêm từ nguồn OpenJLPT
+bằng `npm run import:jlpt` (xem [Công cụ hỗ trợ](#-công-cụ-hỗ-trợ)).
 
 ---
 
@@ -116,22 +117,95 @@ Service worker sẽ cache toàn bộ app shell + dữ liệu JSON ngay lần tru
 
 ---
 
+## 🌐 Đưa ứng dụng lên mạng (0 đồng)
+
+App là **static site thuần** (không backend, không database) nên có thể đưa lên mạng **miễn phí vĩnh viễn**.
+
+### Vì sao chọn Cloudflare Pages?
+
+| Tiêu chí | Cloudflare Pages | Netlify | Vercel | GitHub Pages |
+| --- | --- | --- | --- | --- |
+| Phí | 0đ | 0đ | 0đ | 0đ |
+| **Băng thông / tháng** | **Không giới hạn** | 100 GB | 100 GB | Không giới hạn |
+| Tên miền miễn phí | ✅ `*.pages.dev` | ✅ `*.netlify.app` | ✅ `*.vercel.app` | ❌ chỉ `*.github.io` |
+| SPA fallback (`_redirects`) | ✅ | ✅ | ⚠️ cần `vercel.json` | ⚠️ phải hack |
+| Repo private | ✅ | ✅ | ✅ | ❌ bắt buộc công khai |
+
+Cloudflare Pages cho URL ở **tên miền gốc** → `base: '/'` luôn đúng, không phụ thuộc tên repo,
+và **không giới hạn băng thông** nên dùng lâu dài không phát sinh phí.
+
+### Bước 1 — Đẩy code lên GitHub
+
+```bash
+git remote add origin https://github.com/<tên-bạn>/nihongo-n5.git
+git push -u origin main
+```
+
+### Bước 2 — Kết nối với Cloudflare Pages
+
+1. Vào <https://dash.cloudflare.com> → **Workers & Pages** → **Create application** → **Pages**
+2. Chọn **Connect to Git** → chọn repo `nihongo-n5`
+3. Cấu hình build:
+   | Mục | Giá trị |
+   | --- | --- |
+   | Framework preset | `Vite` |
+   | Build command | `npm run build` |
+   | Build output directory | `dist` |
+   | Environment variable | `NODE_VERSION` = `20` |
+4. Bấm **Save and Deploy** → sau ~1 phút có link `https://nihongo-n5.pages.dev`
+
+Mỗi lần `git push` là tự động deploy lại phiên bản mới.
+
+### Bước 3 — Gắn tên miền riêng (tùy chọn)
+
+Pages → **Custom domains** → thêm domain của bạn → trỏ CNAME về `nihongo-n5.pages.dev`.
+(Mua domain ở Namecheap / Cloudflare Registrar khoảng 10–15 USD/năm cho `.com`.)
+
+### Cách nhanh nhất — Netlify Drop (không cần Git)
+
+1. Chạy `npm run build`
+2. Mở <https://app.netlify.com/drop> → kéo thả thư mục `dist` vào
+3. Có link `xxx.netlify.app` ngay
+
+> Nhược điểm: mỗi lần sửa nội dung phải build + kéo-thả lại.
+
+### ⚠️ Những cấu hình đã chuẩn bị sẵn cho việc deploy
+
+| File / vị trí | Thay đổi | Lý do |
+| --- | --- | --- |
+| `vite.config.ts` → `base: '/'` | đã sửa | asset phải resolve đúng trên mọi route (vd `/grammar`), nếu để `'./'` thì mở trang con sẽ trắng màn hình |
+| `src/data/loader.ts` → `CONTENT_PATHS` dùng `import.meta.env.BASE_URL` | đã sửa | `fetch('content/…')` tương đối sẽ 404 khi ở route con |
+| `public/_redirects` | đã tạo | server trả `index.html` cho mọi đường dẫn (SPA fallback) — Cloudflare Pages và Netlify đều đọc file này |
+| `public/icon-192.png`, `icon-512.png`, `icon-maskable-512.png` | đã tạo | manifest trỏ tới icon nhưng file chưa tồn tại → cài app không có icon |
+| `vite.config.ts` → `start_url: '/'`, `scope: '/'` | đã sửa | không phụ thuộc đường dẫn tương đối |
+
+### Lưu ý về dữ liệu tiến độ
+
+Tiến độ học nằm trong `localStorage` của trình duyệt (key `nihongo-n5-progress`):
+
+- ✅ Không cần database, không tốn phí
+- ⚠️ **Mỗi người học / mỗi thiết bị một bộ tiến độ riêng**, không đồng bộ
+- ⚠️ Xóa dữ liệu trình duyệt là mất tiến độ → nên **export ra file JSON** thỉnh thoảng
+  (Cài đặt → Xuất tiến độ)
+
+---
+
 ## 📁 Cấu trúc dự án
 
 ```
 d:\2HOCPHAN\Nihongo\
 ├── content/                    # Dữ liệu tĩnh (được service worker cache)
-│   ├── vocab/n5.json           # 345 từ vựng
-│   ├── vocab/imported-n5.json  # 674 từ gốc từ OpenJLPT (chưa có nghĩa tiếng Việt)
-│   ├── grammar/n5.json         # 15 điểm ngữ pháp
+│   ├── vocab/n5.json           # 669 từ vựng
+│   ├── vocab/imported-n5.json  # từ gốc từ OpenJLPT (nguồn cho import)
+│   ├── grammar/n5.json         # 119 điểm ngữ pháp / 25 bài
 │   ├── kanji/n5.json           # 103 kanji
-│   ├── kanji/imported-n5.json  # 84 kanji gốc từ OpenJLPT
+│   ├── kanji/imported-n5.json  # kanji gốc từ OpenJLPT
 │   └── export/                 # Output của script export Anki
-├── public/                     # Icon, favicon
+├── public/                     # Icon, favicon, _redirects (SPA fallback)
 ├── src/
 │   ├── data/
 │   │   ├── schemas.ts          # Zod schema: Vocab, Grammar, Kanji, CardProgress
-│   │   └── loader.ts           # Fetch + parse dữ liệu
+│   │   └── loader.ts           # Fetch + parse dữ liệu (dùng BASE_URL để deploy ở subpath)
 │   ├── store/
 │   │   ├── progress.ts         # Zustand persist: SRS cards, log, streak, settings
 │   │   ├── content.tsx         # Zustand: nội dung đã tải + theme
@@ -372,9 +446,14 @@ Sinh ra:
 
 **Cách import vào Anki:** `File → Import` → chọn file `.tsv` → phân tách bằng **Tab** → gán thẻ "Japanese N5".
 
-### `npx tsx tools/makeIcons.ts` — sinh lại icon PWA
+### `npm run gen:icons` — sinh lại icon PWA
 
-Sinh `public/icon-192.png` và `public/icon-512.png` từ code (không cần thư viện ngoài).
+```bash
+npm run gen:icons
+```
+
+Sinh `public/icon-192.png`, `public/icon-512.png` và `public/icon-maskable-512.png` từ code
+(không cần cài thư viện ngoài).
 
 ---
 
@@ -402,13 +481,14 @@ Tắt mạng rồi tải lại trang → app vẫn hoạt động đầy đủ.
 ## ❓ Câu hỏi thường gặp
 
 **Q: Có tốn phí gì không?**
-> Không. Toàn bộ app là file tĩnh chạy trên máy bạn. Không có server, không có API key, không có tài khoản. 0 đồng.
+> Không. Toàn bộ app là file tĩnh, không có server, không có API key. Chạy local **0 đồng**; đưa lên mạng cũng **0 đồng** với Cloudflare Pages (xem [Đưa ứng dụng lên mạng](#-đưa-ứng-dụng-lên-mạng-0-đồng)).
 
 **Q: Có cần Internet không?**
 > Chỉ cần Internet **lần đầu** để tải app + cache dữ liệu. Sau đó dùng offline hoàn toàn. Riêng giọng Edge (online) cần mạng — nếu muốn offline thì cài giọng local theo hướng dẫn ở trên.
 
 **Q: Tiến độ lưu ở đâu?**
 > Trong `localStorage` của trình duyệt (key `nihongo-n5-progress`). Xóa dữ liệu trình duyệt là mất tiến độ — nên **export ra file JSON** thỉnh thoảng (Cài đặt → Xuất tiến độ).
+> Khi đưa app lên mạng, **mỗi người học có tiến độ riêng** trên thiết bị của họ (không dùng chung database).
 
 **Q: Có nhận dạng giọng nói (speech recognition) không?**
 > Không. Chrome trên Windows không hỗ trợ nhận dạng giọng nói tiếng Nhật. Thay vào đó app dùng bài **"nghe TTS → chọn đáp án"**, vẫn luyện được kỹ năng nghe.
