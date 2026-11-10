@@ -18,7 +18,8 @@
     "export:anki": "tsx tools/exportAnki.ts",
     "db:setup": "tsx tools/dbSetup.ts",
     "db:make-admin": "tsx tools/makeAdmin.ts",
-    "db:doctor": "tsx tools/dbDoctor.ts"
+    "db:doctor": "tsx tools/dbDoctor.ts",
+    "setup:supabase": "tsx tools/setupSupabase.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
