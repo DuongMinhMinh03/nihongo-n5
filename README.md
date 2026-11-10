@@ -12,6 +12,7 @@ Chạy **hoàn toàn offline** trên Chrome/Edge của Windows — không cần 
 - [Tính năng](#-tính-năng)
 - [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
 - [Cài đặt & chạy](#-cài-đặt--chạy)
+- [🔐 Đăng nhập & bảng quản trị](#-đăng-nhập--bảng-quản-trị)
 - [🌐 Đưa ứng dụng lên mạng (0 đồng)](#-đưa-ứng-dụng-lên-mạng-0-đồng)
 - [Cấu trúc dự án](#-cấu-trúc-dự-án)
 - [Cách bật giọng tiếng Nhật trên Windows](#-cách-bật-giọng-tiếng-nhật-trên-windows)
@@ -117,6 +118,65 @@ Service worker sẽ cache toàn bộ app shell + dữ liệu JSON ngay lần tru
 
 ---
 
+## 🔐 Đăng nhập & bảng quản trị
+
+Ứng dụng hỗ trợ **2 vai trò** (`user` và `admin`) dùng **Supabase Free tier (0đ)**.
+Phần học vẫn mở cho tất cả (kể cả khách) — đăng nhập chỉ là tùy chọn để **đồng bộ tiến độ giữa nhiều thiết bị**.
+
+| Khu vực | Quyền |
+| --- | --- |
+| `/` , `/vocab`, `/grammar`, `/kanji`, `/listen`, `/stats` | Mở cho tất cả (offline vẫn dùng được) |
+| `/login` | Đăng nhập / đăng ký (mời hoặc tự do) |
+| `/admin` | Chỉ **admin** — sửa nội dung, quản lý user, publish |
+
+### Thiết lập nhanh (khoảng 5 phút)
+
+1. Tạo project miễn phí tại <https://supabase.com/dashboard>.
+2. **SQL Editor** → dán toàn bộ `supabase/schema.sql` → **Run**.
+3. **Project Settings → API** → copy **Project URL** + **anon public key**.
+4. Tạo file `.env.local` ở thư mục gốc:
+
+   ```env
+   VITE_SUPABASE_URL=https://xxxxx.supabase.co
+   VITE_SUPABASE_ANON_KEY=eyJhbGciOi...
+   ```
+
+5. `npm run dev` → vào `/login` → **Đăng ký** tài khoản admin.
+6. Vào **Authentication → Users** trên Supabase, copy **User UID**, chạy:
+
+   ```sql
+   update public.profiles set role = 'admin' where id = '<UID>';
+   ```
+
+7. Đăng xuất → đăng nhập lại → vào `/admin`.
+
+> Chi tiết đầy đủ (bảng, RLS, xử lý sự cố, publish): **`supabase/README.md`**.
+
+### Bảng quản trị có gì?
+
+- **Tổng quan** — số từ / ngữ pháp / kanji / user, số admin.
+- **Từ vựng** — bảng 669 từ, sửa kanji / hiragana / romaji / nghĩa / từ loại / ví dụ / tags; xoá mềm; khôi phục về bản gốc.
+- **Ngữ pháp** — 119 điểm, editor 6 tab: thông tin, ghi chú, ví dụ, hội thoại, trắc nghiệm, điền từ.
+- **Kanji** — 103 kanji: onyomi, kunyomi, nét, bộ phận, từ ví dụ.
+- **Người dùng** — xem danh sách, cấp/gỡ quyền admin, xoá tài khoản.
+- **Publish** — tải file JSON đã merge (base + thay đổi) để commit lên GitHub.
+
+### Cách nội dung được áp dụng
+
+```
+content/*.json (bundled, cache offline)  +  content_items (bản sửa của admin)
+                          ↓  applyOverrides()
+                    nội dung hiển thị
+```
+
+- **Online**: nội dung = JSON gốc **ghi đè** bằng bản sửa của admin.
+- **Offline / Supabase lỗi**: nội dung = JSON gốc trong cache → app không bao giờ trắng màn hình.
+- **Quyền được kiểm tra ở tầng database (RLS)**, không chỉ ẩn nút trên UI — user thường **không thể** tự nâng quyền lên admin.
+
+> ⚠️ Nếu chưa cấu hình `.env.local`, app vẫn chạy bình thường và tự ẩn các chức năng login/admin.
+
+---
+
 ## 🌐 Đưa ứng dụng lên mạng (0 đồng)
 
 App là **static site thuần** (không backend, không database) nên có thể đưa lên mạng **miễn phí vĩnh viễn**.
@@ -152,6 +212,8 @@ git push -u origin main
    | Build command | `npm run build` |
    | Build output directory | `dist` |
    | Environment variable | `NODE_VERSION` = `20` |
+   | Environment variable | `VITE_SUPABASE_URL` = *(nếu dùng đăng nhập)* |
+   | Environment variable | `VITE_SUPABASE_ANON_KEY` = *(nếu dùng đăng nhập)* |
 4. Bấm **Save and Deploy** → sau ~1 phút có link `https://nihongo-n5.pages.dev`
 
 Mỗi lần `git push` là tự động deploy lại phiên bản mới.

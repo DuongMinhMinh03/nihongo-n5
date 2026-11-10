@@ -1,6 +1,8 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, Link } from 'react-router-dom';
 import { cn } from '@/lib/cn';
 import { useProgressStore } from '@/store/progress';
+import { useAuth } from '@/store/auth';
+import { isSupabaseConfigured } from '@/auth/supabase';
 
 const NAV = [
   { to: '/', label: 'Học', icon: '🏠', end: true },
@@ -15,6 +17,10 @@ const NAV = [
 export function Layout() {
   const todayCount = useProgressStore((s) => s.todayCount);
   const dailyGoal = useProgressStore((s) => s.settings.dailyGoal);
+  const session = useAuth((s) => s.session);
+  const role = useAuth((s) => s.role);
+  const profile = useAuth((s) => s.profile);
+  const signOut = useAuth((s) => s.signOut);
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
@@ -30,9 +36,27 @@ export function Layout() {
               </p>
             </div>
           </div>
-          <NavLink to="/guide" className="text-sm text-brand-600 dark:text-brand-400">
-            Hướng dẫn
-          </NavLink>
+          <div className="flex items-center gap-2">
+            {isSupabaseConfigured && !session && (
+              <Link
+                to="/login"
+                className="rounded-lg bg-brand-600 px-2.5 py-1.5 text-xs font-medium text-white"
+              >
+                🔑 Đăng nhập
+              </Link>
+            )}
+            {isSupabaseConfigured && session && role === 'admin' && (
+              <Link
+                to="/admin"
+                className="rounded-lg bg-violet-600 px-2.5 py-1.5 text-xs font-medium text-white"
+              >
+                🛠 Admin
+              </Link>
+            )}
+            <NavLink to="/guide" className="text-sm text-brand-600 dark:text-brand-400">
+              Hướng dẫn
+            </NavLink>
+          </div>
         </div>
       </header>
 
@@ -99,6 +123,45 @@ export function Layout() {
                 />
               </div>
             </div>
+
+            {/* Tài khoản */}
+            {isSupabaseConfigured && (
+              <div className="mt-4 rounded-xl border border-slate-200 bg-white p-3 text-xs dark:border-slate-700 dark:bg-slate-800">
+                {session ? (
+                  <>
+                    <p className="truncate font-medium text-slate-700 dark:text-slate-200">
+                      {profile?.email ?? 'Đã đăng nhập'}
+                    </p>
+                    <p className="mt-0.5 text-slate-500 dark:text-slate-400">
+                      Vai trò: {role === 'admin' ? 'Admin' : 'User'}
+                    </p>
+                    <div className="mt-2 flex flex-col gap-1">
+                      {role === 'admin' && (
+                        <Link
+                          to="/admin"
+                          className="rounded-lg bg-violet-600 px-2 py-1.5 text-center font-medium text-white hover:bg-violet-700"
+                        >
+                          🛠 Bảng quản trị
+                        </Link>
+                      )}
+                      <button
+                        onClick={() => void signOut()}
+                        className="rounded-lg border border-slate-300 px-2 py-1.5 font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+                      >
+                        Đăng xuất
+                      </button>
+                    </div>
+                  </>
+                ) : (
+                  <Link
+                    to="/login"
+                    className="block rounded-lg bg-brand-600 px-2 py-1.5 text-center font-medium text-white hover:bg-brand-700"
+                  >
+                    🔑 Đăng nhập
+                  </Link>
+                )}
+              </div>
+            )}
           </div>
         </aside>
 

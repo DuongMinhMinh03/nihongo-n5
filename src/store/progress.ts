@@ -42,6 +42,12 @@ interface ProgressState {
   resetAll: () => void;
   exportProgress: () => string;
   importProgress: (json: string) => boolean;
+  /** Gộp tiến độ tải từ cloud vào trạng thái local */
+  mergeCloudState: (patch: {
+    cards: Record<string, CardProgress>;
+    log: ReviewLogEntry[];
+    studyDays: string[];
+  }) => void;
 }
 
 export function todayKey(d = new Date()): string {
@@ -169,6 +175,20 @@ export const useProgressStore = create<ProgressState>()(
         } catch {
           return false;
         }
+      },
+
+      mergeCloudState: (patch) => {
+        const today = todayKey();
+        set((state) => ({
+          cards: patch.cards,
+          log: patch.log,
+          studyDays: patch.studyDays,
+          todayDate: state.todayDate === today ? state.todayDate : today,
+          todayCount:
+            state.todayDate === today
+              ? state.todayCount
+              : patch.log.filter((e) => todayKey(new Date(e.timestamp)) === today).length
+        }));
       }
     }),
     {

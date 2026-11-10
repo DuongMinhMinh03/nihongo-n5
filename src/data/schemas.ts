@@ -75,6 +75,11 @@ export const GrammarSchema = z.object({
 });
 
 export type Grammar = z.infer<typeof GrammarSchema>;
+export type GrammarExample = z.infer<typeof GrammarExampleSchema>;
+export type GrammarNote = z.infer<typeof GrammarNoteSchema>;
+export type GrammarDialog = z.infer<typeof GrammarDialogSchema>;
+export type GrammarQuiz = z.infer<typeof GrammarQuizSchema>;
+export type GrammarCloze = z.infer<typeof GrammarClozeSchema>;
 
 /** Một kanji */
 export const KanjiSchema = z.object({

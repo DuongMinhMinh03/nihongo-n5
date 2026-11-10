@@ -1,4 +1,5 @@
 import type { Vocab, Grammar, Kanji } from './schemas';
+import { applyOverrides } from './contentMerge';
 
 export type { Vocab, Grammar, Kanji };
 
@@ -56,5 +57,12 @@ export async function loadKanji(): Promise<Kanji[]> {
 
 export async function loadAllContent(): Promise<AppContent> {
   const [vocab, grammar, kanji] = await Promise.all([loadVocab(), loadGrammar(), loadKanji()]);
-  return { vocab, grammar, kanji };
+  // Áp dụng các bản sửa của admin (nếu có). Khi offline / Supabase lỗi thì
+  // hàm applyOverrides trả về đúng bản base → app vẫn chạy bình thường.
+  const [v, g, k] = await Promise.all([
+    applyOverrides('vocab', vocab),
+    applyOverrides('grammar', grammar),
+    applyOverrides('kanji', kanji)
+  ]);
+  return { vocab: v, grammar: g, kanji: k };
 }
