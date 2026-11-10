@@ -81,18 +81,27 @@ for (const t of ['profiles', 'content_items', 'user_progress']) {
 
 console.log('\n=== 4. Triggers ===');
 const { rows: triggers } = await client.query(`
-  select tgname from pg_trigger
-  where tgrelid::regclass::text like 'public.%'
-    and not tgisinternal
-  order by tgname
+  select t.tgname,
+         n.nspname || '.' || c.relname as tbl
+  from pg_trigger t
+  join pg_class c     on c.oid = t.tgrelid
+  join pg_namespace n on n.oid = c.relnamespace
+  where not t.tgisinternal
+    and n.nspname in ('public', 'auth')
+    and t.tgname in (
+      'on_auth_user_created',
+      'on_profile_role_guard',
+      'on_content_items_updated_by'
+    )
+  order by t.tgname
 `);
-const trigNames = triggers.map((t) => t.tgname);
 for (const t of [
   'on_auth_user_created',
   'on_profile_role_guard',
   'on_content_items_updated_by'
 ]) {
-  if (trigNames.includes(t)) ok(`Trigger "${t}" đã bật`);
+  const row = triggers.find((x) => x.tgname === t);
+  if (row) ok(`Trigger "${t}" đã bật (trên ${row.tbl})`);
   else fail(`Thiếu trigger "${t}"`, 'Chạy lại `npm run db:setup`');
 }
 

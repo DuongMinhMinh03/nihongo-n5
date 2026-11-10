@@ -142,7 +142,8 @@ Phần học vẫn mở cho tất cả (kể cả khách) — đăng nhập ch�
 
 **Cách A — dùng script (khuyến nghị, ít thao tác nhất)**
 
-1. Tạo project miễn phí tại <https://supabase.com/dashboard>.
+1. Tạo project miễn phí tại <https://supabase.com/dashboard>
+   (Organization → New organization → New project, chọn region **Singapore**).
 2. Copy `.env.example` → `.env.local`, điền 4 giá trị:
 
    | Biến | Lấy ở đâu |
@@ -152,15 +153,39 @@ Phần học vẫn mở cho tất cả (kể cả khách) — đăng nhập ch�
    | `SUPABASE_DB_URL` | Project Settings → Database → Connection string → URI |
    | `SUPABASE_SERVICE_ROLE_KEY` | Project Settings → API → service_role |
 
-3. Chạy 3 lệnh:
+   > 💡 `SUPABASE_DB_URL` phải có dạng
+   > `postgresql://postgres.<project-ref>:<mật-khẩu-đã-encode>@aws-0-<region>.pooler.supabase.com:5432/postgres`
+   > (mật khẩu percent-encode: `@` → `%40`, `!` → `%21`, `#` → `%23`).
+   > Nếu không có DB URL, dùng **Cách A′** bên dưới.
+
+3. Chạy 4 lệnh:
 
    ```bash
+   npm run check:env                                       # kiểm tra .env.local
    npm run db:setup                                        # tạo bảng + trigger + RLS
    npm run db:make-admin -- admin@abc.com "Tên" "MatKhau"    # tạo tài khoản admin
    npm run db:doctor                                       # kiểm tra toàn bộ
    ```
 
 4. `npm run dev` → vào `/login` → đăng nhập.
+
+**Cách A′ — không cần DB connection string (dùng Management API)**
+
+Thay vì lấy `SUPABASE_DB_URL`, tạo Personal Access Token tại
+<https://supabase.com/dashboard/account/tokens> → Generate new token (`sbp_…`),
+rồi điền vào `.env.local`:
+
+```env
+SUPABASE_ACCESS_TOKEN=sbp_xxx
+SUPABASE_PROJECT_REF=<project-ref>   # lấy từ VITE_SUPABASE_URL
+```
+
+Sau đó chạy:
+
+```bash
+npm run db:setup:api        # áp schema.sql qua Management API
+npm run db:make-admin:api -- admin@abc.com "Tên" "MatKhau"
+```
 
 **Cách B — làm thủ công trên web**
 
@@ -180,6 +205,9 @@ Phần học vẫn mở cho tất cả (kể cả khách) — đăng nhập ch�
    ```sql
    update public.profiles set role = 'admin' where id = '<UID>';
    ```
+
+   > Hoặc đơn giản hơn: chạy `npm run db:make-admin -- <email> "Tên" "MatKhau"`
+   > (script tự tạo user **đã xác nhận email** và tự cấp role `admin`).
 
 7. Đăng xuất → đăng nhập lại → vào `/admin`.
 

@@ -14,6 +14,17 @@ import { resolve } from 'node:path';
 import { createClient } from '@supabase/supabase-js';
 import { config as loadEnv } from 'dotenv';
 
+// Node 20 chưa có WebSocket native → supabase-js yêu cầu "ws" cho realtime.
+// Script này không dùng realtime, nhưng client vẫn khởi tạo socket nên cần cấu hình.
+if (typeof globalThis.WebSocket === 'undefined') {
+  try {
+    const { default: WS } = await import('ws');
+    (globalThis as unknown as { WebSocket: unknown }).WebSocket = WS;
+  } catch {
+    console.warn('⚠️  Không cài "ws" — realtime sẽ bị bỏ qua (script này không cần realtime).');
+  }
+}
+
 loadEnv({ path: resolve(process.cwd(), '.env.local') });
 loadEnv({ path: resolve(process.cwd(), '.env') });
 

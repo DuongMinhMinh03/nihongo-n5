@@ -76,8 +76,13 @@ export const useAuth = create<AuthState>()(
         const {
           data: { session }
         } = await supabase.auth.getSession();
+
+        // Phải chờ nạp xong profile/role rồi mới tắt loading — nếu không,
+        // RequireAdmin sẽ thấy role === null và đá người dùng về trang chủ.
+        if (session) {
+          await get().refreshProfile();
+        }
         set({ session, loading: false });
-        if (session) await get().refreshProfile();
       },
 
       signIn: async (email, password) => {

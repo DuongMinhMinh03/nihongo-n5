@@ -186,6 +186,10 @@ grant execute on function public.is_admin() to authenticated;
 --      Policy "profiles_update_own" cho phép user sửa hàng của chính mình, nhưng
 --      nếu không chặn `role` thì user thường có thể tự set role = 'admin'.
 --      Trigger này chỉ cho phép đổi role khi người thực hiện đã là admin.
+--
+--      Ngoại lệ: auth.uid() IS NULL nghĩa là request đến từ service_role /
+--      SQL Editor (không có user đăng nhập) → được phép, dùng để bootstrap
+--      tài khoản admin đầu tiên khi database còn trống.
 -- -----------------------------------------------------------------------------
 create or replace function public.guard_profile_role()
 returns trigger
@@ -195,6 +199,13 @@ set search_path = public
 as $$
 begin
   if new.role is distinct from old.role then
+    -- service_role / SQL Editor: bypass (dùng để tạo admin đầu tiên)
+    -- auth.role() trả về 'service_role' khi gọi bằng service_role key,
+    -- 'anon' khi gọi không đăng nhập → chỉ cho phép service_role.
+    if coalesce(auth.role(), '') = 'service_role' then
+      return new;
+    end if;
+
     if not exists (
       select 1 from public.profiles p
       where p.id = auth.uid() and p.role = 'admin'
