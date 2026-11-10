@@ -108,10 +108,10 @@ alter table public.profiles enable row level security;
 alter table public.content_items enable row level security;
 alter table public.user_progress enable row level security;
 
--- profiles: ai cũng đọc được, nhưng chỉ sửa được hàng của chính mình
+-- profiles: chỉ user đã đăng nhập mới đọc được (không cho anon xem danh sách)
 drop policy if exists "profiles_select" on public.profiles;
 create policy "profiles_select" on public.profiles
-  for select using (true);
+  for select using (auth.role() = 'authenticated');
 
 drop policy if exists "profiles_update_own" on public.profiles;
 create policy "profiles_update_own" on public.profiles
@@ -133,7 +133,8 @@ create policy "profiles_admin_update" on public.profiles
       where p.id = auth.uid() and p.role = 'admin'
     )
   );
--- content_items: ai cũng đọc được, chỉ admin mới sửa/xoá
+-- content_items: ai cũng đọc được (app cần nội dung khi offline vẫn dùng base JSON),
+-- nhưng chỉ admin mới sửa/xoá
 drop policy if exists "content_items_select" on public.content_items;
 create policy "content_items_select" on public.content_items
   for select using (true);

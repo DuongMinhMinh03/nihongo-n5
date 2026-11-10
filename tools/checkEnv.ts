@@ -79,6 +79,32 @@ if (!key) {
 }
 
 console.log('\n=== 4. Script database (tùy chọn) ===');
+
+// 4a. Access Token (cách khuyến nghị — dùng Management API)
+const at = process.env.SUPABASE_ACCESS_TOKEN?.trim() ?? '';
+const ref = process.env.SUPABASE_PROJECT_REF?.trim() ?? '';
+if (at) {
+  ok(at.startsWith('sbp_') ? 'SUPABASE_ACCESS_TOKEN có vẻ đúng (sbp_…)' : 'SUPABASE_ACCESS_TOKEN đã có');
+  if (!at.startsWith('sbp_')) {
+    warn('Token không bắt đầu bằng "sbp_" — kiểm tra lại trên dashboard/account/tokens');
+  }
+} else {
+  warn('Chưa có SUPABASE_ACCESS_TOKEN — bỏ qua bước "npm run db:setup:api"');
+  console.log('     💡 Lấy tại: supabase.com/dashboard/account/tokens → Generate new token');
+}
+
+if (ref) {
+  ok(`SUPABASE_PROJECT_REF = ${ref}`);
+  const urlRef = url.match(/https:\/\/([a-z0-9-]+)\./i)?.[1];
+  if (urlRef && urlRef !== ref) {
+    bad(`Project ref không khớp với URL`, `URL: ${urlRef} vs ref: ${ref}`);
+  }
+} else {
+  warn('Chưa có SUPABASE_PROJECT_REF — bỏ qua bước "npm run db:setup:api"');
+  console.log('     💡 Lấy từ Project URL: https://<ref>.supabase.co → <ref>');
+}
+
+// 4b. DB URL (cách thay thế)
 const dbUrl = process.env.SUPABASE_DB_URL?.trim() ?? '';
 if (!dbUrl) {
   warn('Chưa có SUPABASE_DB_URL — bỏ qua bước "npm run db:setup"');
@@ -112,6 +138,7 @@ if (svc) {
   }
 } else {
   warn('Chưa có SUPABASE_SERVICE_ROLE_KEY — bỏ qua bước "npm run db:make-admin"');
+  console.log('     💡 Hoặc dùng "npm run db:make-admin:api" (chỉ cần Access Token).');
 }
 
 console.log('\n=== 5. File .env.example có bị commit nhầm? ===');

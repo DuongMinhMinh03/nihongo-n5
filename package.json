@@ -17,7 +17,9 @@
     "gen:icons": "tsx tools/makeIcons.ts",
     "export:anki": "tsx tools/exportAnki.ts",
     "db:setup": "tsx tools/dbSetup.ts",
+    "db:setup:api": "tsx tools/dbSetupApi.ts",
     "db:make-admin": "tsx tools/makeAdmin.ts",
+    "db:make-admin:api": "tsx tools/makeAdminApi.ts",
     "db:doctor": "tsx tools/dbDoctor.ts",
     "setup:supabase": "tsx tools/setupSupabase.ts",
     "check:env": "tsx tools/checkEnv.ts"

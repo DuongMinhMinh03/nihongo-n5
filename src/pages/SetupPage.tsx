@@ -155,38 +155,68 @@ VITE_SUPABASE_ANON_KEY=eyJhbGciOi...`}
               name="VITE_SUPABASE_URL"
               desc="Project Settings → API → Project URL"
               example="https://xxxxx.supabase.co"
+              required
             />
             <EnvRow
               name="VITE_SUPABASE_ANON_KEY"
               desc="Project Settings → API → anon public key"
               example="eyJhbGciOi..."
+              required
+            />
+            <EnvRow
+              name="SUPABASE_ACCESS_TOKEN"
+              desc="supabase.com/dashboard/account/tokens → Generate new token (sbp_xxx)"
+              example="sbp_xxxxxxxxxxxx"
+              secret
+            />
+            <EnvRow
+              name="SUPABASE_PROJECT_REF"
+              desc="Lấy từ Project URL (phần trước .supabase.co)"
+              example="abcdefghijklmnop"
             />
             <EnvRow
               name="SUPABASE_DB_URL"
               desc="Project Settings → Database → Connection string → URI (chọn Session pooler)"
               example="postgresql://postgres.xxx:pass@aws-0-xx.pooler.supabase.com:5432/postgres"
             />
-            <EnvRow
-              name="SUPABASE_SERVICE_ROLE_KEY"
-              desc="Project Settings → API → service_role (chỉ dùng cho script local)"
-              example="eyJhbGciOi..."
-              secret
-            />
           </div>
 
           <div className="mt-4 space-y-2">
-            <CmdLine label="1. Tạo bảng + trigger + RLS" cmd="npm run db:setup" />
+            <CmdLine label="1. Kiểm tra cấu hình" cmd="npm run check:env" />
+            <CmdLine label="2. Tạo bảng + trigger + RLS" cmd="npm run db:setup:api" />
             <CmdLine
-              label="2. Tạo tài khoản admin"
-              cmd='npm run db:make-admin -- admin@abc.com "Tên Admin" "MatKhau123"'
+              label="3. Tạo tài khoản admin"
+              cmd='npm run db:make-admin:api -- admin@abc.com "Tên Admin" "MatKhau123"'
             />
-            <CmdLine label="3. Kiểm tra toàn bộ hệ thống" cmd="npm run db:doctor" />
+            <CmdLine label="4. Kiểm tra toàn bộ hệ thống" cmd="npm run db:doctor" />
           </div>
 
           <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
             Sau khi chạy xong, khởi động lại <code className="font-mono">npm run dev</code> rồi đăng
             nhập tại <code className="font-mono">/login</code>.
           </p>
+
+          <details className="mt-3 rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-700 dark:bg-slate-800">
+            <summary className="cursor-pointer text-xs font-medium text-slate-600 dark:text-slate-300">
+              💡 Dùng cách khác (không cần Access Token)?
+            </summary>
+            <div className="mt-2 space-y-2 text-xs text-slate-600 dark:text-slate-300">
+              <p>
+                Nếu bạn không muốn tạo Access Token, dùng 2 biến{' '}
+                <code className="font-mono">SUPABASE_DB_URL</code> +{' '}
+                <code className="font-mono">SUPABASE_SERVICE_ROLE_KEY</code>:
+              </p>
+              <CmdLine label="Tạo bảng" cmd="npm run db:setup" />
+              <CmdLine
+                label="Tạo admin"
+                cmd='npm run db:make-admin -- admin@abc.com "Tên" "MatKhau"'
+              />
+              <p className="text-slate-500 dark:text-slate-400">
+                Hoặc đơn giản nhất: copy <code className="font-mono">supabase/schema.sql</code> và
+                dán vào SQL Editor trên web (bước 2 bên dưới).
+              </p>
+            </div>
+          </details>
         </Card>
 
         {/* Các bước */}
@@ -389,12 +419,14 @@ function EnvRow({
   name,
   desc,
   example,
-  secret
+  secret,
+  required
 }: {
   name: string;
   desc: string;
   example: string;
   secret?: boolean;
+  required?: boolean;
 }) {
   return (
     <div className="rounded-xl border border-slate-200 bg-white p-2.5 dark:border-slate-700 dark:bg-slate-800">
@@ -402,11 +434,18 @@ function EnvRow({
         <code className="font-mono text-xs font-semibold text-brand-700 dark:text-brand-300">
           {name}
         </code>
-        {secret && (
-          <span className="rounded bg-red-100 px-1.5 py-0.5 text-[10px] font-medium text-red-700 dark:bg-red-950 dark:text-red-300">
-            toàn quyền — chỉ dùng local
-          </span>
-        )}
+        <span className="flex gap-1">
+          {required && (
+            <span className="rounded bg-emerald-100 px-1.5 py-0.5 text-[10px] font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300">
+              bắt buộc
+            </span>
+          )}
+          {secret && (
+            <span className="rounded bg-red-100 px-1.5 py-0.5 text-[10px] font-medium text-red-700 dark:bg-red-950 dark:text-red-300">
+              toàn quyền — chỉ dùng local
+            </span>
+          )}
+        </span>
       </div>
       <p className="mt-0.5 text-[11px] text-slate-500 dark:text-slate-400">{desc}</p>
       <p className="mt-1 truncate font-mono text-[11px] text-slate-400">{example}</p>
