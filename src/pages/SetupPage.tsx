@@ -22,20 +22,61 @@ export default function SetupPage() {
     setTesting(true);
     setResult(null);
     try {
-      const mod = await import('@supabase/supabase-js');
-      const client = mod.createClient(url.trim(), key.trim(), {
-        auth: { persistSession: false }
-      });
-      const { error } = await client.from('profiles').select('id').limit(1);
-      if (error) {
+      const u = url.trim();
+      const k = key.trim();
+
+      // Kiểm tra định dạng trước cho thông báo rõ ràng
+      if (!/^https:\/\/[a-z0-9-]+\.supabase\.(co|in)$/i.test(u)) {
         setResult({
           ok: false,
-          msg: `Kết nối được nhưng truy vấn lỗi: ${error.message}. Kiểm tra lại đã chạy schema.sql chưa.`
+          msg: 'URL không đúng định dạng. Phải có dạng https://xxxxx.supabase.co (lấy ở Project Settings → API → Project URL).'
         });
+        setTesting(false);
+        return;
+      }
+      if (!k.startsWith('eyJ')) {
+        setResult({
+          ok: false,
+          msg:
+            'Key không đúng định dạng. Supabase anon key luôn bắt đầu bằng "eyJ" (là JWT). Nếu key của bạn bắt đầu bằng "sb_publishable_" thì đó là Publishable key mới — vẫn dùng được, hãy thử tiếp.'
+        });
+        setTesting(false);
+        return;
+      }
+
+      const mod = await import('@supabase/supabase-js');
+      const client = mod.createClient(u, k, {
+        auth: { persistSession: false }
+      });
+
+      // Kiểm tra key có hợp lệ không (gọi endpoint auth)
+      const { error: authErr } = await client.auth.getSession();
+      if (authErr) {
+        setResult({ ok: false, msg: `Key bị từ chối: ${authErr.message}` });
+        setTesting(false);
+        return;
+      }
+
+      const { error } = await client.from('profiles').select('id').limit(1);
+      if (error) {
+        if (/schema cache|does not exist|relation/i.test(error.message)) {
+          setResult({
+            ok: false,
+            msg:
+              'Key hợp lệ, nhưng bảng "profiles" chưa tồn tại. Bạn đã chạy schema.sql chưa? (Bước 2 trong hướng dẫn)'
+          });
+        } else if (/api key|jwt|invalid/i.test(error.message)) {
+          setResult({
+            ok: false,
+            msg: `Key không hợp lệ: ${error.message}. Kiểm tra lại đã copy đúng "anon public" key chưa.`
+          });
+        } else {
+          setResult({ ok: false, msg: `Lỗi truy vấn: ${error.message}` });
+        }
       } else {
         setResult({
           ok: true,
-          msg: 'Kết nối thành công! Copy 2 giá trị này vào file .env.local rồi khởi động lại dev server.'
+          msg: '✅ Kết nối thành công! Copy 2 giá trị này vào file .env.local rồi khởi động lại dev server.'
         });
       }
     } catch (e) {

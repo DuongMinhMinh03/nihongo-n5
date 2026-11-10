@@ -19,7 +19,8 @@
     "db:setup": "tsx tools/dbSetup.ts",
     "db:make-admin": "tsx tools/makeAdmin.ts",
     "db:doctor": "tsx tools/dbDoctor.ts",
-    "setup:supabase": "tsx tools/setupSupabase.ts"
+    "setup:supabase": "tsx tools/setupSupabase.ts",
+    "check:env": "tsx tools/checkEnv.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
