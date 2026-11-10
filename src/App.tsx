@@ -15,6 +15,7 @@ const SettingsPage = lazy(() => import('@/pages/SettingsPage'));
 const GuidePage = lazy(() => import('@/pages/GuidePage'));
 const FlashcardPage = lazy(() => import('@/features/flashcard/FlashcardPage'));
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
+const SetupPage = lazy(() => import('@/pages/SetupPage'));
 
 const AdminLayout = lazy(() => import('@/pages/admin/AdminLayout'));
 const AdminDashboard = lazy(() => import('@/pages/admin/AdminDashboard'));
@@ -42,6 +43,9 @@ export function App() {
           }
         >
           <Routes>
+            {/* Trang hướng dẫn thiết lập Supabase */}
+            <Route path="setup" element={<SetupPage />} />
+
             {/* Trang đăng nhập — nằm ngoài Layout */}
             <Route
               path="login"

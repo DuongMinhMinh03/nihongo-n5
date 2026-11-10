@@ -37,7 +37,7 @@ export function Layout() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            {isSupabaseConfigured && !session && (
+            {!session && (
               <Link
                 to="/login"
                 className="rounded-lg bg-brand-600 px-2.5 py-1.5 text-xs font-medium text-white"
@@ -45,7 +45,7 @@ export function Layout() {
                 🔑 Đăng nhập
               </Link>
             )}
-            {isSupabaseConfigured && session && role === 'admin' && (
+            {session && role === 'admin' && (
               <Link
                 to="/admin"
                 className="rounded-lg bg-violet-600 px-2.5 py-1.5 text-xs font-medium text-white"
@@ -125,43 +125,56 @@ export function Layout() {
             </div>
 
             {/* Tài khoản */}
-            {isSupabaseConfigured && (
-              <div className="mt-4 rounded-xl border border-slate-200 bg-white p-3 text-xs dark:border-slate-700 dark:bg-slate-800">
-                {session ? (
-                  <>
-                    <p className="truncate font-medium text-slate-700 dark:text-slate-200">
-                      {profile?.email ?? 'Đã đăng nhập'}
-                    </p>
-                    <p className="mt-0.5 text-slate-500 dark:text-slate-400">
-                      Vai trò: {role === 'admin' ? 'Admin' : 'User'}
-                    </p>
-                    <div className="mt-2 flex flex-col gap-1">
-                      {role === 'admin' && (
-                        <Link
-                          to="/admin"
-                          className="rounded-lg bg-violet-600 px-2 py-1.5 text-center font-medium text-white hover:bg-violet-700"
-                        >
-                          🛠 Bảng quản trị
-                        </Link>
-                      )}
-                      <button
-                        onClick={() => void signOut()}
-                        className="rounded-lg border border-slate-300 px-2 py-1.5 font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+            <div className="mt-4 rounded-xl border border-slate-200 bg-white p-3 text-xs dark:border-slate-700 dark:bg-slate-800">
+              {session ? (
+                <>
+                  <p className="truncate font-medium text-slate-700 dark:text-slate-200">
+                    {profile?.email ?? 'Đã đăng nhập'}
+                  </p>
+                  <p className="mt-0.5 text-slate-500 dark:text-slate-400">
+                    Vai trò: {role === 'admin' ? 'Admin' : 'User'}
+                  </p>
+                  <div className="mt-2 flex flex-col gap-1">
+                    {role === 'admin' && (
+                      <Link
+                        to="/admin"
+                        className="rounded-lg bg-violet-600 px-2 py-1.5 text-center font-medium text-white hover:bg-violet-700"
                       >
-                        Đăng xuất
-                      </button>
-                    </div>
-                  </>
-                ) : (
+                        🛠 Bảng quản trị
+                      </Link>
+                    )}
+                    <button
+                      onClick={() => void signOut()}
+                      className="rounded-lg border border-slate-300 px-2 py-1.5 font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+                    >
+                      Đăng xuất
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <>
                   <Link
                     to="/login"
                     className="block rounded-lg bg-brand-600 px-2 py-1.5 text-center font-medium text-white hover:bg-brand-700"
                   >
                     🔑 Đăng nhập
                   </Link>
-                )}
-              </div>
-            )}
+                  {!isSupabaseConfigured && (
+                    <>
+                      <p className="mt-1.5 text-[11px] leading-snug text-amber-600 dark:text-amber-400">
+                        Chưa cấu hình Supabase — xem hướng dẫn trong trang đăng nhập.
+                      </p>
+                      <Link
+                        to="/setup"
+                        className="mt-1.5 block rounded-lg border border-amber-300 px-2 py-1 text-center font-medium text-amber-700 hover:bg-amber-50 dark:border-amber-700 dark:text-amber-300 dark:hover:bg-amber-950/40"
+                      >
+                        📖 Hướng dẫn thiết lập
+                      </Link>
+                    </>
+                  )}
+                </>
+              )}
+            </div>
           </div>
         </aside>
 

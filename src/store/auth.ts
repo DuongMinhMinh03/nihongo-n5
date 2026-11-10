@@ -41,7 +41,8 @@ export const useAuth = create<AuthState>()(
       },
 
       signIn: async (email, password) => {
-        if (!supabase) return 'Chưa cấu hình Supabase.';
+        if (!supabase)
+          return 'Chưa cấu hình Supabase. Hãy tạo file .env.local với VITE_SUPABASE_URL và VITE_SUPABASE_ANON_KEY rồi khởi động lại dev server.';
         const { error } = await supabase.auth.signInWithPassword({
           email: email.trim(),
           password
@@ -56,7 +57,8 @@ export const useAuth = create<AuthState>()(
       },
 
       signUp: async (email, password, fullName) => {
-        if (!supabase) return 'Chưa cấu hình Supabase.';
+        if (!supabase)
+          return 'Chưa cấu hình Supabase. Hãy tạo file .env.local với VITE_SUPABASE_URL và VITE_SUPABASE_ANON_KEY rồi khởi động lại dev server.';
         const { error } = await supabase.auth.signUp({
           email: email.trim(),
           password,

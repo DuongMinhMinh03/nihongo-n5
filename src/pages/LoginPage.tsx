@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Button, Card, Spinner } from '@/components/ui';
 import { useAuth } from '@/store/auth';
 import { isSupabaseConfigured } from '@/auth/supabase';
@@ -18,29 +18,6 @@ export default function LoginPage() {
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
-
-  if (!isSupabaseConfigured) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-slate-50 px-4 dark:bg-slate-900">
-        <Card className="w-full max-w-md p-6">
-          <h1 className="text-lg font-bold">Chưa cấu hình Supabase</h1>
-          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-            Tính năng đăng nhập chưa được bật. Tạo file <code>.env.local</code> ở thư mục gốc với nội dung:
-          </p>
-          <pre className="mt-3 overflow-x-auto rounded-xl bg-slate-100 p-3 text-xs dark:bg-slate-900">
-            {`VITE_SUPABASE_URL=https://xxx.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJ...`}
-          </pre>
-          <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
-            Xem hướng dẫn đầy đủ trong <code>supabase/README.md</code>.
-          </p>
-          <Button className="mt-4 w-full" variant="outline" onClick={() => navigate('/')}>
-            Quay lại trang học
-          </Button>
-        </Card>
-      </div>
-    );
-  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -85,6 +62,29 @@ VITE_SUPABASE_ANON_KEY=eyJ...`}
         </div>
 
         <Card className="p-6">
+          {!isSupabaseConfigured && (
+            <div className="mb-5 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2.5 text-xs dark:border-amber-800 dark:bg-amber-950/40">
+              <p className="font-semibold text-amber-800 dark:text-amber-300">
+                ⚠️ Chưa cấu hình Supabase
+              </p>
+              <p className="mt-1 text-amber-700 dark:text-amber-400/90">
+                Tạo file <code>.env.local</code> ở thư mục gốc rồi chạy lại <code>npm run dev</code>:
+              </p>
+              <pre className="mt-1.5 overflow-x-auto rounded-lg bg-white/70 p-2 text-[11px] dark:bg-slate-900/70">
+                {`VITE_SUPABASE_URL=https://xxx.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJ...`}
+              </pre>
+              <p className="mt-1.5 text-amber-700 dark:text-amber-400/90">
+                Chi tiết: <code>supabase/README.md</code>
+              </p>
+              <Link
+                to="/setup"
+                className="mt-2 inline-block rounded-lg bg-amber-600 px-3 py-1.5 font-medium text-white hover:bg-amber-700"
+              >
+                📖 Hướng dẫn thiết lập chi tiết
+              </Link>
+            </div>
+          )}
           <div className="mb-5 grid grid-cols-2 gap-1 rounded-xl bg-slate-100 p-1 dark:bg-slate-800">
             {(
               [

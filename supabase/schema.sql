@@ -66,6 +66,25 @@ create index if not exists content_items_kind_idx on public.content_items (kind)
 comment on table public.content_items is
   'Nội dung do admin chỉnh sửa — ghi đè lên base JSON trong content/*.json khi app tải.';
 
+-- Tự điền updated_by = người đang đăng nhập khi admin lưu nội dung
+create or replace function public.set_content_updated_by()
+returns trigger
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  new.updated_by := auth.uid();
+  new.updated_at := now();
+  return new;
+end;
+$$;
+
+drop trigger if exists on_content_items_updated_by on public.content_items;
+create trigger on_content_items_updated_by
+  before insert or update on public.content_items
+  for each row execute function public.set_content_updated_by();
+
 -- -----------------------------------------------------------------------------
 -- 3. Bảng tiến độ học (đồng bộ giữa nhiều thiết bị)
 -- -----------------------------------------------------------------------------
@@ -98,6 +117,22 @@ drop policy if exists "profiles_update_own" on public.profiles;
 create policy "profiles_update_own" on public.profiles
   for update using (auth.uid() = id)
   with check (auth.uid() = id);
+
+-- Admin được sửa role của bất kỳ ai (trigger bên dưới vẫn chặn user tự nâng quyền)
+drop policy if exists "profiles_admin_update" on public.profiles;
+create policy "profiles_admin_update" on public.profiles
+  for update using (
+    exists (
+      select 1 from public.profiles p
+      where p.id = auth.uid() and p.role = 'admin'
+    )
+  )
+  with check (
+    exists (
+      select 1 from public.profiles p
+      where p.id = auth.uid() and p.role = 'admin'
+    )
+  );
 -- content_items: ai cũng đọc được, chỉ admin mới sửa/xoá
 drop policy if exists "content_items_select" on public.content_items;
 create policy "content_items_select" on public.content_items
