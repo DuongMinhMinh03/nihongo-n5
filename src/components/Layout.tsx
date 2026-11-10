@@ -3,6 +3,7 @@ import { cn } from '@/lib/cn';
 import { useProgressStore } from '@/store/progress';
 import { useAuth } from '@/store/auth';
 import { isSupabaseConfigured } from '@/auth/supabase';
+import { useContentActions } from '@/store/content';
 
 const NAV = [
   { to: '/', label: 'Học', icon: '🏠', end: true },
@@ -21,9 +22,22 @@ export function Layout() {
   const role = useAuth((s) => s.role);
   const profile = useAuth((s) => s.profile);
   const signOut = useAuth((s) => s.signOut);
+  const { freshUpdate, dismissFresh } = useContentActions();
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
+      {/* Banner: nội dung vừa được admin cập nhật */}
+      {freshUpdate && (
+        <div className="sticky top-0 z-40 flex items-center justify-center gap-3 bg-emerald-600 px-4 py-2 text-sm font-medium text-white">
+          <span>✨ Nội dung học vừa được cập nhật!</span>
+          <button
+            onClick={dismissFresh}
+            className="rounded-lg bg-white/20 px-2 py-0.5 text-xs hover:bg-white/30"
+          >
+            Đã biết
+          </button>
+        </div>
+      )}
       {/* Header cho mobile */}
       <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-700 dark:bg-slate-900/90 md:hidden">
         <div className="flex items-center justify-between px-4 py-3">

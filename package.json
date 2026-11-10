@@ -15,7 +15,10 @@
     "seed:extra": "tsx tools/seedExtraVocab.ts && tsx tools/seedExtraKanji.ts && tsx tools/enrichKanjiWords.ts",
     "enrich:kanji": "tsx tools/enrichKanjiWords.ts",
     "gen:icons": "tsx tools/makeIcons.ts",
-    "export:anki": "tsx tools/exportAnki.ts"
+    "export:anki": "tsx tools/exportAnki.ts",
+    "db:setup": "tsx tools/dbSetup.ts",
+    "db:make-admin": "tsx tools/makeAdmin.ts",
+    "db:doctor": "tsx tools/dbDoctor.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
@@ -26,10 +29,13 @@
     "zustand": "^4.5.5"
   },
   "devDependencies": {
+    "@types/pg": "^8.23.1",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "^10.4.20",
+    "dotenv": "^18.0.10",
+    "pg": "^8.23.1",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "tsx": "^4.19.1",

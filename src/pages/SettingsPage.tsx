@@ -3,6 +3,9 @@ import { Button, Card, SectionTitle } from '@/components/ui';
 import { useProgressStore } from '@/store/progress';
 import { useTTS } from '@/hooks/useTTS';
 import { cn } from '@/lib/cn';
+import { useContentStore, useContentActions } from '@/store/content';
+import { useAuth } from '@/store/auth';
+import { isSupabaseConfigured } from '@/auth/supabase';
 
 export default function SettingsPage() {
   const settings = useProgressStore((s) => s.settings);
@@ -15,6 +18,22 @@ export default function SettingsPage() {
   const { supported, voices, activeVoice, speak } = useTTS();
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<{ type: 'ok' | 'err'; text: string } | null>(null);
+
+  const content = useContentStore();
+  const { reload } = useContentActions();
+  const session = useAuth((s) => s.session);
+  const role = useAuth((s) => s.role);
+
+  const [reloading, setReloading] = useState(false);
+  const handleReloadContent = async () => {
+    setReloading(true);
+    await reload();
+    setReloading(false);
+    setMessage({
+      type: 'ok',
+      text: `Đã tải lại nội dung: ${content.vocab.length} từ · ${content.grammar.length} ngữ pháp · ${content.kanji.length} kanji.`
+    });
+  };
 
   const handleExport = () => {
     const blob = new Blob([exportProgress()], { type: 'application/json' });
@@ -43,6 +62,30 @@ export default function SettingsPage() {
   return (
     <div className="space-y-6">
       <SectionTitle title="Cài đặt" subtitle="Tùy chỉnh trải nghiệm học của bạn" />
+
+      {/* Tài khoản & nội dung */}
+      <Card className="p-5">
+        <p className="font-semibold">Tài khoản & nội dung</p>
+        <p className="mt-0.5 text-sm text-slate-500 dark:text-slate-400">
+          {isSupabaseConfigured
+            ? session
+              ? `Đang đăng nhập: ${useAuth.getState().profile?.email ?? ''} (${role === 'admin' ? 'Admin' : 'User'})`
+              : 'Chưa đăng nhập — tiến độ chỉ lưu trên thiết bị này.'
+            : 'Chưa cấu hình Supabase — nội dung lấy từ file JSON trong app.'}
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Button variant="outline" size="sm" onClick={() => void handleReloadContent()} disabled={reloading}>
+            {reloading ? 'Đang tải…' : '🔄 Tải lại nội dung'}
+          </Button>
+          <Button variant="ghost" size="sm" onClick={() => void reload()}>
+            Kiểm tra cập nhật mới
+          </Button>
+        </div>
+        <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
+          Hiện có: {content.vocab.length} từ vựng · {content.grammar.length} điểm ngữ pháp ·{' '}
+          {content.kanji.length} kanji
+        </p>
+      </Card>
 
       {/* Giao diện */}
       <Card className="p-5">

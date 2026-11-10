@@ -98,9 +98,62 @@ VITE_SUPABASE_ANON_KEY=eyJhbGciOi...`}
           </Card>
         )}
 
+        {/* Cách nhanh bằng script */}
+        <Card className="border-brand-200 bg-brand-50/50 p-5 dark:border-brand-900 dark:bg-brand-950/20">
+          <div className="flex items-center gap-2">
+            <span className="text-xl">⚡</span>
+            <p className="font-semibold">Cách nhanh nhất — 3 lệnh, xong hết</p>
+          </div>
+          <p className="mt-1.5 text-sm text-slate-600 dark:text-slate-300">
+            Thay vì copy SQL thủ công, bạn có thể chạy script tự động tạo bảng + tạo tài khoản
+            admin. Cần điền 3 giá trị vào file <code className="font-mono">.env.local</code> trước.
+          </p>
+
+          <div className="mt-3 space-y-2">
+            <EnvRow
+              name="VITE_SUPABASE_URL"
+              desc="Project Settings → API → Project URL"
+              example="https://xxxxx.supabase.co"
+            />
+            <EnvRow
+              name="VITE_SUPABASE_ANON_KEY"
+              desc="Project Settings → API → anon public key"
+              example="eyJhbGciOi..."
+            />
+            <EnvRow
+              name="SUPABASE_DB_URL"
+              desc="Project Settings → Database → Connection string → URI (chọn Session pooler)"
+              example="postgresql://postgres.xxx:pass@aws-0-xx.pooler.supabase.com:5432/postgres"
+            />
+            <EnvRow
+              name="SUPABASE_SERVICE_ROLE_KEY"
+              desc="Project Settings → API → service_role (chỉ dùng cho script local)"
+              example="eyJhbGciOi..."
+              secret
+            />
+          </div>
+
+          <div className="mt-4 space-y-2">
+            <CmdLine label="1. Tạo bảng + trigger + RLS" cmd="npm run db:setup" />
+            <CmdLine
+              label="2. Tạo tài khoản admin"
+              cmd='npm run db:make-admin -- admin@abc.com "Tên Admin" "MatKhau123"'
+            />
+            <CmdLine label="3. Kiểm tra toàn bộ hệ thống" cmd="npm run db:doctor" />
+          </div>
+
+          <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
+            Sau khi chạy xong, khởi động lại <code className="font-mono">npm run dev</code> rồi đăng
+            nhập tại <code className="font-mono">/login</code>.
+          </p>
+        </Card>
+
         {/* Các bước */}
         <Card className="p-5">
-          <SectionTitle title="Các bước thực hiện" subtitle="Làm theo đúng thứ tự" />
+          <SectionTitle
+            title="Cách làm thủ công trên web"
+            subtitle="Nếu bạn không muốn dùng script"
+          />
 
           <ol className="mt-4 space-y-5">
             <Step
@@ -287,6 +340,63 @@ function Step({
         {action}
       </div>
     </li>
+  );
+}
+
+/** Một dòng biến cần điền vào .env.local */
+function EnvRow({
+  name,
+  desc,
+  example,
+  secret
+}: {
+  name: string;
+  desc: string;
+  example: string;
+  secret?: boolean;
+}) {
+  return (
+    <div className="rounded-xl border border-slate-200 bg-white p-2.5 dark:border-slate-700 dark:bg-slate-800">
+      <div className="flex flex-wrap items-baseline justify-between gap-1">
+        <code className="font-mono text-xs font-semibold text-brand-700 dark:text-brand-300">
+          {name}
+        </code>
+        {secret && (
+          <span className="rounded bg-red-100 px-1.5 py-0.5 text-[10px] font-medium text-red-700 dark:bg-red-950 dark:text-red-300">
+            toàn quyền — chỉ dùng local
+          </span>
+        )}
+      </div>
+      <p className="mt-0.5 text-[11px] text-slate-500 dark:text-slate-400">{desc}</p>
+      <p className="mt-1 truncate font-mono text-[11px] text-slate-400">{example}</p>
+    </div>
+  );
+}
+
+/** Một dòng lệnh terminal có nút copy */
+function CmdLine({ label, cmd }: { label: string; cmd: string }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <div className="flex flex-wrap items-center gap-2">
+      <span className="text-xs font-medium text-slate-600 dark:text-slate-300">{label}</span>
+      <code className="min-w-0 flex-1 truncate rounded-lg bg-slate-900 px-2.5 py-1.5 font-mono text-[11px] text-emerald-300">
+        {cmd}
+      </code>
+      <button
+        onClick={async () => {
+          try {
+            await navigator.clipboard.writeText(cmd);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 1800);
+          } catch {
+            /* clipboard bị chặn — bỏ qua */
+          }
+        }}
+        className="shrink-0 rounded-lg border border-slate-300 px-2 py-1 text-[11px] font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+      >
+        {copied ? '✓' : 'copy'}
+      </button>
+    </div>
   );
 }
 

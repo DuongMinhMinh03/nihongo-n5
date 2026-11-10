@@ -1,6 +1,7 @@
 import { create } from 'zustand';
-import { createContext, useEffect, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import { useProgressStore } from './progress';
+import { supabase } from '@/auth/supabase';
 
 interface ContentState {
   vocab: import('@/data/schemas').Vocab[];
@@ -8,6 +9,8 @@ interface ContentState {
   kanji: import('@/data/schemas').Kanji[];
   loading: boolean;
   error: string | null;
+  /** Lần cập nhật nội dung gần nhất (dùng để biết có thay đổi mới) */
+  updatedAt: number;
   load: () => Promise<void>;
 }
 
@@ -17,12 +20,13 @@ export const useContentStore = create<ContentState>((set) => ({
   kanji: [],
   loading: false,
   error: null,
+  updatedAt: 0,
   load: async () => {
     set({ loading: true, error: null });
     try {
       const { loadAllContent } = await import('@/data/loader');
       const data = await loadAllContent();
-      set({ ...data, loading: false, error: null });
+      set({ ...data, loading: false, error: null, updatedAt: Date.now() });
     } catch (e) {
       set({ loading: false, error: (e as Error).message });
     }
@@ -40,16 +44,77 @@ export function useTheme() {
   }, [theme]);
 }
 
-const ContentContext = createContext<{ reload: () => void }>({ reload: () => {} });
+interface ContentContextValue {
+  reload: () => Promise<void>;
+  /** true nếu admin vừa sửa nội dung (dùng để hiện thông báo) */
+  freshUpdate: boolean;
+  dismissFresh: () => void;
+}
+
+const ContentContext = createContext<ContentContextValue>({
+  reload: async () => {},
+  freshUpdate: false,
+  dismissFresh: () => {}
+});
 
 export function ContentProvider({ children }: { children: ReactNode }) {
   const load = useContentStore((s) => s.load);
+  const updatedAt = useContentStore((s) => s.updatedAt);
+  const [freshUpdate, setFreshUpdate] = useState(false);
+  const firstLoad = useRef(true);
+
   useEffect(() => {
     void load();
   }, [load]);
-  return <ContentContext.Provider value={{ reload: load }}>{children}</ContentContext.Provider>;
+
+  // Realtime: admin sửa nội dung → tự động tải lại, không cần F5
+  useEffect(() => {
+    const client = supabase;
+    if (!client) return;
+    const channel = client
+      .channel('content_changes')
+      .on(
+        'postgres_changes',
+        { event: '*', schema: 'public', table: 'content_items' },
+        () => {
+          void load();
+          setFreshUpdate(true);
+        }
+      )
+      .subscribe();
+
+    return () => {
+      void client.removeChannel(channel);
+    };
+  }, [load]);
+
+  // Đánh dấu "có bản cập nhật" khi nội dung được tải lại (không phải lần đầu)
+  useEffect(() => {
+    if (firstLoad.current) {
+      firstLoad.current = false;
+      return;
+    }
+    if (updatedAt > 0) setFreshUpdate(true);
+  }, [updatedAt]);
+
+  const reload = useCallback(async () => {
+    await load();
+  }, [load]);
+
+  const dismissFresh = useCallback(() => setFreshUpdate(false), []);
+
+  return (
+    <ContentContext.Provider value={{ reload, freshUpdate, dismissFresh }}>
+      {children}
+    </ContentContext.Provider>
+  );
 }
 
 export function useContent() {
   return useContentStore();
+}
+
+/** Dùng content context (reload + thông báo cập nhật) */
+export function useContentActions(): ContentContextValue {
+  return useContext(ContentContext);
 }

@@ -250,3 +250,22 @@ grant select on public.content_items to anon, authenticated;
 grant select, insert, update on public.user_progress to authenticated;
 grant insert, update, delete on public.content_items to authenticated;
 grant update on public.profiles to authenticated;
+
+-- -----------------------------------------------------------------------------
+-- 7. Realtime — bảng content_items được theo dõi để app tự làm mới
+--    nội dung khi admin sửa (không cần F5).
+-- -----------------------------------------------------------------------------
+do $$
+begin
+  if not exists (
+    select 1 from pg_publication_tables
+    where pubname = 'supabase_realtime' and schemaname = 'public' and tablename = 'content_items'
+  ) then
+    alter publication supabase_realtime add table public.content_items;
+  end if;
+exception when undefined_object then
+  -- Publication chưa tồn tại → tạo mới
+  create publication supabase_realtime;
+  alter publication supabase_realtime add table public.content_items;
+end;
+$$;

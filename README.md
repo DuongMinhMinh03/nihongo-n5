@@ -94,6 +94,15 @@ npm run typecheck
 
 # 6. Kiểm tra dữ liệu JSON có hợp lệ theo schema không
 npm run validate
+
+# 7. Thiết lập database Supabase (tạo bảng + trigger + RLS) — tự động
+npm run db:setup
+
+# 8. Tạo tài khoản admin đầu tiên — tự động
+npm run db:make-admin -- admin@abc.com "Tên Admin" "MatKhau123"
+
+# 9. Kiểm tra sức khoẻ toàn bộ hệ thống
+npm run db:doctor
 ```
 
 ### Chạy hoàn toàn offline
@@ -131,6 +140,30 @@ Phần học vẫn mở cho tất cả (kể cả khách) — đăng nhập ch�
 
 ### Thiết lập nhanh (khoảng 5 phút)
 
+**Cách A — dùng script (khuyến nghị, ít thao tác nhất)**
+
+1. Tạo project miễn phí tại <https://supabase.com/dashboard>.
+2. Copy `.env.example` → `.env.local`, điền 4 giá trị:
+
+   | Biến | Lấy ở đâu |
+   | --- | --- |
+   | `VITE_SUPABASE_URL` | Project Settings → API → Project URL |
+   | `VITE_SUPABASE_ANON_KEY` | Project Settings → API → anon public key |
+   | `SUPABASE_DB_URL` | Project Settings → Database → Connection string → URI |
+   | `SUPABASE_SERVICE_ROLE_KEY` | Project Settings → API → service_role |
+
+3. Chạy 3 lệnh:
+
+   ```bash
+   npm run db:setup                                        # tạo bảng + trigger + RLS
+   npm run db:make-admin -- admin@abc.com "Tên" "MatKhau"    # tạo tài khoản admin
+   npm run db:doctor                                       # kiểm tra toàn bộ
+   ```
+
+4. `npm run dev` → vào `/login` → đăng nhập.
+
+**Cách B — làm thủ công trên web**
+
 1. Tạo project miễn phí tại <https://supabase.com/dashboard>.
 2. **SQL Editor** → dán toàn bộ `supabase/schema.sql` → **Run**.
 3. **Project Settings → API** → copy **Project URL** + **anon public key**.
@@ -150,6 +183,7 @@ Phần học vẫn mở cho tất cả (kể cả khách) — đăng nhập ch�
 
 7. Đăng xuất → đăng nhập lại → vào `/admin`.
 
+> Trang hướng dẫn trực quan trong web: **`/setup`** (có sẵn nút copy & kiểm tra kết nối).
 > Chi tiết đầy đủ (bảng, RLS, xử lý sự cố, publish): **`supabase/README.md`**.
 
 ### Bảng quản trị có gì?

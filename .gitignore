@@ -18,3 +18,8 @@ tsconfig.tsbuildinfo
 
 # build artifacts của các script trong tools/
 tools/**/*.js
+
+# Supabase CLI cache
+supabase/.temp/
+supabase/.branches/
+supabase/config.toml
